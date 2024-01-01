@@ -1,0 +1,25 @@
+name: 🌍 Bug Report - Tale of Biomes
+description: Report a bug or issue with the Tale Of Biomes modification.
+labels: "Tale Of Biomes"
+body:
+ - type: textarea
+   attributes:
+    label: Description
+    description: Explain in detail what the issue is and what we are trying to find when testing. Share screenshots or video links if needed.
+    placeholder: Detailed explanation of the issue. Provide a minimum of two sentences of information.
+   validations:
+    required: true
+ - type: textarea
+   attributes:
+    label: Steps to reproduce
+    description: Steps by step instructions to reproduce the issue
+    placeholder: List in point form what we need to do to produce the issue.
+   validations:
+    required: true
+ - type: textarea
+   attributes:
+    label: Mod version
+    description: List what mod build this happened on.
+    placeholder: r0.1.0-indev
+   validations:
+    required: true
