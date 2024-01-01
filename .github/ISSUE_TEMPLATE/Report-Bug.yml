@@ -1,5 +1,5 @@
 name: 🐞 Bug Report - Tale of Biomes
-description: Report a bug or issue with the Tale Of Biomes modification.
+description: Report a bug or issue with the Tale of Biomes modification.
 labels: "Bug"
 body:
  - type: textarea
