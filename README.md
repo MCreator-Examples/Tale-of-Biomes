@@ -1,3 +1,4 @@
+![logo](https://github.com/MCreator-Examples/Tale-of-Biomes/assets/47284617/be73ede9-9e39-452d-8b92-682ca2da96f7)
 # 🌎 Tale of Biomes
 Tale of Biomes is a Minecraft mod that I am working on as part of the MCreator Lore series on my YouTube channel NorthWestTrees MCreator. Tale of Biomes adds a new dimension and an entirely new custom world full of new mechanics and features that expand the game's reach. Here you will find snapshots, releases, and documentation for the modification.
 
