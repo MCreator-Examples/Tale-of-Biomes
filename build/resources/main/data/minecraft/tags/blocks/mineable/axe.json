@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "tale_of_biomes:hay_grass",
+    "tale_of_biomes:hay_straw",
+    "tale_of_biomes:piruff_log",
+    "tale_of_biomes:stripped_piruff_log",
+    "tale_of_biomes:piruff_wood",
+    "tale_of_biomes:stripped_piruff_wood",
+    "tale_of_biomes:piruff_planks",
+    "tale_of_biomes:piruff_stairs",
+    "tale_of_biomes:piruff_slab",
+    "tale_of_biomes:piruff_fence",
+    "tale_of_biomes:piruff_fence_gate",
+    "tale_of_biomes:piruff_door",
+    "tale_of_biomes:piruff_trapdoor",
+    "tale_of_biomes:piruff_pressure_plate",
+    "tale_of_biomes:piruff_button",
+    "tale_of_biomes:thatch_block",
+    "tale_of_biomes:thatch_stairs",
+    "tale_of_biomes:thatch_slab"
+  ]
+}

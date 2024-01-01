@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tale_of_biomes:block/stripped_piruff_side",
+    "up": "tale_of_biomes:block/stripped_piruff_side",
+    "north": "tale_of_biomes:block/stripped_piruff_side",
+    "east": "tale_of_biomes:block/stripped_piruff_side",
+    "south": "tale_of_biomes:block/stripped_piruff_side",
+    "west": "tale_of_biomes:block/stripped_piruff_side",
+    "particle": "tale_of_biomes:block/stripped_piruff_side"
+  },
+  "render_type": "solid"
+}

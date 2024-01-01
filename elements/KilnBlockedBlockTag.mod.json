@@ -1,0 +1,43 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:KilnLadder"
+      },
+      {
+        "value": "CUSTOM:KilnBlockCornerBottom"
+      },
+      {
+        "value": "CUSTOM:KilnBlockCornerCenter"
+      },
+      {
+        "value": "CUSTOM:KilnBlockCornerTop"
+      },
+      {
+        "value": "CUSTOM:KilnBlockMiddleBottom"
+      },
+      {
+        "value": "CUSTOM:KilnBlockMiddleCenter"
+      },
+      {
+        "value": "CUSTOM:KilnBlockMiddleTop"
+      },
+      {
+        "value": "CUSTOM:KilnBlockFoundation"
+      },
+      {
+        "value": "Blocks.BEDROCK"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "kiln/blocked_block",
+    "namespace": "mod"
+  }
+}

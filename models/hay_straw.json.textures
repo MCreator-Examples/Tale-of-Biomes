@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "hay_straw": "hay_straw"
+      },
+      "name": "default"
+    }
+  }
+}

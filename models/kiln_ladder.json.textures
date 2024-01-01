@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "ladder": "kiln_ladder",
+        "base": "kiln_base"
+      },
+      "name": "default"
+    }
+  }
+}

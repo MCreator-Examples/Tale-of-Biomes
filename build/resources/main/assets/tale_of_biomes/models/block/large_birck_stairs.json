@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "tale_of_biomes:block/large_bricks",
+    "top": "tale_of_biomes:block/large_bricks",
+    "side": "tale_of_biomes:block/large_bricks"
+  },
+  "render_type": "solid"
+}

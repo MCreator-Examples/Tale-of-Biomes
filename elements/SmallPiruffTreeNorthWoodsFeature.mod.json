@@ -1,0 +1,16 @@
+{
+  "_fv": 57,
+  "_type": "feature",
+  "definition": {
+    "generationStep": "SURFACE_STRUCTURES",
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:PiruffWoods"
+      }
+    ],
+    "generateCondition": {
+      "name": "SmallPiruffTreeAdditionalGenerationCondition"
+    },
+    "featurexml": "<xml><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\">\n<value name=\"feature\"><block type=\"feature_custom_structure\">\n\t<field name=\"structure\">small_piruff_tree_north</field>\n\t<field name=\"x\">0</field>\n\t<field name=\"y\">1</field>\n\t<field name=\"z\">0</field>\n\t<field name=\"random_rotation\">FALSE</field>\n\t<field name=\"random_mirror\">FALSE</field>\n\t<value name=\"ignored_blocks\">\n\t\t<block type=\"block_holderset_list\"><mutation inputs=\"1\"></mutation><field name=\"block0\">Blocks.STRUCTURE_BLOCK</field></block>\n\t</value>\n</block>\n</value>\n<next><block type=\"placement_rarity\">\n\t<field name=\"rarity\">1</field>\n\t<next><block type=\"placement_in_square\"><next><block type=\"placement_heightmap\">\n\t<field name=\"heightmap\">WORLD_SURFACE_WG</field>\n\t<next><block type=\"placement_block_predicate_filter\">\n\t<value name=\"condition\">\n\t\t<block type=\"block_predicate_matching_blocks\">\n\t\t\t<field name=\"x\">0</field>\n\t\t\t<field name=\"y\">-1</field>\n\t\t\t<field name=\"z\">0</field>\n\t\t\t<value name=\"blockSet\">\n\t\t\t\t<block type=\"block_holderset_list\">\n\t\t\t\t\t<mutation inputs=\"2\"></mutation>\n\t\t\t\t\t<field name=\"block0\">CUSTOM:GrassBlock</field><field name=\"block1\">CUSTOM:Dirt</field>\n\t\t\t\t</block>\n\t\t\t</value>\n\t\t</block>\n\t</value>\n\t<next><block type=\"placement_biome_filter\"></block></next></block></next></block></next></block></next></block></next></block></xml>\n"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "tale_of_biomes:custom/crop_layer",
+  "textures": {
+    "all": "tale_of_biomes:block/rice_0",
+    "particle": "tale_of_biomes:block/rice_0",
+    "seeds": "tale_of_biomes:block/rice_0"
+  },
+  "render_type": "cutout"
+}

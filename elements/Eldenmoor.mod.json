@@ -1,0 +1,61 @@
+{
+  "_fv": 57,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:GrassPlains"
+      },
+      {
+        "value": "CUSTOM:FlowerPlains"
+      },
+      {
+        "value": "CUSTOM:FlowerShrubPlains"
+      },
+      {
+        "value": "CUSTOM:GrassShrubPlains"
+      },
+      {
+        "value": "CUSTOM:PiruffWoods"
+      },
+      {
+        "value": "CUSTOM:PiruffForest"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Stone"
+    },
+    "fluidBlock": {
+      "value": "Blocks.WATER"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": ""
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "Eldenmoor Portal Igniter",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "igniterTab": {
+      "value": "CUSTOM:TalesOfBiomesTab"
+    },
+    "texture": "",
+    "portalTexture": "",
+    "enablePortal": false
+  }
+}

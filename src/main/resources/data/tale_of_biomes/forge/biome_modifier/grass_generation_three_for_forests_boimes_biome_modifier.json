@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "tale_of_biomes:piruff_forest",
+    "tale_of_biomes:piruff_woods"
+  ],
+  "features": "tale_of_biomes:grass_generation_three_for_forests_boimes",
+  "step": "top_layer_modification"
+}

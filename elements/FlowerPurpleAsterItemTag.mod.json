@@ -1,0 +1,19 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:PurpleAster"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "flower/purple_aster",
+    "namespace": "tale_of_bomes"
+  }
+}

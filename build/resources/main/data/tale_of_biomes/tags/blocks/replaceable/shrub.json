@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "tale_of_biomes:blue_aster",
+    "tale_of_biomes:purple_aster",
+    "tale_of_biomes:magenta_aster",
+    "tale_of_biomes:goldenrod",
+    "tale_of_biomes:wild_indigo",
+    "tale_of_biomes:tall_grass_0",
+    "tale_of_biomes:tall_grass_1",
+    "tale_of_biomes:tall_grass_2",
+    "minecraft:air",
+    "minecraft:void_air",
+    "minecraft:cave_air"
+  ]
+}

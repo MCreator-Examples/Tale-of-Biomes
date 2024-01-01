@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:GrassBlock"
+      },
+      {
+        "value": "CUSTOM:Dirt"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "dirt",
+    "namespace": "minecraft"
+  }
+}

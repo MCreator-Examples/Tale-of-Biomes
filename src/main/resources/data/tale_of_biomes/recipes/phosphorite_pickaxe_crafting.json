@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "phosphorite_pickaxe",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "tale_of_biomes:phosphorite_gemstone"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "tale_of_biomes:phosphorite_pickaxe",
+    "count": 1
+  }
+}

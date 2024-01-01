@@ -1,0 +1,16 @@
+JVM:         P:\MCreator\2023.3\MCreator\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--task", "MERGE_MAPPING", "--left", "config/joined.tsrg", "--right", "P:\MCreatorWorkspaces\Series\tale_of_biomes\build\fg_cache\mcp\1.20.1-20230612.114412\joined\d824deeb25c8896cc3208652827eb7ce8a425dae\downloadClientMappings\client_mappings.txt", "--right-names", "right,left", "--classes", "--output", "P:\MCreatorWorkspaces\Series\tale_of_biomes\build\fg_cache\mcp\1.20.1-20230612.114412\joined\d824deeb25c8896cc3208652827eb7ce8a425dae\mergeMappings\output.jar"
+Classpath:   C:\Users\kiera\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.2.0\installertools-1.2.0-fatjar.jar
+Working Dir: P:\MCreatorWorkspaces\Series\tale_of_biomes\build\fg_cache\mcp\1.20.1-20230612.114412\joined\d824deeb25c8896cc3208652827eb7ce8a425dae\mergeMappings
+Main Class:  net.minecraftforge.installertools.ConsoleTool
+Task: MERGE_MAPPING
+Left:    config\joined.tsrg
+         null
+Right:   P:\MCreatorWorkspaces\Series\tale_of_biomes\build\fg_cache\mcp\1.20.1-20230612.114412\joined\d824deeb25c8896cc3208652827eb7ce8a425dae\downloadClientMappings\client_mappings.txt
+         right,left
+Classes: true
+Fields:  false
+Methods: false
+Params:  false
+Output:  P:\MCreatorWorkspaces\Series\tale_of_biomes\build\fg_cache\mcp\1.20.1-20230612.114412\joined\d824deeb25c8896cc3208652827eb7ce8a425dae\mergeMappings\output.jar

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "dye",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "tale_of_biomes:flower/blue_aster"
+    }
+  ],
+  "result": {
+    "item": "minecraft:blue_dye",
+    "count": 1
+  }
+}
