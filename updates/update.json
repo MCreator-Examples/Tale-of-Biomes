@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/MCreator-Examples/Tale-of-Biomes",
+  "1.20.1": {
+    "0.1.0": "Added dimension\n\nAdded dirt and grass blocks\nAdded grass mechanics\nAdded aster flowers\nAdded goldenrod flower\nAdded wild indigo flower\nAdded sand and stone blocks\nAdded fertile soil\nAdded grassland biomes\nAdded grassland features\nAdded grassland shrub biomes\nAdded flower grassland biome variants.\nAdded pure coal ore\nAdded silk touch and sticks to bushes\nAdded gravel and crystal\nAdded water crystal generation\nAdded water crystal gem resource\nAdded water crystal tools\nAdded piruff logs and leaves\nAdded piruff trees\nAdded piruff forests\nAdded crop weeds\nAdded weeds and rock mechanics for crops\nAdded clay and bricks\nAdded soil mixture mechanics\nAdded soil pH level and fertility mechanics\nAdded limestone, cobbled limestone, and quicklime blocks\nAdded kiln multi-structure crafting station\nAdded kiln temperature mechanics\nAdded rice crop stages\nAdded basic rice crop mechanics\nAdded rice seeds\nAdded tilled soil correction, now can be waterlogged for rice crops\nAdded piruff wood set\nAdded cut grass mechanics\nAdded renewable tall grass mechanics\nAdded new straw resource\nAdded thatch blocks"},
+  "promos": {
+    "1.20.1-latest": "0.1.0",
+    "1.20.1-recommended": "0.1.0"
+  }
+}
