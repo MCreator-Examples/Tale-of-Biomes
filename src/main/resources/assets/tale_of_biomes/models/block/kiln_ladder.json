@@ -1,0 +1,10 @@
+{
+  "parent": "tale_of_biomes:custom/kiln_ladder",
+  "textures": {
+    "all": "tale_of_biomes:block/kiln_base",
+    "particle": "tale_of_biomes:block/kiln_base",
+    "ladder": "tale_of_biomes:block/kiln_ladder",
+    "base": "tale_of_biomes:block/kiln_base"
+  },
+  "render_type": "cutout"
+}

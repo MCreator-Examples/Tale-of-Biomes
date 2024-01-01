@@ -1,0 +1,44 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "flowerpot": "flower_pot",
+        "plant": "blue_aster",
+        "dirt": "minecraft_dirt"
+      },
+      "name": "default"
+    },
+    "magenta_aster": {
+      "map": {
+        "flowerpot": "flower_pot",
+        "plant": "magenta_aster",
+        "dirt": "minecraft_dirt"
+      },
+      "name": "magenta_aster"
+    },
+    "wild_indigo": {
+      "map": {
+        "flowerpot": "flower_pot",
+        "plant": "wild_indigo",
+        "dirt": "minecraft_dirt"
+      },
+      "name": "wild_indigo"
+    },
+    "purple_aster": {
+      "map": {
+        "flowerpot": "flower_pot",
+        "plant": "purple_aster",
+        "dirt": "minecraft_dirt"
+      },
+      "name": "purple_aster"
+    },
+    "goldenrod": {
+      "map": {
+        "flowerpot": "flower_pot",
+        "plant": "goldenrod",
+        "dirt": "minecraft_dirt"
+      },
+      "name": "goldenrod"
+    }
+  }
+}

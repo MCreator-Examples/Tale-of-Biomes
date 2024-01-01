@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "group": "phosphorite",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "tag": "tale_of_biomes:tools/phosphorite"
+  },
+  "result": "tale_of_biomes:phosphorite_gemstone"
+}

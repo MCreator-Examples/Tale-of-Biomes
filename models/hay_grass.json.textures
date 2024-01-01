@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "hay_grass": "hay_grass"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "tale_of_biomes:block/large_bricks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "tale_of_biomes:block/piruff_door_bottom"
+  },
+  "render_type": "solid"
+}

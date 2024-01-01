@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tale_of_biomes:block/phosphorite_stone",
+    "up": "tale_of_biomes:block/phosphorite_stone",
+    "north": "tale_of_biomes:block/phosphorite_stone",
+    "east": "tale_of_biomes:block/phosphorite_stone",
+    "south": "tale_of_biomes:block/phosphorite_stone",
+    "west": "tale_of_biomes:block/phosphorite_stone",
+    "particle": "tale_of_biomes:block/phosphorite_stone"
+  },
+  "render_type": "solid"
+}

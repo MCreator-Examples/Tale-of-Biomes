@@ -1,0 +1,12 @@
+{
+  "type": "tale_of_biomes:small_piruff_tree_west_forest_feature",
+  "config": {
+    "structure": "tale_of_biomes:small_piruff_tree_west",
+    "ignored_blocks": "minecraft:structure_block",
+    "offset": [
+      0,
+      1,
+      0
+    ]
+  }
+}

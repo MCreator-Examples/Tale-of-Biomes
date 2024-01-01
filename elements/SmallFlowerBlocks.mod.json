@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Goldenrod"
+      },
+      {
+        "value": "CUSTOM:BlueAster"
+      },
+      {
+        "value": "CUSTOM:PurpleAster"
+      },
+      {
+        "value": "CUSTOM:MagentaAster"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "small_flowers",
+    "namespace": "minecraft"
+  }
+}

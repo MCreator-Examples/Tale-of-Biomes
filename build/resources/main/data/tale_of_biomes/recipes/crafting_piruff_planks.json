@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "planks",
+  "category": "building",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "tag": "tale_of_biomes:logs/piruff"
+    }
+  },
+  "result": {
+    "item": "tale_of_biomes:piruff_planks",
+    "count": 4
+  }
+}
