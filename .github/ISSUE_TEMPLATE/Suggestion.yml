@@ -1,0 +1,12 @@
+name: 💡 Suggestion - Tale of Biomes
+description: Provide feedback or suggest an idea you have for the mod/series.
+labels: Feature
+title: "[Feature]: "
+body:
+  - type: textarea
+    attributes:
+      label: Feature information
+      description: Provide us with information for your suggestion or idea.
+      placeholder: Describe your suggestion/idea here.
+    validations:
+      required: true
