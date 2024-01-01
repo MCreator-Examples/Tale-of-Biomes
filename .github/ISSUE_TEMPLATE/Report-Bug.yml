@@ -15,8 +15,8 @@ body:
         - Is this a visual bug/issue or is it a physical one (provide a video URL or screenshot if needed)?
         - Does the game crash (provide a crash report if so)?
         - Provide any additional context that may help with figuring out the issue.
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Steps to reproduce
@@ -25,8 +25,8 @@ body:
         1. Place your mod's grass block.
         2. Break the block in survival.
         3. The block will not drop dirt but rather grass still.
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Build information
@@ -34,5 +34,5 @@ body:
       placeholder: |
         Tale Of Biomes: r0.1.0-indev
         Forge: 1.20.1
-      validations:
-        required: true
+    validations:
+      required: true
