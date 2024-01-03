@@ -6,3 +6,8 @@ NorthWestTrees uses a couple of programs for planning the modification [Leonardo
 
 ## 📚 Wiki Contributors
 If you wish to become a wiki contributor for this modification contact me via email [northwesttreesgaming@gmail.com](). Make sure to provide your Discord contact information in your email and an estimate of how often you will be able to contribute.
+
+## ⚖ License
+You can find the full license on [this page](https://github.com/MCreator-Examples/Tale-of-Biomes/blob/latest/LICENSE).  
+  
+![GPL_3 0_licence](https://github.com/MCreator-Examples/Tale-of-Biomes/assets/47284617/4838317c-86fe-4ea4-b834-e91b9261d073)
