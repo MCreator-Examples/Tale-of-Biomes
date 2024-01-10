@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Biomes",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [
+      {
+        "value": "CUSTOM:FlowerPlains"
+      },
+      {
+        "value": "CUSTOM:FlowerShrubPlains"
+      },
+      {
+        "value": "CUSTOM:GrassPlains"
+      },
+      {
+        "value": "CUSTOM:GrassShrubPlains"
+      }
+    ],
+    "damageTypes": [],
+    "name": "eldenmoor/plains",
+    "namespace": "mod"
+  }
+}

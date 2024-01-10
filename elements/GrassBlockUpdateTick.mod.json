@@ -2,6 +2,6 @@
   "_fv": 57,
   "_type": "procedure",
   "definition": {
-    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"-57\" y=\"42\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"call_procedure\"><field name=\"procedure\">GrassBlockSpreadingMechanics</field><next><block type=\"call_procedure\"><field name=\"procedure\">GrassBlockPlantGrowthMechanics</field></block></next></block></next></block></xml>"
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"-57\" y=\"42\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"call_procedure\"><field name=\"procedure\">GrassBlockSpreadingMechanics</field><next><block type=\"call_procedure\"><field name=\"procedure\">GrassBlockPlantGrowthMechanics</field></block></next></block></next></block></xml>"
   }
 }

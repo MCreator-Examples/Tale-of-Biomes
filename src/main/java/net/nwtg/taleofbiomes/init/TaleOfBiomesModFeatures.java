@@ -26,8 +26,6 @@ import net.nwtg.taleofbiomes.world.features.PiruffTreeNorthWoodsFeatureFeature;
 import net.nwtg.taleofbiomes.world.features.PiruffTreeNorthFeatureFeature;
 import net.nwtg.taleofbiomes.world.features.PiruffTreeEastWoodsFeatureFeature;
 import net.nwtg.taleofbiomes.world.features.PiruffTreeEastFeatureFeature;
-import net.nwtg.taleofbiomes.world.features.PhosphoriteCrystalSmallFeatureFeature;
-import net.nwtg.taleofbiomes.world.features.PhosphoriteCrystalLaregeFeatureFeature;
 import net.nwtg.taleofbiomes.world.features.IvyShrubPlant2FeatureFeature;
 import net.nwtg.taleofbiomes.world.features.IvyShrubPlant1FeatureFeature;
 import net.nwtg.taleofbiomes.world.features.ClayBlockFeatureFeature;
@@ -47,8 +45,6 @@ public class TaleOfBiomesModFeatures {
 	public static final RegistryObject<Feature<?>> IVY_SHRUB_PLANT_2_FEATURE = REGISTRY.register("ivy_shrub_plant_2_feature", IvyShrubPlant2FeatureFeature::new);
 	public static final RegistryObject<Feature<?>> ROSE_SHRUB_PLANT_1_FEATURE = REGISTRY.register("rose_shrub_plant_1_feature", RoseShrubPlant1FeatureFeature::new);
 	public static final RegistryObject<Feature<?>> ROSE_SHRUB_PLANT_2_FEATURE = REGISTRY.register("rose_shrub_plant_2_feature", RoseShrubPlant2FeatureFeature::new);
-	public static final RegistryObject<Feature<?>> PHOSPHORITE_CRYSTAL_LAREGE_FEATURE = REGISTRY.register("phosphorite_crystal_larege_feature", PhosphoriteCrystalLaregeFeatureFeature::new);
-	public static final RegistryObject<Feature<?>> PHOSPHORITE_CRYSTAL_SMALL_FEATURE = REGISTRY.register("phosphorite_crystal_small_feature", PhosphoriteCrystalSmallFeatureFeature::new);
 	public static final RegistryObject<Feature<?>> PIRUFF_TREE_EAST_FEATURE = REGISTRY.register("piruff_tree_east_feature", PiruffTreeEastFeatureFeature::new);
 	public static final RegistryObject<Feature<?>> PIRUFF_TREE_NORTH_FEATURE = REGISTRY.register("piruff_tree_north_feature", PiruffTreeNorthFeatureFeature::new);
 	public static final RegistryObject<Feature<?>> PIRUFF_TREE_SOUTH_FEATURE = REGISTRY.register("piruff_tree_south_feature", PiruffTreeSouthFeatureFeature::new);

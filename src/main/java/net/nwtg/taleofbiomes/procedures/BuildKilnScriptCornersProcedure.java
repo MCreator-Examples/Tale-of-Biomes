@@ -25,7 +25,7 @@ public class BuildKilnScriptCornersProcedure {
 		double counter = 0;
 		myNamespace = "tale_of_biomes";
 		myPlacementTag = "kiln";
-		myBlockedBlocksTag = "kiln/blocked_block";
+		myBlockedBlocksTag = "kiln/blocked_blocks";
 		offsetX = new Object() {
 			public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);

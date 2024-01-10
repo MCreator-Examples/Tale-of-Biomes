@@ -2,11 +2,6 @@
   "type": "tale_of_biomes:piruff_tree_south_feature",
   "config": {
     "structure": "tale_of_biomes:piruff_tree_south",
-    "ignored_blocks": "minecraft:structure_block",
-    "offset": [
-      0,
-      1,
-      0
-    ]
+    "ignored_blocks": "minecraft:structure_block"
   }
 }

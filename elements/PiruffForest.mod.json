@@ -2,7 +2,7 @@
   "_fv": 57,
   "_type": "biome",
   "definition": {
-    "name": "Piruff Woods",
+    "name": "Piruff Forest",
     "groundBlock": {
       "value": "CUSTOM:GrassBlock"
     },
@@ -88,9 +88,7 @@
       "value": ""
     },
     "defaultFeatures": [
-      "Caves",
-      "Ores",
-      "FrozenTopLayer"
+      "Caves"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,

@@ -1,4 +1,4 @@
-P:\MCreatorWorkspaces\Series\tale_of_biomes\build\fg_cache\net\minecraftforge\forge\1.20.1-47.2.0_mapped_official_1.20.1\forge-1.20.1-47.2.0_mapped_official_1.20.1.jar
+P:\MCreatorWorkspaces\Series\Tale-of-Biomes\build\fg_cache\net\minecraftforge\forge\1.20.1-47.2.0_mapped_official_1.20.1\forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar
 C:\Users\kiera\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.20.1\client-extra.jar
 C:\Users\kiera\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.2.0\4c56a03dcedcb909c7eaa8469dd5a36c493a0008\fmlearlydisplay-1.20.1-47.2.0.jar
 C:\Users\kiera\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.0\7f9181f85acc66547685a72020713fc8cbde98\javafmllanguage-1.20.1-47.2.0.jar

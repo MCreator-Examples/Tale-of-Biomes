@@ -24,7 +24,7 @@ public class BuildKilnScriptGroupingProcedure {
 		double group = 0;
 		myNamespace = "tale_of_biomes";
 		myPlacementTag = "kiln";
-		myBlockedBlocksTag = "kiln/blocked_block";
+		myBlockedBlocksTag = "kiln/blocked_blocks";
 		group = Mth.nextInt(RandomSource.create(), 1, 2000000000);
 		offsetX = new Object() {
 			public double getValue(LevelAccessor world, BlockPos pos, String tag) {

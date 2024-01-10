@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 10387312,
+    "separation": 8,
+    "spacing": 32
+  },
+  "structures": [
+    {
+      "structure": "tale_of_biomes:eldenmoor_plains_small_house_01",
+      "weight": 1
+    }
+  ]
+}

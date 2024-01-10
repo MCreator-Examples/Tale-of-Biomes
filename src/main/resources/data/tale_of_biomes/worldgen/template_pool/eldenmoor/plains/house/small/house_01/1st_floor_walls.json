@@ -1,0 +1,23 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "tale_of_biomes:eldenmoor/plains/house/small/house_01/1st_floor_wall_01",
+        "projection": "rigid",
+        "processors": "tale_of_biomes:eldenmoor_plains_small_house_01_1st_floor_walls"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "tale_of_biomes:eldenmoor/plains/house/small/house_01/1st_floor_wall_02",
+        "projection": "rigid",
+        "processors": "tale_of_biomes:eldenmoor_plains_small_house_01_1st_floor_walls"
+      }
+    }
+  ]
+}

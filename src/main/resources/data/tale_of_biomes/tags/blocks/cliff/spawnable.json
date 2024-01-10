@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "tale_of_biomes:blue_aster",
+    "tale_of_biomes:purple_aster",
+    "tale_of_biomes:magenta_aster",
+    "tale_of_biomes:goldenrod",
+    "tale_of_biomes:wild_indigo",
+    "tale_of_biomes:tall_grass_0",
+    "tale_of_biomes:tall_grass_1",
+    "tale_of_biomes:tall_grass_2",
+    "minecraft:air",
+    "minecraft:water",
+    "tale_of_biomes:phosphorite_crystal",
+    "tale_of_biomes:phosphorite_crystal_bottom",
+    "tale_of_biomes:phosphorite_crystal_top",
+    "minecraft:bubble_column",
+    "minecraft:lava",
+    "tale_of_biomes:ivy_shrub",
+    "tale_of_biomes:rose_shrub",
+    "tale_of_biomes:piruff_leaves"
+  ]
+}

@@ -58,8 +58,8 @@
     "material": {
       "value": "PLANTS"
     },
-    "tickRate": 0,
-    "tickRandomly": true,
+    "tickRate": 1,
+    "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
@@ -105,13 +105,13 @@
       "name": "RoseShrubBlockValidPlacementCondition"
     },
     "isBonemealable": false,
-    "hasInventory": false,
+    "hasInventory": true,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
-    "inventorySize": 9,
+    "inventorySize": 0,
     "inventoryStackSize": 64,
-    "inventoryDropWhenDestroyed": true,
-    "inventoryComparatorPower": true,
+    "inventoryDropWhenDestroyed": false,
+    "inventoryComparatorPower": false,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,
@@ -122,11 +122,11 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onBlockAdded": {
-      "name": "RoseShrubBlockAdded"
-    },
     "onTickUpdate": {
       "name": "RoseShrubUpdateTick"
+    },
+    "onBlockPlayedBy": {
+      "name": "RoseShrubBlockIsPlacedBy"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

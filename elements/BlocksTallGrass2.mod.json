@@ -37,7 +37,7 @@
           {
             "type": "item",
             "item": {
-              "value": "Items.WHEAT_SEEDS"
+              "value": "CUSTOM:RiceSeeds"
             },
             "weight": 1,
             "minCount": 0,

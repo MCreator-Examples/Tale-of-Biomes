@@ -1,0 +1,164 @@
+{
+  "feature": "tale_of_biomes:eldenmoor_cliff_3",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 256
+    },
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": {
+        "type": "uniform",
+        "value": {
+          "min_inclusive": 4,
+          "max_inclusive": 8
+        }
+      }
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 60
+        },
+        "max_inclusive": {
+          "absolute": 128
+        }
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": "#tale_of_biomes:cliff/replaceable"
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": "#tale_of_biomes:cliff/replaceable",
+            "offset": [
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "type": "minecraft:any_of",
+            "predicates": [
+              {
+                "type": "minecraft:all_of",
+                "predicates": [
+                  {
+                    "type": "minecraft:not",
+                    "predicate": {
+                      "type": "minecraft:matching_blocks",
+                      "blocks": "#tale_of_biomes:cliff/non_spawnable",
+                      "offset": [
+                        -1,
+                        0,
+                        0
+                      ]
+                    }
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "#tale_of_biomes:cliff/spawnable",
+                    "offset": [
+                      -1,
+                      0,
+                      0
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:all_of",
+                "predicates": [
+                  {
+                    "type": "minecraft:not",
+                    "predicate": {
+                      "type": "minecraft:matching_blocks",
+                      "blocks": "#tale_of_biomes:cliff/non_spawnable",
+                      "offset": [
+                        1,
+                        0,
+                        0
+                      ]
+                    }
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "#tale_of_biomes:cliff/spawnable",
+                    "offset": [
+                      1,
+                      0,
+                      0
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:all_of",
+                "predicates": [
+                  {
+                    "type": "minecraft:not",
+                    "predicate": {
+                      "type": "minecraft:matching_blocks",
+                      "blocks": "#tale_of_biomes:cliff/non_spawnable",
+                      "offset": [
+                        0,
+                        0,
+                        -1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "#tale_of_biomes:cliff/spawnable",
+                    "offset": [
+                      0,
+                      0,
+                      -1
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:all_of",
+                "predicates": [
+                  {
+                    "type": "minecraft:not",
+                    "predicate": {
+                      "type": "minecraft:matching_blocks",
+                      "blocks": "#tale_of_biomes:cliff/non_spawnable",
+                      "offset": [
+                        0,
+                        0,
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "#tale_of_biomes:cliff/spawnable",
+                    "offset": [
+                      0,
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -40,7 +40,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:wheat_seeds",
+          "name": "tale_of_biomes:rice_seeds",
           "weight": 1,
           "conditions": [
             {
