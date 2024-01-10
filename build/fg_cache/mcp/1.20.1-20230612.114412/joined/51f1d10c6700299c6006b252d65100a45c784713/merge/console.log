@@ -1,6 +1,0 @@
-JVM:         P:\MCreator\2023.4\jdk\bin\java.exe
-JVM Args:    
-Run Args:    "--client", "P:\MCreatorWorkspaces\Series\tale_of_biomes\build\fg_cache\mcp\1.20.1-20230612.114412\joined\51f1d10c6700299c6006b252d65100a45c784713\stripClient\output.jar", "--server", "P:\MCreatorWorkspaces\Series\tale_of_biomes\build\fg_cache\mcp\1.20.1-20230612.114412\joined\51f1d10c6700299c6006b252d65100a45c784713\stripServer\output.jar", "--ann", "1.20.1", "--output", "P:\MCreatorWorkspaces\Series\tale_of_biomes\build\fg_cache\mcp\1.20.1-20230612.114412\joined\51f1d10c6700299c6006b252d65100a45c784713\merge\output.jar", "--inject", "false"
-Classpath:   C:\Users\kiera\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.7\mergetool-1.1.7-fatjar.jar
-Working Dir: P:\MCreatorWorkspaces\Series\tale_of_biomes\build\fg_cache\mcp\1.20.1-20230612.114412\joined\51f1d10c6700299c6006b252d65100a45c784713\merge
-Main Class:  net.minecraftforge.mergetool.ConsoleMerger

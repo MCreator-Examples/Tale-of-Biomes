@@ -32,7 +32,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17/"/>
-	<classpathentry sourcepath="P:/MCreatorWorkspaces/Series/Tale-of-Biomes/build/fg_cache/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1-sources.jar" kind="lib" path="P:/MCreatorWorkspaces/Series/Tale-of-Biomes/build/fg_cache/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar">
+	<classpathentry sourcepath="P:/MCreatorWorkspaces/Series/Tale-of-Biomes/build/fg_cache/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1-sources.jar" kind="lib" path="P:/MCreatorWorkspaces/Series/Tale-of-Biomes/build/fg_cache/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>

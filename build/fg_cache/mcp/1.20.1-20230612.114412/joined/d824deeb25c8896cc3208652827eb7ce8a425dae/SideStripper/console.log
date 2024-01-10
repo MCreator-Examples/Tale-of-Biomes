@@ -1,9 +1,0 @@
-JVM:         P:\MCreator\2023.3\MCreator\jdk\bin\java.exe
-JVM Args:    
-Run Args:    "--strip", "--input", "P:\MCreatorWorkspaces\Series\tale_of_biomes\build\fg_cache\mcp\1.20.1-20230612.114412\joined\d824deeb25c8896cc3208652827eb7ce8a425dae\AccessTransformer\output.jar", "--output", "P:\MCreatorWorkspaces\Series\tale_of_biomes\build\fg_cache\mcp\1.20.1-20230612.114412\joined\d824deeb25c8896cc3208652827eb7ce8a425dae\SideStripper\output.jar", "--data", "P:\MCreatorWorkspaces\Series\tale_of_biomes\build\fg_cache\mcp\1.20.1-20230612.114412\joined\d824deeb25c8896cc3208652827eb7ce8a425dae\SideStripper\string_data.sas"
-Classpath:   C:\Users\kiera\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.7\mergetool-1.1.7-fatjar.jar
-Working Dir: P:\MCreatorWorkspaces\Series\tale_of_biomes\build\fg_cache\mcp\1.20.1-20230612.114412\joined\d824deeb25c8896cc3208652827eb7ce8a425dae\SideStripper
-Main Class:  net.minecraftforge.mergetool.ConsoleMerger
-Input:  P:\MCreatorWorkspaces\Series\tale_of_biomes\build\fg_cache\mcp\1.20.1-20230612.114412\joined\d824deeb25c8896cc3208652827eb7ce8a425dae\AccessTransformer\output.jar
-Output: P:\MCreatorWorkspaces\Series\tale_of_biomes\build\fg_cache\mcp\1.20.1-20230612.114412\joined\d824deeb25c8896cc3208652827eb7ce8a425dae\SideStripper\output.jar
-Data:   P:\MCreatorWorkspaces\Series\tale_of_biomes\build\fg_cache\mcp\1.20.1-20230612.114412\joined\d824deeb25c8896cc3208652827eb7ce8a425dae\SideStripper\string_data.sas
