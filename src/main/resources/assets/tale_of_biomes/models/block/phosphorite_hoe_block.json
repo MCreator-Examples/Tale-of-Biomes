@@ -1,0 +1,9 @@
+{
+  "parent": "tale_of_biomes:custom/hoe_block",
+  "textures": {
+    "all": "tale_of_biomes:block/phosphorite_hoe_block",
+    "particle": "tale_of_biomes:block/phosphorite_hoe_block",
+    "texture": "tale_of_biomes:block/phosphorite_hoe_block"
+  },
+  "render_type": "solid"
+}

@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LargeBirckStairs"
+      "value": "CUSTOM:LargeBrickStairs"
     },
     "name": "large_brick_stairs_crafting_recipe",
     "namespace": "mod"

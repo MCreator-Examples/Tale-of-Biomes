@@ -5,6 +5,7 @@
 package net.nwtg.taleofbiomes.init;
 
 import net.nwtg.taleofbiomes.world.inventory.KilnScreenMenu;
+import net.nwtg.taleofbiomes.world.inventory.BasicToolTableMenuMenu;
 import net.nwtg.taleofbiomes.TaleOfBiomesMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -17,4 +18,5 @@ import net.minecraft.world.inventory.MenuType;
 public class TaleOfBiomesModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.MENU_TYPES, TaleOfBiomesMod.MODID);
 	public static final RegistryObject<MenuType<KilnScreenMenu>> KILN_SCREEN = REGISTRY.register("kiln_screen", () -> IForgeMenuType.create(KilnScreenMenu::new));
+	public static final RegistryObject<MenuType<BasicToolTableMenuMenu>> BASIC_TOOL_TABLE_MENU = REGISTRY.register("basic_tool_table_menu", () -> IForgeMenuType.create(BasicToolTableMenuMenu::new));
 }

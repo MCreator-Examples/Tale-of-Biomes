@@ -1,5 +1,6 @@
 package net.nwtg.taleofbiomes.procedures;
 
+import net.nwtg.taleofbiomes.network.TaleOfBiomesModVariables;
 import net.nwtg.taleofbiomes.init.TaleOfBiomesModBlocks;
 
 import net.minecraftforge.fml.common.Mod;
@@ -39,7 +40,7 @@ public class GrassPlantDestroyedByPlayerProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, BlockState blockstate, Entity entity) {
 		if (entity == null)
 			return;
-		if (blockstate.is(BlockTags.create(new ResourceLocation("tale_of_biomes:tall_grass"))) && !(new Object() {
+		if (blockstate.is(BlockTags.create(new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "tall_grass")).toLowerCase(java.util.Locale.ENGLISH)))) && !(new Object() {
 			public boolean checkGamemode(Entity _ent) {
 				if (_ent instanceof ServerPlayer _serverPlayer) {
 					return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;

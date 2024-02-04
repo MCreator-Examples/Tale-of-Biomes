@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "tab",
+  "definition": {
+    "name": "ToB Tools",
+    "icon": {
+      "value": "CUSTOM:PhosphoritePickaxe"
+    },
+    "showSearch": false
+  }
+}

@@ -44,21 +44,23 @@ public class TravelToEldenmoorProcedure {
 				&& (entity.getCapability(TaleOfBiomesModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TaleOfBiomesModVariables.PlayerVariables())).CanTravelToEldenmoor) {
 			yaw = entity.getYRot();
 			pitch = entity.getXRot();
+			InventorySaveNormalScriptProcedure.execute(entity);
+			InventoryReplaceEldenmoorScriptProcedure.execute(entity);
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"execute in tale_of_biomes:eldenmoor run forceload add ~-1 ~-1 ~1 ~1");
+						("execute in " + TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "eldenmoor run forceload add ~-1 ~-1 ~1 ~1"));
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"execute in tale_of_biomes:eldenmoor run fill ~-1 ~-1 ~-1 ~1 ~3 ~1 minecraft:air destroy");
+						("execute in " + TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "eldenmoor run fill ~-1 ~-1 ~-1 ~1 ~3 ~1 minecraft:air destroy"));
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"execute in tale_of_biomes:eldenmoor run fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 minecraft:oak_planks replace minecraft:air");
+						("execute in " + TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "eldenmoor run fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 minecraft:oak_planks replace minecraft:air"));
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"execute in tale_of_biomes:eldenmoor run forceload remove ~-1 ~-1 ~1 ~1");
+						("execute in " + TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "eldenmoor run forceload remove ~-1 ~-1 ~1 ~1"));
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"execute in tale_of_biomes:eldenmoor run tp @p ~ ~ ~ ~ ~");
+						("execute in " + TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "eldenmoor run tp @p ~ ~ ~"));
 			{
 				Entity _ent = entity;
 				_ent.setYRot((float) yaw);

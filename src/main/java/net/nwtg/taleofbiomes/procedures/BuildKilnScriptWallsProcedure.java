@@ -1,5 +1,6 @@
 package net.nwtg.taleofbiomes.procedures;
 
+import net.nwtg.taleofbiomes.network.TaleOfBiomesModVariables;
 import net.nwtg.taleofbiomes.init.TaleOfBiomesModBlocks;
 
 import net.minecraft.world.level.block.state.properties.Property;
@@ -23,7 +24,7 @@ public class BuildKilnScriptWallsProcedure {
 		double posZ = 0;
 		double offsetY = 0;
 		double counter = 0;
-		myNamespace = "tale_of_biomes";
+		myNamespace = TaleOfBiomesModVariables.MapVariables.get(world).modNamespace;
 		myPlacementTag = "kiln";
 		myBlockedBlocksTag = "kiln/blocked_blocks";
 		offsetX = new Object() {

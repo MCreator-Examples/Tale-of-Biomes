@@ -39,21 +39,19 @@ public class FlowerPotOnBlockRightClickedProcedure {
 			return;
 		ItemStack flower = ItemStack.EMPTY;
 		boolean runScript = false;
+		runScript = true;
 		if (blockstate.getBlock() == TaleOfBiomesModBlocks.BLUE_ASTER_FLOWER_POT.get()) {
 			flower = new ItemStack(TaleOfBiomesModBlocks.BLUE_ASTER.get());
-			runScript = true;
 		} else if (blockstate.getBlock() == TaleOfBiomesModBlocks.PURPLE_ASTER_FLOWER_POT.get()) {
 			flower = new ItemStack(TaleOfBiomesModBlocks.PURPLE_ASTER.get());
-			runScript = true;
 		} else if (blockstate.getBlock() == TaleOfBiomesModBlocks.MAGENTA_ASTER_FLOWER_POT.get()) {
 			flower = new ItemStack(TaleOfBiomesModBlocks.MAGENTA_ASTER.get());
-			runScript = true;
 		} else if (blockstate.getBlock() == TaleOfBiomesModBlocks.GOLDENROD_FLOWER_POT.get()) {
 			flower = new ItemStack(TaleOfBiomesModBlocks.GOLDENROD.get());
-			runScript = true;
 		} else if (blockstate.getBlock() == TaleOfBiomesModBlocks.WILD_INDIGO_FLOWER_POT.get()) {
 			flower = new ItemStack(TaleOfBiomesModBlocks.WILD_INDIGO.get());
-			runScript = true;
+		} else {
+			runScript = false;
 		}
 		if (runScript) {
 			if (entity instanceof Player _player) {

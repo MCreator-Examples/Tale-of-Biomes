@@ -1,11 +1,19 @@
 {
   "replace": false,
   "values": [
+    "tale_of_biomes:wall_blueprint",
+    "tale_of_biomes:plot_blueprint",
+    "tale_of_biomes:window_blueprint",
+    "tale_of_biomes:door_blueprint",
+    "tale_of_biomes:basic_tool_table",
     "tale_of_biomes:hay_grass",
     "tale_of_biomes:hay_straw",
+    "tale_of_biomes:thatch_block",
+    "tale_of_biomes:thatch_stairs",
+    "tale_of_biomes:thatch_slab",
     "tale_of_biomes:piruff_log",
-    "tale_of_biomes:stripped_piruff_log",
     "tale_of_biomes:piruff_wood",
+    "tale_of_biomes:stripped_piruff_log",
     "tale_of_biomes:stripped_piruff_wood",
     "tale_of_biomes:piruff_planks",
     "tale_of_biomes:piruff_stairs",
@@ -16,8 +24,19 @@
     "tale_of_biomes:piruff_trapdoor",
     "tale_of_biomes:piruff_pressure_plate",
     "tale_of_biomes:piruff_button",
-    "tale_of_biomes:thatch_block",
-    "tale_of_biomes:thatch_stairs",
-    "tale_of_biomes:thatch_slab"
+    "tale_of_biomes:tool_handle_block",
+    "tale_of_biomes:phosphorite_hoe_block",
+    "tale_of_biomes:phosphorite_shovel_block",
+    "tale_of_biomes:phosphorite_rake_block",
+    "tale_of_biomes:yellow_piruff_bed",
+    "tale_of_biomes:blue_piruff_bed",
+    "tale_of_biomes:purple_piruff_bed",
+    "tale_of_biomes:light_purple_piruff_bed",
+    "tale_of_biomes:magenta_piruff_bed",
+    "tale_of_biomes:yellow_piruff_bed_top",
+    "tale_of_biomes:blue_piruff_bed_top",
+    "tale_of_biomes:light_purple_piruff_bed_top",
+    "tale_of_biomes:magenta_piruff_bed_top",
+    "tale_of_biomes:purple_piruff_bed_top"
   ]
 }

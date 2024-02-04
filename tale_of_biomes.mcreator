@@ -20,7 +20,7 @@
     {
       "name": "TravelToEldenmoor",
       "type": "procedure",
-      "sortid": 67,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "travel_to_eldenmoor",
@@ -56,7 +56,7 @@
     {
       "name": "PlayerKillsAWitch",
       "type": "procedure",
-      "sortid": 68,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "player_kills_a_witch",
@@ -80,7 +80,7 @@
     {
       "name": "GrassPlains",
       "type": "biome",
-      "sortid": 69,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grass_plains",
@@ -94,7 +94,7 @@
     {
       "name": "GrassBlock",
       "type": "block",
-      "sortid": 25,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grass_block",
@@ -112,7 +112,7 @@
     {
       "name": "Dirt",
       "type": "block",
-      "sortid": 26,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dirt",
@@ -132,7 +132,7 @@
     {
       "name": "GrassBlockDrops",
       "type": "loottable",
-      "sortid": 70,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grass_block_drops",
@@ -146,7 +146,7 @@
     {
       "name": "GrassBlockUpdateTick",
       "type": "procedure",
-      "sortid": 71,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grass_block_update_tick",
@@ -178,7 +178,7 @@
     {
       "name": "BlueAster",
       "type": "plant",
-      "sortid": 8,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_aster",
@@ -198,7 +198,7 @@
     {
       "name": "PurpleAster",
       "type": "plant",
-      "sortid": 9,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_aster",
@@ -218,7 +218,7 @@
     {
       "name": "MagentaAster",
       "type": "plant",
-      "sortid": 10,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_aster",
@@ -238,7 +238,7 @@
     {
       "name": "FlowerPotOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 73,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_pot_on_block_right_clicked",
@@ -278,7 +278,7 @@
     {
       "name": "BlueAsterFlowerPot",
       "type": "block",
-      "sortid": 74,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_aster_flower_pot",
@@ -295,7 +295,7 @@
     {
       "name": "PurpleAsterFlowerPot",
       "type": "block",
-      "sortid": 75,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_aster_flower_pot",
@@ -312,7 +312,7 @@
     {
       "name": "MagentaAsterFlowerPot",
       "type": "block",
-      "sortid": 76,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_aster_flower_pot",
@@ -329,7 +329,7 @@
     {
       "name": "VanillaFlowerPotRightClickedWithFlower",
       "type": "procedure",
-      "sortid": 77,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vanilla_flower_pot_right_clicked_with_flower",
@@ -369,7 +369,7 @@
     {
       "name": "FlowerPotBlockDestroyed",
       "type": "procedure",
-      "sortid": 78,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_pot_block_destroyed",
@@ -401,7 +401,7 @@
     {
       "name": "Goldenrod",
       "type": "plant",
-      "sortid": 11,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "goldenrod",
@@ -421,7 +421,7 @@
     {
       "name": "GoldenrodFlowerPot",
       "type": "block",
-      "sortid": 79,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "goldenrod_flower_pot",
@@ -436,21 +436,9 @@
       "path": "~/Blocks/Decorations/Flower Pots"
     },
     {
-      "name": "TalesOfBiomesTab",
-      "type": "tab",
-      "sortid": 84,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tales_of_biomes_tab",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Creative Tab"
-    },
-    {
       "name": "WildIndigo",
       "type": "plant",
-      "sortid": 12,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wild_indigo",
@@ -470,7 +458,7 @@
     {
       "name": "WildIndigoFlowerPot",
       "type": "block",
-      "sortid": 85,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wild_indigo_flower_pot",
@@ -487,7 +475,7 @@
     {
       "name": "FlowerBlueAsterItemTag",
       "type": "tag",
-      "sortid": 86,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_blue_aster_item_tag",
@@ -501,7 +489,7 @@
     {
       "name": "BlueAsterDyeCrafting",
       "type": "recipe",
-      "sortid": 87,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_aster_dye_crafting",
@@ -515,7 +503,7 @@
     {
       "name": "FlowerPurpleAsterItemTag",
       "type": "tag",
-      "sortid": 88,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_purple_aster_item_tag",
@@ -529,7 +517,7 @@
     {
       "name": "PurpleAsterDyeCrafting",
       "type": "recipe",
-      "sortid": 89,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_aster_dye_crafting",
@@ -543,7 +531,7 @@
     {
       "name": "FlowerMagentaAsterItemTag",
       "type": "tag",
-      "sortid": 90,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_magenta_aster_item_tag",
@@ -557,7 +545,7 @@
     {
       "name": "MagentaAsterDyeCrafting",
       "type": "recipe",
-      "sortid": 91,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_aster_dye_crafting",
@@ -571,7 +559,7 @@
     {
       "name": "FlowerGoldenrodItemTag",
       "type": "tag",
-      "sortid": 92,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_goldenrod_item_tag",
@@ -585,7 +573,7 @@
     {
       "name": "GoldenrodDyeCrafting",
       "type": "recipe",
-      "sortid": 93,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "goldenrod_dye_crafting",
@@ -599,7 +587,7 @@
     {
       "name": "FlowerWildIndigoItemTag",
       "type": "tag",
-      "sortid": 94,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_wild_indigo_item_tag",
@@ -613,7 +601,7 @@
     {
       "name": "WildIndigoDyeCrafting",
       "type": "recipe",
-      "sortid": 95,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wild_indigo_dye_crafting",
@@ -627,7 +615,7 @@
     {
       "name": "Stone",
       "type": "block",
-      "sortid": 52,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone",
@@ -644,7 +632,7 @@
     {
       "name": "Sand",
       "type": "block",
-      "sortid": 29,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sand",
@@ -664,7 +652,7 @@
     {
       "name": "EldenmoorCurseEffectExpires",
       "type": "procedure",
-      "sortid": 96,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eldenmoor_curse_effect_expires",
@@ -684,7 +672,7 @@
     {
       "name": "EldenmoorCurse",
       "type": "potioneffect",
-      "sortid": 97,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eldenmoor_curse",
@@ -698,7 +686,7 @@
     {
       "name": "FertileSoilOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 98,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fertile_soil_on_block_right_clicked",
@@ -734,7 +722,7 @@
     {
       "name": "FertileSoil",
       "type": "block",
-      "sortid": 27,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fertile_soil",
@@ -754,7 +742,7 @@
     {
       "name": "TilledSoil",
       "type": "block",
-      "sortid": 28,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil",
@@ -772,7 +760,7 @@
     {
       "name": "TallGrass0",
       "type": "plant",
-      "sortid": 13,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tall_grass_0",
@@ -789,7 +777,7 @@
     {
       "name": "TallGrass1",
       "type": "plant",
-      "sortid": 14,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tall_grass_1",
@@ -806,7 +794,7 @@
     {
       "name": "TallGrass2",
       "type": "plant",
-      "sortid": 15,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tall_grass_2",
@@ -823,7 +811,7 @@
     {
       "name": "FlowerPlains",
       "type": "biome",
-      "sortid": 99,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_plains",
@@ -837,7 +825,7 @@
     {
       "name": "IvyShrubBlockValidPlacementCondition",
       "type": "procedure",
-      "sortid": 104,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ivy_shrub_block_valid_placement_condition",
@@ -870,7 +858,7 @@
     {
       "name": "IvyShrub",
       "type": "block",
-      "sortid": 22,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ivy_shrub",
@@ -888,7 +876,7 @@
     {
       "name": "RoseShrub",
       "type": "block",
-      "sortid": 23,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rose_shrub",
@@ -906,7 +894,7 @@
     {
       "name": "RoseShrubBlockValidPlacementCondition",
       "type": "procedure",
-      "sortid": 105,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rose_shrub_block_valid_placement_condition",
@@ -939,7 +927,7 @@
     {
       "name": "GrassShrubPlains",
       "type": "biome",
-      "sortid": 108,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grass_shrub_plains",
@@ -953,7 +941,7 @@
     {
       "name": "FlowerShrubPlains",
       "type": "biome",
-      "sortid": 109,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_shrub_plains",
@@ -967,7 +955,7 @@
     {
       "name": "IvyShrubUpdateTick",
       "type": "procedure",
-      "sortid": 115,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ivy_shrub_update_tick",
@@ -999,7 +987,7 @@
     {
       "name": "RoseShrubUpdateTick",
       "type": "procedure",
-      "sortid": 117,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rose_shrub_update_tick",
@@ -1031,7 +1019,7 @@
     {
       "name": "StructureShubAirBlockTag",
       "type": "tag",
-      "sortid": 119,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "structure_shub_air_block_tag",
@@ -1045,7 +1033,7 @@
     {
       "name": "StructureShubTopBlockTag",
       "type": "tag",
-      "sortid": 120,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "structure_shub_top_block_tag",
@@ -1059,7 +1047,7 @@
     {
       "name": "StructureShubUnderBlockTag",
       "type": "tag",
-      "sortid": 121,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "structure_shub_under_block_tag",
@@ -1073,7 +1061,7 @@
     {
       "name": "LargeShrubPlacementScript",
       "type": "procedure",
-      "sortid": 122,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_shrub_placement_script",
@@ -1106,7 +1094,7 @@
     {
       "name": "SmallShrubPlacementScript",
       "type": "procedure",
-      "sortid": 123,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_shrub_placement_script",
@@ -1139,7 +1127,7 @@
     {
       "name": "LargeShrubPlantAdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 124,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_shrub_plant_additional_generation_condition",
@@ -1172,7 +1160,7 @@
     {
       "name": "SmallShrubPlantAdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 125,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_shrub_plant_additional_generation_condition",
@@ -1205,7 +1193,7 @@
     {
       "name": "PureCoalOre",
       "type": "block",
-      "sortid": 53,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_coal_ore",
@@ -1225,7 +1213,7 @@
     {
       "name": "BlocksPureCoalOreDrops",
       "type": "loottable",
-      "sortid": 126,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blocks_pure_coal_ore_drops",
@@ -1239,7 +1227,7 @@
     {
       "name": "BlocksIvyShrubDrops",
       "type": "loottable",
-      "sortid": 127,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blocks_ivy_shrub_drops",
@@ -1253,7 +1241,7 @@
     {
       "name": "BlocksRoseShrubDrops",
       "type": "loottable",
-      "sortid": 128,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blocks_rose_shrub_drops",
@@ -1267,7 +1255,7 @@
     {
       "name": "Gravel",
       "type": "block",
-      "sortid": 30,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gravel",
@@ -1287,7 +1275,7 @@
     {
       "name": "PhosphoriteStone",
       "type": "block",
-      "sortid": 48,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phosphorite_stone",
@@ -1305,7 +1293,7 @@
     {
       "name": "PhosphoriteCrystal",
       "type": "block",
-      "sortid": 49,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phosphorite_crystal",
@@ -1323,7 +1311,7 @@
     {
       "name": "PhosphoriteCrystalBottom",
       "type": "block",
-      "sortid": 50,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phosphorite_crystal_bottom",
@@ -1340,7 +1328,7 @@
     {
       "name": "PhosphoriteCrystalTop",
       "type": "block",
-      "sortid": 51,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phosphorite_crystal_top",
@@ -1357,7 +1345,7 @@
     {
       "name": "PhosphoriteStoneUpdateTick",
       "type": "procedure",
-      "sortid": 133,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phosphorite_stone_update_tick",
@@ -1389,7 +1377,7 @@
     {
       "name": "PhosphoriteCrystalUpdateTick",
       "type": "procedure",
-      "sortid": 134,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phosphorite_crystal_update_tick",
@@ -1421,7 +1409,7 @@
     {
       "name": "PhosphoriteCrystalBottomBlockDestroyed",
       "type": "procedure",
-      "sortid": 135,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phosphorite_crystal_bottom_block_destroyed",
@@ -1453,7 +1441,7 @@
     {
       "name": "PhosphoriteCrystalTopBlockDestroyed",
       "type": "procedure",
-      "sortid": 136,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phosphorite_crystal_top_block_destroyed",
@@ -1485,7 +1473,7 @@
     {
       "name": "PhosphoriteGemstone",
       "type": "item",
-      "sortid": 21,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phosphorite_gemstone",
@@ -1500,7 +1488,7 @@
     {
       "name": "PhosphoritePickaxe",
       "type": "tool",
-      "sortid": 3,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phosphorite_pickaxe",
@@ -1515,7 +1503,7 @@
     {
       "name": "PhosphoriteAxe",
       "type": "tool",
-      "sortid": 4,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phosphorite_axe",
@@ -1530,7 +1518,7 @@
     {
       "name": "PhosphoriteShovel",
       "type": "tool",
-      "sortid": 5,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phosphorite_shovel",
@@ -1545,7 +1533,7 @@
     {
       "name": "PhosphoriteHoe",
       "type": "tool",
-      "sortid": 6,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phosphorite_hoe",
@@ -1560,7 +1548,7 @@
     {
       "name": "PhosphoriteSword",
       "type": "tool",
-      "sortid": 2,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phosphorite_sword",
@@ -1575,7 +1563,7 @@
     {
       "name": "PhosphoriteSwordCrafting",
       "type": "recipe",
-      "sortid": 137,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phosphorite_sword_crafting",
@@ -1589,7 +1577,7 @@
     {
       "name": "PhosphoriteSmelting",
       "type": "recipe",
-      "sortid": 138,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phosphorite_smelting",
@@ -1603,7 +1591,7 @@
     {
       "name": "PhosphoriteBlasting",
       "type": "recipe",
-      "sortid": 139,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phosphorite_blasting",
@@ -1617,7 +1605,7 @@
     {
       "name": "ToolsPhosphoriteItemTag",
       "type": "tag",
-      "sortid": 140,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tools_phosphorite_item_tag",
@@ -1631,7 +1619,7 @@
     {
       "name": "PhosphoritePickaxeCrafting",
       "type": "recipe",
-      "sortid": 141,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phosphorite_pickaxe_crafting",
@@ -1645,7 +1633,7 @@
     {
       "name": "PhosphoriteShovelCrafting",
       "type": "recipe",
-      "sortid": 142,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phosphorite_shovel_crafting",
@@ -1659,7 +1647,7 @@
     {
       "name": "PhosphoriteAxeCrafting",
       "type": "recipe",
-      "sortid": 143,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phosphorite_axe_crafting",
@@ -1673,7 +1661,7 @@
     {
       "name": "PhosphoriteHoeCrafting",
       "type": "recipe",
-      "sortid": 144,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phosphorite_hoe_crafting",
@@ -1687,7 +1675,7 @@
     {
       "name": "PiruffLog",
       "type": "block",
-      "sortid": 32,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piruff_log",
@@ -1704,7 +1692,7 @@
     {
       "name": "PiruffLeaves",
       "type": "block",
-      "sortid": 24,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piruff_leaves",
@@ -1721,7 +1709,7 @@
     {
       "name": "PiruffWood",
       "type": "block",
-      "sortid": 34,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piruff_wood",
@@ -1738,7 +1726,7 @@
     {
       "name": "PiruffTreeAdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 147,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piruff_tree_additional_generation_condition",
@@ -1771,7 +1759,7 @@
     {
       "name": "PiruffTreeStructureScript",
       "type": "procedure",
-      "sortid": 148,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piruff_tree_structure_script",
@@ -1804,7 +1792,7 @@
     {
       "name": "SmallPiruffTreeStructureScript",
       "type": "procedure",
-      "sortid": 152,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_piruff_tree_structure_script",
@@ -1837,7 +1825,7 @@
     {
       "name": "SmallPiruffTreeAdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 153,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_piruff_tree_additional_generation_condition",
@@ -1898,7 +1886,7 @@
     {
       "name": "TilledSoilUpdateTick",
       "type": "procedure",
-      "sortid": 175,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_update_tick",
@@ -1930,7 +1918,7 @@
     {
       "name": "TilledSoilOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 176,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_on_block_right_clicked",
@@ -1968,24 +1956,9 @@
       "path": "~/Procedures/Blocks/Soil/Tilled Soil"
     },
     {
-      "name": "TilledSoilBlockAdded",
-      "type": "procedure",
-      "sortid": 177,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tilled_soil_block_added",
-      "metadata": {
-        "files": [
-          "src/main/java/net/nwtg/taleofbiomes/procedures/TilledSoilBlockAddedProcedure.java"
-        ],
-        "dependencies": []
-      },
-      "path": "~/Procedures/Blocks/Soil/Tilled Soil"
-    },
-    {
       "name": "TilledSoilW1S0",
       "type": "block",
-      "sortid": 178,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_w_1_s_0",
@@ -2003,7 +1976,7 @@
     {
       "name": "TilledSoilW1S1",
       "type": "block",
-      "sortid": 179,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_w_1_s_1",
@@ -2021,7 +1994,7 @@
     {
       "name": "TilledSoilW1S2",
       "type": "block",
-      "sortid": 180,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_w_1_s_2",
@@ -2039,7 +2012,7 @@
     {
       "name": "TilledSoilW1S3",
       "type": "block",
-      "sortid": 181,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_w_1_s_3",
@@ -2057,7 +2030,7 @@
     {
       "name": "TilledSoilW1S4",
       "type": "block",
-      "sortid": 182,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_w_1_s_4",
@@ -2075,7 +2048,7 @@
     {
       "name": "TilledSoilW2S0",
       "type": "block",
-      "sortid": 183,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_w_2_s_0",
@@ -2093,7 +2066,7 @@
     {
       "name": "TilledSoilW2S1",
       "type": "block",
-      "sortid": 184,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_w_2_s_1",
@@ -2111,7 +2084,7 @@
     {
       "name": "TilledSoilW2S2",
       "type": "block",
-      "sortid": 185,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_w_2_s_2",
@@ -2129,7 +2102,7 @@
     {
       "name": "TilledSoilW2S3",
       "type": "block",
-      "sortid": 186,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_w_2_s_3",
@@ -2147,7 +2120,7 @@
     {
       "name": "TilledSoilW2S4",
       "type": "block",
-      "sortid": 187,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_w_2_s_4",
@@ -2165,7 +2138,7 @@
     {
       "name": "TilledSoilW3S0",
       "type": "block",
-      "sortid": 188,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_w_3_s_0",
@@ -2183,7 +2156,7 @@
     {
       "name": "TilledSoilW3S1",
       "type": "block",
-      "sortid": 189,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_w_3_s_1",
@@ -2201,7 +2174,7 @@
     {
       "name": "TilledSoilW3S2",
       "type": "block",
-      "sortid": 190,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_w_3_s_2",
@@ -2219,7 +2192,7 @@
     {
       "name": "TilledSoilW3S3",
       "type": "block",
-      "sortid": 191,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_w_3_s_3",
@@ -2237,7 +2210,7 @@
     {
       "name": "TilledSoilW3S4",
       "type": "block",
-      "sortid": 192,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_w_3_s_4",
@@ -2255,7 +2228,7 @@
     {
       "name": "TilledSoilW4S0",
       "type": "block",
-      "sortid": 193,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_w_4_s_0",
@@ -2273,7 +2246,7 @@
     {
       "name": "TilledSoilW4S1",
       "type": "block",
-      "sortid": 194,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_w_4_s_1",
@@ -2291,7 +2264,7 @@
     {
       "name": "TilledSoilW4S2",
       "type": "block",
-      "sortid": 195,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_w_4_s_2",
@@ -2309,7 +2282,7 @@
     {
       "name": "TilledSoilW4S3",
       "type": "block",
-      "sortid": 196,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_w_4_s_3",
@@ -2327,7 +2300,7 @@
     {
       "name": "TilledSoilW4S4",
       "type": "block",
-      "sortid": 197,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_w_4_s_4",
@@ -2345,7 +2318,7 @@
     {
       "name": "TilledSoilW0S1",
       "type": "block",
-      "sortid": 198,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_w_0_s_1",
@@ -2363,7 +2336,7 @@
     {
       "name": "TilledSoilW0S2",
       "type": "block",
-      "sortid": 199,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_w_0_s_2",
@@ -2381,7 +2354,7 @@
     {
       "name": "TilledSoilW0S3",
       "type": "block",
-      "sortid": 200,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_w_0_s_3",
@@ -2399,7 +2372,7 @@
     {
       "name": "TilledSoilW0S4",
       "type": "block",
-      "sortid": 201,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_w_0_s_4",
@@ -2417,7 +2390,7 @@
     {
       "name": "TilledSoilUpdateTickCounter",
       "type": "procedure",
-      "sortid": 202,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_update_tick_counter",
@@ -2449,7 +2422,7 @@
     {
       "name": "TilledSoilUpdateTickBlockstates",
       "type": "procedure",
-      "sortid": 203,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_update_tick_blockstates",
@@ -2481,7 +2454,7 @@
     {
       "name": "TilledSoilBlockAddedBase",
       "type": "procedure",
-      "sortid": 204,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilled_soil_block_added_base",
@@ -2513,7 +2486,7 @@
     {
       "name": "ClayBlock",
       "type": "block",
-      "sortid": 31,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clay_block",
@@ -2530,7 +2503,7 @@
     {
       "name": "ClayBlockAdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 205,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clay_block_additional_generation_condition",
@@ -2563,7 +2536,7 @@
     {
       "name": "Clay",
       "type": "item",
-      "sortid": 19,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clay",
@@ -2578,7 +2551,7 @@
     {
       "name": "ClayBlockCraftingRecipe",
       "type": "recipe",
-      "sortid": 206,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clay_block_crafting_recipe",
@@ -2592,7 +2565,7 @@
     {
       "name": "Bricks",
       "type": "block",
-      "sortid": 55,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bricks",
@@ -2609,7 +2582,7 @@
     {
       "name": "LargeBricks",
       "type": "block",
-      "sortid": 56,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_bricks",
@@ -2624,47 +2597,9 @@
       "path": "~/Blocks/Rock/Large Bricks"
     },
     {
-      "name": "LargeBirckStairs",
-      "type": "block",
-      "sortid": 58,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "large_birck_stairs",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/tale_of_biomes/blockstates/large_birck_stairs.json",
-          "src/main/resources/assets/tale_of_biomes/models/block/large_birck_stairs.json",
-          "src/main/resources/assets/tale_of_biomes/models/block/large_birck_stairs_inner.json",
-          "src/main/resources/assets/tale_of_biomes/models/item/large_birck_stairs.json",
-          "src/main/java/net/nwtg/taleofbiomes/block/LargeBirckStairsBlock.java",
-          "src/main/resources/assets/tale_of_biomes/models/block/large_birck_stairs_outer.json"
-        ]
-      },
-      "path": "~/Blocks/Rock/Large Bricks"
-    },
-    {
-      "name": "LargeBrickSlabs",
-      "type": "block",
-      "sortid": 60,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "large_brick_slabs",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/tale_of_biomes/blockstates/large_brick_slabs.json",
-          "src/main/resources/assets/tale_of_biomes/models/block/large_brick_slabs.json",
-          "src/main/resources/assets/tale_of_biomes/models/block/large_brick_slabs_top.json",
-          "src/main/resources/assets/tale_of_biomes/models/block/large_brick_slabs_full.json",
-          "src/main/resources/assets/tale_of_biomes/models/item/large_brick_slabs.json",
-          "src/main/java/net/nwtg/taleofbiomes/block/LargeBrickSlabsBlock.java"
-        ]
-      },
-      "path": "~/Blocks/Rock/Large Bricks"
-    },
-    {
       "name": "LargeBrickWall",
       "type": "block",
-      "sortid": 62,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_brick_wall",
@@ -2684,7 +2619,7 @@
     {
       "name": "LargeBrickPressurePlate",
       "type": "block",
-      "sortid": 64,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_brick_pressure_plate",
@@ -2702,7 +2637,7 @@
     {
       "name": "LargeBrickButton",
       "type": "block",
-      "sortid": 66,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_brick_button",
@@ -2721,7 +2656,7 @@
     {
       "name": "BrickStairs",
       "type": "block",
-      "sortid": 57,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brick_stairs",
@@ -2740,7 +2675,7 @@
     {
       "name": "BrickSlab",
       "type": "block",
-      "sortid": 59,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brick_slab",
@@ -2759,7 +2694,7 @@
     {
       "name": "BrickWall",
       "type": "block",
-      "sortid": 61,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brick_wall",
@@ -2779,7 +2714,7 @@
     {
       "name": "BrickPressurePlate",
       "type": "block",
-      "sortid": 63,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brick_pressure_plate",
@@ -2797,7 +2732,7 @@
     {
       "name": "BrickButton",
       "type": "block",
-      "sortid": 65,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brick_button",
@@ -2816,7 +2751,7 @@
     {
       "name": "BrickStairsCraftingRecipe",
       "type": "recipe",
-      "sortid": 207,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brick_stairs_crafting_recipe",
@@ -2830,7 +2765,7 @@
     {
       "name": "BrickStairsStoneCuttingRecipe",
       "type": "recipe",
-      "sortid": 208,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brick_stairs_stone_cutting_recipe",
@@ -2844,7 +2779,7 @@
     {
       "name": "BrickSlabCraftingRecipe",
       "type": "recipe",
-      "sortid": 209,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brick_slab_crafting_recipe",
@@ -2858,7 +2793,7 @@
     {
       "name": "BrickSlabStoneCuttingRecipe",
       "type": "recipe",
-      "sortid": 210,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brick_slab_stone_cutting_recipe",
@@ -2872,7 +2807,7 @@
     {
       "name": "BrickWallCraftingRecipe",
       "type": "recipe",
-      "sortid": 211,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brick_wall_crafting_recipe",
@@ -2886,7 +2821,7 @@
     {
       "name": "BrickWallStoneCuttingRecipe",
       "type": "recipe",
-      "sortid": 212,
+      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brick_wall_stone_cutting_recipe",
@@ -2900,7 +2835,7 @@
     {
       "name": "BrickPressurePlateCraftingRecipe",
       "type": "recipe",
-      "sortid": 213,
+      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brick_pressure_plate_crafting_recipe",
@@ -2914,7 +2849,7 @@
     {
       "name": "BrickButtonCraftingRecipe",
       "type": "recipe",
-      "sortid": 214,
+      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brick_button_crafting_recipe",
@@ -2928,7 +2863,7 @@
     {
       "name": "LargeBrickStairsCraftingRecipe",
       "type": "recipe",
-      "sortid": 215,
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_brick_stairs_crafting_recipe",
@@ -2942,7 +2877,7 @@
     {
       "name": "LargeBrickStairsStoneCuttingRecipe",
       "type": "recipe",
-      "sortid": 216,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_brick_stairs_stone_cutting_recipe",
@@ -2956,7 +2891,7 @@
     {
       "name": "LargeBrickSlabsCraftingRecipe",
       "type": "recipe",
-      "sortid": 217,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_brick_slabs_crafting_recipe",
@@ -2970,7 +2905,7 @@
     {
       "name": "LargeBrickSlabsStoneCuttingRecipe",
       "type": "recipe",
-      "sortid": 218,
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_brick_slabs_stone_cutting_recipe",
@@ -2984,7 +2919,7 @@
     {
       "name": "LargeBrickWallCraftingRecipe",
       "type": "recipe",
-      "sortid": 219,
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_brick_wall_crafting_recipe",
@@ -2998,7 +2933,7 @@
     {
       "name": "LargeBrickWallStoneCuttingRecipe",
       "type": "recipe",
-      "sortid": 220,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_brick_wall_stone_cutting_recipe",
@@ -3012,7 +2947,7 @@
     {
       "name": "LargeBrickPressurePlateCraftingRecipe",
       "type": "recipe",
-      "sortid": 221,
+      "sortid": 205,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_brick_pressure_plate_crafting_recipe",
@@ -3026,7 +2961,7 @@
     {
       "name": "LargeBrickButtonCraftingRecipe",
       "type": "recipe",
-      "sortid": 222,
+      "sortid": 206,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_brick_button_crafting_recipe",
@@ -3040,7 +2975,7 @@
     {
       "name": "SoilMixtureSandItem",
       "type": "tag",
-      "sortid": 224,
+      "sortid": 207,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soil_mixture_sand_item",
@@ -3054,7 +2989,7 @@
     {
       "name": "SoilMixtureClayItem",
       "type": "tag",
-      "sortid": 225,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soil_mixture_clay_item",
@@ -3068,7 +3003,7 @@
     {
       "name": "BlocksTallGrass0",
       "type": "loottable",
-      "sortid": 227,
+      "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blocks_tall_grass_0",
@@ -3082,7 +3017,7 @@
     {
       "name": "BlocksTallGrass1",
       "type": "loottable",
-      "sortid": 228,
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blocks_tall_grass_1",
@@ -3096,7 +3031,7 @@
     {
       "name": "BlocksTallGrass2",
       "type": "loottable",
-      "sortid": 229,
+      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blocks_tall_grass_2",
@@ -3110,7 +3045,7 @@
     {
       "name": "SoilPhItem",
       "type": "tag",
-      "sortid": 230,
+      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soil_ph_item",
@@ -3124,7 +3059,7 @@
     {
       "name": "SoilFertilizerItem",
       "type": "tag",
-      "sortid": 231,
+      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soil_fertilizer_item",
@@ -3138,7 +3073,7 @@
     {
       "name": "Limestone",
       "type": "block",
-      "sortid": 45,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "limestone",
@@ -3158,7 +3093,7 @@
     {
       "name": "CobbledLimestone",
       "type": "block",
-      "sortid": 46,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobbled_limestone",
@@ -3175,7 +3110,7 @@
     {
       "name": "QuicklimeBlock",
       "type": "block",
-      "sortid": 47,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quicklime_block",
@@ -3192,7 +3127,7 @@
     {
       "name": "Quicklime",
       "type": "item",
-      "sortid": 20,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quicklime",
@@ -3207,7 +3142,7 @@
     {
       "name": "QuicklimeBlockCrafting",
       "type": "recipe",
-      "sortid": 232,
+      "sortid": 214,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quicklime_block_crafting",
@@ -3221,7 +3156,7 @@
     {
       "name": "QuicklimeItems",
       "type": "tag",
-      "sortid": 233,
+      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quicklime_items",
@@ -3235,7 +3170,7 @@
     {
       "name": "QuicklimeFuelBlocks",
       "type": "tag",
-      "sortid": 234,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quicklime_fuel_blocks",
@@ -3249,7 +3184,7 @@
     {
       "name": "KilnFurnace",
       "type": "block",
-      "sortid": 54,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kiln_furnace",
@@ -3267,7 +3202,7 @@
     {
       "name": "KilnFurnaceOn",
       "type": "block",
-      "sortid": 235,
+      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kiln_furnace_on",
@@ -3285,7 +3220,7 @@
     {
       "name": "KilnLadder",
       "type": "block",
-      "sortid": 236,
+      "sortid": 218,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kiln_ladder",
@@ -3303,7 +3238,7 @@
     {
       "name": "KilnScreen",
       "type": "gui",
-      "sortid": 237,
+      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kiln_screen",
@@ -3319,7 +3254,7 @@
     {
       "name": "KilnFurnaceBlockIsPlacedBy",
       "type": "procedure",
-      "sortid": 240,
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kiln_furnace_block_is_placed_by",
@@ -3359,7 +3294,7 @@
     {
       "name": "BuildKilnScript",
       "type": "procedure",
-      "sortid": 241,
+      "sortid": 221,
       "compiles": true,
       "locked_code": false,
       "registry_name": "build_kiln_script",
@@ -3395,7 +3330,7 @@
     {
       "name": "BreakKilnScript",
       "type": "procedure",
-      "sortid": 242,
+      "sortid": 222,
       "compiles": true,
       "locked_code": false,
       "registry_name": "break_kiln_script",
@@ -3431,7 +3366,7 @@
     {
       "name": "KilnFurnaceOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 243,
+      "sortid": 223,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kiln_furnace_on_block_right_clicked",
@@ -3463,7 +3398,7 @@
     {
       "name": "KilnScreenWhileThisGUIIsOpenTick",
       "type": "procedure",
-      "sortid": 244,
+      "sortid": 224,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kiln_screen_while_this_gui_is_open_tick",
@@ -3483,7 +3418,7 @@
     {
       "name": "KilnScreenItemTakenFromSlot9",
       "type": "procedure",
-      "sortid": 245,
+      "sortid": 225,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kiln_screen_item_taken_from_slot_9",
@@ -3507,7 +3442,7 @@
     {
       "name": "GenerateKilnRecipeFile",
       "type": "procedure",
-      "sortid": 246,
+      "sortid": 226,
       "compiles": true,
       "locked_code": false,
       "registry_name": "generate_kiln_recipe_file",
@@ -3527,7 +3462,7 @@
     {
       "name": "KlinScreenToggleBlockOnOff",
       "type": "procedure",
-      "sortid": 247,
+      "sortid": 227,
       "compiles": true,
       "locked_code": false,
       "registry_name": "klin_screen_toggle_block_on_off",
@@ -3551,7 +3486,7 @@
     {
       "name": "KilnScreenLightOnCondition",
       "type": "procedure",
-      "sortid": 248,
+      "sortid": 228,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kiln_screen_light_on_condition",
@@ -3576,7 +3511,7 @@
     {
       "name": "KilnScreenLightOffCondition",
       "type": "procedure",
-      "sortid": 249,
+      "sortid": 229,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kiln_screen_light_off_condition",
@@ -3601,7 +3536,7 @@
     {
       "name": "KilnBlockCornerBottom",
       "type": "block",
-      "sortid": 250,
+      "sortid": 230,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kiln_block_corner_bottom",
@@ -3619,7 +3554,7 @@
     {
       "name": "KilnBlockCornerCenter",
       "type": "block",
-      "sortid": 251,
+      "sortid": 231,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kiln_block_corner_center",
@@ -3637,7 +3572,7 @@
     {
       "name": "KilnBlockCornerTop",
       "type": "block",
-      "sortid": 252,
+      "sortid": 232,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kiln_block_corner_top",
@@ -3655,7 +3590,7 @@
     {
       "name": "KilnBlockMiddleBottom",
       "type": "block",
-      "sortid": 253,
+      "sortid": 233,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kiln_block_middle_bottom",
@@ -3673,7 +3608,7 @@
     {
       "name": "KilnBlockMiddleCenter",
       "type": "block",
-      "sortid": 254,
+      "sortid": 234,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kiln_block_middle_center",
@@ -3691,7 +3626,7 @@
     {
       "name": "KilnBlockMiddleTop",
       "type": "block",
-      "sortid": 255,
+      "sortid": 235,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kiln_block_middle_top",
@@ -3709,7 +3644,7 @@
     {
       "name": "KilnBlockFoundation",
       "type": "block",
-      "sortid": 256,
+      "sortid": 236,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kiln_block_foundation",
@@ -3727,7 +3662,7 @@
     {
       "name": "BuildKilnScriptClearArea",
       "type": "procedure",
-      "sortid": 257,
+      "sortid": 237,
       "compiles": true,
       "locked_code": false,
       "registry_name": "build_kiln_script_clear_area",
@@ -3763,7 +3698,7 @@
     {
       "name": "BuildKilnScriptFoundation",
       "type": "procedure",
-      "sortid": 258,
+      "sortid": 238,
       "compiles": true,
       "locked_code": false,
       "registry_name": "build_kiln_script_foundation",
@@ -3795,7 +3730,7 @@
     {
       "name": "BuildKilnScriptCorners",
       "type": "procedure",
-      "sortid": 259,
+      "sortid": 239,
       "compiles": true,
       "locked_code": false,
       "registry_name": "build_kiln_script_corners",
@@ -3827,7 +3762,7 @@
     {
       "name": "BuildKilnScriptWalls",
       "type": "procedure",
-      "sortid": 260,
+      "sortid": 240,
       "compiles": true,
       "locked_code": false,
       "registry_name": "build_kiln_script_walls",
@@ -3859,7 +3794,7 @@
     {
       "name": "BuildKilnScriptLadder",
       "type": "procedure",
-      "sortid": 261,
+      "sortid": 241,
       "compiles": true,
       "locked_code": false,
       "registry_name": "build_kiln_script_ladder",
@@ -3891,7 +3826,7 @@
     {
       "name": "BuildKilnScriptGrouping",
       "type": "procedure",
-      "sortid": 262,
+      "sortid": 242,
       "compiles": true,
       "locked_code": false,
       "registry_name": "build_kiln_script_grouping",
@@ -3923,7 +3858,7 @@
     {
       "name": "KilnFurnaceUpdateTick",
       "type": "procedure",
-      "sortid": 263,
+      "sortid": 243,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kiln_furnace_update_tick",
@@ -3959,7 +3894,7 @@
     {
       "name": "KilnFurnaceUpdateTickCrafting",
       "type": "procedure",
-      "sortid": 264,
+      "sortid": 244,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kiln_furnace_update_tick_crafting",
@@ -3991,7 +3926,7 @@
     {
       "name": "RiceCropBlockValidPlacementCondition",
       "type": "procedure",
-      "sortid": 265,
+      "sortid": 245,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rice_crop_block_valid_placement_condition",
@@ -4024,7 +3959,7 @@
     {
       "name": "RiceCropUpdateTick",
       "type": "procedure",
-      "sortid": 266,
+      "sortid": 246,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rice_crop_update_tick",
@@ -4060,7 +3995,7 @@
     {
       "name": "RiceCrop0",
       "type": "block",
-      "sortid": 267,
+      "sortid": 247,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rice_crop_0",
@@ -4078,7 +4013,7 @@
     {
       "name": "RiceCrop1",
       "type": "block",
-      "sortid": 268,
+      "sortid": 248,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rice_crop_1",
@@ -4096,7 +4031,7 @@
     {
       "name": "RiceCrop2",
       "type": "block",
-      "sortid": 269,
+      "sortid": 249,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rice_crop_2",
@@ -4114,7 +4049,7 @@
     {
       "name": "RiceCrop3",
       "type": "block",
-      "sortid": 270,
+      "sortid": 250,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rice_crop_3",
@@ -4132,7 +4067,7 @@
     {
       "name": "RiceCrop4",
       "type": "block",
-      "sortid": 271,
+      "sortid": 251,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rice_crop_4",
@@ -4150,7 +4085,7 @@
     {
       "name": "RiceCrop5",
       "type": "block",
-      "sortid": 272,
+      "sortid": 252,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rice_crop_5",
@@ -4168,7 +4103,7 @@
     {
       "name": "RiceCrop6",
       "type": "block",
-      "sortid": 273,
+      "sortid": 253,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rice_crop_6",
@@ -4186,7 +4121,7 @@
     {
       "name": "RiceCrop7",
       "type": "block",
-      "sortid": 274,
+      "sortid": 254,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rice_crop_7",
@@ -4204,7 +4139,7 @@
     {
       "name": "CropsLightLevelCondition",
       "type": "procedure",
-      "sortid": 275,
+      "sortid": 255,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crops_light_level_condition",
@@ -4237,7 +4172,7 @@
     {
       "name": "PlainsBiomes",
       "type": "tag",
-      "sortid": 276,
+      "sortid": 256,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plains_biomes",
@@ -4251,7 +4186,7 @@
     {
       "name": "RiceCropBoneMealSuccessCondition",
       "type": "procedure",
-      "sortid": 277,
+      "sortid": 257,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rice_crop_bone_meal_success_condition",
@@ -4272,7 +4207,7 @@
     {
       "name": "RiceCropOnBoneMealSuccess",
       "type": "procedure",
-      "sortid": 278,
+      "sortid": 258,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rice_crop_on_bone_meal_success",
@@ -4308,7 +4243,7 @@
     {
       "name": "RiceSeedsRightclickedOnBlock",
       "type": "procedure",
-      "sortid": 279,
+      "sortid": 259,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rice_seeds_rightclicked_on_block",
@@ -4352,7 +4287,7 @@
     {
       "name": "RiceSeeds",
       "type": "item",
-      "sortid": 7,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rice_seeds",
@@ -4367,7 +4302,7 @@
     {
       "name": "PlayerSleepsInABed",
       "type": "procedure",
-      "sortid": 280,
+      "sortid": 260,
       "compiles": true,
       "locked_code": false,
       "registry_name": "player_sleeps_in_a_bed",
@@ -4403,7 +4338,7 @@
     {
       "name": "RiceCrop0Drops",
       "type": "loottable",
-      "sortid": 281,
+      "sortid": 261,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rice_crop_0_drops",
@@ -4417,7 +4352,7 @@
     {
       "name": "RiceCrop1Drops",
       "type": "loottable",
-      "sortid": 282,
+      "sortid": 262,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rice_crop_1_drops",
@@ -4431,7 +4366,7 @@
     {
       "name": "RiceCrop2Drops",
       "type": "loottable",
-      "sortid": 283,
+      "sortid": 263,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rice_crop_2_drops",
@@ -4445,7 +4380,7 @@
     {
       "name": "RiceCrop3Drops",
       "type": "loottable",
-      "sortid": 284,
+      "sortid": 264,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rice_crop_3_drops",
@@ -4459,7 +4394,7 @@
     {
       "name": "RiceCrop4Drops",
       "type": "loottable",
-      "sortid": 285,
+      "sortid": 265,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rice_crop_4_drops",
@@ -4473,7 +4408,7 @@
     {
       "name": "RiceCrop5BlockDestroyed",
       "type": "procedure",
-      "sortid": 286,
+      "sortid": 266,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rice_crop_5_block_destroyed",
@@ -4505,7 +4440,7 @@
     {
       "name": "RiceCrop6BlockDestroyed",
       "type": "procedure",
-      "sortid": 287,
+      "sortid": 267,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rice_crop_6_block_destroyed",
@@ -4537,7 +4472,7 @@
     {
       "name": "IncreaseTilledSoilWeeds",
       "type": "procedure",
-      "sortid": 288,
+      "sortid": 268,
       "compiles": true,
       "locked_code": false,
       "registry_name": "increase_tilled_soil_weeds",
@@ -4569,7 +4504,7 @@
     {
       "name": "IncreaseTilledSoilRocks",
       "type": "procedure",
-      "sortid": 289,
+      "sortid": 269,
       "compiles": true,
       "locked_code": false,
       "registry_name": "increase_tilled_soil_rocks",
@@ -4601,7 +4536,7 @@
     {
       "name": "StrippedPiruffLog",
       "type": "block",
-      "sortid": 33,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_piruff_log",
@@ -4618,7 +4553,7 @@
     {
       "name": "StrippedPiruffWood",
       "type": "block",
-      "sortid": 35,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_piruff_wood",
@@ -4635,7 +4570,7 @@
     {
       "name": "PiruffPlanks",
       "type": "block",
-      "sortid": 36,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piruff_planks",
@@ -4652,7 +4587,7 @@
     {
       "name": "PiruffDoor",
       "type": "block",
-      "sortid": 41,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piruff_door",
@@ -4676,7 +4611,7 @@
     {
       "name": "PiruffTrapdoor",
       "type": "block",
-      "sortid": 42,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piruff_trapdoor",
@@ -4695,7 +4630,7 @@
     {
       "name": "PiruffFence",
       "type": "block",
-      "sortid": 39,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piruff_fence",
@@ -4714,7 +4649,7 @@
     {
       "name": "PiruffFenceGate",
       "type": "block",
-      "sortid": 40,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piruff_fence_gate",
@@ -4734,7 +4669,7 @@
     {
       "name": "PiruffButton",
       "type": "block",
-      "sortid": 44,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piruff_button",
@@ -4753,7 +4688,7 @@
     {
       "name": "PiruffPressurePlate",
       "type": "block",
-      "sortid": 43,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piruff_pressure_plate",
@@ -4771,7 +4706,7 @@
     {
       "name": "PiruffStairs",
       "type": "block",
-      "sortid": 37,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piruff_stairs",
@@ -4790,7 +4725,7 @@
     {
       "name": "PiruffSlab",
       "type": "block",
-      "sortid": 38,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piruff_slab",
@@ -4809,7 +4744,7 @@
     {
       "name": "CraftingPiruffPlanks",
       "type": "recipe",
-      "sortid": 292,
+      "sortid": 270,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crafting_piruff_planks",
@@ -4823,7 +4758,7 @@
     {
       "name": "ItemTagLogsPiruff",
       "type": "tag",
-      "sortid": 293,
+      "sortid": 271,
       "compiles": true,
       "locked_code": false,
       "registry_name": "item_tag_logs_piruff",
@@ -4837,7 +4772,7 @@
     {
       "name": "CraftingPiruffButton",
       "type": "recipe",
-      "sortid": 294,
+      "sortid": 272,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crafting_piruff_button",
@@ -4851,7 +4786,7 @@
     {
       "name": "CraftingPiruffStairs",
       "type": "recipe",
-      "sortid": 295,
+      "sortid": 273,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crafting_piruff_stairs",
@@ -4865,7 +4800,7 @@
     {
       "name": "CraftingPiruffSlab",
       "type": "recipe",
-      "sortid": 296,
+      "sortid": 274,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crafting_piruff_slab",
@@ -4879,7 +4814,7 @@
     {
       "name": "CraftingPiruffDoor",
       "type": "recipe",
-      "sortid": 297,
+      "sortid": 275,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crafting_piruff_door",
@@ -4893,7 +4828,7 @@
     {
       "name": "CraftingPiruffPressurePlate",
       "type": "recipe",
-      "sortid": 298,
+      "sortid": 276,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crafting_piruff_pressure_plate",
@@ -4907,7 +4842,7 @@
     {
       "name": "CraftingPiruffTrapdoor",
       "type": "recipe",
-      "sortid": 299,
+      "sortid": 277,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crafting_piruff_trapdoor",
@@ -4921,7 +4856,7 @@
     {
       "name": "CraftingPiruffFence",
       "type": "recipe",
-      "sortid": 300,
+      "sortid": 278,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crafting_piruff_fence",
@@ -4935,7 +4870,7 @@
     {
       "name": "CraftingPiruffFenceGate",
       "type": "recipe",
-      "sortid": 301,
+      "sortid": 279,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crafting_piruff_fence_gate",
@@ -4949,7 +4884,7 @@
     {
       "name": "FuelPiruffLog",
       "type": "itemextension",
-      "sortid": 302,
+      "sortid": 280,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuel_piruff_log",
@@ -4961,7 +4896,7 @@
     {
       "name": "FuelPiruffWood",
       "type": "itemextension",
-      "sortid": 303,
+      "sortid": 281,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuel_piruff_wood",
@@ -4973,7 +4908,7 @@
     {
       "name": "FuelStrippedPiruffLog",
       "type": "itemextension",
-      "sortid": 304,
+      "sortid": 282,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuel_stripped_piruff_log",
@@ -4985,7 +4920,7 @@
     {
       "name": "FuelStrippedPiruffWood",
       "type": "itemextension",
-      "sortid": 305,
+      "sortid": 283,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuel_stripped_piruff_wood",
@@ -4997,7 +4932,7 @@
     {
       "name": "FuelPiruffPlanks",
       "type": "itemextension",
-      "sortid": 306,
+      "sortid": 284,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuel_piruff_planks",
@@ -5009,7 +4944,7 @@
     {
       "name": "FuelPiruffSlabs",
       "type": "itemextension",
-      "sortid": 307,
+      "sortid": 285,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuel_piruff_slabs",
@@ -5021,7 +4956,7 @@
     {
       "name": "FuelPiruffStairs",
       "type": "itemextension",
-      "sortid": 308,
+      "sortid": 286,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuel_piruff_stairs",
@@ -5033,7 +4968,7 @@
     {
       "name": "FuelPiruffPressurePlate",
       "type": "itemextension",
-      "sortid": 309,
+      "sortid": 287,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuel_piruff_pressure_plate",
@@ -5045,7 +4980,7 @@
     {
       "name": "FuelPiruffButton",
       "type": "itemextension",
-      "sortid": 310,
+      "sortid": 288,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuel_piruff_button",
@@ -5057,7 +4992,7 @@
     {
       "name": "FuelPiruffTrapdoor",
       "type": "itemextension",
-      "sortid": 311,
+      "sortid": 289,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuel_piruff_trapdoor",
@@ -5069,7 +5004,7 @@
     {
       "name": "FuelPiruffFence",
       "type": "itemextension",
-      "sortid": 312,
+      "sortid": 290,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuel_piruff_fence",
@@ -5081,7 +5016,7 @@
     {
       "name": "FuelPiruffFenceGate",
       "type": "itemextension",
-      "sortid": 313,
+      "sortid": 291,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuel_piruff_fence_gate",
@@ -5093,7 +5028,7 @@
     {
       "name": "FuelPiruffDoor",
       "type": "itemextension",
-      "sortid": 314,
+      "sortid": 292,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuel_piruff_door",
@@ -5105,7 +5040,7 @@
     {
       "name": "ComposterPiruffLeaves",
       "type": "itemextension",
-      "sortid": 315,
+      "sortid": 293,
       "compiles": true,
       "locked_code": false,
       "registry_name": "composter_piruff_leaves",
@@ -5117,7 +5052,7 @@
     {
       "name": "HayGrassBlockValidPlacementCondition",
       "type": "procedure",
-      "sortid": 319,
+      "sortid": 294,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hay_grass_block_valid_placement_condition",
@@ -5150,7 +5085,7 @@
     {
       "name": "HayGrassUpdateTick",
       "type": "procedure",
-      "sortid": 320,
+      "sortid": 295,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hay_grass_update_tick",
@@ -5182,7 +5117,7 @@
     {
       "name": "HayGrassBlockAdded",
       "type": "procedure",
-      "sortid": 321,
+      "sortid": 296,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hay_grass_block_added",
@@ -5214,7 +5149,7 @@
     {
       "name": "HayGrass",
       "type": "block",
-      "sortid": 16,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hay_grass",
@@ -5232,7 +5167,7 @@
     {
       "name": "HayStraw",
       "type": "block",
-      "sortid": 17,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hay_straw",
@@ -5250,7 +5185,7 @@
     {
       "name": "GrassPlantDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 322,
+      "sortid": 297,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grass_plant_destroyed_by_player",
@@ -5290,7 +5225,7 @@
     {
       "name": "BlockTagTallGrass",
       "type": "tag",
-      "sortid": 323,
+      "sortid": 298,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_tag_tall_grass",
@@ -5304,7 +5239,7 @@
     {
       "name": "GrassBlockSpreadingMechanics",
       "type": "procedure",
-      "sortid": 324,
+      "sortid": 299,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grass_block_spreading_mechanics",
@@ -5336,7 +5271,7 @@
     {
       "name": "BlockTagGrassBlocks",
       "type": "tag",
-      "sortid": 325,
+      "sortid": 300,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_tag_grass_blocks",
@@ -5350,7 +5285,7 @@
     {
       "name": "GrassBlockPlantGrowthMechanics",
       "type": "procedure",
-      "sortid": 326,
+      "sortid": 301,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grass_block_plant_growth_mechanics",
@@ -5382,7 +5317,7 @@
     {
       "name": "BlockTagGrassPlants",
       "type": "tag",
-      "sortid": 327,
+      "sortid": 302,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_tag_grass_plants",
@@ -5396,7 +5331,7 @@
     {
       "name": "BiomeTagGrassGrowthDense",
       "type": "tag",
-      "sortid": 328,
+      "sortid": 303,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biome_tag_grass_growth_dense",
@@ -5410,7 +5345,7 @@
     {
       "name": "BiomeTagGrassGrowthModerate",
       "type": "tag",
-      "sortid": 329,
+      "sortid": 304,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biome_tag_grass_growth_moderate",
@@ -5424,7 +5359,7 @@
     {
       "name": "BiomeTagGrassGrowthLight",
       "type": "tag",
-      "sortid": 330,
+      "sortid": 305,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biome_tag_grass_growth_light",
@@ -5438,7 +5373,7 @@
     {
       "name": "Straw",
       "type": "item",
-      "sortid": 18,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "straw",
@@ -5453,7 +5388,7 @@
     {
       "name": "HayStawDrops",
       "type": "loottable",
-      "sortid": 331,
+      "sortid": 306,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hay_staw_drops",
@@ -5467,7 +5402,7 @@
     {
       "name": "HayStrawBlockBroken",
       "type": "procedure",
-      "sortid": 332,
+      "sortid": 307,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hay_straw_block_broken",
@@ -5491,7 +5426,7 @@
     {
       "name": "ThatchBlock",
       "type": "block",
-      "sortid": 333,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thatch_block",
@@ -5508,7 +5443,7 @@
     {
       "name": "ThatchStairs",
       "type": "block",
-      "sortid": 334,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thatch_stairs",
@@ -5527,7 +5462,7 @@
     {
       "name": "ThatchSlab",
       "type": "block",
-      "sortid": 335,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thatch_slab",
@@ -5546,7 +5481,7 @@
     {
       "name": "IvyShrubPlant1Feature",
       "type": "feature",
-      "sortid": 336,
+      "sortid": 308,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ivy_shrub_plant_1_feature",
@@ -5564,7 +5499,7 @@
     {
       "name": "IvyShrubPlant2Feature",
       "type": "feature",
-      "sortid": 337,
+      "sortid": 309,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ivy_shrub_plant_2_feature",
@@ -5582,7 +5517,7 @@
     {
       "name": "RoseShrubPlant1Feature",
       "type": "feature",
-      "sortid": 338,
+      "sortid": 310,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rose_shrub_plant_1_feature",
@@ -5600,7 +5535,7 @@
     {
       "name": "RoseShrubPlant2Feature",
       "type": "feature",
-      "sortid": 339,
+      "sortid": 311,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rose_shrub_plant_2_feature",
@@ -5618,7 +5553,7 @@
     {
       "name": "PiruffTreeEastFeature",
       "type": "feature",
-      "sortid": 342,
+      "sortid": 312,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piruff_tree_east_feature",
@@ -5636,7 +5571,7 @@
     {
       "name": "PiruffTreeNorthFeature",
       "type": "feature",
-      "sortid": 343,
+      "sortid": 313,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piruff_tree_north_feature",
@@ -5654,7 +5589,7 @@
     {
       "name": "PiruffTreeSouthFeature",
       "type": "feature",
-      "sortid": 344,
+      "sortid": 314,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piruff_tree_south_feature",
@@ -5672,7 +5607,7 @@
     {
       "name": "PiruffTreeWestFeature",
       "type": "feature",
-      "sortid": 345,
+      "sortid": 315,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piruff_tree_west_feature",
@@ -5690,7 +5625,7 @@
     {
       "name": "SmallPiruffTreeEastFeature",
       "type": "feature",
-      "sortid": 346,
+      "sortid": 316,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_piruff_tree_east_feature",
@@ -5708,7 +5643,7 @@
     {
       "name": "SmallPiruffTreeNorthFeature",
       "type": "feature",
-      "sortid": 347,
+      "sortid": 317,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_piruff_tree_north_feature",
@@ -5726,7 +5661,7 @@
     {
       "name": "SmallPiruffTreeSouthFeature",
       "type": "feature",
-      "sortid": 348,
+      "sortid": 318,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_piruff_tree_south_feature",
@@ -5744,7 +5679,7 @@
     {
       "name": "SmallPiruffTreeWestFeature",
       "type": "feature",
-      "sortid": 349,
+      "sortid": 319,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_piruff_tree_west_feature",
@@ -5762,7 +5697,7 @@
     {
       "name": "PiruffTreeWestWoodsFeature",
       "type": "feature",
-      "sortid": 350,
+      "sortid": 320,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piruff_tree_west_woods_feature",
@@ -5780,7 +5715,7 @@
     {
       "name": "PiruffTreeSouthWoodsFeature",
       "type": "feature",
-      "sortid": 351,
+      "sortid": 321,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piruff_tree_south_woods_feature",
@@ -5798,7 +5733,7 @@
     {
       "name": "PiruffTreeNorthWoodsFeature",
       "type": "feature",
-      "sortid": 352,
+      "sortid": 322,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piruff_tree_north_woods_feature",
@@ -5816,7 +5751,7 @@
     {
       "name": "PiruffTreeEastWoodsFeature",
       "type": "feature",
-      "sortid": 353,
+      "sortid": 323,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piruff_tree_east_woods_feature",
@@ -5834,7 +5769,7 @@
     {
       "name": "SmallPiruffTreeEastWoodsFeature",
       "type": "feature",
-      "sortid": 354,
+      "sortid": 324,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_piruff_tree_east_woods_feature",
@@ -5852,7 +5787,7 @@
     {
       "name": "SmallPiruffTreeNorthWoodsFeature",
       "type": "feature",
-      "sortid": 355,
+      "sortid": 325,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_piruff_tree_north_woods_feature",
@@ -5870,7 +5805,7 @@
     {
       "name": "SmallPiruffTreeSouthWoodsFeature",
       "type": "feature",
-      "sortid": 356,
+      "sortid": 326,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_piruff_tree_south_woods_feature",
@@ -5888,7 +5823,7 @@
     {
       "name": "SmallPiruffTreeWestWoodsFeature",
       "type": "feature",
-      "sortid": 357,
+      "sortid": 327,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_piruff_tree_west_woods_feature",
@@ -5906,7 +5841,7 @@
     {
       "name": "SmallPiruffTreeEastForestFeature",
       "type": "feature",
-      "sortid": 358,
+      "sortid": 328,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_piruff_tree_east_forest_feature",
@@ -5924,7 +5859,7 @@
     {
       "name": "SmallPiruffTreeNorthForestFeature",
       "type": "feature",
-      "sortid": 359,
+      "sortid": 329,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_piruff_tree_north_forest_feature",
@@ -5942,7 +5877,7 @@
     {
       "name": "SmallPiruffTreeSouthForestFeature",
       "type": "feature",
-      "sortid": 360,
+      "sortid": 330,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_piruff_tree_south_forest_feature",
@@ -5960,7 +5895,7 @@
     {
       "name": "SmallPiruffTreeWestForestFeature",
       "type": "feature",
-      "sortid": 361,
+      "sortid": 331,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_piruff_tree_west_forest_feature",
@@ -5978,7 +5913,7 @@
     {
       "name": "ClayBlockFeature",
       "type": "feature",
-      "sortid": 362,
+      "sortid": 332,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clay_block_feature",
@@ -5995,7 +5930,7 @@
     {
       "name": "BiomeTagEldenmoor",
       "type": "tag",
-      "sortid": 377,
+      "sortid": 333,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biome_tag_eldenmoor",
@@ -6009,7 +5944,7 @@
     {
       "name": "BiomeTagEldenmoorPlains",
       "type": "tag",
-      "sortid": 378,
+      "sortid": 334,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biome_tag_eldenmoor_plains",
@@ -6023,7 +5958,7 @@
     {
       "name": "BiomeTagEldenmoorPiruff",
       "type": "tag",
-      "sortid": 379,
+      "sortid": 335,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biome_tag_eldenmoor_piruff",
@@ -6037,7 +5972,7 @@
     {
       "name": "BlockTagCliffReplaceable",
       "type": "tag",
-      "sortid": 380,
+      "sortid": 336,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_tag_cliff_replaceable",
@@ -6051,7 +5986,7 @@
     {
       "name": "BlockTagCliffNonSpawnable",
       "type": "tag",
-      "sortid": 386,
+      "sortid": 337,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_tag_cliff_non_spawnable",
@@ -6065,7 +6000,7 @@
     {
       "name": "BlockTagCliffSpawnable",
       "type": "tag",
-      "sortid": 387,
+      "sortid": 338,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_tag_cliff_spawnable",
@@ -6079,7 +6014,7 @@
     {
       "name": "DenseTallGrassGenerationBiomeFeature1",
       "type": "feature",
-      "sortid": 390,
+      "sortid": 339,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dense_tall_grass_generation_biome_feature_1",
@@ -6095,7 +6030,7 @@
     {
       "name": "DenseTallGrassGenerationBiomeFeature2",
       "type": "feature",
-      "sortid": 391,
+      "sortid": 340,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dense_tall_grass_generation_biome_feature_2",
@@ -6111,7 +6046,7 @@
     {
       "name": "DenseTallGrassGenerationBiomeFeature3",
       "type": "feature",
-      "sortid": 392,
+      "sortid": 341,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dense_tall_grass_generation_biome_feature_3",
@@ -6127,7 +6062,7 @@
     {
       "name": "ModerateTallGrassGenerationBiomeFeature1",
       "type": "feature",
-      "sortid": 393,
+      "sortid": 342,
       "compiles": true,
       "locked_code": false,
       "registry_name": "moderate_tall_grass_generation_biome_feature_1",
@@ -6143,7 +6078,7 @@
     {
       "name": "ModerateTallGrassGenerationBiomeFeature2",
       "type": "feature",
-      "sortid": 394,
+      "sortid": 343,
       "compiles": true,
       "locked_code": false,
       "registry_name": "moderate_tall_grass_generation_biome_feature_2",
@@ -6159,7 +6094,7 @@
     {
       "name": "ModerateTallGrassGenerationBiomeFeature3",
       "type": "feature",
-      "sortid": 395,
+      "sortid": 344,
       "compiles": true,
       "locked_code": false,
       "registry_name": "moderate_tall_grass_generation_biome_feature_3",
@@ -6175,7 +6110,7 @@
     {
       "name": "BlockFeaturesTallGrass",
       "type": "tag",
-      "sortid": 396,
+      "sortid": 345,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_features_tall_grass",
@@ -6189,7 +6124,7 @@
     {
       "name": "BlockKiln",
       "type": "tag",
-      "sortid": 397,
+      "sortid": 346,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_kiln",
@@ -6203,7 +6138,7 @@
     {
       "name": "BlockKilnBlockedBlocks",
       "type": "tag",
-      "sortid": 398,
+      "sortid": 347,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_kiln_blocked_blocks",
@@ -6217,7 +6152,7 @@
     {
       "name": "EldenmoorCliff1",
       "type": "feature",
-      "sortid": 399,
+      "sortid": 348,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eldenmoor_cliff_1",
@@ -6233,7 +6168,7 @@
     {
       "name": "EldenmoorCliff2",
       "type": "feature",
-      "sortid": 400,
+      "sortid": 349,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eldenmoor_cliff_2",
@@ -6249,7 +6184,7 @@
     {
       "name": "EldenmoorCliff3",
       "type": "feature",
-      "sortid": 401,
+      "sortid": 350,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eldenmoor_cliff_3",
@@ -6265,7 +6200,7 @@
     {
       "name": "BlockTilledSoil",
       "type": "tag",
-      "sortid": 402,
+      "sortid": 351,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_tilled_soil",
@@ -6277,79 +6212,9 @@
       "path": "~/Tags/Mod/Blocks/Soil/Tilled Soil"
     },
     {
-      "name": "BlockMinecraftDirt",
-      "type": "tag",
-      "sortid": 405,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "block_minecraft_dirt",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
-        ]
-      },
-      "path": "~/Tags/Minecraft/Blocks"
-    },
-    {
-      "name": "BlockMinecraftAir",
-      "type": "tag",
-      "sortid": 406,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "block_minecraft_air",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/blocks/air.json"
-        ]
-      },
-      "path": "~/Tags/Minecraft/Blocks"
-    },
-    {
-      "name": "BlockMinecraftWater",
-      "type": "tag",
-      "sortid": 407,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "block_minecraft_water",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/blocks/water.json"
-        ]
-      },
-      "path": "~/Tags/Minecraft/Blocks"
-    },
-    {
-      "name": "BlockMinecraftLava",
-      "type": "tag",
-      "sortid": 408,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "block_minecraft_lava",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/blocks/lava.json"
-        ]
-      },
-      "path": "~/Tags/Minecraft/Blocks"
-    },
-    {
-      "name": "BlockMinecraftFences",
-      "type": "tag",
-      "sortid": 409,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "block_minecraft_fences",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/blocks/fences.json"
-        ]
-      },
-      "path": "~/Tags/Minecraft/Blocks"
-    },
-    {
       "name": "ItemMinecraftFlowers",
       "type": "tag",
-      "sortid": 410,
+      "sortid": 352,
       "compiles": true,
       "locked_code": false,
       "registry_name": "item_minecraft_flowers",
@@ -6361,37 +6226,9 @@
       "path": "~/Tags/Minecraft/Items"
     },
     {
-      "name": "BlockMinecraftLeaves",
-      "type": "tag",
-      "sortid": 411,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "block_minecraft_leaves",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/blocks/leaves.json"
-        ]
-      },
-      "path": "~/Tags/Minecraft/Blocks"
-    },
-    {
-      "name": "BlockMinecraftLogs",
-      "type": "tag",
-      "sortid": 412,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "block_minecraft_logs",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/blocks/logs.json"
-        ]
-      },
-      "path": "~/Tags/Minecraft/Blocks"
-    },
-    {
       "name": "ItemMinecraftPlanks",
       "type": "tag",
-      "sortid": 413,
+      "sortid": 353,
       "compiles": true,
       "locked_code": false,
       "registry_name": "item_minecraft_planks",
@@ -6403,23 +6240,9 @@
       "path": "~/Tags/Minecraft/Items"
     },
     {
-      "name": "BlockMinecraftSmallFlowers",
-      "type": "tag",
-      "sortid": 414,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "block_minecraft_small_flowers",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/blocks/small_flowers.json"
-        ]
-      },
-      "path": "~/Tags/Minecraft/Blocks"
-    },
-    {
       "name": "ItemMinecraftSmallFlowers",
       "type": "tag",
-      "sortid": 415,
+      "sortid": 354,
       "compiles": true,
       "locked_code": false,
       "registry_name": "item_minecraft_small_flowers",
@@ -6431,54 +6254,9 @@
       "path": "~/Tags/Minecraft/Items"
     },
     {
-      "name": "BlockMinecraftWoodenFences",
-      "type": "tag",
-      "sortid": 416,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "block_minecraft_wooden_fences",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/blocks/wooden_fences.json"
-        ]
-      },
-      "path": "~/Tags/Minecraft/Blocks"
-    },
-    {
-      "name": "BlockMinecraftWalls",
-      "type": "tag",
-      "sortid": 417,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "block_minecraft_walls",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/blocks/walls.json"
-        ]
-      },
-      "path": "~/Tags/Minecraft/Blocks"
-    },
-    {
-      "name": "PhosphoriteCrystalCluster",
-      "type": "feature",
-      "sortid": 418,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "phosphorite_crystal_cluster",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tale_of_biomes/worldgen/configured_feature/phosphorite_crystal_cluster.json",
-          "src/main/resources/data/tale_of_biomes/worldgen/placed_feature/phosphorite_crystal_cluster.json",
-          "src/main/resources/data/tale_of_biomes/forge/biome_modifier/phosphorite_crystal_cluster_biome_modifier.json"
-        ],
-        "has_nbt_structure": true
-      },
-      "path": "~/Features/Phosphorite Crystal"
-    },
-    {
       "name": "BlockIvyShrub",
       "type": "tag",
-      "sortid": 419,
+      "sortid": 355,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_ivy_shrub",
@@ -6492,7 +6270,7 @@
     {
       "name": "BlockFlowersEldenmoor",
       "type": "tag",
-      "sortid": 420,
+      "sortid": 356,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_flowers_eldenmoor",
@@ -6506,7 +6284,7 @@
     {
       "name": "BlockTallGrassEldenmoor",
       "type": "tag",
-      "sortid": 421,
+      "sortid": 357,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_tall_grass_eldenmoor",
@@ -6520,7 +6298,7 @@
     {
       "name": "BlockReplaceableShrub",
       "type": "tag",
-      "sortid": 422,
+      "sortid": 358,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_replaceable_shrub",
@@ -6534,7 +6312,7 @@
     {
       "name": "BlockRoseShrub",
       "type": "tag",
-      "sortid": 423,
+      "sortid": 359,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_rose_shrub",
@@ -6548,7 +6326,7 @@
     {
       "name": "IvyShrubBlockIsPlacedBy",
       "type": "procedure",
-      "sortid": 424,
+      "sortid": 360,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ivy_shrub_block_is_placed_by",
@@ -6584,7 +6362,7 @@
     {
       "name": "RoseShrubBlockIsPlacedBy",
       "type": "procedure",
-      "sortid": 425,
+      "sortid": 361,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rose_shrub_block_is_placed_by",
@@ -6620,7 +6398,7 @@
     {
       "name": "IsInEldenmoorDimension",
       "type": "procedure",
-      "sortid": 426,
+      "sortid": 362,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_in_eldenmoor_dimension",
@@ -6639,23 +6417,9 @@
       "path": "~/Procedures/Global Conditions"
     },
     {
-      "name": "BlockTagGrassGrowthPlains",
-      "type": "tag",
-      "sortid": 427,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "block_tag_grass_growth_plains",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tale_of_biomes/tags/blocks/grass_growth/plains.json"
-        ]
-      },
-      "path": "~/Tags/Mod/Blocks/Soil/Grass Block"
-    },
-    {
       "name": "BlockTagGrassGrowthDefualt",
       "type": "tag",
-      "sortid": 428,
+      "sortid": 363,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_tag_grass_growth_defualt",
@@ -6665,6 +6429,1879 @@
         ]
       },
       "path": "~/Tags/Mod/Blocks/Soil/Grass Block"
+    },
+    {
+      "name": "BlockTagMinecraftAir",
+      "type": "tag",
+      "sortid": 364,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "block_tag_minecraft_air",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/air.json"
+        ]
+      },
+      "path": "~/Tags/Minecraft/Blocks"
+    },
+    {
+      "name": "BlockTagMinecraftDirt",
+      "type": "tag",
+      "sortid": 365,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_tag_minecraft_dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
+        ]
+      },
+      "path": "~/Tags/Minecraft/Blocks"
+    },
+    {
+      "name": "BlockTagMinecraftLava",
+      "type": "tag",
+      "sortid": 366,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_tag_minecraft_lava",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/lava.json"
+        ]
+      },
+      "path": "~/Tags/Minecraft/Blocks"
+    },
+    {
+      "name": "BlockTagMinecraftFences",
+      "type": "tag",
+      "sortid": 367,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_tag_minecraft_fences",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/fences.json"
+        ]
+      },
+      "path": "~/Tags/Minecraft/Blocks"
+    },
+    {
+      "name": "BlockTagMinecraftLeaves",
+      "type": "tag",
+      "sortid": 368,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_tag_minecraft_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/leaves.json"
+        ]
+      },
+      "path": "~/Tags/Minecraft/Blocks"
+    },
+    {
+      "name": "BlockTagMinecraftLogs",
+      "type": "tag",
+      "sortid": 369,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_tag_minecraft_logs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/logs.json"
+        ]
+      },
+      "path": "~/Tags/Minecraft/Blocks"
+    },
+    {
+      "name": "BlockTagMinecraftSmallFlowers",
+      "type": "tag",
+      "sortid": 370,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_tag_minecraft_small_flowers",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/small_flowers.json"
+        ]
+      },
+      "path": "~/Tags/Minecraft/Blocks"
+    },
+    {
+      "name": "BlockTagMinecraftWalls",
+      "type": "tag",
+      "sortid": 371,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_tag_minecraft_walls",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/walls.json"
+        ]
+      },
+      "path": "~/Tags/Minecraft/Blocks"
+    },
+    {
+      "name": "BlockTagMinecraftWater",
+      "type": "tag",
+      "sortid": 372,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_tag_minecraft_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/water.json"
+        ]
+      },
+      "path": "~/Tags/Minecraft/Blocks"
+    },
+    {
+      "name": "BlockTagMinecraftWoodenFences",
+      "type": "tag",
+      "sortid": 373,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_tag_minecraft_wooden_fences",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wooden_fences.json"
+        ]
+      },
+      "path": "~/Tags/Minecraft/Blocks"
+    },
+    {
+      "name": "InventoryReplaceEldenmoorScript",
+      "type": "procedure",
+      "sortid": 374,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inventory_replace_eldenmoor_script",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/InventoryReplaceEldenmoorScriptProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Global Procedures"
+    },
+    {
+      "name": "InventoryReplaceNormalScript",
+      "type": "procedure",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inventory_replace_normal_script",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/InventoryReplaceNormalScriptProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Global Procedures"
+    },
+    {
+      "name": "PlayerTravelsToADimension",
+      "type": "procedure",
+      "sortid": 376,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_travels_to_a_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/PlayerTravelsToADimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "command",
+            "type": "string"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Global Procedures"
+    },
+    {
+      "name": "InventorySaveEldenmoorScript",
+      "type": "procedure",
+      "sortid": 377,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inventory_save_eldenmoor_script",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/InventorySaveEldenmoorScriptProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Global Procedures"
+    },
+    {
+      "name": "InventorySaveNormalScript",
+      "type": "procedure",
+      "sortid": 378,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inventory_save_normal_script",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/InventorySaveNormalScriptProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Global Procedures"
+    },
+    {
+      "name": "LargeBrickStairs",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tale_of_biomes/models/block/large_brick_stairs_inner.json",
+          "src/main/resources/assets/tale_of_biomes/models/block/large_brick_stairs.json",
+          "src/main/resources/assets/tale_of_biomes/models/block/large_brick_stairs_outer.json",
+          "src/main/resources/assets/tale_of_biomes/models/item/large_brick_stairs.json",
+          "src/main/resources/assets/tale_of_biomes/blockstates/large_brick_stairs.json",
+          "src/main/java/net/nwtg/taleofbiomes/block/LargeBrickStairsBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Rock/Large Bricks"
+    },
+    {
+      "name": "LargeBrickSlab",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tale_of_biomes/models/block/large_brick_slab.json",
+          "src/main/resources/assets/tale_of_biomes/models/block/large_brick_slab_top.json",
+          "src/main/resources/assets/tale_of_biomes/models/item/large_brick_slab.json",
+          "src/main/resources/assets/tale_of_biomes/blockstates/large_brick_slab.json",
+          "src/main/java/net/nwtg/taleofbiomes/block/LargeBrickSlabBlock.java",
+          "src/main/resources/assets/tale_of_biomes/models/block/large_brick_slab_full.json"
+        ]
+      },
+      "path": "~/Blocks/Rock/Large Bricks"
+    },
+    {
+      "name": "CraftingKlin",
+      "type": "recipe",
+      "sortid": 379,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_klin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tale_of_biomes/recipes/crafting_klin.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting"
+    },
+    {
+      "name": "CraftingThatchBlock",
+      "type": "recipe",
+      "sortid": 380,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_thatch_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tale_of_biomes/recipes/crafting_thatch_block.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks/Plant/Thatch"
+    },
+    {
+      "name": "CraftingThatchStairs",
+      "type": "recipe",
+      "sortid": 381,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_thatch_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tale_of_biomes/recipes/crafting_thatch_stairs.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks/Plant/Thatch"
+    },
+    {
+      "name": "CraftingThatchSlab",
+      "type": "recipe",
+      "sortid": 382,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_thatch_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tale_of_biomes/recipes/crafting_thatch_slab.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks/Plant/Thatch"
+    },
+    {
+      "name": "CraftingPhosphoriteStone",
+      "type": "recipe",
+      "sortid": 383,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_phosphorite_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tale_of_biomes/recipes/crafting_phosphorite_stone.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks/Rock/Phosphorite Stone"
+    },
+    {
+      "name": "PackedDirt",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tale_of_biomes/models/item/packed_dirt.json",
+          "src/main/resources/assets/tale_of_biomes/models/block/packed_dirt.json",
+          "src/main/resources/assets/tale_of_biomes/blockstates/packed_dirt.json",
+          "src/main/java/net/nwtg/taleofbiomes/block/PackedDirtBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Soil/Packed Dirt"
+    },
+    {
+      "name": "SetWorldSeasonScript",
+      "type": "procedure",
+      "sortid": 384,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_world_season_script",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/SetWorldSeasonScriptProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Global Procedures"
+    },
+    {
+      "name": "SeasonDeviceSpecialInformation",
+      "type": "procedure",
+      "sortid": 385,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "season_device_special_information",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/SeasonDeviceSpecialInformationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Items/Tools/Season Device"
+    },
+    {
+      "name": "SeasonDeviceRightclicked",
+      "type": "procedure",
+      "sortid": 386,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "season_device_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/SeasonDeviceRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Items/Tools/Season Device"
+    },
+    {
+      "name": "SeasonDeviceItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 387,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "season_device_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/SeasonDeviceItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Items/Tools/Season Device"
+    },
+    {
+      "name": "SeasonDevice",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "season_device",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tale_of_biomes/models/item/season_device_2.json",
+          "src/main/java/net/nwtg/taleofbiomes/item/SeasonDeviceItem.java",
+          "src/main/resources/assets/tale_of_biomes/models/item/season_device_0.json",
+          "src/main/resources/assets/tale_of_biomes/models/item/season_device_1.json",
+          "src/main/resources/assets/tale_of_biomes/models/item/season_device.json"
+        ]
+      },
+      "path": "~/Items/Tools/Phosphorite"
+    },
+    {
+      "name": "SeasonDevicePropertyValueProvider",
+      "type": "procedure",
+      "sortid": 388,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "season_device_property_value_provider",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/SeasonDevicePropertyValueProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Items/Tools/Season Device"
+    },
+    {
+      "name": "BiomeTagEldenmoorFlowerPlains",
+      "type": "tag",
+      "sortid": 389,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biome_tag_eldenmoor_flower_plains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tale_of_biomes/tags/worldgen/biome/eldenmoor/flower_plains.json"
+        ]
+      },
+      "path": "~/Tags/Mod/Biomes"
+    },
+    {
+      "name": "BlockTagGrassGrowthFlowerPlains",
+      "type": "tag",
+      "sortid": 390,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_tag_grass_growth_flower_plains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tale_of_biomes/tags/blocks/grass_growth/flower_plains.json"
+        ]
+      },
+      "path": "~/Tags/Mod/Blocks/Soil/Grass Block"
+    },
+    {
+      "name": "PlotBlueprint",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plot_blueprint",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/block/entity/PlotBlueprintBlockEntity.java",
+          "src/main/resources/assets/tale_of_biomes/blockstates/plot_blueprint.json",
+          "src/main/resources/assets/tale_of_biomes/models/item/plot_blueprint.json",
+          "src/main/java/net/nwtg/taleofbiomes/block/PlotBlueprintBlock.java",
+          "src/main/resources/assets/tale_of_biomes/models/block/plot_blueprint.json"
+        ]
+      },
+      "path": "~/Blocks/Other/Blueprints"
+    },
+    {
+      "name": "WallBlueprint",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_blueprint",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/block/WallBlueprintBlock.java",
+          "src/main/resources/assets/tale_of_biomes/blockstates/wall_blueprint.json",
+          "src/main/java/net/nwtg/taleofbiomes/block/entity/WallBlueprintBlockEntity.java",
+          "src/main/resources/assets/tale_of_biomes/models/item/wall_blueprint.json",
+          "src/main/resources/assets/tale_of_biomes/models/block/wall_blueprint.json"
+        ]
+      },
+      "path": "~/Blocks/Other/Blueprints"
+    },
+    {
+      "name": "DoorBlueprint",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "door_blueprint",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tale_of_biomes/models/block/door_blueprint.json",
+          "src/main/java/net/nwtg/taleofbiomes/block/DoorBlueprintBlock.java",
+          "src/main/java/net/nwtg/taleofbiomes/block/entity/DoorBlueprintBlockEntity.java",
+          "src/main/resources/assets/tale_of_biomes/models/item/door_blueprint.json",
+          "src/main/resources/assets/tale_of_biomes/blockstates/door_blueprint.json"
+        ]
+      },
+      "path": "~/Blocks/Other/Blueprints"
+    },
+    {
+      "name": "WindowBlueprint",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_blueprint",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/block/entity/WindowBlueprintBlockEntity.java",
+          "src/main/resources/assets/tale_of_biomes/blockstates/window_blueprint.json",
+          "src/main/resources/assets/tale_of_biomes/models/block/window_blueprint.json",
+          "src/main/java/net/nwtg/taleofbiomes/block/WindowBlueprintBlock.java",
+          "src/main/resources/assets/tale_of_biomes/models/item/window_blueprint.json"
+        ]
+      },
+      "path": "~/Blocks/Other/Blueprints"
+    },
+    {
+      "name": "HangingLanternUpdateTick",
+      "type": "procedure",
+      "sortid": 391,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_lantern_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/HangingLanternUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks/Decorations/Lanterns"
+    },
+    {
+      "name": "HangingLanternOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 392,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_lantern_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/HangingLanternOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks/Decorations/Lanterns"
+    },
+    {
+      "name": "HangingLantern",
+      "type": "block",
+      "sortid": 393,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_lantern",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tale_of_biomes/blockstates/hanging_lantern.json",
+          "src/main/resources/assets/tale_of_biomes/models/block/hanging_lantern.json",
+          "src/main/java/net/nwtg/taleofbiomes/block/HangingLanternBlock.java",
+          "src/main/resources/assets/tale_of_biomes/models/item/hanging_lantern.json",
+          "src/main/java/net/nwtg/taleofbiomes/block/entity/HangingLanternBlockEntity.java"
+        ]
+      },
+      "path": "~/Blocks/Decorations/Lantern"
+    },
+    {
+      "name": "HangingLanternOn",
+      "type": "block",
+      "sortid": 394,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_lantern_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tale_of_biomes/blockstates/hanging_lantern_on.json",
+          "src/main/java/net/nwtg/taleofbiomes/block/entity/HangingLanternOnBlockEntity.java",
+          "src/main/resources/assets/tale_of_biomes/models/item/hanging_lantern_on.json",
+          "src/main/resources/assets/tale_of_biomes/models/block/hanging_lantern_on.json",
+          "src/main/java/net/nwtg/taleofbiomes/block/HangingLanternOnBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Decorations/Lantern"
+    },
+    {
+      "name": "GroundLantern",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ground_lantern",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/block/GroundLanternBlock.java",
+          "src/main/resources/assets/tale_of_biomes/blockstates/ground_lantern.json",
+          "src/main/resources/assets/tale_of_biomes/models/item/ground_lantern.json",
+          "src/main/resources/assets/tale_of_biomes/models/block/ground_lantern.json",
+          "src/main/java/net/nwtg/taleofbiomes/block/entity/GroundLanternBlockEntity.java"
+        ]
+      },
+      "path": "~/Blocks/Decorations/Lantern"
+    },
+    {
+      "name": "GroundLanternOn",
+      "type": "block",
+      "sortid": 395,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ground_lantern_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/block/GroundLanternOnBlock.java",
+          "src/main/resources/assets/tale_of_biomes/models/item/ground_lantern_on.json",
+          "src/main/resources/assets/tale_of_biomes/models/block/ground_lantern_on.json",
+          "src/main/resources/assets/tale_of_biomes/blockstates/ground_lantern_on.json",
+          "src/main/java/net/nwtg/taleofbiomes/block/entity/GroundLanternOnBlockEntity.java"
+        ]
+      },
+      "path": "~/Blocks/Decorations/Lantern"
+    },
+    {
+      "name": "GroundLanternBlockValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 396,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ground_lantern_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/GroundLanternBlockValidPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks/Decorations/Lanterns"
+    },
+    {
+      "name": "GroundLanternUpdateTick",
+      "type": "procedure",
+      "sortid": 397,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ground_lantern_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/GroundLanternUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks/Decorations/Lanterns"
+    },
+    {
+      "name": "HangingLanternBlockValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 398,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_lantern_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/HangingLanternBlockValidPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks/Decorations/Lanterns"
+    },
+    {
+      "name": "BlockRightClickedHoldingGroundLantern",
+      "type": "procedure",
+      "sortid": 399,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_right_clicked_holding_ground_lantern",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/BlockRightClickedHoldingGroundLanternProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks/Decorations/Lanterns"
+    },
+    {
+      "name": "ToolHandleBlock",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tool_handle_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tale_of_biomes/blockstates/tool_handle_block.json",
+          "src/main/java/net/nwtg/taleofbiomes/block/ToolHandleBlockBlock.java",
+          "src/main/resources/assets/tale_of_biomes/models/item/tool_handle_block.json",
+          "src/main/resources/assets/tale_of_biomes/models/block/tool_handle_block.json"
+        ]
+      },
+      "path": "~/Blocks/Decorations/Tool Blocks/Handles"
+    },
+    {
+      "name": "PhosphoriteHoeBlock",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phosphorite_hoe_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tale_of_biomes/blockstates/phosphorite_hoe_block.json",
+          "src/main/java/net/nwtg/taleofbiomes/block/PhosphoriteHoeBlockBlock.java",
+          "src/main/resources/assets/tale_of_biomes/models/item/phosphorite_hoe_block.json",
+          "src/main/resources/assets/tale_of_biomes/models/block/phosphorite_hoe_block.json"
+        ]
+      },
+      "path": "~/Blocks/Decorations/Tool Blocks/Hoes"
+    },
+    {
+      "name": "PhosphoriteShovelBlock",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phosphorite_shovel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tale_of_biomes/models/item/phosphorite_shovel_block.json",
+          "src/main/resources/assets/tale_of_biomes/blockstates/phosphorite_shovel_block.json",
+          "src/main/resources/assets/tale_of_biomes/models/block/phosphorite_shovel_block.json",
+          "src/main/java/net/nwtg/taleofbiomes/block/PhosphoriteShovelBlockBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Decorations/Tool Blocks/Shovel"
+    },
+    {
+      "name": "PhosphoriteRakeBlock",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phosphorite_rake_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tale_of_biomes/blockstates/phosphorite_rake_block.json",
+          "src/main/java/net/nwtg/taleofbiomes/block/PhosphoriteRakeBlockBlock.java",
+          "src/main/resources/assets/tale_of_biomes/models/block/phosphorite_rake_block.json",
+          "src/main/resources/assets/tale_of_biomes/models/item/phosphorite_rake_block.json"
+        ]
+      },
+      "path": "~/Blocks/Decorations/Tool Blocks/Rake"
+    },
+    {
+      "name": "YellowPiruffBedUpdateTick",
+      "type": "procedure",
+      "sortid": 400,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_piruff_bed_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/YellowPiruffBedUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks/Decorations/Bed"
+    },
+    {
+      "name": "YellowPiruffBed",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_piruff_bed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tale_of_biomes/models/item/yellow_piruff_bed.json",
+          "src/main/resources/assets/tale_of_biomes/models/block/yellow_piruff_bed.json",
+          "src/main/java/net/nwtg/taleofbiomes/block/YellowPiruffBedBlock.java",
+          "src/main/resources/assets/tale_of_biomes/blockstates/yellow_piruff_bed.json"
+        ]
+      },
+      "path": "~/Blocks/Decorations/Bed"
+    },
+    {
+      "name": "BedBlockDestroyed",
+      "type": "procedure",
+      "sortid": 401,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bed_block_destroyed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/BedBlockDestroyedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks/Decorations/Bed"
+    },
+    {
+      "name": "YellowPiruffBedTop",
+      "type": "block",
+      "sortid": 402,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_piruff_bed_top",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/block/YellowPiruffBedTopBlock.java",
+          "src/main/resources/assets/tale_of_biomes/models/item/yellow_piruff_bed_top.json",
+          "src/main/resources/assets/tale_of_biomes/models/block/yellow_piruff_bed_top.json",
+          "src/main/resources/assets/tale_of_biomes/blockstates/yellow_piruff_bed_top.json"
+        ]
+      },
+      "path": "~/Blocks/Decorations/Bed"
+    },
+    {
+      "name": "YellowPiruffBedBlockAdded",
+      "type": "procedure",
+      "sortid": 403,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_piruff_bed_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/YellowPiruffBedBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks/Decorations/Bed"
+    },
+    {
+      "name": "BedOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 404,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bed_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/BedOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks/Decorations/Bed"
+    },
+    {
+      "name": "SleepingEffect1DisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 405,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sleeping_effect_1_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/SleepingEffect1DisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Overlays/Effects/Sleeping"
+    },
+    {
+      "name": "SleepingEffect1",
+      "type": "overlay",
+      "sortid": 406,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sleeping_effect_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/client/screens/SleepingEffect1Overlay.java"
+        ]
+      },
+      "path": "~/Overlays/Effects/Sleeping"
+    },
+    {
+      "name": "SleepingEffect2",
+      "type": "overlay",
+      "sortid": 407,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sleeping_effect_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/client/screens/SleepingEffect2Overlay.java"
+        ]
+      },
+      "path": "~/Overlays/Effects/Sleeping"
+    },
+    {
+      "name": "SleepingEffect2DisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 408,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sleeping_effect_2_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/SleepingEffect2DisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Overlays/Effects/Sleeping"
+    },
+    {
+      "name": "SleepingEffect3",
+      "type": "overlay",
+      "sortid": 409,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sleeping_effect_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/client/screens/SleepingEffect3Overlay.java"
+        ]
+      },
+      "path": "~/Overlays/Effects/Sleeping"
+    },
+    {
+      "name": "SleepingEffect3DisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 410,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sleeping_effect_3_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/SleepingEffect3DisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Overlays/Effects/Sleeping"
+    },
+    {
+      "name": "SleepingEffect4",
+      "type": "overlay",
+      "sortid": 411,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sleeping_effect_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/client/screens/SleepingEffect4Overlay.java"
+        ]
+      },
+      "path": "~/Overlays/Effects/Sleeping"
+    },
+    {
+      "name": "SleepingEffect4DisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 412,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sleeping_effect_4_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/SleepingEffect4DisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Overlays/Effects/Sleeping"
+    },
+    {
+      "name": "SleepingEffect5",
+      "type": "overlay",
+      "sortid": 413,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sleeping_effect_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/client/screens/SleepingEffect5Overlay.java"
+        ]
+      },
+      "path": "~/Overlays/Effects/Sleeping"
+    },
+    {
+      "name": "SleepingEffect5DisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 414,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sleeping_effect_5_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/SleepingEffect5DisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Overlays/Effects/Sleeping"
+    },
+    {
+      "name": "PlayerSleepsAtCustomBed",
+      "type": "procedure",
+      "sortid": 415,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_sleeps_at_custom_bed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/PlayerSleepsAtCustomBedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Global Procedures"
+    },
+    {
+      "name": "BluePiruffBed",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_piruff_bed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tale_of_biomes/models/item/blue_piruff_bed.json",
+          "src/main/java/net/nwtg/taleofbiomes/block/BluePiruffBedBlock.java",
+          "src/main/resources/assets/tale_of_biomes/models/block/blue_piruff_bed.json",
+          "src/main/resources/assets/tale_of_biomes/blockstates/blue_piruff_bed.json"
+        ]
+      },
+      "path": "~/Blocks/Decorations/Bed"
+    },
+    {
+      "name": "BluePiruffBedTop",
+      "type": "block",
+      "sortid": 416,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_piruff_bed_top",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tale_of_biomes/models/item/blue_piruff_bed_top.json",
+          "src/main/resources/assets/tale_of_biomes/models/block/blue_piruff_bed_top.json",
+          "src/main/java/net/nwtg/taleofbiomes/block/BluePiruffBedTopBlock.java",
+          "src/main/resources/assets/tale_of_biomes/blockstates/blue_piruff_bed_top.json"
+        ]
+      },
+      "path": "~/Blocks/Decorations/Bed"
+    },
+    {
+      "name": "LightPurplePiruffBed",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_purple_piruff_bed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/block/LightPurplePiruffBedBlock.java",
+          "src/main/resources/assets/tale_of_biomes/models/block/light_purple_piruff_bed.json",
+          "src/main/resources/assets/tale_of_biomes/models/item/light_purple_piruff_bed.json",
+          "src/main/resources/assets/tale_of_biomes/blockstates/light_purple_piruff_bed.json"
+        ]
+      },
+      "path": "~/Blocks/Decorations/Bed"
+    },
+    {
+      "name": "LightPurplePiruffBedTop",
+      "type": "block",
+      "sortid": 417,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_purple_piruff_bed_top",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/block/LightPurplePiruffBedTopBlock.java",
+          "src/main/resources/assets/tale_of_biomes/models/block/light_purple_piruff_bed_top.json",
+          "src/main/resources/assets/tale_of_biomes/models/item/light_purple_piruff_bed_top.json",
+          "src/main/resources/assets/tale_of_biomes/blockstates/light_purple_piruff_bed_top.json"
+        ]
+      },
+      "path": "~/Blocks/Decorations/Bed"
+    },
+    {
+      "name": "MagentaPiruffBed",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_piruff_bed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/block/MagentaPiruffBedBlock.java",
+          "src/main/resources/assets/tale_of_biomes/models/block/magenta_piruff_bed.json",
+          "src/main/resources/assets/tale_of_biomes/blockstates/magenta_piruff_bed.json",
+          "src/main/resources/assets/tale_of_biomes/models/item/magenta_piruff_bed.json"
+        ]
+      },
+      "path": "~/Blocks/Decorations/Bed"
+    },
+    {
+      "name": "MagentaPiruffBedTop",
+      "type": "block",
+      "sortid": 418,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_piruff_bed_top",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/block/MagentaPiruffBedTopBlock.java",
+          "src/main/resources/assets/tale_of_biomes/models/item/magenta_piruff_bed_top.json",
+          "src/main/resources/assets/tale_of_biomes/models/block/magenta_piruff_bed_top.json",
+          "src/main/resources/assets/tale_of_biomes/blockstates/magenta_piruff_bed_top.json"
+        ]
+      },
+      "path": "~/Blocks/Decorations/Bed"
+    },
+    {
+      "name": "BlockTagBedBottom",
+      "type": "tag",
+      "sortid": 419,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_tag_bed_bottom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tale_of_biomes/tags/blocks/bed/bottom.json"
+        ]
+      },
+      "path": "~/Tags/Mod/Blocks/Decoration"
+    },
+    {
+      "name": "BlockTagBedTop",
+      "type": "tag",
+      "sortid": 420,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_tag_bed_top",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tale_of_biomes/tags/blocks/bed/top.json"
+        ]
+      },
+      "path": "~/Tags/Mod/Blocks/Decoration"
+    },
+    {
+      "name": "PurplePiruffBed",
+      "type": "block",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_piruff_bed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tale_of_biomes/models/block/purple_piruff_bed.json",
+          "src/main/resources/assets/tale_of_biomes/models/item/purple_piruff_bed.json",
+          "src/main/resources/assets/tale_of_biomes/blockstates/purple_piruff_bed.json",
+          "src/main/java/net/nwtg/taleofbiomes/block/PurplePiruffBedBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Decorations/Bed"
+    },
+    {
+      "name": "PurplePiruffBedTop",
+      "type": "block",
+      "sortid": 421,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_piruff_bed_top",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tale_of_biomes/blockstates/purple_piruff_bed_top.json",
+          "src/main/resources/assets/tale_of_biomes/models/item/purple_piruff_bed_top.json",
+          "src/main/resources/assets/tale_of_biomes/models/block/purple_piruff_bed_top.json",
+          "src/main/java/net/nwtg/taleofbiomes/block/PurplePiruffBedTopBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Decorations/Bed"
+    },
+    {
+      "name": "BasicToolTable",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_tool_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tale_of_biomes/models/item/basic_tool_table.json",
+          "src/main/resources/assets/tale_of_biomes/models/block/basic_tool_table.json",
+          "src/main/java/net/nwtg/taleofbiomes/block/entity/BasicToolTableBlockEntity.java",
+          "src/main/java/net/nwtg/taleofbiomes/block/BasicToolTableBlock.java",
+          "src/main/resources/assets/tale_of_biomes/blockstates/basic_tool_table.json"
+        ]
+      },
+      "path": "~/Blocks/Crafting/Basic Tool Table"
+    },
+    {
+      "name": "BasicToolTableMenu",
+      "type": "gui",
+      "sortid": 422,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_tool_table_menu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/client/gui/BasicToolTableMenuScreen.java",
+          "src/main/java/net/nwtg/taleofbiomes/world/inventory/BasicToolTableMenuMenu.java",
+          "src/main/java/net/nwtg/taleofbiomes/network/BasicToolTableMenuSlotMessage.java"
+        ]
+      },
+      "path": "~/GUI/Blocks/Crafting/Basic Tool Table"
+    },
+    {
+      "name": "BasicToolTableMenuWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "sortid": 423,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_tool_table_menu_while_this_gui_is_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/BasicToolTableMenuWhileThisGUIIsOpenTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/GUI/Blocks/Crafting/Basic Tool Table"
+    },
+    {
+      "name": "BasicToolTableMenuItemTakenFromOutputSlot",
+      "type": "procedure",
+      "sortid": 424,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_tool_table_menu_item_taken_from_output_slot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/BasicToolTableMenuItemTakenFromOutputSlotProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/GUI/Blocks/Crafting/Basic Tool Table"
+    },
+    {
+      "name": "ItemTagBasicToolTableStone",
+      "type": "tag",
+      "sortid": 425,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_tag_basic_tool_table_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tale_of_biomes/tags/items/basic_tool_table/stone.json"
+        ]
+      },
+      "path": "~/Tags/Mod/GUI/Basic Tool Table"
+    },
+    {
+      "name": "ItemTagBasicToolTablePiruffWood",
+      "type": "tag",
+      "sortid": 426,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_tag_basic_tool_table_piruff_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tale_of_biomes/tags/items/basic_tool_table/piruff_wood.json"
+        ]
+      },
+      "path": "~/Tags/Mod/GUI/Basic Tool Table"
+    },
+    {
+      "name": "StoneAxeHead",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_axe_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tale_of_biomes/models/item/stone_axe_head.json",
+          "src/main/java/net/nwtg/taleofbiomes/item/StoneAxeHeadItem.java"
+        ]
+      },
+      "path": "~/Items/Tools/Stone/Heads"
+    },
+    {
+      "name": "PiruffGrip",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piruff_grip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/item/PiruffGripItem.java",
+          "src/main/resources/assets/tale_of_biomes/models/item/piruff_grip.json"
+        ]
+      },
+      "path": "~/Items/Tools/Grips/Piruff"
+    },
+    {
+      "name": "PiruffStoneAxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 427,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piruff_stone_axe_block_destroyed_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/PiruffStoneAxeBlockDestroyedWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures/Items/Tools/Stone"
+    },
+    {
+      "name": "PiruffStoneAxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piruff_stone_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tale_of_biomes/models/item/piruff_stone_axe.json",
+          "src/main/java/net/nwtg/taleofbiomes/item/PiruffStoneAxeItem.java"
+        ]
+      },
+      "path": "~/Items/Tools/Stone/Tools"
+    },
+    {
+      "name": "StonePickaxeHead",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_pickaxe_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/item/StonePickaxeHeadItem.java",
+          "src/main/resources/assets/tale_of_biomes/models/item/stone_pickaxe_head.json"
+        ]
+      },
+      "path": "~/Items/Tools/Stone/Heads"
+    },
+    {
+      "name": "StoneShovelHead",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_shovel_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tale_of_biomes/models/item/stone_shovel_head.json",
+          "src/main/java/net/nwtg/taleofbiomes/item/StoneShovelHeadItem.java"
+        ]
+      },
+      "path": "~/Items/Tools/Stone/Heads"
+    },
+    {
+      "name": "StoneHoeHead",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_hoe_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tale_of_biomes/models/item/stone_hoe_head.json",
+          "src/main/java/net/nwtg/taleofbiomes/item/StoneHoeHeadItem.java"
+        ]
+      },
+      "path": "~/Items/Tools/Stone/Heads"
+    },
+    {
+      "name": "StoneSwordHead",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_sword_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/item/StoneSwordHeadItem.java",
+          "src/main/resources/assets/tale_of_biomes/models/item/stone_sword_head.json"
+        ]
+      },
+      "path": "~/Items/Tools/Stone/Heads"
+    },
+    {
+      "name": "PiruffStoneHoe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piruff_stone_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tale_of_biomes/models/item/piruff_stone_hoe.json",
+          "src/main/java/net/nwtg/taleofbiomes/item/PiruffStoneHoeItem.java"
+        ]
+      },
+      "path": "~/Items/Tools/Stone/Tools"
+    },
+    {
+      "name": "PiruffStoneShovel",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piruff_stone_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/item/PiruffStoneShovelItem.java",
+          "src/main/resources/assets/tale_of_biomes/models/item/piruff_stone_shovel.json"
+        ]
+      },
+      "path": "~/Items/Tools/Stone/Tools"
+    },
+    {
+      "name": "PiruffStonePickaxe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piruff_stone_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tale_of_biomes/models/item/piruff_stone_pickaxe.json",
+          "src/main/java/net/nwtg/taleofbiomes/item/PiruffStonePickaxeItem.java"
+        ]
+      },
+      "path": "~/Items/Tools/Stone/Tools"
+    },
+    {
+      "name": "PiruffStoneSword",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piruff_stone_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tale_of_biomes/models/item/piruff_stone_sword.json",
+          "src/main/java/net/nwtg/taleofbiomes/item/PiruffStoneSwordItem.java"
+        ]
+      },
+      "path": "~/Items/Tools/Stone/Tools"
+    },
+    {
+      "name": "SetWorldWindScript",
+      "type": "procedure",
+      "sortid": 428,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_world_wind_script",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/taleofbiomes/procedures/SetWorldWindScriptProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Global Procedures"
+    },
+    {
+      "name": "PhosphoriteCrystalLargeGeneration",
+      "type": "feature",
+      "sortid": 429,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phosphorite_crystal_large_generation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tale_of_biomes/worldgen/configured_feature/phosphorite_crystal_large_generation.json",
+          "src/main/resources/data/tale_of_biomes/forge/biome_modifier/phosphorite_crystal_large_generation_biome_modifier.json",
+          "src/main/resources/data/tale_of_biomes/worldgen/placed_feature/phosphorite_crystal_large_generation.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/Features/Phosphorite Crystal"
+    },
+    {
+      "name": "PhosphoriteCrystalSmallGeneration",
+      "type": "feature",
+      "sortid": 430,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phosphorite_crystal_small_generation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tale_of_biomes/worldgen/configured_feature/phosphorite_crystal_small_generation.json",
+          "src/main/resources/data/tale_of_biomes/forge/biome_modifier/phosphorite_crystal_small_generation_biome_modifier.json",
+          "src/main/resources/data/tale_of_biomes/worldgen/placed_feature/phosphorite_crystal_small_generation.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/Features/Phosphorite Crystal"
+    },
+    {
+      "name": "TOBBlocksTab",
+      "type": "tab",
+      "sortid": 431,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tob_blocks_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative Tab"
+    },
+    {
+      "name": "TOBToolTab",
+      "type": "tab",
+      "sortid": 432,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tob_tool_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative Tab"
+    },
+    {
+      "name": "TOBDecorationTab",
+      "type": "tab",
+      "sortid": 433,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tob_decoration_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative Tab"
+    },
+    {
+      "name": "TOBResourcesTab",
+      "type": "tab",
+      "sortid": 434,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tob_resources_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative Tab"
     }
   ],
   "variable_elements": [
@@ -6697,41 +8334,621 @@
       "type": "number",
       "scope": "player_lifetime",
       "value": "0"
+    },
+    {
+      "name": "normalSlot0",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot1",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot2",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot3",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot4",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot5",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot6",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot7",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot8",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot9",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot10",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot11",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot12",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot13",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot14",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot15",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot16",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot17",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot18",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot19",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot20",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot21",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot22",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot23",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot24",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot25",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot26",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot27",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot28",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot29",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot30",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot31",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot32",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot33",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot34",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot35",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot36",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot37",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot38",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot39",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "normalSlot40",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot0",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot1",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot2",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot3",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot4",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot5",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot6",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot7",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot8",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot9",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot10",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot11",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot12",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot13",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot14",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot15",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot16",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot17",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot18",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot19",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot20",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot21",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot22",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot23",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot24",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot25",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot26",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot27",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot28",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot29",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot30",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot31",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot32",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot33",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot34",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot35",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot36",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot37",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot38",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot39",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "eldenmoorSlot40",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "worldSeasonName",
+      "type": "string",
+      "scope": "world",
+      "value": "Spring"
+    },
+    {
+      "name": "playerSeasonName",
+      "type": "string",
+      "scope": "player_lifetime",
+      "value": "Spring"
+    },
+    {
+      "name": "worldSeasonDay",
+      "type": "number",
+      "scope": "world",
+      "value": "12.0"
+    },
+    {
+      "name": "worldMaxSeasonDay",
+      "type": "number",
+      "scope": "world",
+      "value": "12.0"
+    },
+    {
+      "name": "worldSeasonTemperature",
+      "type": "number",
+      "scope": "world",
+      "value": "0.0"
+    },
+    {
+      "name": "worldMinSeasonTemperature",
+      "type": "number",
+      "scope": "world",
+      "value": "-5.0"
+    },
+    {
+      "name": "worldMaxSeasonTemperature",
+      "type": "number",
+      "scope": "world",
+      "value": "5.0"
+    },
+    {
+      "name": "worldWindSpeed",
+      "type": "number",
+      "scope": "world",
+      "value": "1.0"
+    },
+    {
+      "name": "worldWindTemperature",
+      "type": "number",
+      "scope": "world",
+      "value": "1.0"
+    },
+    {
+      "name": "worldMinWindTemperature",
+      "type": "number",
+      "scope": "world",
+      "value": "-10.0"
+    },
+    {
+      "name": "worldMaxWindTemperature",
+      "type": "number",
+      "scope": "world",
+      "value": "0.0"
+    },
+    {
+      "name": "worldWindDirection",
+      "type": "string",
+      "scope": "world",
+      "value": "East"
     }
   ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
       "block.tale_of_biomes.large_brick_wall": "Large Brick Wall",
-      "block.tale_of_biomes.kiln_block_corner_bottom": "Kiln Block",
       "block.tale_of_biomes.piruff_door": "Piruff Door",
+      "block.tale_of_biomes.kiln_block_corner_bottom": "Kiln Block",
       "block.tale_of_biomes.clay_block": "Clay Block",
+      "block.tale_of_biomes.tool_handle_block": "Tool Handle Block",
       "block.tale_of_biomes.piruff_wood": "Piruff Wood",
       "block.tale_of_biomes.kiln_block_corner_center": "Kiln Block",
+      "block.tale_of_biomes.light_purple_piruff_bed": "Light Purple Piruff Bed",
       "block.tale_of_biomes.goldenrod_flower_pot": "Goldenrod Flower Pot",
-      "biome.tale_of_biomes.flower_shrub_plains": "Flower Shrub Plains",
       "block.tale_of_biomes.blue_aster": "Blue Aster",
+      "biome.tale_of_biomes.flower_shrub_plains": "Flower Shrub Plains",
+      "item.tale_of_biomes.piruff_grip": "Piruff Grip",
+      "block.tale_of_biomes.ground_lantern_on": "Ground Lantern",
       "block.tale_of_biomes.purple_aster": "Purple Aster",
+      "gui.tale_of_biomes.basic_tool_table_menu.label_basic_tool_table": "Basic Tool Table",
       "block.tale_of_biomes.stripped_piruff_log": "Stripped Piruff Log",
+      "item.tale_of_biomes.stone_axe_head": "Stone Axe Head",
+      "item.tale_of_biomes.stone_hoe_head": "Stone Hoe Head",
       "block.tale_of_biomes.kiln_block_middle_top": "Kiln Block",
       "block.tale_of_biomes.large_brick_pressure_plate": "Large Brick Pressure Plate",
       "item.tale_of_biomes.rice_seeds": "Rice Seeds",
+      "item.tale_of_biomes.piruff_stone_pickaxe": "Piruff Stone Pickaxe",
+      "item_group.tale_of_biomes.tob_decoration_tab": "ToB Decorations",
       "itemGroup.tabtales_of_biomes_tab": "Tales Of Biomes",
       "block.tale_of_biomes.kiln_furnace_on": "Kiln Furnace On",
+      "block.tale_of_biomes.blue_piruff_bed": "Blue Piruff Bed",
       "block.tale_of_biomes.phosphorite_crystal_top": "Phosphorite Crystal Top",
+      "item.tale_of_biomes.stone_shovel_head": "Stone Shovel Head",
       "block.tale_of_biomes.blue_aster_flower_pot": "Blue Aster Flower Pot",
+      "block.tale_of_biomes.packed_dirt": "Packed Dirt",
+      "item.tale_of_biomes.piruff_stone_hoe": "Piruff Stone Hoe",
       "block.tale_of_biomes.wild_indigo_flower_pot": "Wild Indigo Flower Pot",
       "item.tale_of_biomes.phosphorite_gemstone": "Phosphorite Gemstone",
       "block.tale_of_biomes.piruff_pressure_plate": "Piruff Pressure Plate",
       "block.tale_of_biomes.tilled_soil_w_1_s_3": "Tilled Soil",
-      "block.tale_of_biomes.tilled_soil_w_1_s_2": "Tilled Soil",
       "block.tale_of_biomes.wild_indigo": "Wild Indigo",
+      "block.tale_of_biomes.tilled_soil_w_1_s_2": "Tilled Soil",
       "block.tale_of_biomes.tilled_soil_w_1_s_4": "Tilled Soil",
       "gui.tale_of_biomes.kiln_screen.label_kiln_furnace": "Kiln Furnace",
-      "item_group.tale_of_biomes.tales_of_biomes_tab": "Tales Of Biomes",
+      "block.tale_of_biomes.phosphorite_shovel_block": "Phosphorite Shovel Block",
+      "item.tale_of_biomes.piruff_stone_axe": "Piruff Stone Axe",
+      "block.tale_of_biomes.blue_piruff_bed_top": "Blue Piruff Bed Top",
       "block.tale_of_biomes.kiln_block_corner_top": "Kiln Block",
       "block.tale_of_biomes.piruff_leaves": "Piruff Leaves",
       "block.tale_of_biomes.quicklime_block": "Quicklime Block",
+      "block.tale_of_biomes.large_brick_stairs": "Large Brick Stairs",
       "item.tale_of_biomes.phosphorite_sword": "Phosphorite Sword",
       "block.tale_of_biomes.kiln_furnace": "Kiln Furnace",
       "block.tale_of_biomes.piruff_fence_gate": "Piruff Fence Gate",
@@ -6742,9 +8959,12 @@
       "block.tale_of_biomes.kiln_block_middle_bottom": "Kiln Block",
       "block.tale_of_biomes.brick_slab": "Brick Slab",
       "block.tale_of_biomes.piruff_trapdoor": "Piruff Trapdoor",
+      "block.tale_of_biomes.purple_piruff_bed_top": "Purple Piruff Bed Top",
+      "gui.tale_of_biomes.basic_tool_table_menu.label_inventory": "Inventory",
       "block.tale_of_biomes.phosphorite_crystal_bottom": "Phosphorite Crystal Bottom",
-      "block.tale_of_biomes.large_birck_stairs": "Large Brick Stairs",
+      "block.tale_of_biomes.light_purple_piruff_bed_top": "Light Purple Piruff Bed Top",
       "block.tale_of_biomes.large_brick_button": "Large Brick Button",
+      "block.tale_of_biomes.phosphorite_hoe_block": "Phosphorite Hoe Block",
       "block.tale_of_biomes.cobbled_limestone": "Cobbled Limestone",
       "block.tale_of_biomes.kiln_block_foundation": "Kiln Block",
       "block.tale_of_biomes.brick_pressure_plate": "Brick Wall",
@@ -6758,25 +8978,38 @@
       "block.tale_of_biomes.tilled_soil_w_3_s_3": "Tilled Soil",
       "block.tale_of_biomes.tilled_soil_w_3_s_2": "Tilled Soil",
       "block.tale_of_biomes.piruff_planks": "Piruff Planks",
+      "block.tale_of_biomes.hanging_lantern_on": "Hanging Lantern",
       "block.tale_of_biomes.stone": "Stone",
+      "item.tale_of_biomes.stone_sword_head": "Stone Sword Head",
+      "block.tale_of_biomes.magenta_piruff_bed": "Magenta Piruff Bed",
       "block.tale_of_biomes.magenta_aster": "Magenta Aster",
+      "block.tale_of_biomes.phosphorite_rake_block": "Phosphorite Rake Block",
       "block.tale_of_biomes.phosphorite_stone": "Phosphorite Stone",
+      "block.tale_of_biomes.large_brick_slab": "Large Brick Slab",
+      "block.tale_of_biomes.purple_piruff_bed": "Purple Piruff Bed",
+      "block.tale_of_biomes.yellow_piruff_bed": "Yellow Piruff Bed",
       "gui.tale_of_biomes.kiln_screen.label_inventory": "Inventory",
       "biome.tale_of_biomes.grass_shrub_plains": "Grass Shrub Plains",
       "item.tale_of_biomes.phosphorite_pickaxe": "Phosphorite Pickaxe",
       "block.tale_of_biomes.thatch_slab": "Thatch Slab",
       "block.tale_of_biomes.piruff_slab": "Piruff Slab",
+      "block.tale_of_biomes.basic_tool_table": "Basic Tool Table",
       "block.tale_of_biomes.piruff_log": "Piruff Log",
       "block.tale_of_biomes.thatch_block": "Thatch Block",
       "block.tale_of_biomes.thatch_stairs": "Thatch Stairs",
       "effect.tale_of_biomes.eldenmoor_curse": "Eldenmoor Curse",
       "block.tale_of_biomes.tilled_soil": "Tilled Soil",
+      "item_group.tale_of_biomes.tob_blocks_tab": "ToB Blocks",
       "block.tale_of_biomes.gravel": "Gravel",
+      "block.tale_of_biomes.window_blueprint": "Window Blueprint",
       "biome.tale_of_biomes.piruff_forest": "Piruff Forest",
+      "item.tale_of_biomes.season_device": "Season Device",
       "block.tale_of_biomes.phosphorite_crystal": "Phosphorite Crystal",
+      "block.tale_of_biomes.ground_lantern": "Ground Lantern",
       "block.tale_of_biomes.rice_crop_4": "Rice Crop",
       "block.tale_of_biomes.rice_crop_5": "Rice Crop",
       "block.tale_of_biomes.rice_crop_6": "Rice Crop",
+      "block.tale_of_biomes.hanging_lantern": "Hanging Lantern",
       "block.tale_of_biomes.rice_crop_7": "Rice Crop",
       "item.tale_of_biomes.phosphorite_hoe": "Phosphorite Hoe",
       "block.tale_of_biomes.piruff_stairs": "Piruff Stairs",
@@ -6787,6 +9020,7 @@
       "block.tale_of_biomes.kiln_block_middle_center": "Kiln Block",
       "block.tale_of_biomes.tilled_soil_w_2_s_3": "Tilled Soil",
       "block.tale_of_biomes.tilled_soil_w_0_s_1": "Tilled Soil",
+      "item.tale_of_biomes.piruff_stone_sword": "Piruff Stone Sword",
       "block.tale_of_biomes.tilled_soil_w_2_s_2": "Tilled Soil",
       "block.tale_of_biomes.kiln_ladder": "Kiln Ladder",
       "block.tale_of_biomes.tilled_soil_w_2_s_1": "Tilled Soil",
@@ -6795,21 +9029,25 @@
       "block.tale_of_biomes.tilled_soil_w_0_s_3": "Tilled Soil",
       "block.tale_of_biomes.purple_aster_flower_pot": "Purple Aster Flower Pot",
       "block.tale_of_biomes.grass_block": "Grass Block",
+      "item_group.tale_of_biomes.tob_resources_tab": "ToB Resources",
       "block.tale_of_biomes.brick_stairs": "Brick Stairs",
       "item.tale_of_biomes.quicklime": "Quicklime",
+      "block.tale_of_biomes.plot_blueprint": "Plot Blueprint",
       "block.tale_of_biomes.stripped_piruff_wood": "Stripped Piruff Wood",
       "biome.tale_of_biomes.piruff_woods": "Piruff Woods",
+      "block.tale_of_biomes.magenta_piruff_bed_top": "Magenta Piruff Bed Top",
       "block.tale_of_biomes.piruff_fence": "Piruff Fence",
       "block.tale_of_biomes.tall_grass_2": "Tall Grass",
       "block.tale_of_biomes.brick_button": "Brick Button",
       "block.tale_of_biomes.tall_grass_1": "Tall Grass",
+      "block.tale_of_biomes.wall_blueprint": "Wall Blueprint",
       "block.tale_of_biomes.tall_grass_0": "Tall Grass",
       "block.tale_of_biomes.tilled_soil_w_4_s_2": "Tilled Soil",
       "block.tale_of_biomes.tilled_soil_w_4_s_1": "Tilled Soil",
       "block.tale_of_biomes.hay_grass": "Hay Grass",
+      "item.tale_of_biomes.piruff_stone_shovel": "Piruff Stone Shovel",
       "block.tale_of_biomes.tilled_soil_w_4_s_0": "Tilled Soil",
       "block.tale_of_biomes.ivy_shrub": "Ivy Shrub",
-      "block.tale_of_biomes.large_brick_slabs": "Large Brick Slab",
       "item.tale_of_biomes.clay": "Clay",
       "block.tale_of_biomes.hay_straw": "Hay Straw",
       "block.tale_of_biomes.tilled_soil_w_4_s_4": "Tilled Soil",
@@ -6818,9 +9056,13 @@
       "biome.tale_of_biomes.flower_plains": "Flower  Plains",
       "block.tale_of_biomes.brick_wall": "Brick Wall",
       "block.tale_of_biomes.piruff_button": "Piruff Button",
+      "block.tale_of_biomes.yellow_piruff_bed_top": "Yellow Piruff Bed Top",
       "item.tale_of_biomes.phosphorite_axe": "Phosphorite Axe",
       "block.tale_of_biomes.bricks": "Bricks",
+      "block.tale_of_biomes.door_blueprint": "Door Blueprint",
+      "item.tale_of_biomes.stone_pickaxe_head": "Stone Pickaxe Head",
       "block.tale_of_biomes.rose_shrub": "Rose Shrub",
+      "item_group.tale_of_biomes.tob_tool_tab": "ToB Tools",
       "block.tale_of_biomes.sand": "Sand",
       "block.tale_of_biomes.rice_crop_0": "Rice Crop",
       "block.tale_of_biomes.rice_crop_1": "Rice Crop",
@@ -6873,6 +9115,10 @@
               },
               {
                 "name": "Clay Block",
+                "children": []
+              },
+              {
+                "name": "Packed Dirt",
                 "children": []
               }
             ]
@@ -6930,6 +9176,35 @@
               {
                 "name": "Flower Pots",
                 "children": []
+              },
+              {
+                "name": "Lantern",
+                "children": []
+              },
+              {
+                "name": "Tool Blocks",
+                "children": [
+                  {
+                    "name": "Hoes",
+                    "children": []
+                  },
+                  {
+                    "name": "Handles",
+                    "children": []
+                  },
+                  {
+                    "name": "Shovel",
+                    "children": []
+                  },
+                  {
+                    "name": "Rake",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Bed",
+                "children": []
               }
             ]
           },
@@ -6976,6 +9251,19 @@
             "children": [
               {
                 "name": "Kiln",
+                "children": []
+              },
+              {
+                "name": "Basic Tool Table",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Other",
+            "children": [
+              {
+                "name": "Blueprints",
                 "children": []
               }
             ]
@@ -7048,16 +9336,16 @@
                   {
                     "name": "Kiln",
                     "children": []
+                  },
+                  {
+                    "name": "Basic Tool Table",
+                    "children": []
                   }
                 ]
               }
             ]
           }
         ]
-      },
-      {
-        "name": "Global",
-        "children": []
       },
       {
         "name": "Item Extensions",
@@ -7102,6 +9390,28 @@
               {
                 "name": "Phosphorite",
                 "children": []
+              },
+              {
+                "name": "Stone",
+                "children": [
+                  {
+                    "name": "Heads",
+                    "children": []
+                  },
+                  {
+                    "name": "Tools",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Grips",
+                "children": [
+                  {
+                    "name": "Piruff",
+                    "children": []
+                  }
+                ]
               }
             ]
           },
@@ -7241,6 +9551,14 @@
                   {
                     "name": "Flower Pots",
                     "children": []
+                  },
+                  {
+                    "name": "Lanterns",
+                    "children": []
+                  },
+                  {
+                    "name": "Bed",
+                    "children": []
                   }
                 ]
               },
@@ -7348,6 +9666,10 @@
                             "children": []
                           }
                         ]
+                      },
+                      {
+                        "name": "Basic Tool Table",
+                        "children": []
                       }
                     ]
                   }
@@ -7367,6 +9689,19 @@
                 "children": [
                   {
                     "name": "Rice",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Tools",
+                "children": [
+                  {
+                    "name": "Season Device",
+                    "children": []
+                  },
+                  {
+                    "name": "Stone",
                     "children": []
                   }
                 ]
@@ -7397,6 +9732,20 @@
           {
             "name": "Global Conditions",
             "children": []
+          },
+          {
+            "name": "Overlays",
+            "children": [
+              {
+                "name": "Effects",
+                "children": [
+                  {
+                    "name": "Sleeping",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -7420,6 +9769,10 @@
                   {
                     "name": "Limestone",
                     "children": []
+                  },
+                  {
+                    "name": "Phosphorite Stone",
+                    "children": []
                   }
                 ]
               },
@@ -7428,6 +9781,15 @@
                 "children": [
                   {
                     "name": "Piruff",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Plant",
+                "children": [
+                  {
+                    "name": "Thatch",
                     "children": []
                   }
                 ]
@@ -7459,6 +9821,10 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "Crafting",
+            "children": []
           }
         ]
       },
@@ -7526,6 +9892,10 @@
                         "children": []
                       }
                     ]
+                  },
+                  {
+                    "name": "Decoration",
+                    "children": []
                   }
                 ]
               },
@@ -7581,6 +9951,15 @@
               {
                 "name": "Biomes",
                 "children": []
+              },
+              {
+                "name": "GUI",
+                "children": [
+                  {
+                    "name": "Basic Tool Table",
+                    "children": []
+                  }
+                ]
               }
             ]
           },
@@ -7593,6 +9972,20 @@
               },
               {
                 "name": "Items",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Overlays",
+        "children": [
+          {
+            "name": "Effects",
+            "children": [
+              {
+                "name": "Sleeping",
                 "children": []
               }
             ]
@@ -7611,7 +10004,7 @@
     "license": "GNU General Public License version 3 (GPLv3)",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "updateURL": "https://raw.githubusercontent.com/MCreator-Examples/Tale-of-Biomes/main/updates/update.json",
+    "updateURL": "https://raw.githubusercontent.com/MCreator-Examples/Tale-of-Biomes/latest/updates/update.json",
     "modPicture": "logo",
     "requiredMods": [],
     "dependencies": [],

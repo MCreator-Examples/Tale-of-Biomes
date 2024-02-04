@@ -9,16 +9,13 @@
     "entities": [],
     "biomes": [
       {
-        "value": "CUSTOM:FlowerPlains"
-      },
-      {
-        "value": "CUSTOM:FlowerShrubPlains"
-      },
-      {
         "value": "CUSTOM:GrassPlains"
       },
       {
         "value": "CUSTOM:GrassShrubPlains"
+      },
+      {
+        "value": "#tale_of_biomes:eldenmoor/flower_plains"
       }
     ],
     "damageTypes": [],

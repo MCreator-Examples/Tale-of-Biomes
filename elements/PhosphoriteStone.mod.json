@@ -42,7 +42,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:TalesOfBiomesTab"
+      "value": "CUSTOM:TOBBlocksTab"
     },
     "destroyTool": "pickaxe",
     "customDrop": {

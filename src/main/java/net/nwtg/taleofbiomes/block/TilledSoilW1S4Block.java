@@ -4,7 +4,6 @@ package net.nwtg.taleofbiomes.block;
 import org.checkerframework.checker.units.qual.s;
 
 import net.nwtg.taleofbiomes.procedures.TilledSoilUpdateTickProcedure;
-import net.nwtg.taleofbiomes.procedures.TilledSoilBlockAddedProcedure;
 import net.nwtg.taleofbiomes.init.TaleOfBiomesModBlocks;
 import net.nwtg.taleofbiomes.block.entity.TilledSoilW1S4BlockEntity;
 
@@ -130,7 +129,6 @@ public class TilledSoilW1S4Block extends Block implements SimpleWaterloggedBlock
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
 		world.scheduleTick(pos, this, 1);
-		TilledSoilBlockAddedProcedure.execute();
 	}
 
 	@Override

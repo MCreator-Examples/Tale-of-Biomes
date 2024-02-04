@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "texture": "phosphorite_rake_block"
+      },
+      "name": "default"
+    }
+  }
+}

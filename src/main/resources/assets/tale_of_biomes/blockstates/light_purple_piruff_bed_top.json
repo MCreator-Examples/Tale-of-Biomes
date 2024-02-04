@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tale_of_biomes:block/light_purple_piruff_bed_top"
+    },
+    "facing=east": {
+      "model": "tale_of_biomes:block/light_purple_piruff_bed_top",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tale_of_biomes:block/light_purple_piruff_bed_top",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tale_of_biomes:block/light_purple_piruff_bed_top",
+      "y": 270
+    }
+  }
+}

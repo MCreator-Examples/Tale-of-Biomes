@@ -1,0 +1,9 @@
+{
+  "parent": "tale_of_biomes:custom/blueprint",
+  "textures": {
+    "all": "tale_of_biomes:block/blueprint_door",
+    "particle": "tale_of_biomes:block/blueprint_door",
+    "texture": "tale_of_biomes:block/blueprint_door"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "tale_of_biomes:custom/bed_bottom",
+  "textures": {
+    "all": "tale_of_biomes:block/yellow_piruff_bed_block",
+    "particle": "tale_of_biomes:block/yellow_piruff_bed_block",
+    "texture": "tale_of_biomes:block/yellow_piruff_bed_block"
+  },
+  "render_type": "cutout"
+}

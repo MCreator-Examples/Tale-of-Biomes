@@ -33,21 +33,19 @@ public class FlowerPotBlockDestroyedProcedure {
 		boolean spawnGem = false;
 		BlockState blockPosition = Blocks.AIR.defaultBlockState();
 		blockPosition = (world.getBlockState(BlockPos.containing(x, y, z)));
+		spawnGem = true;
 		if (blockPosition.getBlock() == TaleOfBiomesModBlocks.BLUE_ASTER_FLOWER_POT.get()) {
-			spawnGem = true;
 			itemToRplace = new ItemStack(TaleOfBiomesModBlocks.BLUE_ASTER.get());
 		} else if (blockPosition.getBlock() == TaleOfBiomesModBlocks.PURPLE_ASTER_FLOWER_POT.get()) {
-			spawnGem = true;
 			itemToRplace = new ItemStack(TaleOfBiomesModBlocks.PURPLE_ASTER.get());
 		} else if (blockPosition.getBlock() == TaleOfBiomesModBlocks.MAGENTA_ASTER_FLOWER_POT.get()) {
-			spawnGem = true;
 			itemToRplace = new ItemStack(TaleOfBiomesModBlocks.MAGENTA_ASTER.get());
 		} else if (blockPosition.getBlock() == TaleOfBiomesModBlocks.GOLDENROD_FLOWER_POT.get()) {
-			spawnGem = true;
 			itemToRplace = new ItemStack(TaleOfBiomesModBlocks.GOLDENROD.get());
 		} else if (blockPosition.getBlock() == TaleOfBiomesModBlocks.WILD_INDIGO_FLOWER_POT.get()) {
-			spawnGem = true;
 			itemToRplace = new ItemStack(TaleOfBiomesModBlocks.WILD_INDIGO.get());
+		} else {
+			spawnGem = false;
 		}
 		if (spawnGem) {
 			if (world instanceof ServerLevel _level) {

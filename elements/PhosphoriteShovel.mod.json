@@ -13,7 +13,7 @@
       "fixedValue": []
     },
     "creativeTab": {
-      "value": "CUSTOM:TalesOfBiomesTab"
+      "value": "CUSTOM:TOBToolTab"
     },
     "harvestLevel": 3,
     "efficiency": 8.0,
@@ -22,6 +22,9 @@
     "damageVsEntity": 2.75,
     "usageCount": 1500,
     "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
     "repairItems": [
       {
         "value": "CUSTOM:PhosphoriteGemstone"

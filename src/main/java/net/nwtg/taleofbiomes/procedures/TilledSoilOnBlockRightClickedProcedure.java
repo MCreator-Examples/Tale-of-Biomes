@@ -45,7 +45,7 @@ public class TilledSoilOnBlockRightClickedProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, BlockState blockstate, Entity entity) {
 		if (entity == null)
 			return;
-		if (!world.isClientSide() && blockstate.is(BlockTags.create(new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":tilled_soil")).toLowerCase(java.util.Locale.ENGLISH))))) {
+		if (!world.isClientSide() && blockstate.is(BlockTags.create(new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "tilled_soil")).toLowerCase(java.util.Locale.ENGLISH))))) {
 			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() instanceof ShovelItem) {
 				if (new Object() {
 					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
@@ -157,7 +157,7 @@ public class TilledSoilOnBlockRightClickedProcedure {
 					TilledSoilUpdateTickBlockstatesProcedure.execute(world, x, y, z);
 				}
 			} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
-					.is(ItemTags.create(new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":soil_mixture/clay")).toLowerCase(java.util.Locale.ENGLISH)))) && new Object() {
+					.is(ItemTags.create(new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "soil_mixture/clay")).toLowerCase(java.util.Locale.ENGLISH)))) && new Object() {
 						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 							BlockEntity blockEntity = world.getBlockEntity(pos);
 							if (blockEntity != null)
@@ -189,7 +189,7 @@ public class TilledSoilOnBlockRightClickedProcedure {
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}
 			} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
-					.is(ItemTags.create(new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":soil_mixture/sand")).toLowerCase(java.util.Locale.ENGLISH)))) && new Object() {
+					.is(ItemTags.create(new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "soil_mixture/sand")).toLowerCase(java.util.Locale.ENGLISH)))) && new Object() {
 						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 							BlockEntity blockEntity = world.getBlockEntity(pos);
 							if (blockEntity != null)
@@ -224,7 +224,7 @@ public class TilledSoilOnBlockRightClickedProcedure {
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}
 			} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
-					.is(ItemTags.create(new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":soil_fertilizer")).toLowerCase(java.util.Locale.ENGLISH)))) && new Object() {
+					.is(ItemTags.create(new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "soil_fertilizer")).toLowerCase(java.util.Locale.ENGLISH)))) && new Object() {
 						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 							BlockEntity blockEntity = world.getBlockEntity(pos);
 							if (blockEntity != null)
@@ -259,7 +259,7 @@ public class TilledSoilOnBlockRightClickedProcedure {
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}
 			} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
-					.is(ItemTags.create(new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":soil_ph")).toLowerCase(java.util.Locale.ENGLISH)))) && new Object() {
+					.is(ItemTags.create(new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "soil_ph")).toLowerCase(java.util.Locale.ENGLISH)))) && new Object() {
 						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 							BlockEntity blockEntity = world.getBlockEntity(pos);
 							if (blockEntity != null)

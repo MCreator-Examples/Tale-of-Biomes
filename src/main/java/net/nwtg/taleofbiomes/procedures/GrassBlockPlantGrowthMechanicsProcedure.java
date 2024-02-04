@@ -1,5 +1,7 @@
 package net.nwtg.taleofbiomes.procedures;
 
+import net.nwtg.taleofbiomes.network.TaleOfBiomesModVariables;
+
 import net.minecraftforge.registries.ForgeRegistries;
 
 import net.minecraft.world.level.block.state.properties.Property;
@@ -42,8 +44,10 @@ public class GrassBlockPlantGrowthMechanicsProcedure {
 				for (int index0 = 0; index0 < 5; index0++) {
 					for (int index1 = 0; index1 < 5; index1++) {
 						for (int index2 = 0; index2 < 5; index2++) {
-							if ((world.getBlockState(BlockPos.containing(posX, posY, posZ))).is(BlockTags.create(new ResourceLocation("tale_of_biomes:grass_blocks")))
-									&& (world.getBlockState(BlockPos.containing(posX, posY + 1, posZ))).is(BlockTags.create(new ResourceLocation("tale_of_biomes:grass_plants")))) {
+							if ((world.getBlockState(BlockPos.containing(posX, posY, posZ)))
+									.is(BlockTags.create(new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "grass_blocks")).toLowerCase(java.util.Locale.ENGLISH))))
+									&& (world.getBlockState(BlockPos.containing(posX, posY + 1, posZ)))
+											.is(BlockTags.create(new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "grass_plants")).toLowerCase(java.util.Locale.ENGLISH))))) {
 								plantCount = plantCount + 1;
 							}
 							posZ = posZ + 1;
@@ -55,17 +59,23 @@ public class GrassBlockPlantGrowthMechanicsProcedure {
 					posY = posY + 1;
 				}
 				if (IsInEldenmoorDimensionProcedure.execute(world)
-						&& (world.getBiome(BlockPos.containing(x, y, z)).is(TagKey.create(Registries.BIOME, new ResourceLocation("tale_of_biomes:grass_growth/dense"))) && plantCount <= 12
-								|| world.getBiome(BlockPos.containing(x, y, z)).is(TagKey.create(Registries.BIOME, new ResourceLocation("tale_of_biomes:grass_growth/moderate"))) && plantCount <= 6
-								|| world.getBiome(BlockPos.containing(x, y, z)).is(TagKey.create(Registries.BIOME, new ResourceLocation("tale_of_biomes:grass_growth/light"))) && plantCount <= 3)
+						&& (world.getBiome(BlockPos.containing(x, y, z))
+								.is(TagKey.create(Registries.BIOME, new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "grass_growth/dense")).toLowerCase(java.util.Locale.ENGLISH)))) && plantCount <= 12
+								|| world.getBiome(BlockPos.containing(x, y, z)).is(
+										TagKey.create(Registries.BIOME, new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "grass_growth/moderate")).toLowerCase(java.util.Locale.ENGLISH)))) && plantCount <= 6
+								|| world.getBiome(BlockPos.containing(x, y, z)).is(
+										TagKey.create(Registries.BIOME, new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "grass_growth/light")).toLowerCase(java.util.Locale.ENGLISH)))) && plantCount <= 3)
 						|| !IsInEldenmoorDimensionProcedure.execute(world) && plantCount <= 6) {
 					posX = x;
 					posY = y + 1;
 					posZ = z;
-					if (world.getBiome(BlockPos.containing(x, y, z)).is(TagKey.create(Registries.BIOME, new ResourceLocation("tale_of_biomes:eldenmoor/plains")))) {
+					if (world.getBiome(BlockPos.containing(x, y, z))
+							.is(TagKey.create(Registries.BIOME, new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "eldenmoor/flower_plains")).toLowerCase(java.util.Locale.ENGLISH))))) {
 						{
 							BlockPos _bp = BlockPos.containing(posX, posY, posZ);
-							BlockState _bs = (ForgeRegistries.BLOCKS.tags().getTag(BlockTags.create(new ResourceLocation("tale_of_biomes:grass_growth/plains"))).getRandomElement(RandomSource.create()).orElseGet(() -> Blocks.AIR)).defaultBlockState();
+							BlockState _bs = (ForgeRegistries.BLOCKS.tags()
+									.getTag(BlockTags.create(new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "grass_growth/flower_plains")).toLowerCase(java.util.Locale.ENGLISH))))
+									.getRandomElement(RandomSource.create()).orElseGet(() -> Blocks.AIR)).defaultBlockState();
 							BlockState _bso = world.getBlockState(_bp);
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 								Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
@@ -95,8 +105,9 @@ public class GrassBlockPlantGrowthMechanicsProcedure {
 					} else {
 						{
 							BlockPos _bp = BlockPos.containing(posX, posY, posZ);
-							BlockState _bs = (ForgeRegistries.BLOCKS.tags().getTag(BlockTags.create(new ResourceLocation("tale_of_biomes:grass_growth/defualt"))).getRandomElement(RandomSource.create()).orElseGet(() -> Blocks.AIR))
-									.defaultBlockState();
+							BlockState _bs = (ForgeRegistries.BLOCKS.tags()
+									.getTag(BlockTags.create(new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "grass_growth/defualt")).toLowerCase(java.util.Locale.ENGLISH))))
+									.getRandomElement(RandomSource.create()).orElseGet(() -> Blocks.AIR)).defaultBlockState();
 							BlockState _bso = world.getBlockState(_bp);
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 								Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());

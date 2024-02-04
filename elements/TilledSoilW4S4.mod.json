@@ -119,9 +119,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onBlockAdded": {
-      "name": "TilledSoilBlockAdded"
-    },
     "onTickUpdate": {
       "name": "TilledSoilUpdateTick"
     },

@@ -1,5 +1,6 @@
 package net.nwtg.taleofbiomes.procedures;
 
+import net.nwtg.taleofbiomes.network.TaleOfBiomesModVariables;
 import net.nwtg.taleofbiomes.init.TaleOfBiomesModBlocks;
 
 import net.minecraftforge.fml.common.Mod;
@@ -42,7 +43,7 @@ public class BreakKilnScriptProcedure {
 		double offsetY = 0;
 		double group = 0;
 		if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == TaleOfBiomesModBlocks.KILN_FURNACE.get() || (world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == TaleOfBiomesModBlocks.KILN_FURNACE_ON.get()) {
-			myNamespace = "tale_of_biomes";
+			myNamespace = TaleOfBiomesModVariables.MapVariables.get(world).modNamespace;
 			myPlacementTag = "kiln";
 			group = new Object() {
 				public double getValue(LevelAccessor world, BlockPos pos, String tag) {

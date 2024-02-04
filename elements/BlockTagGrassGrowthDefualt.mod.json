@@ -6,13 +6,7 @@
     "items": [],
     "blocks": [
       {
-        "value": "CUSTOM:TallGrass0"
-      },
-      {
-        "value": "CUSTOM:TallGrass1"
-      },
-      {
-        "value": "CUSTOM:TallGrass2"
+        "value": "TAG:tale_of_biomes:grass_plants"
       }
     ],
     "functions": [],

@@ -14,7 +14,7 @@
       "value": "CUSTOM:LargeBricks"
     },
     "stoneCuttingReturnStack": {
-      "value": "CUSTOM:LargeBirckStairs"
+      "value": "CUSTOM:LargeBrickStairs"
     },
     "name": "large_brick_stairs_stone_cutting_recipe",
     "namespace": "mod"

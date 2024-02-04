@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LargeBrickSlabs"
+      "value": "CUSTOM:LargeBrickSlab"
     },
     "name": "large_brick_slabs_crafting_recipe",
     "namespace": "mod"

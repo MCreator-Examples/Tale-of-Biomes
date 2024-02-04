@@ -1,5 +1,6 @@
 package net.nwtg.taleofbiomes.procedures;
 
+import net.nwtg.taleofbiomes.network.TaleOfBiomesModVariables;
 import net.nwtg.taleofbiomes.init.TaleOfBiomesModBlocks;
 
 import net.minecraft.world.level.block.Blocks;
@@ -31,9 +32,9 @@ public class SmallPiruffTreeStructureScriptProcedure {
 		double PositionX = 0;
 		EnableSoilReplacement = true;
 		EnableTagSupport = true;
-		AirTagName = "tale_of_biomes:structure/shub/air";
-		TopSoilTagName = "tale_of_biomes:structure/shub/top";
-		UnderSoilTagName = "tale_of_biomes:structure/shub/under";
+		AirTagName = TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "structure/shub/air";
+		TopSoilTagName = TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "structure/shub/top";
+		UnderSoilTagName = TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "structure/shub/under";
 		Air = new ItemStack(Blocks.AIR);
 		TopSoil = new ItemStack(TaleOfBiomesModBlocks.GRASS_BLOCK.get());
 		UnderSoil = new ItemStack(TaleOfBiomesModBlocks.DIRT.get());

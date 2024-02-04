@@ -43,21 +43,19 @@ public class VanillaFlowerPotRightClickedWithFlowerProcedure {
 		ItemStack mainhandItem = ItemStack.EMPTY;
 		if (blockstate.getBlock() == Blocks.FLOWER_POT) {
 			mainhandItem = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
+			replaceBlock = true;
 			if (mainhandItem.getItem() == TaleOfBiomesModBlocks.BLUE_ASTER.get().asItem()) {
 				blockToReplace = TaleOfBiomesModBlocks.BLUE_ASTER_FLOWER_POT.get().defaultBlockState();
-				replaceBlock = true;
 			} else if (mainhandItem.getItem() == TaleOfBiomesModBlocks.PURPLE_ASTER.get().asItem()) {
 				blockToReplace = TaleOfBiomesModBlocks.PURPLE_ASTER_FLOWER_POT.get().defaultBlockState();
-				replaceBlock = true;
 			} else if (mainhandItem.getItem() == TaleOfBiomesModBlocks.MAGENTA_ASTER.get().asItem()) {
 				blockToReplace = TaleOfBiomesModBlocks.MAGENTA_ASTER_FLOWER_POT.get().defaultBlockState();
-				replaceBlock = true;
 			} else if (mainhandItem.getItem() == TaleOfBiomesModBlocks.GOLDENROD.get().asItem()) {
 				blockToReplace = TaleOfBiomesModBlocks.GOLDENROD_FLOWER_POT.get().defaultBlockState();
-				replaceBlock = true;
 			} else if (mainhandItem.getItem() == TaleOfBiomesModBlocks.WILD_INDIGO.get().asItem()) {
 				blockToReplace = TaleOfBiomesModBlocks.WILD_INDIGO_FLOWER_POT.get().defaultBlockState();
-				replaceBlock = true;
+			} else {
+				replaceBlock = false;
 			}
 			if (replaceBlock) {
 				if (mainhandItem.getCount() > 1) {

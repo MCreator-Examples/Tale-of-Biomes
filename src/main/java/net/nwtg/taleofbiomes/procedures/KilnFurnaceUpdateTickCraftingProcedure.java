@@ -1,5 +1,6 @@
 package net.nwtg.taleofbiomes.procedures;
 
+import net.nwtg.taleofbiomes.network.TaleOfBiomesModVariables;
 import net.nwtg.taleofbiomes.init.TaleOfBiomesModBlocks;
 
 import net.minecraftforge.registries.ForgeRegistries;
@@ -55,7 +56,7 @@ public class KilnFurnaceUpdateTickCraftingProcedure {
 		posY = y;
 		posZ = z;
 		if ((world.getBlockState(BlockPos.containing(posX, posY, posZ))).getBlock() == TaleOfBiomesModBlocks.KILN_FURNACE_ON.get()) {
-			file = new File((FMLPaths.GAMEDIR.get().toString() + "/config/tale_of_biomes/recipes"), File.separator + "kiln.json");
+			file = new File((FMLPaths.GAMEDIR.get().toString() + "/config/" + TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + "/recipes"), File.separator + "kiln.json");
 			if (file.exists()) {
 				{
 					try {

@@ -1,5 +1,6 @@
 package net.nwtg.taleofbiomes.procedures;
 
+import net.nwtg.taleofbiomes.network.TaleOfBiomesModVariables;
 import net.nwtg.taleofbiomes.init.TaleOfBiomesModBlocks;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -17,7 +18,7 @@ public class BuildKilnScriptFoundationProcedure {
 		String myBlockedBlocksTag = "";
 		String myNamespace = "";
 		String myPlacementTag = "";
-		myNamespace = "tale_of_biomes";
+		myNamespace = TaleOfBiomesModVariables.MapVariables.get(world).modNamespace;
 		myPlacementTag = "kiln";
 		myBlockedBlocksTag = "kiln/blocked_blocks";
 		offsetX = new Object() {

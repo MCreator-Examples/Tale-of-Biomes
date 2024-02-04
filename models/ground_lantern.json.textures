@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "lantern": "lantern_off"
+      },
+      "name": "default"
+    },
+    "on": {
+      "map": {
+        "lantern": "lantern_on"
+      },
+      "name": "on"
+    }
+  }
+}
