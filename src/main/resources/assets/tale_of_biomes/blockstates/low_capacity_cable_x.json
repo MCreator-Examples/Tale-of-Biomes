@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tale_of_biomes:block/low_capacity_cable_x"
+    },
+    "facing=east": {
+      "model": "tale_of_biomes:block/low_capacity_cable_x",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tale_of_biomes:block/low_capacity_cable_x",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tale_of_biomes:block/low_capacity_cable_x",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "tale_of_biomes:block/low_capacity_cable_x",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "tale_of_biomes:block/low_capacity_cable_x",
+      "x": 90
+    }
+  }
+}

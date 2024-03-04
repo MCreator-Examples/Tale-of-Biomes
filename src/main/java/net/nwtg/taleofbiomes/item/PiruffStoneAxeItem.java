@@ -21,7 +21,7 @@ public class PiruffStoneAxeItem extends AxeItem {
 	public PiruffStoneAxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 85;
+				return 75;
 			}
 
 			public float getSpeed() {

@@ -35,6 +35,12 @@
     "tale_of_biomes:kiln_block_foundation",
     "tale_of_biomes:hanging_lantern",
     "tale_of_biomes:hanging_lantern_on",
-    "tale_of_biomes:ground_lantern_on"
+    "tale_of_biomes:ground_lantern_on",
+    "tale_of_biomes:solar_pannel",
+    "tale_of_biomes:copper_battery_0",
+    "tale_of_biomes:copper_battery_1",
+    "tale_of_biomes:copper_battery_2",
+    "tale_of_biomes:copper_battery_3",
+    "tale_of_biomes:copper_battery_4"
   ]
 }

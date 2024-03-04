@@ -44,7 +44,7 @@ public class HayStrawBlock extends Block implements SimpleWaterloggedBlock, Enti
 
 	public HayStrawBlock() {
 		super(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().requiresCorrectToolForDrops().noCollission().noOcclusion().randomTicks().pushReaction(PushReaction.DESTROY)
-				.isRedstoneConductor((bs, br, bp) -> false));
+				.isRedstoneConductor((bs, br, bp) -> false).noLootTable());
 		this.registerDefaultState(this.stateDefinition.any().setValue(WATERLOGGED, false));
 	}
 

@@ -1,0 +1,397 @@
+{
+  "type": "tale_of_biomes:medium_piruff_tree_feature_forest",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "minecraft:simple_random_selector",
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "type": "tale_of_biomes:structure_feature",
+                  "config": {
+                    "structure": "tale_of_biomes:piruff_tree_medium_01n",
+                    "ignored_blocks": "minecraft:structure_block",
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "tale_of_biomes:structure_feature",
+                  "config": {
+                    "structure": "tale_of_biomes:piruff_tree_medium_01e",
+                    "ignored_blocks": "minecraft:structure_block",
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "tale_of_biomes:structure_feature",
+                  "config": {
+                    "structure": "tale_of_biomes:piruff_tree_medium_01s",
+                    "ignored_blocks": "minecraft:structure_block",
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "tale_of_biomes:structure_feature",
+                  "config": {
+                    "structure": "tale_of_biomes:piruff_tree_medium_01w",
+                    "ignored_blocks": "minecraft:structure_block",
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "tale_of_biomes:structure_feature",
+                  "config": {
+                    "structure": "tale_of_biomes:piruff_tree_medium_01nf",
+                    "ignored_blocks": "minecraft:structure_block",
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "tale_of_biomes:structure_feature",
+                  "config": {
+                    "structure": "tale_of_biomes:piruff_tree_medium_01ef",
+                    "ignored_blocks": "minecraft:structure_block",
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "tale_of_biomes:structure_feature",
+                  "config": {
+                    "structure": "tale_of_biomes:piruff_tree_medium_01sf",
+                    "ignored_blocks": "minecraft:structure_block",
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "tale_of_biomes:structure_feature",
+                  "config": {
+                    "structure": "tale_of_biomes:piruff_tree_medium_01wf",
+                    "ignored_blocks": "minecraft:structure_block",
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:simple_random_selector",
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "type": "tale_of_biomes:structure_feature",
+                  "config": {
+                    "structure": "tale_of_biomes:piruff_tree_medium_02n",
+                    "ignored_blocks": "minecraft:structure_block",
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "tale_of_biomes:structure_feature",
+                  "config": {
+                    "structure": "tale_of_biomes:piruff_tree_medium_02e",
+                    "ignored_blocks": "minecraft:structure_block",
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "tale_of_biomes:structure_feature",
+                  "config": {
+                    "structure": "tale_of_biomes:piruff_tree_medium_02s",
+                    "ignored_blocks": "minecraft:structure_block",
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "tale_of_biomes:structure_feature",
+                  "config": {
+                    "structure": "tale_of_biomes:piruff_tree_medium_02w",
+                    "ignored_blocks": "minecraft:structure_block",
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "tale_of_biomes:structure_feature",
+                  "config": {
+                    "structure": "tale_of_biomes:piruff_tree_medium_02nf",
+                    "ignored_blocks": "minecraft:structure_block",
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "tale_of_biomes:structure_feature",
+                  "config": {
+                    "structure": "tale_of_biomes:piruff_tree_medium_02ef",
+                    "ignored_blocks": "minecraft:structure_block",
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "tale_of_biomes:structure_feature",
+                  "config": {
+                    "structure": "tale_of_biomes:piruff_tree_medium_02sf",
+                    "ignored_blocks": "minecraft:structure_block",
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "tale_of_biomes:structure_feature",
+                  "config": {
+                    "structure": "tale_of_biomes:piruff_tree_medium_02wf",
+                    "ignored_blocks": "minecraft:structure_block",
+                    "offset": [
+                      0,
+                      -3,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:simple_random_selector",
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "type": "tale_of_biomes:structure_feature",
+                  "config": {
+                    "structure": "tale_of_biomes:piruff_tree_medium_03n",
+                    "ignored_blocks": "minecraft:structure_block",
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "tale_of_biomes:structure_feature",
+                  "config": {
+                    "structure": "tale_of_biomes:piruff_tree_medium_03e",
+                    "ignored_blocks": "minecraft:structure_block",
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "tale_of_biomes:structure_feature",
+                  "config": {
+                    "structure": "tale_of_biomes:piruff_tree_medium_03s",
+                    "ignored_blocks": "minecraft:structure_block",
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "tale_of_biomes:structure_feature",
+                  "config": {
+                    "structure": "tale_of_biomes:piruff_tree_medium_03w",
+                    "ignored_blocks": "minecraft:structure_block",
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "tale_of_biomes:structure_feature",
+                  "config": {
+                    "structure": "tale_of_biomes:piruff_tree_medium_03nf",
+                    "ignored_blocks": "minecraft:structure_block",
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "tale_of_biomes:structure_feature",
+                  "config": {
+                    "structure": "tale_of_biomes:piruff_tree_medium_03ef",
+                    "ignored_blocks": "minecraft:structure_block",
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "tale_of_biomes:structure_feature",
+                  "config": {
+                    "structure": "tale_of_biomes:piruff_tree_medium_03sf",
+                    "ignored_blocks": "minecraft:structure_block",
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "tale_of_biomes:structure_feature",
+                  "config": {
+                    "structure": "tale_of_biomes:piruff_tree_medium_03wf",
+                    "ignored_blocks": "minecraft:structure_block",
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              }
+            ]
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

@@ -36,6 +36,9 @@ public class TaleOfBiomesModTabs {
 				tabData.accept(TaleOfBiomesModBlocks.HAY_STRAW.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.IVY_SHRUB.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.ROSE_SHRUB.get().asItem());
+				tabData.accept(TaleOfBiomesModBlocks.MOSS_BLOCK.get().asItem());
+				tabData.accept(TaleOfBiomesModBlocks.MOSS_CARPET.get().asItem());
+				tabData.accept(TaleOfBiomesModBlocks.PIRUFF_VINES.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.PIRUFF_LEAVES.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.THATCH_BLOCK.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.THATCH_STAIRS.get().asItem());
@@ -82,6 +85,10 @@ public class TaleOfBiomesModTabs {
 				tabData.accept(TaleOfBiomesModBlocks.LARGE_BRICK_WALL.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.LARGE_BRICK_PRESSURE_PLATE.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.LARGE_BRICK_BUTTON.get().asItem());
+				tabData.accept(TaleOfBiomesModBlocks.LOW_CAPACITY_CABLE_N.get().asItem());
+				tabData.accept(TaleOfBiomesModBlocks.SOLAR_PANNEL.get().asItem());
+				tabData.accept(TaleOfBiomesModBlocks.PIRUFF_SAPLING.get().asItem());
+				tabData.accept(TaleOfBiomesModBlocks.COPPER_BATTERY_0.get().asItem());
 			})
 
 					.build());
@@ -97,12 +104,14 @@ public class TaleOfBiomesModTabs {
 				tabData.accept(TaleOfBiomesModItems.PIRUFF_STONE_HOE.get());
 				tabData.accept(TaleOfBiomesModItems.PIRUFF_STONE_PICKAXE.get());
 				tabData.accept(TaleOfBiomesModItems.PIRUFF_STONE_SHOVEL.get());
+				tabData.accept(TaleOfBiomesModItems.PIRUFF_STONE_SICKLE.get());
 				tabData.accept(TaleOfBiomesModItems.PIRUFF_STONE_SWORD.get());
 				tabData.accept(TaleOfBiomesModItems.PIRUFF_GRIP.get());
 				tabData.accept(TaleOfBiomesModItems.STONE_AXE_HEAD.get());
 				tabData.accept(TaleOfBiomesModItems.STONE_HOE_HEAD.get());
 				tabData.accept(TaleOfBiomesModItems.STONE_PICKAXE_HEAD.get());
 				tabData.accept(TaleOfBiomesModItems.STONE_SHOVEL_HEAD.get());
+				tabData.accept(TaleOfBiomesModItems.STONE_SICKLE_HEAD.get());
 				tabData.accept(TaleOfBiomesModItems.STONE_SWORD_HEAD.get());
 			})
 

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "cable": "electrical_cable"
+      },
+      "name": "default"
+    }
+  }
+}

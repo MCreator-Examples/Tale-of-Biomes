@@ -14,7 +14,6 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.Fluids;
@@ -50,14 +49,13 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.BiomeColors;
 
 import java.util.List;
-import java.util.Collections;
 
 public class HayGrassBlock extends Block implements SimpleWaterloggedBlock, EntityBlock {
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 	public HayGrassBlock() {
 		super(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).strength(0.5f, 0f).requiresCorrectToolForDrops().noCollission().noOcclusion().randomTicks().pushReaction(PushReaction.DESTROY)
-				.isRedstoneConductor((bs, br, bp) -> false));
+				.isRedstoneConductor((bs, br, bp) -> false).noLootTable());
 		this.registerDefaultState(this.stateDefinition.any().setValue(WATERLOGGED, false));
 	}
 
@@ -136,14 +134,6 @@ public class HayGrassBlock extends Block implements SimpleWaterloggedBlock, Enti
 		if (player.getInventory().getSelected().getItem() instanceof AxeItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 0;
 		return false;
-	}
-
-	@Override
-	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
-		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
-		if (!dropsOriginal.isEmpty())
-			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
 	}
 
 	@Override

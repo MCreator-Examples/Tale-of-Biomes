@@ -21,7 +21,7 @@ public class PiruffStonePickaxeItem extends PickaxeItem {
 	public PiruffStonePickaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 65;
+				return 35;
 			}
 
 			public float getSpeed() {

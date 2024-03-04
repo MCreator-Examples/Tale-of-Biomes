@@ -256,6 +256,7 @@ public class TaleOfBiomesModVariables {
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "tale_of_biomes_mapvars";
 		public String modNamespace = "tale_of_biomes";
+		public double forgeFlow = 0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -265,11 +266,13 @@ public class TaleOfBiomesModVariables {
 
 		public void read(CompoundTag nbt) {
 			modNamespace = nbt.getString("modNamespace");
+			forgeFlow = nbt.getDouble("forgeFlow");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
 			nbt.putString("modNamespace", modNamespace);
+			nbt.putDouble("forgeFlow", forgeFlow);
 			return nbt;
 		}
 

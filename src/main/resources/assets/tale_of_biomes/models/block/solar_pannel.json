@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tale_of_biomes:block/solar_panel_bottom",
+    "up": "tale_of_biomes:block/solar_panel_top",
+    "north": "tale_of_biomes:block/solar_panel_sides",
+    "east": "tale_of_biomes:block/solar_panel_sides",
+    "south": "tale_of_biomes:block/solar_panel_sides",
+    "west": "tale_of_biomes:block/solar_panel_sides",
+    "particle": "tale_of_biomes:block/solar_panel_bottom"
+  },
+  "render_type": "solid"
+}

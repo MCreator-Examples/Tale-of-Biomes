@@ -21,7 +21,7 @@ public class PiruffStoneSwordItem extends SwordItem {
 	public PiruffStoneSwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 45;
+				return 35;
 			}
 
 			public float getSpeed() {

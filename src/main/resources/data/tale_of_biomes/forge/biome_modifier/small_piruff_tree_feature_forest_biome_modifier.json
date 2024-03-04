@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "tale_of_biomes:piruff_forest",
+  "features": "tale_of_biomes:small_piruff_tree_feature_forest",
+  "step": "top_layer_modification"
+}

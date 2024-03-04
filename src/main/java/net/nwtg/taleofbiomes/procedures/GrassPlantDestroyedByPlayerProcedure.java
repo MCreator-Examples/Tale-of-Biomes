@@ -12,8 +12,11 @@ import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.GameType;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
@@ -50,22 +53,30 @@ public class GrassPlantDestroyedByPlayerProcedure {
 				return false;
 			}
 		}.checkGamemode(entity))) {
-			if (event != null && event.isCancelable()) {
-				event.setCanceled(true);
-			}
-			{
-				BlockPos _bp = BlockPos.containing(x, y, z);
-				BlockState _bs = TaleOfBiomesModBlocks.HAY_GRASS.get().defaultBlockState();
-				BlockState _bso = world.getBlockState(_bp);
-				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
-					Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
-					if (_property != null && _bs.getValue(_property) != null)
-						try {
-							_bs = _bs.setValue(_property, (Comparable) entry.getValue());
-						} catch (Exception e) {
-						}
+			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
+					.is(ItemTags.create(new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "sickles")).toLowerCase(java.util.Locale.ENGLISH))))) {
+				if (event != null && event.isCancelable()) {
+					event.setCanceled(true);
 				}
-				world.setBlock(_bp, _bs, 3);
+				{
+					BlockPos _bp = BlockPos.containing(x, y, z);
+					BlockState _bs = TaleOfBiomesModBlocks.HAY_GRASS.get().defaultBlockState();
+					BlockState _bso = world.getBlockState(_bp);
+					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+						Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+						if (_property != null && _bs.getValue(_property) != null)
+							try {
+								_bs = _bs.setValue(_property, (Comparable) entry.getValue());
+							} catch (Exception e) {
+							}
+					}
+					world.setBlock(_bp, _bs, 3);
+				}
+			} else {
+				if (event != null && event.isCancelable()) {
+					event.setCanceled(true);
+				}
+				world.destroyBlock(BlockPos.containing(x, y, z), false);
 			}
 		}
 	}
