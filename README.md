@@ -11,3 +11,7 @@ If you wish to become a wiki contributor for this modification contact me via em
 You can find the full license on [this page](https://github.com/MCreator-Examples/Tale-of-Biomes/blob/latest/LICENSE).  
   
 ![GPL_3 0_licence](https://github.com/MCreator-Examples/Tale-of-Biomes/assets/47284617/4838317c-86fe-4ea4-b834-e91b9261d073)
+
+# Getting The Source Code
+Follow this guide here on how to set up the workspace on your computer.  
+[https://github.com/MCreator-Examples/Tale-of-Biomes/wiki/Using-Source-Code](https://github.com/MCreator-Examples/Tale-of-Biomes/wiki/Using-Source-Code)
