@@ -1,7 +1,0 @@
-{
-  "type": "tale_of_biomes:piruff_tree_south_woods_feature",
-  "config": {
-    "structure": "tale_of_biomes:piruff_tree_south",
-    "ignored_blocks": "minecraft:structure_block"
-  }
-}
