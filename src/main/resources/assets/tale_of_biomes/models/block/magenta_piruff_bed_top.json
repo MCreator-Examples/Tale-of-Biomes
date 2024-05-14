@@ -1,9 +1,0 @@
-{
-  "parent": "tale_of_biomes:custom/bed_top",
-  "textures": {
-    "all": "tale_of_biomes:block/magenta_piruff_bed_block",
-    "particle": "tale_of_biomes:block/magenta_piruff_bed_block",
-    "texture": "tale_of_biomes:block/magenta_piruff_bed_block"
-  },
-  "render_type": "cutout"
-}

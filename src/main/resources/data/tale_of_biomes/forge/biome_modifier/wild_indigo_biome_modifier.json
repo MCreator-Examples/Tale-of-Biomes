@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "tale_of_biomes:flower_plains",
-  "features": "tale_of_biomes:wild_indigo",
-  "step": "vegetal_decoration"
-}

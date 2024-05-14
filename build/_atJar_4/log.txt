@@ -1,7 +1,0 @@
-Java Launcher: P:\MCreator\2023.4\jdk\bin\java.exe
-Arguments: '--inJar, P:\MCreatorWorkspaces\Series\Tale-of-Biomes\build\fg_cache\net\minecraftforge\forge\1.20.1-47.2.0\forge-1.20.1-47.2.0-injected.jar, --outJar, P:\MCreatorWorkspaces\Series\Tale-of-Biomes\build\fg_cache\net\minecraftforge\forge\1.20.1-47.2.0_mapped_official_1.20.1\forge-1.20.1-47.2.0_mapped_official_1.20.1.jar, --logFile, accesstransform.log, --atFile, P:\MCreatorWorkspaces\Series\Tale-of-Biomes\src\main\resources\META-INF\accesstransformer.cfg, --atFile, P:\MCreatorWorkspaces\Series\Tale-of-Biomes\build\_atJar_4\parent_at.cfg'
-Classpath:
- - C:\Users\kiera\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.2.0\accesstransformers-8.2.0-fatjar.jar
-Working directory: P:\MCreatorWorkspaces\Series\Tale-of-Biomes\build\_atJar_4
-Main class: net.minecraftforge.accesstransformer.TransformerProcessor
-====================================

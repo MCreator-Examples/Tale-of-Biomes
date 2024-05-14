@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "tale_of_biomes:block/goldenrod",
-    "particle": "tale_of_biomes:block/goldenrod"
-  },
-  "render_type": "cutout"
-}

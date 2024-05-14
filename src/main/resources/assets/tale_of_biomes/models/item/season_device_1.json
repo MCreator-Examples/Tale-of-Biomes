@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "tale_of_biomes:item/season_device_autumn"
-  }
-}

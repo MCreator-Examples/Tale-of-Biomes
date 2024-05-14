@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "tale_of_biomes:block/ghost_bush_0",
-    "particle": "tale_of_biomes:block/ghost_bush_0"
-  },
-  "render_type": "cutout"
-}

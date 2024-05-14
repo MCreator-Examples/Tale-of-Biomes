@@ -1,9 +1,0 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "bottom": "tale_of_biomes:block/piruff_planks",
-    "top": "tale_of_biomes:block/piruff_planks",
-    "side": "tale_of_biomes:block/piruff_planks"
-  },
-  "render_type": "cutout"
-}

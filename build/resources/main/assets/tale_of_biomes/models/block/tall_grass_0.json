@@ -1,8 +1,0 @@
-{
-  "parent": "block/tinted_cross",
-  "textures": {
-    "cross": "tale_of_biomes:block/tall_grass_0",
-    "particle": "tale_of_biomes:block/tall_grass_0"
-  },
-  "render_type": "cutout"
-}

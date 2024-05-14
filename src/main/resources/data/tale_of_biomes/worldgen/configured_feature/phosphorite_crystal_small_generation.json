@@ -1,7 +1,0 @@
-{
-  "type": "tale_of_biomes:structure_feature",
-  "config": {
-    "structure": "tale_of_biomes:phosphorite_crystal_small",
-    "ignored_blocks": "minecraft:structure_block"
-  }
-}

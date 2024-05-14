@@ -1,9 +1,0 @@
-{
-  "parent": "tale_of_biomes:custom/hanging_lantern",
-  "textures": {
-    "all": "tale_of_biomes:block/lantern_on",
-    "particle": "tale_of_biomes:block/lantern_on",
-    "lantern": "tale_of_biomes:block/lantern_on"
-  },
-  "render_type": "cutout"
-}

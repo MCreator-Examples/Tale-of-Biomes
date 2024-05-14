@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_wall_side_tall",
-  "textures": {
-    "wall": "tale_of_biomes:block/large_bricks",
-    "particle": "tale_of_biomes:block/large_bricks"
-  },
-  "render_type": "solid"
-}

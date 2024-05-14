@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "#tale_of_biomes:eldenmoor/piruff",
-  "features": "tale_of_biomes:moderate_tall_grass_generation_biome_feature_3",
-  "step": "vegetal_decoration"
-}

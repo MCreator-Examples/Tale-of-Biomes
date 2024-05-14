@@ -1,7 +1,0 @@
-{
-  "type": "tale_of_biomes:ivy_shrub_plant_1_feature",
-  "config": {
-    "structure": "tale_of_biomes:ivy_shrub_1",
-    "ignored_blocks": "minecraft:structure_block"
-  }
-}

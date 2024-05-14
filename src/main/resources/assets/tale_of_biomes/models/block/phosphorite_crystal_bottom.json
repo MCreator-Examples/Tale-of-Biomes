@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "tale_of_biomes:block/phosphorite_crystal_bottom",
-    "particle": "tale_of_biomes:block/phosphorite_crystal_bottom"
-  },
-  "render_type": "cutout"
-}

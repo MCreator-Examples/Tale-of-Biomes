@@ -1,9 +1,0 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "bottom": "tale_of_biomes:block/mossy_cobbled_basalt",
-    "top": "tale_of_biomes:block/mossy_cobbled_basalt",
-    "side": "tale_of_biomes:block/mossy_cobbled_basalt"
-  },
-  "render_type": "solid"
-}

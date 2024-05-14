@@ -1,9 +1,0 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "bottom": "tale_of_biomes:block/polished_marble",
-    "top": "tale_of_biomes:block/polished_marble",
-    "side": "tale_of_biomes:block/polished_marble"
-  },
-  "render_type": "solid"
-}

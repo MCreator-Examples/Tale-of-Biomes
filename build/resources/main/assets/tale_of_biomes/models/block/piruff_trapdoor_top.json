@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_orientable_trapdoor_top",
-  "textures": {
-    "texture": "tale_of_biomes:block/piruff_trapdoor",
-    "particle": "tale_of_biomes:block/piruff_trapdoor"
-  },
-  "render_type": "cutout"
-}

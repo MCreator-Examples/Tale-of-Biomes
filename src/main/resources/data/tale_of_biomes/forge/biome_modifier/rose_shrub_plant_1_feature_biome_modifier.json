@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "tale_of_biomes:flower_shrub_plains",
-  "features": "tale_of_biomes:rose_shrub_plant_1_feature",
-  "step": "surface_structures"
-}

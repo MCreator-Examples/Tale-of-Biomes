@@ -1,8 +1,0 @@
-{
-  "parent": "block/wall_inventory",
-  "textures": {
-    "wall": "tale_of_biomes:block/cobbled_basalt",
-    "particle": "tale_of_biomes:block/cobbled_basalt"
-  },
-  "render_type": "solid"
-}

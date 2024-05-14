@@ -1,9 +1,0 @@
-{
-  "parent": "tale_of_biomes:custom/tool_handle_block",
-  "textures": {
-    "all": "tale_of_biomes:block/tool_handle_block",
-    "particle": "tale_of_biomes:block/tool_handle_block",
-    "texture": "tale_of_biomes:block/tool_handle_block"
-  },
-  "render_type": "solid"
-}

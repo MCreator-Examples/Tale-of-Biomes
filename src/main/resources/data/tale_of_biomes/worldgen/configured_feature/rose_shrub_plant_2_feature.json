@@ -1,9 +1,0 @@
-{
-  "type": "tale_of_biomes:rose_shrub_plant_2_feature",
-  "config": {
-    "structure": "tale_of_biomes:rose_shrub_2",
-    "random_rotation": true,
-    "random_mirror": true,
-    "ignored_blocks": "minecraft:structure_block"
-  }
-}

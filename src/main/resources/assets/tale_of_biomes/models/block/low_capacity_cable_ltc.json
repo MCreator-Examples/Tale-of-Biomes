@@ -1,9 +1,0 @@
-{
-  "parent": "tale_of_biomes:custom/electrical_cable_ltc",
-  "textures": {
-    "all": "tale_of_biomes:block/electrical_cable",
-    "particle": "tale_of_biomes:block/electrical_cable",
-    "cable": "tale_of_biomes:block/electrical_cable"
-  },
-  "render_type": "cutout"
-}

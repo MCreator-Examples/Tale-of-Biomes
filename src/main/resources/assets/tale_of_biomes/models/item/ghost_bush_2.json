@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "tale_of_biomes:item/ghost_berries"
-  },
-  "render_type": "translucent"
-}

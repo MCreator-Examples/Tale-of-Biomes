@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "tale_of_biomes:block/piruff_sapling",
-    "particle": "tale_of_biomes:block/piruff_sapling"
-  },
-  "render_type": "cutout"
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "tale_of_biomes:block/packed_dirt",
-    "particle": "tale_of_biomes:block/packed_dirt"
-  },
-  "render_type": "solid"
-}

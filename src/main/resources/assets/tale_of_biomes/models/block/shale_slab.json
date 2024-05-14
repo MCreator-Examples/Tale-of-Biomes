@@ -1,9 +1,0 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "bottom": "tale_of_biomes:block/shale_end",
-    "top": "tale_of_biomes:block/shale_end",
-    "side": "tale_of_biomes:block/shale_side"
-  },
-  "render_type": "solid"
-}

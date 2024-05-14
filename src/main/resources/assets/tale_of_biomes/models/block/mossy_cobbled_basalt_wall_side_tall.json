@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_wall_side_tall",
-  "textures": {
-    "wall": "tale_of_biomes:block/mossy_cobbled_basalt",
-    "particle": "tale_of_biomes:block/mossy_cobbled_basalt"
-  },
-  "render_type": "solid"
-}

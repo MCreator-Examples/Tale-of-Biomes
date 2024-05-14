@@ -1,9 +1,0 @@
-{
-  "parent": "tale_of_biomes:custom/hay_straw",
-  "textures": {
-    "all": "tale_of_biomes:block/hay_straw",
-    "particle": "tale_of_biomes:block/hay_straw",
-    "hay_straw": "tale_of_biomes:block/hay_straw"
-  },
-  "render_type": "cutout"
-}

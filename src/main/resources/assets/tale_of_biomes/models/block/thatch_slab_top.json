@@ -1,9 +1,0 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "bottom": "tale_of_biomes:block/thatch_side",
-    "top": "tale_of_biomes:block/thatch_side",
-    "side": "tale_of_biomes:block/thatch_side"
-  },
-  "render_type": "solid"
-}

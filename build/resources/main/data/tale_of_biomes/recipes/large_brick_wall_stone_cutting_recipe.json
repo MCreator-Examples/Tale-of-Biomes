@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "group": "large_brick_wall",
-  "count": 1,
-  "ingredient": {
-    "item": "tale_of_biomes:large_bricks"
-  },
-  "result": "tale_of_biomes:large_brick_wall"
-}

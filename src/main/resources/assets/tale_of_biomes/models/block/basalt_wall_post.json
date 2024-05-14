@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_wall_post",
-  "textures": {
-    "wall": "tale_of_biomes:block/basalt",
-    "particle": "tale_of_biomes:block/basalt"
-  },
-  "render_type": "solid"
-}

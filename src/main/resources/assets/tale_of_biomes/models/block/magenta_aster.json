@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "tale_of_biomes:block/magenta_aster",
-    "particle": "tale_of_biomes:block/magenta_aster"
-  },
-  "render_type": "cutout"
-}

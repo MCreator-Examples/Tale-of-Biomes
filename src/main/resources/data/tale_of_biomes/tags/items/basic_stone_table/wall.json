@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#tale_of_biomes:basic_stone_table/marble",
-    "#tale_of_biomes:basic_stone_table/cobbled_marble",
-    "#tale_of_biomes:basic_stone_table/mossy_cobbled_marble",
-    "#tale_of_biomes:basic_stone_table/polished_marble"
-  ]
-}
