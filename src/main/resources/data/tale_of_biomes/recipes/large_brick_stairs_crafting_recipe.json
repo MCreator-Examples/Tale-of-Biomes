@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "large_brick_stairs",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "tale_of_biomes:large_bricks"
+    }
+  },
+  "result": {
+    "item": "tale_of_biomes:large_brick_stairs",
+    "count": 4
+  }
+}

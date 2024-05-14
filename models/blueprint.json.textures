@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "door": {
+      "map": {
+        "texture": "blueprint_door"
+      },
+      "name": "door"
+    },
+    "default": {
+      "map": {
+        "texture": "blueprint_plot"
+      },
+      "name": "default"
+    },
+    "window": {
+      "map": {
+        "texture": "blueprint_window"
+      },
+      "name": "window"
+    },
+    "wall": {
+      "map": {
+        "texture": "blueprint_wall"
+      },
+      "name": "wall"
+    }
+  }
+}

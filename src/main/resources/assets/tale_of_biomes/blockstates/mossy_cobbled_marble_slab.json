@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tale_of_biomes:block/mossy_cobbled_marble_slab"
+    },
+    "type=top": {
+      "model": "tale_of_biomes:block/mossy_cobbled_marble_slab_top"
+    },
+    "type=double": {
+      "model": "tale_of_biomes:block/mossy_cobbled_marble_slab_full"
+    }
+  }
+}

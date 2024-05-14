@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "tale_of_biomes:block/marble",
+    "top": "tale_of_biomes:block/marble",
+    "side": "tale_of_biomes:block/marble"
+  },
+  "render_type": "solid"
+}

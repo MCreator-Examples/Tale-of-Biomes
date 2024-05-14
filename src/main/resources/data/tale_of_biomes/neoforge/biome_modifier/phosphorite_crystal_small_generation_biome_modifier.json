@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#tale_of_biomes:eldenmoor",
+  "features": "tale_of_biomes:phosphorite_crystal_small_generation",
+  "step": "vegetal_decoration"
+}

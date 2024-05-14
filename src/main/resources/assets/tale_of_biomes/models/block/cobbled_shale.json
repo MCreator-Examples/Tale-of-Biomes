@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tale_of_biomes:block/cobbled_shale",
+    "up": "tale_of_biomes:block/cobbled_shale",
+    "north": "tale_of_biomes:block/cobbled_shale",
+    "east": "tale_of_biomes:block/cobbled_shale",
+    "south": "tale_of_biomes:block/cobbled_shale",
+    "west": "tale_of_biomes:block/cobbled_shale",
+    "particle": "tale_of_biomes:block/cobbled_shale"
+  },
+  "render_type": "solid"
+}

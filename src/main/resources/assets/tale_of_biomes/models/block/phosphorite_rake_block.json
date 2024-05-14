@@ -1,0 +1,9 @@
+{
+  "parent": "tale_of_biomes:custom/rake_block",
+  "textures": {
+    "all": "tale_of_biomes:block/phosphorite_rake_block",
+    "particle": "tale_of_biomes:block/phosphorite_rake_block",
+    "texture": "tale_of_biomes:block/phosphorite_rake_block"
+  },
+  "render_type": "cutout"
+}

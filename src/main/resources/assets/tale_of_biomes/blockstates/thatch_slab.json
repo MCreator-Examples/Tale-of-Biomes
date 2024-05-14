@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tale_of_biomes:block/thatch_slab"
+    },
+    "type=top": {
+      "model": "tale_of_biomes:block/thatch_slab_top"
+    },
+    "type=double": {
+      "model": "tale_of_biomes:block/thatch_slab_full"
+    }
+  }
+}

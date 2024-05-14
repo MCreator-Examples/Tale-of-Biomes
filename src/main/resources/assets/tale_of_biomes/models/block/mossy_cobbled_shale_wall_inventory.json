@@ -1,0 +1,8 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "tale_of_biomes:block/mossy_cobbled_shale",
+    "particle": "tale_of_biomes:block/mossy_cobbled_shale"
+  },
+  "render_type": "solid"
+}

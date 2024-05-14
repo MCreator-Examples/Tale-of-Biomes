@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tale_of_biomes:grass_plains",
+    "tale_of_biomes:grass_shrub_plains",
+    "#tale_of_biomes:eldenmoor/flower_plains"
+  ]
+}

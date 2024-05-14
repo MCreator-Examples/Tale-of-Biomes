@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "tale_of_biomes:grass_shrub_plains",
+  "features": "tale_of_biomes:ivy_shrub_plant_1_feature",
+  "step": "surface_structures"
+}

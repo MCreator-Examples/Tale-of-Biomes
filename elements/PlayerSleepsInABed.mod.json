@@ -1,0 +1,7 @@
+{
+  "_fv": 60,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"40\" y=\"40\"><field name=\"trigger\">player_wakes_up</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"compare_dimensionids\"><value name=\"a\"><block type=\"entity_dimension_id\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></value><value name=\"b\"><block type=\"get_dimensionid\"><field name=\"dimension\">CUSTOM:Eldenmoor</field></block></value></block></value><statement name=\"DO0\"><block type=\"execute_command\"><value name=\"command\"><block type=\"text_join\"><mutation items=\"2\"/><value name=\"ADD0\"><block type=\"text\"><field name=\"TEXT\">execute in minecraft:overworld run </field></block></value><value name=\"ADD1\"><block type=\"text\"><field name=\"TEXT\">time set 0</field></block></value></block></value><value name=\"x\"><block type=\"coord_x\"/></value><value name=\"y\"><block type=\"coord_y\"/></value><value name=\"z\"><block type=\"coord_z\"/></value></block></statement></block></next></block></xml>"
+  }
+}

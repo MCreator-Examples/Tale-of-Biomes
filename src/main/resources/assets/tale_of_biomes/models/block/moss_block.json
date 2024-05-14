@@ -1,0 +1,9 @@
+{
+  "parent": "tale_of_biomes:custom/moss_block",
+  "textures": {
+    "all": "tale_of_biomes:block/moss",
+    "particle": "tale_of_biomes:block/moss",
+    "texture": "tale_of_biomes:block/moss"
+  },
+  "render_type": "solid"
+}

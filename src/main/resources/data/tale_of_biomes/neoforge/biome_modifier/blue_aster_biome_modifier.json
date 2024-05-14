@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "tale_of_biomes:flower_plains",
+  "features": "tale_of_biomes:blue_aster",
+  "step": "vegetal_decoration"
+}

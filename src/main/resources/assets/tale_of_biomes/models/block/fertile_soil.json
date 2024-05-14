@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tale_of_biomes:block/fertile_soil",
+    "up": "tale_of_biomes:block/fertile_soil",
+    "north": "tale_of_biomes:block/fertile_soil",
+    "east": "tale_of_biomes:block/fertile_soil",
+    "south": "tale_of_biomes:block/fertile_soil",
+    "west": "tale_of_biomes:block/fertile_soil",
+    "particle": "tale_of_biomes:block/fertile_soil"
+  },
+  "render_type": "solid"
+}

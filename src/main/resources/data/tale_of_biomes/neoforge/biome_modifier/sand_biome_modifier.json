@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "tale_of_biomes:grass_plains",
+    "tale_of_biomes:flower_plains",
+    "tale_of_biomes:flower_shrub_plains",
+    "tale_of_biomes:grass_shrub_plains",
+    "tale_of_biomes:piruff_woods",
+    "tale_of_biomes:piruff_forest"
+  ],
+  "features": "tale_of_biomes:sand",
+  "step": "underground_ores"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tale_of_biomes:block/kiln_base",
+    "up": "tale_of_biomes:block/kiln_base_ledge_straight",
+    "north": "tale_of_biomes:block/kiln_base_center_top",
+    "east": "tale_of_biomes:block/kiln_base_center_top",
+    "south": "tale_of_biomes:block/kiln_base_center_top",
+    "west": "tale_of_biomes:block/kiln_base_center_top",
+    "particle": "tale_of_biomes:block/kiln_base"
+  },
+  "render_type": "solid"
+}

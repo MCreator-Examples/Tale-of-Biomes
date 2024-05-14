@@ -1,0 +1,7 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "tale_of_biomes:block/basalt"
+  },
+  "render_type": "solid"
+}

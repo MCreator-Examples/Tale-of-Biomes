@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tale_of_biomes:block/quicklime_block",
+    "up": "tale_of_biomes:block/quicklime_block",
+    "north": "tale_of_biomes:block/quicklime_block",
+    "east": "tale_of_biomes:block/quicklime_block",
+    "south": "tale_of_biomes:block/quicklime_block",
+    "west": "tale_of_biomes:block/quicklime_block",
+    "particle": "tale_of_biomes:block/quicklime_block"
+  },
+  "render_type": "solid"
+}

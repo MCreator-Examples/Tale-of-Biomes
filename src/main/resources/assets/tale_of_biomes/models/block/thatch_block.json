@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tale_of_biomes:block/thatch_end",
+    "up": "tale_of_biomes:block/thatch_end",
+    "north": "tale_of_biomes:block/thatch_side",
+    "east": "tale_of_biomes:block/thatch_side",
+    "south": "tale_of_biomes:block/thatch_side",
+    "west": "tale_of_biomes:block/thatch_side",
+    "particle": "tale_of_biomes:block/thatch_end"
+  },
+  "render_type": "solid"
+}

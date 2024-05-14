@@ -1,0 +1,9 @@
+{
+  "parent": "tale_of_biomes:custom/ground_lantern",
+  "textures": {
+    "all": "tale_of_biomes:block/lantern_off",
+    "particle": "tale_of_biomes:block/lantern_off",
+    "lantern": "tale_of_biomes:block/lantern_off"
+  },
+  "render_type": "cutout"
+}

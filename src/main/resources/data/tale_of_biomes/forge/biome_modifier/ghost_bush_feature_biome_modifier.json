@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#tale_of_biomes:eldenmoor/piruff",
+  "features": "tale_of_biomes:ghost_bush_feature",
+  "step": "surface_structures"
+}

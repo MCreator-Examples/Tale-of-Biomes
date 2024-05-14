@@ -1,0 +1,20 @@
+{
+  "_fv": 60,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Eldenmoor Curse",
+    "icon": "travel_effect.png",
+    "color": {
+      "value": -5111553,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onExpired": {
+      "name": "EldenmoorCurseEffectExpires"
+    }
+  }
+}

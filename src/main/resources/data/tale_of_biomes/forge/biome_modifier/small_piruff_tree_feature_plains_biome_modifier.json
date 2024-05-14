@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#tale_of_biomes:eldenmoor/plains",
+  "features": "tale_of_biomes:small_piruff_tree_feature_plains",
+  "step": "top_layer_modification"
+}

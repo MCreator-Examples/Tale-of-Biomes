@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "tale_of_biomes:drill",
+    "tale_of_biomes:copper_battery_4",
+    "tale_of_biomes:copper_battery_3",
+    "tale_of_biomes:copper_battery_2",
+    "tale_of_biomes:copper_battery_1",
+    "tale_of_biomes:copper_battery_0",
+    "tale_of_biomes:solar_pannel",
+    "tale_of_biomes:phosphorite_crystal_top",
+    "tale_of_biomes:phosphorite_crystal_bottom",
+    "tale_of_biomes:phosphorite_crystal"
+  ]
+}

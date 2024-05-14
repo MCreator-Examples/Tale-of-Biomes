@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tale_of_biomes:block/pure_coal_ore",
+    "up": "tale_of_biomes:block/pure_coal_ore",
+    "north": "tale_of_biomes:block/pure_coal_ore",
+    "east": "tale_of_biomes:block/pure_coal_ore",
+    "south": "tale_of_biomes:block/pure_coal_ore",
+    "west": "tale_of_biomes:block/pure_coal_ore",
+    "particle": "tale_of_biomes:block/pure_coal_ore"
+  },
+  "render_type": "solid"
+}

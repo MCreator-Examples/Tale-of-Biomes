@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "tale_of_biomes:block/dirt",
+    "top": "tale_of_biomes:block/grass_top",
+    "side": "tale_of_biomes:block/dirt",
+    "overlay": "tale_of_biomes:block/grass_side",
+    "particle": "tale_of_biomes:block/dirt"
+  },
+  "render_type": "cutout_mipped"
+}

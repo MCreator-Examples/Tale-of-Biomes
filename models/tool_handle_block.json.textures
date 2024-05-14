@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "texture": "tool_handle_block"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "parent": "tale_of_biomes:custom/tilled_soil",
+  "textures": {
+    "all": "tale_of_biomes:block/fertile_soil",
+    "particle": "tale_of_biomes:block/fertile_soil",
+    "tilled_soil": "tale_of_biomes:block/tilled_soil",
+    "fertile_soil": "tale_of_biomes:block/fertile_soil",
+    "fertile_soil_side_b": "tale_of_biomes:block/fertile_soil_side_b",
+    "fertile_soil_side_c": "tale_of_biomes:block/fertile_soil_side_c",
+    "weeds": "tale_of_biomes:block/weeds_4",
+    "stones": "tale_of_biomes:block/stones_2",
+    "fertile_soil_side_d": "tale_of_biomes:block/fertile_soil_side_d",
+    "fertile_soil_side_a": "tale_of_biomes:block/fertile_soil_side_a"
+  },
+  "render_type": "cutout_mipped"
+}

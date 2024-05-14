@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "tale_of_biomes:block/wild_indigo",
+    "particle": "tale_of_biomes:block/wild_indigo"
+  },
+  "render_type": "cutout"
+}

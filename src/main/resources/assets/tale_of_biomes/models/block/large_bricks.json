@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tale_of_biomes:block/large_bricks",
+    "up": "tale_of_biomes:block/large_bricks",
+    "north": "tale_of_biomes:block/large_bricks",
+    "east": "tale_of_biomes:block/large_bricks",
+    "south": "tale_of_biomes:block/large_bricks",
+    "west": "tale_of_biomes:block/large_bricks",
+    "particle": "tale_of_biomes:block/large_bricks"
+  },
+  "render_type": "solid"
+}

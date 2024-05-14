@@ -1,0 +1,9 @@
+{
+  "_fv": 60,
+  "_type": "function",
+  "definition": {
+    "code": "tob script temperature world\ntob script temperature player @a",
+    "name": "temperature_function",
+    "namespace": "mod"
+  }
+}

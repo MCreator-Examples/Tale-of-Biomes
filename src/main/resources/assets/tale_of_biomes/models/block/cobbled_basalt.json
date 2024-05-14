@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tale_of_biomes:block/cobbled_basalt",
+    "up": "tale_of_biomes:block/cobbled_basalt",
+    "north": "tale_of_biomes:block/cobbled_basalt",
+    "east": "tale_of_biomes:block/cobbled_basalt",
+    "south": "tale_of_biomes:block/cobbled_basalt",
+    "west": "tale_of_biomes:block/cobbled_basalt",
+    "particle": "tale_of_biomes:block/cobbled_basalt"
+  },
+  "render_type": "solid"
+}

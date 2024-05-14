@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "large_brick_button",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "tale_of_biomes:large_bricks"
+    }
+  },
+  "result": {
+    "item": "tale_of_biomes:large_brick_button",
+    "count": 1
+  }
+}

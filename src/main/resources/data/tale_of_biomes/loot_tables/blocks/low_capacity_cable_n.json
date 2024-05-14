@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "tale_of_biomes:blocks/low_capacity_cable_n",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tale_of_biomes:low_capacity_cable_n"
+        }
+      ]
+    }
+  ]
+}

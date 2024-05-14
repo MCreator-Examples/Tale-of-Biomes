@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PiruffPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PiruffPlanks"
+      },
+      {
+        "value": "CUSTOM:PiruffPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PiruffPlanks"
+      },
+      {
+        "value": "CUSTOM:PiruffPlanks"
+      },
+      {
+        "value": "CUSTOM:PiruffPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PiruffStairs"
+    },
+    "name": "crafting_piruff_stairs",
+    "namespace": "mod"
+  }
+}

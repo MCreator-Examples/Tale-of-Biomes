@@ -1,0 +1,7 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "texture": "tale_of_biomes:block/marble"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "tale_of_biomes:block/basalt",
+    "top": "tale_of_biomes:block/basalt",
+    "side": "tale_of_biomes:block/basalt"
+  },
+  "render_type": "solid"
+}

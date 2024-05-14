@@ -1,0 +1,15 @@
+{
+  "_fv": 60,
+  "_type": "itemextension",
+  "definition": {
+    "item": {
+      "value": "CUSTOM:StrippedPiruffWood"
+    },
+    "enableFuel": true,
+    "fuelPower": {
+      "fixedValue": 300.0
+    },
+    "hasDispenseBehavior": false,
+    "compostLayerChance": 0.0
+  }
+}

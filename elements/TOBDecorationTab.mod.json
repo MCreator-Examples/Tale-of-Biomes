@@ -1,0 +1,11 @@
+{
+  "_fv": 60,
+  "_type": "tab",
+  "definition": {
+    "name": "ToB Decorations",
+    "icon": {
+      "value": "CUSTOM:YellowPiruffBed"
+    },
+    "showSearch": false
+  }
+}

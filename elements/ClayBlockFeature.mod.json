@@ -1,0 +1,31 @@
+{
+  "_fv": 60,
+  "_type": "feature",
+  "definition": {
+    "generationStep": "UNDERGROUND_ORES",
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:GrassPlains"
+      },
+      {
+        "value": "CUSTOM:FlowerPlains"
+      },
+      {
+        "value": "CUSTOM:FlowerShrubPlains"
+      },
+      {
+        "value": "CUSTOM:GrassShrubPlains"
+      },
+      {
+        "value": "CUSTOM:PiruffWoods"
+      },
+      {
+        "value": "CUSTOM:PiruffForest"
+      }
+    ],
+    "generateCondition": {
+      "name": "ClayBlockAdditionalGenerationCondition"
+    },
+    "featurexml": "<xml><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\">\n<value name=\"feature\"><block type=\"feature_ore\">\n<mutation inputs=\"3\"></mutation>\n<field name=\"discardOnAirChance\">0</field>\n<field name=\"size\">32</field><value name=\"target0\"><block type=\"ore_target\">\n\t<value name=\"target\"><block type=\"rule_test_blockstate_match\">\n\t\t<value name=\"blockstate\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:Stone</field></block></value>\n\t</block></value>\n\t<value name=\"state\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:ClayBlock</field></block></value>\n</block></value><value name=\"target1\"><block type=\"ore_target\">\n\t<value name=\"target\"><block type=\"rule_test_blockstate_match\">\n\t\t<value name=\"blockstate\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:Sand</field></block></value>\n\t</block></value>\n\t<value name=\"state\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:ClayBlock</field></block></value>\n</block></value><value name=\"target2\"><block type=\"ore_target\">\n\t<value name=\"target\"><block type=\"rule_test_blockstate_match\">\n\t\t<value name=\"blockstate\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:Dirt</field></block></value>\n\t</block></value>\n\t<value name=\"state\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:ClayBlock</field></block></value>\n</block></value></block></value>\n<next><block type=\"placement_count\">\n\t<value name=\"count\"><block type=\"int_provider_constant\"><field name=\"value\">16</field></block></value>\n<next>\n<block type=\"placement_in_square\"><next>\n<block type=\"placement_height_uniform\">\n\t<value name=\"min\"><block type=\"vertical_anchor_absolute\"><field name=\"value\">-64</field></block></value>\n\t<value name=\"max\"><block type=\"vertical_anchor_absolute\"><field name=\"value\">320</field></block></value>\n<next>\n<block type=\"placement_biome_filter\"></block>\n</next></block></next></block></next></block></next></block></xml>\n"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "tale_of_biomes:custom/shrub",
+  "textures": {
+    "all": "tale_of_biomes:block/rose_shrub",
+    "particle": "tale_of_biomes:block/rose_shrub",
+    "leaves": "tale_of_biomes:block/rose_shrub_overlay",
+    "base": "tale_of_biomes:block/rose_shrub"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,329 @@
+{
+  "mappings": {
+    "w1s0": {
+      "map": {
+        "tilled_soil": "tilled_soil",
+        "fertile_soil": "fertile_soil",
+        "fertile_soil_side_b": "fertile_soil_side_b",
+        "fertile_soil_side_c": "fertile_soil_side_c",
+        "weeds": "weeds_1",
+        "stones": "stones_0",
+        "fertile_soil_side_d": "fertile_soil_side_d",
+        "fertile_soil_side_a": "fertile_soil_side_a"
+      },
+      "name": "w1s0"
+    },
+    "w0s1": {
+      "map": {
+        "tilled_soil": "tilled_soil",
+        "fertile_soil": "fertile_soil",
+        "fertile_soil_side_b": "fertile_soil_side_b",
+        "fertile_soil_side_c": "fertile_soil_side_c",
+        "weeds": "weeds_0",
+        "stones": "stones_1",
+        "fertile_soil_side_d": "fertile_soil_side_d",
+        "fertile_soil_side_a": "fertile_soil_side_a"
+      },
+      "name": "w0s1"
+    },
+    "w4s4": {
+      "map": {
+        "tilled_soil": "tilled_soil",
+        "fertile_soil": "fertile_soil",
+        "fertile_soil_side_b": "fertile_soil_side_b",
+        "fertile_soil_side_c": "fertile_soil_side_c",
+        "weeds": "weeds_4",
+        "stones": "stones_4",
+        "fertile_soil_side_d": "fertile_soil_side_d",
+        "fertile_soil_side_a": "fertile_soil_side_a"
+      },
+      "name": "w4s4"
+    },
+    "w2s4": {
+      "map": {
+        "tilled_soil": "tilled_soil",
+        "fertile_soil": "fertile_soil",
+        "fertile_soil_side_b": "fertile_soil_side_b",
+        "fertile_soil_side_c": "fertile_soil_side_c",
+        "weeds": "weeds_2",
+        "stones": "stones_4",
+        "fertile_soil_side_d": "fertile_soil_side_d",
+        "fertile_soil_side_a": "fertile_soil_side_a"
+      },
+      "name": "w2s4"
+    },
+    "w3s3": {
+      "map": {
+        "tilled_soil": "tilled_soil",
+        "fertile_soil": "fertile_soil",
+        "fertile_soil_side_b": "fertile_soil_side_b",
+        "fertile_soil_side_c": "fertile_soil_side_c",
+        "weeds": "weeds_3",
+        "stones": "stones_3",
+        "fertile_soil_side_d": "fertile_soil_side_d",
+        "fertile_soil_side_a": "fertile_soil_side_a"
+      },
+      "name": "w3s3"
+    },
+    "w4s2": {
+      "map": {
+        "tilled_soil": "tilled_soil",
+        "fertile_soil": "fertile_soil",
+        "fertile_soil_side_b": "fertile_soil_side_b",
+        "fertile_soil_side_c": "fertile_soil_side_c",
+        "weeds": "weeds_4",
+        "stones": "stones_2",
+        "fertile_soil_side_d": "fertile_soil_side_d",
+        "fertile_soil_side_a": "fertile_soil_side_a"
+      },
+      "name": "w4s2"
+    },
+    "w3s4": {
+      "map": {
+        "tilled_soil": "tilled_soil",
+        "fertile_soil": "fertile_soil",
+        "fertile_soil_side_b": "fertile_soil_side_b",
+        "fertile_soil_side_c": "fertile_soil_side_c",
+        "weeds": "weeds_3",
+        "stones": "stones_4",
+        "fertile_soil_side_d": "fertile_soil_side_d",
+        "fertile_soil_side_a": "fertile_soil_side_a"
+      },
+      "name": "w3s4"
+    },
+    "w4s3": {
+      "map": {
+        "tilled_soil": "tilled_soil",
+        "fertile_soil": "fertile_soil",
+        "fertile_soil_side_b": "fertile_soil_side_b",
+        "fertile_soil_side_c": "fertile_soil_side_c",
+        "weeds": "weeds_4",
+        "stones": "stones_3",
+        "fertile_soil_side_d": "fertile_soil_side_d",
+        "fertile_soil_side_a": "fertile_soil_side_a"
+      },
+      "name": "w4s3"
+    },
+    "w1s3": {
+      "map": {
+        "tilled_soil": "tilled_soil",
+        "fertile_soil": "fertile_soil",
+        "fertile_soil_side_b": "fertile_soil_side_b",
+        "fertile_soil_side_c": "fertile_soil_side_c",
+        "weeds": "weeds_1",
+        "stones": "stones_3",
+        "fertile_soil_side_d": "fertile_soil_side_d",
+        "fertile_soil_side_a": "fertile_soil_side_a"
+      },
+      "name": "w1s3"
+    },
+    "w2s2": {
+      "map": {
+        "tilled_soil": "tilled_soil",
+        "fertile_soil": "fertile_soil",
+        "fertile_soil_side_b": "fertile_soil_side_b",
+        "fertile_soil_side_c": "fertile_soil_side_c",
+        "weeds": "weeds_2",
+        "stones": "stones_2",
+        "fertile_soil_side_d": "fertile_soil_side_d",
+        "fertile_soil_side_a": "fertile_soil_side_a"
+      },
+      "name": "w2s2"
+    },
+    "w3s1": {
+      "map": {
+        "tilled_soil": "tilled_soil",
+        "fertile_soil": "fertile_soil",
+        "fertile_soil_side_b": "fertile_soil_side_b",
+        "fertile_soil_side_c": "fertile_soil_side_c",
+        "weeds": "weeds_3",
+        "stones": "stones_1",
+        "fertile_soil_side_d": "fertile_soil_side_d",
+        "fertile_soil_side_a": "fertile_soil_side_a"
+      },
+      "name": "w3s1"
+    },
+    "w4s0": {
+      "map": {
+        "tilled_soil": "tilled_soil",
+        "fertile_soil": "fertile_soil",
+        "fertile_soil_side_b": "fertile_soil_side_b",
+        "fertile_soil_side_c": "fertile_soil_side_c",
+        "weeds": "weeds_4",
+        "stones": "stones_0",
+        "fertile_soil_side_d": "fertile_soil_side_d",
+        "fertile_soil_side_a": "fertile_soil_side_a"
+      },
+      "name": "w4s0"
+    },
+    "w0s4": {
+      "map": {
+        "tilled_soil": "tilled_soil",
+        "fertile_soil": "fertile_soil",
+        "fertile_soil_side_b": "fertile_soil_side_b",
+        "fertile_soil_side_c": "fertile_soil_side_c",
+        "weeds": "weeds_0",
+        "stones": "stones_4",
+        "fertile_soil_side_d": "fertile_soil_side_d",
+        "fertile_soil_side_a": "fertile_soil"
+      },
+      "name": "w0s4"
+    },
+    "w1s4": {
+      "map": {
+        "tilled_soil": "tilled_soil",
+        "fertile_soil": "fertile_soil",
+        "fertile_soil_side_b": "fertile_soil_side_b",
+        "fertile_soil_side_c": "fertile_soil_side_c",
+        "weeds": "weeds_1",
+        "stones": "stones_4",
+        "fertile_soil_side_d": "fertile_soil_side_d",
+        "fertile_soil_side_a": "fertile_soil_side_a"
+      },
+      "name": "w1s4"
+    },
+    "w2s3": {
+      "map": {
+        "tilled_soil": "tilled_soil",
+        "fertile_soil": "fertile_soil",
+        "fertile_soil_side_b": "fertile_soil_side_b",
+        "fertile_soil_side_c": "fertile_soil_side_c",
+        "weeds": "weeds_2",
+        "stones": "stones_3",
+        "fertile_soil_side_d": "fertile_soil_side_d",
+        "fertile_soil_side_a": "fertile_soil_side_a"
+      },
+      "name": "w2s3"
+    },
+    "w3s2": {
+      "map": {
+        "tilled_soil": "tilled_soil",
+        "fertile_soil": "fertile_soil",
+        "fertile_soil_side_b": "fertile_soil_side_b",
+        "fertile_soil_side_c": "fertile_soil_side_c",
+        "weeds": "weeds_3",
+        "stones": "stones_2",
+        "fertile_soil_side_d": "fertile_soil_side_d",
+        "fertile_soil_side_a": "fertile_soil_side_a"
+      },
+      "name": "w3s2"
+    },
+    "w4s1": {
+      "map": {
+        "tilled_soil": "tilled_soil",
+        "fertile_soil": "fertile_soil",
+        "fertile_soil_side_b": "fertile_soil_side_b",
+        "fertile_soil_side_c": "fertile_soil_side_c",
+        "weeds": "weeds_4",
+        "stones": "stones_1",
+        "fertile_soil_side_d": "fertile_soil_side_d",
+        "fertile_soil_side_a": "fertile_soil_side_a"
+      },
+      "name": "w4s1"
+    },
+    "w1s1": {
+      "map": {
+        "tilled_soil": "tilled_soil",
+        "fertile_soil": "fertile_soil",
+        "fertile_soil_side_b": "fertile_soil_side_b",
+        "fertile_soil_side_c": "fertile_soil_side_c",
+        "weeds": "weeds_1",
+        "stones": "stones_1",
+        "fertile_soil_side_d": "fertile_soil_side_d",
+        "fertile_soil_side_a": "fertile_soil_side_a"
+      },
+      "name": "w1s1"
+    },
+    "w2s0": {
+      "map": {
+        "tilled_soil": "tilled_soil",
+        "fertile_soil": "fertile_soil",
+        "fertile_soil_side_b": "fertile_soil_side_b",
+        "fertile_soil_side_c": "fertile_soil_side_c",
+        "weeds": "weeds_2",
+        "stones": "stones_0",
+        "fertile_soil_side_d": "fertile_soil_side_d",
+        "fertile_soil_side_a": "fertile_soil_side_a"
+      },
+      "name": "w2s0"
+    },
+    "w0s2": {
+      "map": {
+        "tilled_soil": "tilled_soil",
+        "fertile_soil": "fertile_soil",
+        "fertile_soil_side_b": "fertile_soil_side_b",
+        "fertile_soil_side_c": "fertile_soil_side_c",
+        "weeds": "weeds_0",
+        "stones": "stones_2",
+        "fertile_soil_side_d": "fertile_soil_side_d",
+        "fertile_soil_side_a": "fertile_soil_side_a"
+      },
+      "name": "w0s2"
+    },
+    "w1s2": {
+      "map": {
+        "tilled_soil": "tilled_soil",
+        "fertile_soil": "fertile_soil",
+        "fertile_soil_side_b": "fertile_soil_side_b",
+        "fertile_soil_side_c": "fertile_soil_side_c",
+        "weeds": "weeds_1",
+        "stones": "stones_2",
+        "fertile_soil_side_d": "fertile_soil_side_d",
+        "fertile_soil_side_a": "fertile_soil_side_a"
+      },
+      "name": "w1s2"
+    },
+    "w2s1": {
+      "map": {
+        "tilled_soil": "tilled_soil",
+        "fertile_soil": "fertile_soil",
+        "fertile_soil_side_b": "fertile_soil_side_b",
+        "fertile_soil_side_c": "fertile_soil_side_c",
+        "weeds": "weeds_2",
+        "stones": "stones_1",
+        "fertile_soil_side_d": "fertile_soil_side_d",
+        "fertile_soil_side_a": "fertile_soil_side_a"
+      },
+      "name": "w2s1"
+    },
+    "w3s0": {
+      "map": {
+        "tilled_soil": "tilled_soil",
+        "fertile_soil": "fertile_soil",
+        "fertile_soil_side_b": "fertile_soil_side_b",
+        "fertile_soil_side_c": "fertile_soil_side_c",
+        "weeds": "weeds_3",
+        "stones": "stones_0",
+        "fertile_soil_side_d": "fertile_soil_side_d",
+        "fertile_soil_side_a": "fertile_soil_side_a"
+      },
+      "name": "w3s0"
+    },
+    "w0s3": {
+      "map": {
+        "tilled_soil": "tilled_soil",
+        "fertile_soil": "fertile_soil",
+        "fertile_soil_side_b": "fertile_soil_side_b",
+        "fertile_soil_side_c": "fertile_soil_side_c",
+        "weeds": "weeds_0",
+        "stones": "stones_3",
+        "fertile_soil_side_d": "fertile_soil_side_d",
+        "fertile_soil_side_a": "fertile_soil_side_a"
+      },
+      "name": "w0s3"
+    },
+    "default": {
+      "map": {
+        "tilled_soil": "tilled_soil",
+        "fertile_soil": "fertile_soil",
+        "fertile_soil_side_b": "fertile_soil_side_b",
+        "fertile_soil_side_c": "fertile_soil_side_c",
+        "weeds": "weeds_0",
+        "stones": "stones_0",
+        "fertile_soil_side_d": "fertile_soil_side_d",
+        "fertile_soil_side_a": "fertile_soil_side_a"
+      },
+      "name": "default"
+    }
+  }
+}

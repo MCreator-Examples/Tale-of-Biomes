@@ -1,0 +1,8 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "tale_of_biomes:block/large_bricks",
+    "particle": "tale_of_biomes:block/large_bricks"
+  },
+  "render_type": "solid"
+}

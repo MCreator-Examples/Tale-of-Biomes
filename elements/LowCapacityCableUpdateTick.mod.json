@@ -1,0 +1,7 @@
+{
+  "_fv": 60,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"logic_negate\"><value name=\"BOOL\"><block type=\"world_data_isremote\"/></value></block></value><statement name=\"DO0\"><block type=\"call_procedure\"><field name=\"procedure\">LowCapacityCableUpdateTickModels</field><comment h=\"49\" pinned=\"false\" w=\"180\">Cable Model Updater Main</comment><next><block type=\"call_procedure\"><field name=\"procedure\">LowCapacityCableUpdateTickEnergy</field><comment h=\"57\" pinned=\"false\" w=\"165\">Cable Forge Energy Main</comment></block></next></block></statement></block></next></block></xml>"
+  }
+}

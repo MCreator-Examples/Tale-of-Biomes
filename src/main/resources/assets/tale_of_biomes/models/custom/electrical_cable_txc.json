@@ -1,0 +1,324 @@
+{
+  "texture_size": [
+    32,
+    32
+  ],
+  "elements": [
+    {
+      "name": "mesh1",
+      "from": [
+        0,
+        5,
+        5
+      ],
+      "to": [
+        16,
+        11,
+        11
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            3,
+            8,
+            0
+          ],
+          "rotation": 180,
+          "texture": "#cable"
+        },
+        "east": {
+          "uv": [
+            9,
+            0,
+            12,
+            3
+          ],
+          "rotation": 90,
+          "texture": "#cable"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            8,
+            3
+          ],
+          "texture": "#cable"
+        },
+        "west": {
+          "uv": [
+            9,
+            0,
+            12,
+            3
+          ],
+          "rotation": 270,
+          "texture": "#cable"
+        },
+        "up": {
+          "uv": [
+            0,
+            3,
+            8,
+            0
+          ],
+          "texture": "#cable"
+        },
+        "down": {
+          "uv": [
+            8,
+            0,
+            0,
+            3
+          ],
+          "texture": "#cable"
+        }
+      }
+    },
+    {
+      "name": "mesh2",
+      "from": [
+        5,
+        0,
+        5
+      ],
+      "to": [
+        11,
+        5,
+        11
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2.5,
+            5.5,
+            5.5,
+            3
+          ],
+          "rotation": 180,
+          "texture": "#cable"
+        },
+        "east": {
+          "uv": [
+            2.5,
+            5.5,
+            5.5,
+            3
+          ],
+          "rotation": 180,
+          "texture": "#cable"
+        },
+        "south": {
+          "uv": [
+            2.5,
+            3,
+            5.5,
+            5.5
+          ],
+          "texture": "#cable"
+        },
+        "west": {
+          "uv": [
+            5.5,
+            3,
+            2.5,
+            5.5
+          ],
+          "texture": "#cable"
+        },
+        "down": {
+          "uv": [
+            9,
+            0,
+            12,
+            3
+          ],
+          "rotation": 180,
+          "texture": "#cable"
+        }
+      }
+    },
+    {
+      "name": "mesh3",
+      "from": [
+        5,
+        5,
+        0
+      ],
+      "to": [
+        11,
+        11,
+        5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            0,
+            12,
+            3
+          ],
+          "texture": "#cable"
+        },
+        "east": {
+          "uv": [
+            2.5,
+            5.5,
+            5.5,
+            3
+          ],
+          "rotation": 90,
+          "texture": "#cable"
+        },
+        "west": {
+          "uv": [
+            2.5,
+            5.5,
+            5.5,
+            3
+          ],
+          "rotation": 270,
+          "texture": "#cable"
+        },
+        "up": {
+          "uv": [
+            2.5,
+            5.5,
+            5.5,
+            3
+          ],
+          "texture": "#cable"
+        },
+        "down": {
+          "uv": [
+            2.5,
+            5.5,
+            5.5,
+            3
+          ],
+          "rotation": 180,
+          "texture": "#cable"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        225,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "fixed": {
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  }
+}

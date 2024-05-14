@@ -1,0 +1,22 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "phosphorite",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "TAG:tale_of_biomes:tools/phosphorite"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:PhosphoriteGemstone"
+    },
+    "name": "phosphorite_smelting",
+    "namespace": "mod"
+  }
+}

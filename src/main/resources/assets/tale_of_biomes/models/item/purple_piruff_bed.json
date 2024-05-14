@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tale_of_biomes:item/purple_piruff_bed"
+  },
+  "render_type": "translucent"
+}

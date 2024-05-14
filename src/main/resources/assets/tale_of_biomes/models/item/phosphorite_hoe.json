@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "tale_of_biomes:item/phosphorite_hoe"
+  }
+}

@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="tale_of_biomes"
+version="0.6.0"
+displayName="Tale Of Biomes"
+updateJSONURL="https://raw.githubusercontent.com/MCreator-Examples/Tale-of-Biomes/latest/updates/update.json"
+displayURL="https://github.com/MCreator-Examples/Tale-of-Biomes"
+logoFile="logo.png"
+credits="Minecraft, NeoForge, MCreator, NorthWestTrees"
+authors="NorthWestTrees"
+description="Tale of Biomes is a Minecraft mod that I am working on as part of the MCreator Lore series on my YouTube channel NorthWestTrees MCreator. Tale of Biomes adds a new dimension and an entirely new custom world full of new mechanics and features that expand the game's reach. "
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.tale_of_biomes]]
+    modId="neoforge"
+    type="required"
+    versionRange="[20.4.223,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.tale_of_biomes]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.20.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#tale_of_biomes:eldenmoor",
+  "features": "tale_of_biomes:eldenmoor_cliff_3",
+  "step": "top_layer_modification"
+}

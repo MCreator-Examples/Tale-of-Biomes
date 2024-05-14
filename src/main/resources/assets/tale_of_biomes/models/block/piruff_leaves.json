@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "tale_of_biomes:block/piruff_leaves",
+    "particle": "tale_of_biomes:block/piruff_leaves"
+  }
+}

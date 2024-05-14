@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tale_of_biomes:piruff_log",
+    "tale_of_biomes:piruff_wood",
+    "tale_of_biomes:stripped_piruff_log",
+    "tale_of_biomes:stripped_piruff_wood"
+  ]
+}
