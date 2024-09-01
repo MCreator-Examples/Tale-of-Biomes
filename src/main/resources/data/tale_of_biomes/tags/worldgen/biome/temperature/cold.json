@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "deep_frozen_ocean",
+    "end_barrens",
+    "end_highlands",
+    "end_midlands",
+    "frozen_ocean",
+    "frozen_peaks",
+    "frozen_river",
+    "ice_spikes",
+    "jagged_peaks",
+    "small_end_islands",
+    "snowy_slopes",
+    "snowy_beach",
+    "snowy_plains",
+    "snowy_taiga",
+    "the_end",
+    "the_void"
+  ]
+}

@@ -58,7 +58,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "MOSS_BLOCK"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -103,6 +103,9 @@
     "luminance": 0,
     "unbreakable": false,
     "vanillaToolTier": "NONE",
+    "placingCondition": {
+      "name": "MossCarpetBlockValidPlacementCondition"
+    },
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",

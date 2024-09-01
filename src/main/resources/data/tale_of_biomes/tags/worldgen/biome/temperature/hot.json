@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "badlands",
+    "basalt_deltas",
+    "crimson_forest",
+    "desert",
+    "eroded_badlands",
+    "nether_wastes",
+    "soul_sand_valley",
+    "warm_ocean",
+    "warped_forest",
+    "wooded_badlands",
+    "tale_of_biomes:volcanic"
+  ]
+}

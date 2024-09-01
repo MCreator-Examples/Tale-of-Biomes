@@ -72,6 +72,8 @@ public class GenerateUpdateConfigProcedure {
 				if (!(build).equals(latest)) {
 					ResetCropSettingsConfigProcedure.execute();
 					ResetKilnRecipeConfigProcedure.execute();
+					ResetModSettingsConfigProcedure.execute();
+					ResetItemEffectsConfigProcedure.execute();
 					{
 						try {
 							BufferedReader bufferedReader = new BufferedReader(new FileReader(fmFile));
@@ -102,5 +104,7 @@ public class GenerateUpdateConfigProcedure {
 		}
 		CropSettingsGeneratorProcedure.execute();
 		GenerateKilnRecipeFileProcedure.execute();
+		GenerateModSettingsProcedure.execute();
+		GenerateItemEffectsConfigProcedure.execute();
 	}
 }

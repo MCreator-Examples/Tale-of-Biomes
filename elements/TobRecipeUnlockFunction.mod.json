@@ -1,0 +1,9 @@
+{
+  "_fv": 66,
+  "_type": "function",
+  "definition": {
+    "code": "# Unlock recipes if the player has gained 1 point for mining piruff logs.\nexecute as @a[scores={tobMinedPiruffLog=1}] run recipe give @s tale_of_biomes:basic_tool_table_crafting\n# Unlock recipes if the player has gained 1 point for mining piruff wood.\nexecute as @a[scores={tobMinedPiruffWood=1}] run recipe give @s tale_of_biomes:basic_tool_table_crafting\n# Unlock recipes if the player has gained 1 point for mining stone\nexecute as @a[scores={tobMinedStone=1}] run recipe give @s tale_of_biomes:basic_stone_table_crafting",
+    "name": "tob_recipe_unlock_function",
+    "namespace": "mod"
+  }
+}

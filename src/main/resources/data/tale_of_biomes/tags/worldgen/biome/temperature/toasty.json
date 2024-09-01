@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "bamboo_jungle",
+    "deep_dark",
+    "deep_lukewarm_ocean",
+    "jungle",
+    "lukewarm_ocean",
+    "lush_caves",
+    "mangrove_swamp",
+    "mushroom_fields",
+    "savanna",
+    "savanna_plateau",
+    "sparse_jungle",
+    "swamp",
+    "windswept_savanna"
+  ]
+}

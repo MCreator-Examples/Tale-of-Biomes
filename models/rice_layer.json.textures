@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "seeds": "rice_0"
+      },
+      "name": "default"
+    }
+  }
+}

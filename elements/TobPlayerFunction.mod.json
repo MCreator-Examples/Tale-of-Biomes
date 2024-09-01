@@ -1,0 +1,9 @@
+{
+  "_fv": 66,
+  "_type": "function",
+  "definition": {
+    "code": "# Runs the fluid system for the player.\nexecute as @a run toba run player fluid",
+    "name": "tob_player_function",
+    "namespace": "mod"
+  }
+}

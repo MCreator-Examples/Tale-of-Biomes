@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:geode",
+  "config": {
+    "blocks": {
+      "filling_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:air"
+        }
+      },
+      "inner_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "tale_of_biomes:rose_quartz_block"
+        }
+      },
+      "alternate_inner_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "tale_of_biomes:rose_quartz_budding"
+        }
+      },
+      "middle_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "tale_of_biomes:marble"
+        }
+      },
+      "outer_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "tale_of_biomes:basalt"
+        }
+      },
+      "inner_placements": [
+        {
+          "Name": "tale_of_biomes:rose_quartz_cluster"
+        }
+      ],
+      "cannot_replace": "#features_cannot_replace",
+      "invalid_blocks": "#geode_invalid_blocks"
+    },
+    "layers": {},
+    "crack": {},
+    "invalid_blocks_threshold": 1,
+    "use_alternate_layer0_chance": 0.083
+  }
+}

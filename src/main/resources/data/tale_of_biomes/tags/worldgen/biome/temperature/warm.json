@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "beach",
+    "birch_forest",
+    "cherry_grove",
+    "dark_forest",
+    "deep_ocean",
+    "flower_forest",
+    "forest",
+    "meadow",
+    "ocean",
+    "old_growth_birch_forest",
+    "plains",
+    "sunflower_plains",
+    "windswept_forest",
+    "windswept_hills",
+    "tale_of_biomes:flower_plains",
+    "tale_of_biomes:flower_shrub_plains",
+    "tale_of_biomes:grass_plains",
+    "tale_of_biomes:grass_shrub_plains",
+    "tale_of_biomes:piruff_forest",
+    "tale_of_biomes:piruff_woods"
+  ]
+}

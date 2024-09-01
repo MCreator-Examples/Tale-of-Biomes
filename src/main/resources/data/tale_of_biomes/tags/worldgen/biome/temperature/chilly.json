@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "cold_ocean",
+    "deep_cold_ocean",
+    "dripstone_caves",
+    "grove",
+    "old_growth_pine_taiga",
+    "old_growth_spruce_taiga",
+    "stony_peaks",
+    "stony_shore",
+    "taiga",
+    "windswept_gravelly_hills"
+  ]
+}

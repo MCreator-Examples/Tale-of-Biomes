@@ -3,7 +3,6 @@ package net.nwtg.taleofbiomes.block;
 
 import net.nwtg.taleofbiomes.procedures.GrassBlockUpdateTickProcedure;
 import net.nwtg.taleofbiomes.init.TaleOfBiomesModBlocks;
-import net.nwtg.taleofbiomes.block.entity.GrassBlockBlockEntity;
 
 import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
 import net.neoforged.api.distmarker.OnlyIn;
@@ -11,25 +10,22 @@ import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.world.level.pathfinder.PathType;
 import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.EntityBlock;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.Level;
 import net.minecraft.world.level.GrassColor;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.entity.Mob;
-import net.minecraft.world.MenuProvider;
 import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.BiomeColors;
 
-public class GrassBlockBlock extends Block implements EntityBlock {
+public class GrassBlockBlock extends Block {
 	public GrassBlockBlock() {
-		super(BlockBehaviour.Properties.of().mapColor(MapColor.GRASS).sound(SoundType.GRASS).strength(0.6f).randomTicks());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).mapColor(MapColor.GRASS).sound(SoundType.GRASS).strength(0.6f).randomTicks());
 	}
 
 	@Override
@@ -46,24 +42,6 @@ public class GrassBlockBlock extends Block implements EntityBlock {
 	public void randomTick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
 		super.randomTick(blockstate, world, pos, random);
 		GrassBlockUpdateTickProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
-	}
-
-	@Override
-	public MenuProvider getMenuProvider(BlockState state, Level worldIn, BlockPos pos) {
-		BlockEntity tileEntity = worldIn.getBlockEntity(pos);
-		return tileEntity instanceof MenuProvider menuProvider ? menuProvider : null;
-	}
-
-	@Override
-	public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-		return new GrassBlockBlockEntity(pos, state);
-	}
-
-	@Override
-	public boolean triggerEvent(BlockState state, Level world, BlockPos pos, int eventID, int eventParam) {
-		super.triggerEvent(state, world, pos, eventID, eventParam);
-		BlockEntity blockEntity = world.getBlockEntity(pos);
-		return blockEntity == null ? false : blockEntity.triggerEvent(eventID, eventParam);
 	}
 
 	@OnlyIn(Dist.CLIENT)

@@ -9,9 +9,9 @@ import java.io.BufferedReader;
 public class CropSettingsGeneratorProcedure {
 	public static void execute() {
 		File fmFile = new File("");
-		boolean reset = false;
-		com.google.gson.JsonObject fmMain = new com.google.gson.JsonObject();
-		com.google.gson.JsonObject fmCrops = new com.google.gson.JsonObject();
+		boolean bReset = false;
+		com.google.gson.JsonObject fmObjRoot = new com.google.gson.JsonObject();
+		com.google.gson.JsonObject fmObjCrops = new com.google.gson.JsonObject();
 		fmFile = new File(RootConfigFileFolderProcedure.execute(), File.separator + "crop_settings.json");
 		if (!fmFile.exists()) {
 			try {
@@ -20,15 +20,15 @@ public class CropSettingsGeneratorProcedure {
 			} catch (IOException exception) {
 				exception.printStackTrace();
 			}
-			fmMain.addProperty("reset", false);
-			fmCrops.addProperty("temp", "temp");
-			fmMain.add("crops", fmCrops);
-			fmCrops.remove("temp");
+			fmObjRoot.addProperty("reset", false);
+			fmObjCrops.addProperty("temp", "temp");
+			fmObjRoot.add("crops", fmObjCrops);
+			fmObjCrops.remove("temp");
 			{
 				com.google.gson.Gson mainGSONBuilderVariable = new com.google.gson.GsonBuilder().setPrettyPrinting().create();
 				try {
 					FileWriter fileWriter = new FileWriter(fmFile);
-					fileWriter.write(mainGSONBuilderVariable.toJson(fmMain));
+					fileWriter.write(mainGSONBuilderVariable.toJson(fmObjRoot));
 					fileWriter.close();
 				} catch (IOException exception) {
 					exception.printStackTrace();
@@ -45,23 +45,25 @@ public class CropSettingsGeneratorProcedure {
 						jsonstringbuilder.append(line);
 					}
 					bufferedReader.close();
-					fmMain = new com.google.gson.Gson().fromJson(jsonstringbuilder.toString(), com.google.gson.JsonObject.class);
-					reset = fmMain.get("reset").getAsBoolean();
+					fmObjRoot = new com.google.gson.Gson().fromJson(jsonstringbuilder.toString(), com.google.gson.JsonObject.class);
+					if (fmObjRoot.has("reset") && (fmObjRoot.get("reset").isJsonPrimitive() ? fmObjRoot.get("reset").getAsJsonPrimitive().isBoolean() : false)) {
+						bReset = fmObjRoot.get("reset").getAsBoolean();
+					}
 				} catch (IOException e) {
 					e.printStackTrace();
 				}
 			}
-			if (reset) {
-				fmMain.addProperty("reset", false);
-				fmMain.remove("crops");
-				fmCrops.addProperty("temp", "temp");
-				fmCrops.remove("temp");
-				fmMain.add("crops", fmCrops);
+			if (bReset) {
+				fmObjRoot.addProperty("reset", false);
+				fmObjCrops.remove("crops");
+				fmObjCrops.addProperty("temp", "temp");
+				fmObjRoot.add("crops", fmObjCrops);
+				fmObjCrops.remove("temp");
 				{
 					com.google.gson.Gson mainGSONBuilderVariable = new com.google.gson.GsonBuilder().setPrettyPrinting().create();
 					try {
 						FileWriter fileWriter = new FileWriter(fmFile);
-						fileWriter.write(mainGSONBuilderVariable.toJson(fmMain));
+						fileWriter.write(mainGSONBuilderVariable.toJson(fmObjRoot));
 						fileWriter.close();
 					} catch (IOException exception) {
 						exception.printStackTrace();

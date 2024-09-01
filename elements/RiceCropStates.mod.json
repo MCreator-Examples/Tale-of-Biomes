@@ -13,7 +13,7 @@
         "textureBack": "",
         "particleTexture": "rice_1",
         "renderType": 2,
-        "customModelName": "crop:rice_a",
+        "customModelName": "rice:rice_a",
         "luminance": 0,
         "boundingBoxes": [
           {
@@ -36,7 +36,7 @@
         "textureBack": "",
         "particleTexture": "rice_2",
         "renderType": 2,
-        "customModelName": "crop:rice_b",
+        "customModelName": "rice:rice_b",
         "luminance": 0,
         "boundingBoxes": [
           {
@@ -59,7 +59,7 @@
         "textureBack": "",
         "particleTexture": "rice_3",
         "renderType": 2,
-        "customModelName": "crop:rice_c",
+        "customModelName": "rice:rice_c",
         "luminance": 0,
         "boundingBoxes": [
           {
@@ -82,7 +82,7 @@
         "textureBack": "",
         "particleTexture": "rice_4",
         "renderType": 2,
-        "customModelName": "crop:rice_d",
+        "customModelName": "rice:rice_d",
         "luminance": 0,
         "boundingBoxes": [
           {
@@ -105,7 +105,7 @@
         "textureBack": "",
         "particleTexture": "rice_5",
         "renderType": 2,
-        "customModelName": "crop:rice_e",
+        "customModelName": "rice:rice_e",
         "luminance": 0,
         "boundingBoxes": [
           {
@@ -128,7 +128,7 @@
         "textureBack": "",
         "particleTexture": "rice_6",
         "renderType": 2,
-        "customModelName": "crop:rice_f",
+        "customModelName": "rice:rice_f",
         "luminance": 0,
         "boundingBoxes": [
           {
@@ -151,7 +151,7 @@
         "textureBack": "",
         "particleTexture": "rice_7",
         "renderType": 2,
-        "customModelName": "crop:rice_g",
+        "customModelName": "rice:rice_g",
         "luminance": 0,
         "boundingBoxes": [
           {

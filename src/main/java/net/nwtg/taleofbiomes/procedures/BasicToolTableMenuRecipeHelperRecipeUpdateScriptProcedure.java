@@ -20,5 +20,6 @@ public class BasicToolTableMenuRecipeHelperRecipeUpdateScriptProcedure {
 		BasicToolTableMenuRecipeHelperShovelProcedure.execute(world, entity);
 		BasicToolTableMenuRecipeHelperSickleProcedure.execute(world, entity);
 		BasicToolTableMenuRecipeHelperSwordProcedure.execute(world, entity);
+		BasicToolTableMenuRecipeHelperCupProcedure.execute(world, entity);
 	}
 }

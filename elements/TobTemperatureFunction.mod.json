@@ -1,0 +1,9 @@
+{
+  "_fv": 66,
+  "_type": "function",
+  "definition": {
+    "code": "# Runs the temperature script for the world\nexecute at @a run toba run temperature world\n# Runs the temperature sync timer\ntoba run timers temperature",
+    "name": "tob_temperature_function",
+    "namespace": "mod"
+  }
+}

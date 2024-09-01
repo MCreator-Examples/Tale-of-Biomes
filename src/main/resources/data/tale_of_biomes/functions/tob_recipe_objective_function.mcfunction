@@ -1,0 +1,3 @@
+scoreboard objectives add tobMinedPiruffLog minecraft.mined:tale_of_biomes.piruff_log
+scoreboard objectives add tobMinedPiruffWood minecraft.mined:tale_of_biomes.piruff_wood
+scoreboard objectives add tobMinedStone minecraft.mined:tale_of_biomes.stone

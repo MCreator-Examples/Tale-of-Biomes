@@ -9,7 +9,7 @@ public class BasicToolTableMenuRecipeHelperForwardButtonProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity.getData(TaleOfBiomesModVariables.PLAYER_VARIABLES).recipePage < 12) {
+		if (entity.getData(TaleOfBiomesModVariables.PLAYER_VARIABLES).recipePage < 13) {
 			{
 				TaleOfBiomesModVariables.PlayerVariables _vars = entity.getData(TaleOfBiomesModVariables.PLAYER_VARIABLES);
 				_vars.recipePage = entity.getData(TaleOfBiomesModVariables.PLAYER_VARIABLES).recipePage + 1;

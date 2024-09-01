@@ -4,6 +4,7 @@ package net.nwtg.taleofbiomes.block;
 import org.checkerframework.checker.units.qual.s;
 
 import net.nwtg.taleofbiomes.procedures.RiceCropOnTickUpdateProcedure;
+import net.nwtg.taleofbiomes.procedures.RiceCropBlockAddedProcedure;
 import net.nwtg.taleofbiomes.init.TaleOfBiomesModItems;
 import net.nwtg.taleofbiomes.block.entity.RiceCropBlockEntity;
 
@@ -13,7 +14,6 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.level.pathfinder.PathType;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
@@ -38,7 +38,7 @@ public class RiceCropBlock extends Block implements EntityBlock, BonemealableBlo
 	public static final IntegerProperty BLOCKSTATE = IntegerProperty.create("blockstate", 0, 7);
 
 	public RiceCropBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).mapColor(MapColor.NONE).sound(SoundType.GRASS).instabreak().lightLevel(s -> (new Object() {
+		super(BlockBehaviour.Properties.of().ignitedByLava().mapColor(MapColor.NONE).sound(SoundType.GRASS).instabreak().lightLevel(s -> (new Object() {
 			public int getLightLevel() {
 				if (s.getValue(BLOCKSTATE) == 1)
 					return 0;
@@ -124,6 +124,7 @@ public class RiceCropBlock extends Block implements EntityBlock, BonemealableBlo
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
 		world.scheduleTick(pos, this, 1);
+		RiceCropBlockAddedProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override

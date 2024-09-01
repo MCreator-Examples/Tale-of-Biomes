@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "cross": "rose_quartz_cluster_0"
+      },
+      "name": "default"
+    },
+    "rose_quartz_3": {
+      "map": {
+        "cross": "rose_quartz_cluster_3"
+      },
+      "name": "rose_quartz_3"
+    },
+    "rose_quartz_2": {
+      "map": {
+        "cross": "rose_quartz_cluster_2"
+      },
+      "name": "rose_quartz_2"
+    },
+    "rose_quartz_1": {
+      "map": {
+        "cross": "rose_quartz_cluster_1"
+      },
+      "name": "rose_quartz_1"
+    }
+  }
+}

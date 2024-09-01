@@ -1,5 +1,5 @@
 {
-  "parent": "tale_of_biomes:custom/crop",
+  "parent": "tale_of_biomes:custom/rice",
   "textures": {
     "all": "tale_of_biomes:block/rice_5",
     "particle": "tale_of_biomes:block/rice_5",

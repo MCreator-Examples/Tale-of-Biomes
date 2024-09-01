@@ -10,8 +10,6 @@ public class ResetCropSettingsConfigProcedure {
 	public static void execute() {
 		File fmFile = new File("");
 		com.google.gson.JsonObject fmMain = new com.google.gson.JsonObject();
-		com.google.gson.JsonObject fmRice = new com.google.gson.JsonObject();
-		boolean resetSettings = false;
 		fmFile = new File(RootConfigFileFolderProcedure.execute(), File.separator + "crop_settings.json");
 		if (fmFile.exists()) {
 			{

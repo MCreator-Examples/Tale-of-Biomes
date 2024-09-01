@@ -1,0 +1,96 @@
+{
+  "variants": {
+    "facing=north,blockstate=0": {
+      "model": "tale_of_biomes:block/rose_quartz_cluster"
+    },
+    "facing=east,blockstate=0": {
+      "model": "tale_of_biomes:block/rose_quartz_cluster",
+      "y": 90
+    },
+    "facing=south,blockstate=0": {
+      "model": "tale_of_biomes:block/rose_quartz_cluster",
+      "y": 180
+    },
+    "facing=west,blockstate=0": {
+      "model": "tale_of_biomes:block/rose_quartz_cluster",
+      "y": 270
+    },
+    "facing=up,blockstate=0": {
+      "model": "tale_of_biomes:block/rose_quartz_cluster",
+      "x": 270
+    },
+    "facing=down,blockstate=0": {
+      "model": "tale_of_biomes:block/rose_quartz_cluster",
+      "x": 90
+    },
+    "facing=north,blockstate=1": {
+      "model": "tale_of_biomes:block/rose_quartz_cluster_blockstate_blockstate_0"
+    },
+    "facing=east,blockstate=1": {
+      "model": "tale_of_biomes:block/rose_quartz_cluster_blockstate_blockstate_0",
+      "y": 90
+    },
+    "facing=south,blockstate=1": {
+      "model": "tale_of_biomes:block/rose_quartz_cluster_blockstate_blockstate_0",
+      "y": 180
+    },
+    "facing=west,blockstate=1": {
+      "model": "tale_of_biomes:block/rose_quartz_cluster_blockstate_blockstate_0",
+      "y": 270
+    },
+    "facing=up,blockstate=1": {
+      "model": "tale_of_biomes:block/rose_quartz_cluster_blockstate_blockstate_0",
+      "x": 270
+    },
+    "facing=down,blockstate=1": {
+      "model": "tale_of_biomes:block/rose_quartz_cluster_blockstate_blockstate_0",
+      "x": 90
+    },
+    "facing=north,blockstate=2": {
+      "model": "tale_of_biomes:block/rose_quartz_cluster_blockstate_blockstate_1"
+    },
+    "facing=east,blockstate=2": {
+      "model": "tale_of_biomes:block/rose_quartz_cluster_blockstate_blockstate_1",
+      "y": 90
+    },
+    "facing=south,blockstate=2": {
+      "model": "tale_of_biomes:block/rose_quartz_cluster_blockstate_blockstate_1",
+      "y": 180
+    },
+    "facing=west,blockstate=2": {
+      "model": "tale_of_biomes:block/rose_quartz_cluster_blockstate_blockstate_1",
+      "y": 270
+    },
+    "facing=up,blockstate=2": {
+      "model": "tale_of_biomes:block/rose_quartz_cluster_blockstate_blockstate_1",
+      "x": 270
+    },
+    "facing=down,blockstate=2": {
+      "model": "tale_of_biomes:block/rose_quartz_cluster_blockstate_blockstate_1",
+      "x": 90
+    },
+    "facing=north,blockstate=3": {
+      "model": "tale_of_biomes:block/rose_quartz_cluster_blockstate_blockstate_2"
+    },
+    "facing=east,blockstate=3": {
+      "model": "tale_of_biomes:block/rose_quartz_cluster_blockstate_blockstate_2",
+      "y": 90
+    },
+    "facing=south,blockstate=3": {
+      "model": "tale_of_biomes:block/rose_quartz_cluster_blockstate_blockstate_2",
+      "y": 180
+    },
+    "facing=west,blockstate=3": {
+      "model": "tale_of_biomes:block/rose_quartz_cluster_blockstate_blockstate_2",
+      "y": 270
+    },
+    "facing=up,blockstate=3": {
+      "model": "tale_of_biomes:block/rose_quartz_cluster_blockstate_blockstate_2",
+      "x": 270
+    },
+    "facing=down,blockstate=3": {
+      "model": "tale_of_biomes:block/rose_quartz_cluster_blockstate_blockstate_2",
+      "x": 90
+    }
+  }
+}

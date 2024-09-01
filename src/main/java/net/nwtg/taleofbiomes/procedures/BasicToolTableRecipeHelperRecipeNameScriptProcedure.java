@@ -34,6 +34,8 @@ public class BasicToolTableRecipeHelperRecipeNameScriptProcedure {
 			return "Sickle Tool";
 		} else if (entity.getData(TaleOfBiomesModVariables.PLAYER_VARIABLES).recipePage == 12) {
 			return "Sword Tool";
+		} else if (entity.getData(TaleOfBiomesModVariables.PLAYER_VARIABLES).recipePage == 13) {
+			return "Cup";
 		}
 		return "";
 	}

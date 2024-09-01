@@ -67,6 +67,9 @@ public class TaleOfBiomesModVariables {
 		public static void clonePlayer(PlayerEvent.Clone event) {
 			PlayerVariables original = event.getOriginal().getData(PLAYER_VARIABLES);
 			PlayerVariables clone = new PlayerVariables();
+			clone.recipeHelperUpdateTimer = original.recipeHelperUpdateTimer;
+			clone.isBasicToolTableRecipeBookOpen = original.isBasicToolTableRecipeBookOpen;
+			clone.isRecipeHelperOpen = original.isRecipeHelperOpen;
 			clone.normalSlot0 = original.normalSlot0;
 			clone.normalSlot1 = original.normalSlot1;
 			clone.normalSlot2 = original.normalSlot2;
@@ -149,21 +152,21 @@ public class TaleOfBiomesModVariables {
 			clone.eldenmoorSlot38 = original.eldenmoorSlot38;
 			clone.eldenmoorSlot39 = original.eldenmoorSlot39;
 			clone.eldenmoorSlot40 = original.eldenmoorSlot40;
-			clone.isBasicToolTableRecipeBookOpen = original.isBasicToolTableRecipeBookOpen;
-			clone.isRecipeHelperOpen = original.isRecipeHelperOpen;
-			clone.recipeHelperUpdateTimer = original.recipeHelperUpdateTimer;
+			clone.showPlayerTemperature = original.showPlayerTemperature;
 			if (!event.isWasDeath()) {
-				clone.CanTravelToEldenmoor = original.CanTravelToEldenmoor;
+				clone.playerSeasonName = original.playerSeasonName;
 				clone.blockPosX = original.blockPosX;
 				clone.blockPosY = original.blockPosY;
 				clone.blockPosZ = original.blockPosZ;
-				clone.playerSeasonName = original.playerSeasonName;
 				clone.clientTemperatureC = original.clientTemperatureC;
 				clone.clientTemperatureF = original.clientTemperatureF;
 				clone.recipePage = original.recipePage;
 				clone.playerFluid = original.playerFluid;
 				clone.playerFluidSaturation = original.playerFluidSaturation;
 				clone.playerFluidDamageTime = original.playerFluidDamageTime;
+				clone.CanTravelToEldenmoor = original.CanTravelToEldenmoor;
+				clone.playerBiomeTemperature = original.playerBiomeTemperature;
+				clone.playerHeightTemperature = original.playerHeightTemperature;
 			}
 			event.getEntity().setData(PLAYER_VARIABLES, clone);
 		}
@@ -192,17 +195,19 @@ public class TaleOfBiomesModVariables {
 
 	public static class WorldVariables extends SavedData {
 		public static final String DATA_NAME = "tale_of_biomes_worldvars";
-		public String worldSeasonName = "Spring";
-		public double worldSeasonDay = 1.0;
-		public double worldMaxSeasonDay = 1.0;
+		public String worldSeasonName = "";
+		public String worldWindDirection = "";
+		public double worldSeasonDay = 0.0;
+		public double worldMaxSeasonDay = 0.0;
 		public double worldSeasonTemperature = 0.0;
-		public double worldWindSpeed = 0.0;
+		public double worldWindSpeed = 25.0;
 		public double worldWindTemperature = 0.0;
-		public String worldWindDirection = "East";
-		public double worldTemperatureC = 4.0;
-		public double worldTemperatureF = 39.2;
-		public double worldWeatherTemperature = 4.0;
+		public double worldTemperatureC = 0.0;
+		public double worldTemperatureF = 0.0;
+		public double worldWeatherTemperature = 0.0;
 		public double worldTimeTemperature = 0.0;
+		public double worldMaxWindSpeed = 50.0;
+		public boolean setStartSeason = true;
 
 		public static WorldVariables load(CompoundTag tag, HolderLookup.Provider lookupProvider) {
 			WorldVariables data = new WorldVariables();
@@ -212,31 +217,35 @@ public class TaleOfBiomesModVariables {
 
 		public void read(CompoundTag nbt, HolderLookup.Provider lookupProvider) {
 			worldSeasonName = nbt.getString("worldSeasonName");
+			worldWindDirection = nbt.getString("worldWindDirection");
 			worldSeasonDay = nbt.getDouble("worldSeasonDay");
 			worldMaxSeasonDay = nbt.getDouble("worldMaxSeasonDay");
 			worldSeasonTemperature = nbt.getDouble("worldSeasonTemperature");
 			worldWindSpeed = nbt.getDouble("worldWindSpeed");
 			worldWindTemperature = nbt.getDouble("worldWindTemperature");
-			worldWindDirection = nbt.getString("worldWindDirection");
 			worldTemperatureC = nbt.getDouble("worldTemperatureC");
 			worldTemperatureF = nbt.getDouble("worldTemperatureF");
 			worldWeatherTemperature = nbt.getDouble("worldWeatherTemperature");
 			worldTimeTemperature = nbt.getDouble("worldTimeTemperature");
+			worldMaxWindSpeed = nbt.getDouble("worldMaxWindSpeed");
+			setStartSeason = nbt.getBoolean("setStartSeason");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt, HolderLookup.Provider lookupProvider) {
 			nbt.putString("worldSeasonName", worldSeasonName);
+			nbt.putString("worldWindDirection", worldWindDirection);
 			nbt.putDouble("worldSeasonDay", worldSeasonDay);
 			nbt.putDouble("worldMaxSeasonDay", worldMaxSeasonDay);
 			nbt.putDouble("worldSeasonTemperature", worldSeasonTemperature);
 			nbt.putDouble("worldWindSpeed", worldWindSpeed);
 			nbt.putDouble("worldWindTemperature", worldWindTemperature);
-			nbt.putString("worldWindDirection", worldWindDirection);
 			nbt.putDouble("worldTemperatureC", worldTemperatureC);
 			nbt.putDouble("worldTemperatureF", worldTemperatureF);
 			nbt.putDouble("worldWeatherTemperature", worldWeatherTemperature);
 			nbt.putDouble("worldTimeTemperature", worldTimeTemperature);
+			nbt.putDouble("worldMaxWindSpeed", worldMaxWindSpeed);
+			nbt.putBoolean("setStartSeason", setStartSeason);
 			return nbt;
 		}
 
@@ -260,7 +269,8 @@ public class TaleOfBiomesModVariables {
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "tale_of_biomes_mapvars";
 		public String modNamespace = "tale_of_biomes";
-		public double forgeFlow = 0;
+		public double gnPlantTimer = 1200.0;
+		public double temperatureTimer = 1.0;
 
 		public static MapVariables load(CompoundTag tag, HolderLookup.Provider lookupProvider) {
 			MapVariables data = new MapVariables();
@@ -270,13 +280,15 @@ public class TaleOfBiomesModVariables {
 
 		public void read(CompoundTag nbt, HolderLookup.Provider lookupProvider) {
 			modNamespace = nbt.getString("modNamespace");
-			forgeFlow = nbt.getDouble("forgeFlow");
+			gnPlantTimer = nbt.getDouble("gnPlantTimer");
+			temperatureTimer = nbt.getDouble("temperatureTimer");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt, HolderLookup.Provider lookupProvider) {
 			nbt.putString("modNamespace", modNamespace);
-			nbt.putDouble("forgeFlow", forgeFlow);
+			nbt.putDouble("gnPlantTimer", gnPlantTimer);
+			nbt.putDouble("temperatureTimer", temperatureTimer);
 			return nbt;
 		}
 
@@ -338,10 +350,20 @@ public class TaleOfBiomesModVariables {
 	}
 
 	public static class PlayerVariables implements INBTSerializable<CompoundTag> {
+		public String playerSeasonName = "";
+		public double blockPosX = 0.0;
+		public double blockPosY = 0.0;
+		public double blockPosZ = 0.0;
+		public double clientTemperatureC = 0.0;
+		public double clientTemperatureF = 0.0;
+		public double recipePage = 0.0;
+		public double recipeHelperUpdateTimer = 0.0;
+		public double playerFluid = 20.0;
+		public double playerFluidSaturation = 3000.0;
+		public double playerFluidDamageTime = 100.0;
 		public boolean CanTravelToEldenmoor = false;
-		public double blockPosX = 0;
-		public double blockPosY = 0;
-		public double blockPosZ = 0;
+		public boolean isBasicToolTableRecipeBookOpen = false;
+		public boolean isRecipeHelperOpen = false;
 		public ItemStack normalSlot0 = ItemStack.EMPTY;
 		public ItemStack normalSlot1 = ItemStack.EMPTY;
 		public ItemStack normalSlot2 = ItemStack.EMPTY;
@@ -424,24 +446,27 @@ public class TaleOfBiomesModVariables {
 		public ItemStack eldenmoorSlot38 = ItemStack.EMPTY;
 		public ItemStack eldenmoorSlot39 = ItemStack.EMPTY;
 		public ItemStack eldenmoorSlot40 = ItemStack.EMPTY;
-		public String playerSeasonName = "Spring";
-		public double clientTemperatureC = 4.0;
-		public double clientTemperatureF = 39.2;
-		public double recipePage = 0;
-		public boolean isBasicToolTableRecipeBookOpen = false;
-		public boolean isRecipeHelperOpen = false;
-		public double recipeHelperUpdateTimer = 0;
-		public double playerFluid = 20.0;
-		public double playerFluidSaturation = 3000.0;
-		public double playerFluidDamageTime = 100.0;
+		public double playerBiomeTemperature = 0;
+		public double playerHeightTemperature = 0;
+		public boolean showPlayerTemperature = false;
 
 		@Override
 		public CompoundTag serializeNBT(HolderLookup.Provider lookupProvider) {
 			CompoundTag nbt = new CompoundTag();
-			nbt.putBoolean("CanTravelToEldenmoor", CanTravelToEldenmoor);
+			nbt.putString("playerSeasonName", playerSeasonName);
 			nbt.putDouble("blockPosX", blockPosX);
 			nbt.putDouble("blockPosY", blockPosY);
 			nbt.putDouble("blockPosZ", blockPosZ);
+			nbt.putDouble("clientTemperatureC", clientTemperatureC);
+			nbt.putDouble("clientTemperatureF", clientTemperatureF);
+			nbt.putDouble("recipePage", recipePage);
+			nbt.putDouble("recipeHelperUpdateTimer", recipeHelperUpdateTimer);
+			nbt.putDouble("playerFluid", playerFluid);
+			nbt.putDouble("playerFluidSaturation", playerFluidSaturation);
+			nbt.putDouble("playerFluidDamageTime", playerFluidDamageTime);
+			nbt.putBoolean("CanTravelToEldenmoor", CanTravelToEldenmoor);
+			nbt.putBoolean("isBasicToolTableRecipeBookOpen", isBasicToolTableRecipeBookOpen);
+			nbt.putBoolean("isRecipeHelperOpen", isRecipeHelperOpen);
 			nbt.put("normalSlot0", normalSlot0.saveOptional(lookupProvider));
 			nbt.put("normalSlot1", normalSlot1.saveOptional(lookupProvider));
 			nbt.put("normalSlot2", normalSlot2.saveOptional(lookupProvider));
@@ -524,25 +549,28 @@ public class TaleOfBiomesModVariables {
 			nbt.put("eldenmoorSlot38", eldenmoorSlot38.saveOptional(lookupProvider));
 			nbt.put("eldenmoorSlot39", eldenmoorSlot39.saveOptional(lookupProvider));
 			nbt.put("eldenmoorSlot40", eldenmoorSlot40.saveOptional(lookupProvider));
-			nbt.putString("playerSeasonName", playerSeasonName);
-			nbt.putDouble("clientTemperatureC", clientTemperatureC);
-			nbt.putDouble("clientTemperatureF", clientTemperatureF);
-			nbt.putDouble("recipePage", recipePage);
-			nbt.putBoolean("isBasicToolTableRecipeBookOpen", isBasicToolTableRecipeBookOpen);
-			nbt.putBoolean("isRecipeHelperOpen", isRecipeHelperOpen);
-			nbt.putDouble("recipeHelperUpdateTimer", recipeHelperUpdateTimer);
-			nbt.putDouble("playerFluid", playerFluid);
-			nbt.putDouble("playerFluidSaturation", playerFluidSaturation);
-			nbt.putDouble("playerFluidDamageTime", playerFluidDamageTime);
+			nbt.putDouble("playerBiomeTemperature", playerBiomeTemperature);
+			nbt.putDouble("playerHeightTemperature", playerHeightTemperature);
+			nbt.putBoolean("showPlayerTemperature", showPlayerTemperature);
 			return nbt;
 		}
 
 		@Override
 		public void deserializeNBT(HolderLookup.Provider lookupProvider, CompoundTag nbt) {
-			CanTravelToEldenmoor = nbt.getBoolean("CanTravelToEldenmoor");
+			playerSeasonName = nbt.getString("playerSeasonName");
 			blockPosX = nbt.getDouble("blockPosX");
 			blockPosY = nbt.getDouble("blockPosY");
 			blockPosZ = nbt.getDouble("blockPosZ");
+			clientTemperatureC = nbt.getDouble("clientTemperatureC");
+			clientTemperatureF = nbt.getDouble("clientTemperatureF");
+			recipePage = nbt.getDouble("recipePage");
+			recipeHelperUpdateTimer = nbt.getDouble("recipeHelperUpdateTimer");
+			playerFluid = nbt.getDouble("playerFluid");
+			playerFluidSaturation = nbt.getDouble("playerFluidSaturation");
+			playerFluidDamageTime = nbt.getDouble("playerFluidDamageTime");
+			CanTravelToEldenmoor = nbt.getBoolean("CanTravelToEldenmoor");
+			isBasicToolTableRecipeBookOpen = nbt.getBoolean("isBasicToolTableRecipeBookOpen");
+			isRecipeHelperOpen = nbt.getBoolean("isRecipeHelperOpen");
 			normalSlot0 = ItemStack.parseOptional(lookupProvider, nbt.getCompound("normalSlot0"));
 			normalSlot1 = ItemStack.parseOptional(lookupProvider, nbt.getCompound("normalSlot1"));
 			normalSlot2 = ItemStack.parseOptional(lookupProvider, nbt.getCompound("normalSlot2"));
@@ -625,16 +653,9 @@ public class TaleOfBiomesModVariables {
 			eldenmoorSlot38 = ItemStack.parseOptional(lookupProvider, nbt.getCompound("eldenmoorSlot38"));
 			eldenmoorSlot39 = ItemStack.parseOptional(lookupProvider, nbt.getCompound("eldenmoorSlot39"));
 			eldenmoorSlot40 = ItemStack.parseOptional(lookupProvider, nbt.getCompound("eldenmoorSlot40"));
-			playerSeasonName = nbt.getString("playerSeasonName");
-			clientTemperatureC = nbt.getDouble("clientTemperatureC");
-			clientTemperatureF = nbt.getDouble("clientTemperatureF");
-			recipePage = nbt.getDouble("recipePage");
-			isBasicToolTableRecipeBookOpen = nbt.getBoolean("isBasicToolTableRecipeBookOpen");
-			isRecipeHelperOpen = nbt.getBoolean("isRecipeHelperOpen");
-			recipeHelperUpdateTimer = nbt.getDouble("recipeHelperUpdateTimer");
-			playerFluid = nbt.getDouble("playerFluid");
-			playerFluidSaturation = nbt.getDouble("playerFluidSaturation");
-			playerFluidDamageTime = nbt.getDouble("playerFluidDamageTime");
+			playerBiomeTemperature = nbt.getDouble("playerBiomeTemperature");
+			playerHeightTemperature = nbt.getDouble("playerHeightTemperature");
+			showPlayerTemperature = nbt.getBoolean("showPlayerTemperature");
 		}
 
 		public void syncPlayerVariables(Entity entity) {

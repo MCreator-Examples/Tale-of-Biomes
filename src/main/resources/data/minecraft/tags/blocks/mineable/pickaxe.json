@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "tale_of_biomes:rose_quartz_cluster",
+    "tale_of_biomes:rose_quartz_budding",
+    "tale_of_biomes:rose_quartz_block",
     "tale_of_biomes:mossy_cobbled_shale_wall",
     "tale_of_biomes:mossy_cobbled_shale_slab",
     "tale_of_biomes:mossy_cobbled_shale_stairs",
@@ -56,13 +59,6 @@
     "tale_of_biomes:mossy_cobbled_marble",
     "tale_of_biomes:cobbled_marble",
     "tale_of_biomes:marble",
-    "tale_of_biomes:drill",
-    "tale_of_biomes:copper_battery_4",
-    "tale_of_biomes:copper_battery_3",
-    "tale_of_biomes:copper_battery_2",
-    "tale_of_biomes:copper_battery_1",
-    "tale_of_biomes:copper_battery_0",
-    "tale_of_biomes:solar_pannel",
     "tale_of_biomes:ground_lantern_on",
     "tale_of_biomes:ground_lantern",
     "tale_of_biomes:hanging_lantern_on",

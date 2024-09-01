@@ -106,6 +106,13 @@ public class BasicToolTableMenuWhileThisGUIIsOpenTickProcedure {
 				((Slot) _slots.get(9)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
 			}
+		} else if (BasicToolTableMenuPiruffCupConditionProcedure.execute(entity)) {
+			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				ItemStack _setstack = new ItemStack(TaleOfBiomesModItems.PIRUFF_CUP.get()).copy();
+				_setstack.setCount(1);
+				((Slot) _slots.get(9)).set(_setstack);
+				_player.containerMenu.broadcastChanges();
+			}
 		} else {
 			BasicToolTableMenuWhileThisGUIIsOpenTick1Procedure.execute(world, entity);
 		}
