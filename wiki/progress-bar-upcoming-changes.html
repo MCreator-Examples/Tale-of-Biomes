@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTTPS Progress Bar</title>
+<style>
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #progress-bar {
+        width: 100%;
+        background-color: #f1f1f1;
+        border-radius: 18px;
+    }
+
+    #progress {
+        width: 0%;
+        height: 30px;
+        background-color: #00FFFF;
+        text-align: center;
+        line-height: 30px;
+        color: #000000;
+        font-weight: bold;
+        border-radius: 18px;
+    }
+</style>
+</head>
+<body>
+
+<div id="progress-bar">
+  <div id="progress">0%</div>
+</div>
+
+<script>
+    // Get the start and end dates
+    const startDate = new Date('September 1, 2024').getTime();
+    const endDate = new Date('October 6, 2024').getTime();
+
+    // Get the current date
+    const currentDate = new Date().getTime();
+
+    // Calculate the progress
+    const progress = Math.min(100, ((currentDate - startDate) / (endDate - startDate)) * 100);
+
+    // Update the progress bar
+    document.getElementById('progress').style.width = progress + '%';
+    document.getElementById('progress').innerHTML = Math.round(progress) + '%';
+</script>
+
+</body>
+</html>
