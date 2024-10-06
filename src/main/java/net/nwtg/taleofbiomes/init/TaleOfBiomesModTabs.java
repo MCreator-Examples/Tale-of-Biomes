@@ -8,35 +8,47 @@ import net.nwtg.taleofbiomes.TaleOfBiomesMod;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
+@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class TaleOfBiomesModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TaleOfBiomesMod.MODID);
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> TOB_RESOURCES_TAB = REGISTRY.register("tob_resources_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.tale_of_biomes.tob_resources_tab")).icon(() -> new ItemStack(TaleOfBiomesModItems.STRAW.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(TaleOfBiomesModItems.RICE_SEEDS.get());
+				tabData.accept(TaleOfBiomesModItems.PRAIRIE_DOG_SPAWN_EGG.get());
 				tabData.accept(TaleOfBiomesModItems.STRAW.get());
 				tabData.accept(TaleOfBiomesModItems.GHOST_BERRIES.get());
+				tabData.accept(TaleOfBiomesModItems.RICE_SEEDS.get());
 				tabData.accept(TaleOfBiomesModItems.PIRUFF_STICK.get());
 				tabData.accept(TaleOfBiomesModItems.CLAY.get());
+				tabData.accept(TaleOfBiomesModItems.PHOSPHORITE_GEMSTONE.get());
+				tabData.accept(TaleOfBiomesModItems.ROSE_QUARTZ_SHARD.get());
+				tabData.accept(TaleOfBiomesModItems.QUICKLIME.get());
+				tabData.accept(TaleOfBiomesModItems.RAW_PURE_COPPER.get());
+				tabData.accept(TaleOfBiomesModItems.RAW_MIXED_COPPER.get());
+				tabData.accept(TaleOfBiomesModItems.RAW_IMPURE_COPPER.get());
 				tabData.accept(TaleOfBiomesModItems.PURE_COPPER_DUST.get());
 				tabData.accept(TaleOfBiomesModItems.MIXED_COPPER_DUST.get());
-				tabData.accept(TaleOfBiomesModItems.UNPURE_COPPER_DUST.get());
-				tabData.accept(TaleOfBiomesModItems.PURE_RAW_COPPER.get());
-				tabData.accept(TaleOfBiomesModItems.MIXED_RAW_COPPER.get());
-				tabData.accept(TaleOfBiomesModItems.UNPURE_RAW_COPPER.get());
-				tabData.accept(TaleOfBiomesModItems.QUICKLIME.get());
-				tabData.accept(TaleOfBiomesModItems.PHOSPHORITE_GEMSTONE.get());
-				tabData.accept(TaleOfBiomesModItems.PRAIRIE_DOG_SPAWN_EGG.get());
+				tabData.accept(TaleOfBiomesModItems.IMPURE_COPPER_DUST.get());
+				tabData.accept(TaleOfBiomesModItems.PIRUFF_CARROT.get());
 			})
 
 					.build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> TOB_DECORATION_TAB = REGISTRY.register("tob_decoration_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.tale_of_biomes.tob_decoration_tab")).icon(() -> new ItemStack(TaleOfBiomesModBlocks.YELLOW_PIRUFF_BED.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(TaleOfBiomesModBlocks.CRAFTING_TABLE.get().asItem());
+				tabData.accept(TaleOfBiomesModBlocks.BASIC_TOOL_TABLE.get().asItem());
+				tabData.accept(TaleOfBiomesModBlocks.BASIC_STONE_TABLE.get().asItem());
+				tabData.accept(TaleOfBiomesModBlocks.KILN_FURNACE.get().asItem());
+				tabData.accept(TaleOfBiomesModBlocks.PIRUFF_BARREL.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.GROUND_LANTERN.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.TOOL_HANDLE_BLOCK.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.PHOSPHORITE_HOE_BLOCK.get().asItem());
@@ -52,6 +64,8 @@ public class TaleOfBiomesModTabs {
 					.build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> TOB_TOOL_TAB = REGISTRY.register("tob_tool_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.tale_of_biomes.tob_tool_tab")).icon(() -> new ItemStack(TaleOfBiomesModItems.PHOSPHORITE_PICKAXE.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(TaleOfBiomesModItems.PIRUFF_CUP.get());
+				tabData.accept(TaleOfBiomesModItems.PIRUFF_WATER_CUP.get());
 				tabData.accept(TaleOfBiomesModItems.PIRUFF_AXE.get());
 				tabData.accept(TaleOfBiomesModItems.PIRUFF_HOE.get());
 				tabData.accept(TaleOfBiomesModItems.PIRUFF_PICKAXE.get());
@@ -70,8 +84,6 @@ public class TaleOfBiomesModTabs {
 				tabData.accept(TaleOfBiomesModItems.PHOSPHORITE_SHOVEL.get());
 				tabData.accept(TaleOfBiomesModItems.PHOSPHORITE_SWORD.get());
 				tabData.accept(TaleOfBiomesModItems.SEASON_DEVICE.get());
-				tabData.accept(TaleOfBiomesModItems.PIRUFF_CUP.get());
-				tabData.accept(TaleOfBiomesModItems.PIRUFF_WATER_CUP.get());
 			})
 
 					.build());
@@ -95,9 +107,6 @@ public class TaleOfBiomesModTabs {
 					.build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> TOB_BLOCKS_TAB = REGISTRY.register("tob_blocks_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.tale_of_biomes.tob_blocks_tab")).icon(() -> new ItemStack(TaleOfBiomesModBlocks.PIRUFF_LOG.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(TaleOfBiomesModBlocks.BASIC_TOOL_TABLE.get().asItem());
-				tabData.accept(TaleOfBiomesModBlocks.BASIC_STONE_TABLE.get().asItem());
-				tabData.accept(TaleOfBiomesModBlocks.KILN_FURNACE.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.ROSE_SHRUB.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.IVY_SHRUB.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.PIRUFF_LEAVES.get().asItem());
@@ -106,27 +115,24 @@ public class TaleOfBiomesModTabs {
 				tabData.accept(TaleOfBiomesModBlocks.THATCH_SLAB.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.HAY_STRAW.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.HAY_GRASS.get().asItem());
+				tabData.accept(TaleOfBiomesModBlocks.PIRUFF_VINES.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.TALL_GRASS_0.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.TALL_GRASS_1.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.TALL_GRASS_2.get().asItem());
+				tabData.accept(TaleOfBiomesModBlocks.PIRUFF_SAPLING.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.MAGENTA_ASTER.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.PURPLE_ASTER.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.BLUE_ASTER.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.WILD_INDIGO.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.GOLDENROD.get().asItem());
-				tabData.accept(TaleOfBiomesModBlocks.PIRUFF_SAPLING.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.MOSS_BLOCK.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.MOSS_CARPET.get().asItem());
-				tabData.accept(TaleOfBiomesModBlocks.PIRUFF_VINES.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.GRASS_BLOCK.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.DIRT.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.PACKED_DIRT.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.FERTILE_SOIL.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.TILLED_SOIL.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.CLAY_BLOCK.get().asItem());
-				tabData.accept(TaleOfBiomesModBlocks.PURE_COPPER_DUST_BLOCK.get().asItem());
-				tabData.accept(TaleOfBiomesModBlocks.MIXED_COPPER_DUST_BLOCK.get().asItem());
-				tabData.accept(TaleOfBiomesModBlocks.UNPURE_COPPER_DUST_BLOCK.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.GRAVEL.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.SAND.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.PIRUFF_LOG.get().asItem());
@@ -144,9 +150,13 @@ public class TaleOfBiomesModTabs {
 				tabData.accept(TaleOfBiomesModBlocks.PIRUFF_BUTTON.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.STONE.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.PURE_COAL_ORE.get().asItem());
+				tabData.accept(TaleOfBiomesModBlocks.ELDENMOOR_COPPER_ORE.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.LIMESTONE.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.COBBLED_LIMESTONE.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.QUICKLIME_BLOCK.get().asItem());
+				tabData.accept(TaleOfBiomesModBlocks.ROSE_QUARTZ_BLOCK.get().asItem());
+				tabData.accept(TaleOfBiomesModBlocks.ROSE_QUARTZ_BUDDING.get().asItem());
+				tabData.accept(TaleOfBiomesModBlocks.ROSE_QUARTZ_CLUSTER.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.PHOSPHORITE_STONE.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.PHOSPHORITE_CRYSTAL.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.PHOSPHORITE_CRYSTAL_BOTTOM.get().asItem());
@@ -218,10 +228,20 @@ public class TaleOfBiomesModTabs {
 				tabData.accept(TaleOfBiomesModBlocks.POLISHED_SHALE_WALL.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.SHALE_PRESSURE_PLATE.get().asItem());
 				tabData.accept(TaleOfBiomesModBlocks.SHALE_BUTTON.get().asItem());
-				tabData.accept(TaleOfBiomesModBlocks.ROSE_QUARTZ_BLOCK.get().asItem());
-				tabData.accept(TaleOfBiomesModBlocks.ROSE_QUARTZ_BUDDING.get().asItem());
-				tabData.accept(TaleOfBiomesModBlocks.ROSE_QUARTZ_CLUSTER.get().asItem());
+				tabData.accept(TaleOfBiomesModBlocks.RAW_PURE_COPPER_BLOCK.get().asItem());
+				tabData.accept(TaleOfBiomesModBlocks.RAW_MIXED_COPPER_BLOCK.get().asItem());
+				tabData.accept(TaleOfBiomesModBlocks.RAW_IMPURE_COPPER_BLOCK.get().asItem());
+				tabData.accept(TaleOfBiomesModBlocks.PURE_COPPER_DUST_BLOCK.get().asItem());
+				tabData.accept(TaleOfBiomesModBlocks.MIXED_COPPER_DUST_BLOCK.get().asItem());
+				tabData.accept(TaleOfBiomesModBlocks.IMPURE_COPPER_DUST_BLOCK.get().asItem());
 			})
 
 					.build());
+
+	@SubscribeEvent
+	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(TaleOfBiomesModBlocks.WILD_PIRUFF_CARROTS.get().asItem());
+		}
+	}
 }

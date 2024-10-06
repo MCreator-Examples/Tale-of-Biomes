@@ -1,7 +1,7 @@
 package net.nwtg.taleofbiomes.client.gui;
 
 import net.nwtg.taleofbiomes.world.inventory.BasicStoneTableMenuRecipeBookMenu;
-import net.nwtg.taleofbiomes.procedures.BasicStoneTableMenuRecipeHelperNameScriptProcedure;
+import net.nwtg.taleofbiomes.procedures.GetGUIBlockLocalizationProcedure;
 import net.nwtg.taleofbiomes.network.BasicStoneTableMenuRecipeBookButtonMessage;
 
 import net.neoforged.neoforge.network.PacketDistributor;
@@ -25,9 +25,9 @@ public class BasicStoneTableMenuRecipeBookScreen extends AbstractContainerScreen
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-	ImageButton imagebutton_recipe_helper_button_back;
-	ImageButton imagebutton_recipe_helper_button_forward;
-	ImageButton imagebutton_kiln_light_on;
+	ImageButton imagebutton_button_left;
+	ImageButton imagebutton_button_right;
+	ImageButton imagebutton_recipe_helper_button;
 
 	public BasicStoneTableMenuRecipeBookScreen(BasicStoneTableMenuRecipeBookMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -39,8 +39,6 @@ public class BasicStoneTableMenuRecipeBookScreen extends AbstractContainerScreen
 		this.imageWidth = 176;
 		this.imageHeight = 166;
 	}
-
-	private static final ResourceLocation texture = new ResourceLocation("tale_of_biomes:textures/screens/basic_stone_table_menu_recipe_book.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
@@ -54,9 +52,10 @@ public class BasicStoneTableMenuRecipeBookScreen extends AbstractContainerScreen
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
-		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		guiGraphics.blit(new ResourceLocation("tale_of_biomes:textures/screens/recipe_helper_background.png"), this.leftPos + -109, this.topPos + 0, 0, 0, 104, 166, 104, 166);
+		guiGraphics.blit(new ResourceLocation("tale_of_biomes:textures/screens/crafting_station_gui.png"), this.leftPos + 97, this.topPos + 0, 0, 0, 176, 166, 176, 166);
+
+		guiGraphics.blit(new ResourceLocation("tale_of_biomes:textures/screens/crafting_station_gui_helper.png"), this.leftPos + -97, this.topPos + 0, 0, 0, 176, 108, 176, 108);
 
 		RenderSystem.disableBlend();
 	}
@@ -72,18 +71,17 @@ public class BasicStoneTableMenuRecipeBookScreen extends AbstractContainerScreen
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.tale_of_biomes.basic_stone_table_menu_recipe_book.label_basic_tool_table"), 7, 6, -12566464, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.tale_of_biomes.basic_stone_table_menu_recipe_book.label_inventory"), 7, 73, -12566464, false);
 		guiGraphics.drawString(this.font,
 
-				BasicStoneTableMenuRecipeHelperNameScriptProcedure.execute(world, entity), -102, 6, -12566464, false);
+				GetGUIBlockLocalizationProcedure.execute(world, entity), 104, 5, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.tale_of_biomes.basic_stone_table_menu_recipe_book.label_recipe_helper"), -90, 5, -1, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
-		imagebutton_recipe_helper_button_back = new ImageButton(this.leftPos + -83, this.topPos + 88, 27, 18,
-				new WidgetSprites(new ResourceLocation("tale_of_biomes:textures/screens/recipe_helper_button_back.png"), new ResourceLocation("tale_of_biomes:textures/screens/recipe_helper_button_back_hover.png")), e -> {
+		imagebutton_button_left = new ImageButton(this.leftPos + -72, this.topPos + 83, 27, 18,
+				new WidgetSprites(new ResourceLocation("tale_of_biomes:textures/screens/button_left.png"), new ResourceLocation("tale_of_biomes:textures/screens/button_left_hover.png")), e -> {
 					if (true) {
 						PacketDistributor.sendToServer(new BasicStoneTableMenuRecipeBookButtonMessage(0, x, y, z));
 						BasicStoneTableMenuRecipeBookButtonMessage.handleButtonAction(entity, 0, x, y, z);
@@ -94,10 +92,10 @@ public class BasicStoneTableMenuRecipeBookScreen extends AbstractContainerScreen
 				guiGraphics.blit(sprites.get(isActive(), isHoveredOrFocused()), getX(), getY(), 0, 0, width, height, width, height);
 			}
 		};
-		guistate.put("button:imagebutton_recipe_helper_button_back", imagebutton_recipe_helper_button_back);
-		this.addRenderableWidget(imagebutton_recipe_helper_button_back);
-		imagebutton_recipe_helper_button_forward = new ImageButton(this.leftPos + -56, this.topPos + 88, 27, 18,
-				new WidgetSprites(new ResourceLocation("tale_of_biomes:textures/screens/recipe_helper_button_forward.png"), new ResourceLocation("tale_of_biomes:textures/screens/recipe_helper_button_forward_hover.png")), e -> {
+		guistate.put("button:imagebutton_button_left", imagebutton_button_left);
+		this.addRenderableWidget(imagebutton_button_left);
+		imagebutton_button_right = new ImageButton(this.leftPos + -45, this.topPos + 83, 27, 18,
+				new WidgetSprites(new ResourceLocation("tale_of_biomes:textures/screens/button_right.png"), new ResourceLocation("tale_of_biomes:textures/screens/button_right_hover.png")), e -> {
 					if (true) {
 						PacketDistributor.sendToServer(new BasicStoneTableMenuRecipeBookButtonMessage(1, x, y, z));
 						BasicStoneTableMenuRecipeBookButtonMessage.handleButtonAction(entity, 1, x, y, z);
@@ -108,10 +106,10 @@ public class BasicStoneTableMenuRecipeBookScreen extends AbstractContainerScreen
 				guiGraphics.blit(sprites.get(isActive(), isHoveredOrFocused()), getX(), getY(), 0, 0, width, height, width, height);
 			}
 		};
-		guistate.put("button:imagebutton_recipe_helper_button_forward", imagebutton_recipe_helper_button_forward);
-		this.addRenderableWidget(imagebutton_recipe_helper_button_forward);
-		imagebutton_kiln_light_on = new ImageButton(this.leftPos + 11, this.topPos + 39, 8, 8,
-				new WidgetSprites(new ResourceLocation("tale_of_biomes:textures/screens/kiln_light_on.png"), new ResourceLocation("tale_of_biomes:textures/screens/kiln_light_off.png")), e -> {
+		guistate.put("button:imagebutton_button_right", imagebutton_button_right);
+		this.addRenderableWidget(imagebutton_button_right);
+		imagebutton_recipe_helper_button = new ImageButton(this.leftPos + 101, this.topPos + 41, 18, 18,
+				new WidgetSprites(new ResourceLocation("tale_of_biomes:textures/screens/recipe_helper_button.png"), new ResourceLocation("tale_of_biomes:textures/screens/recipe_helper_hover_button.png")), e -> {
 					if (true) {
 						PacketDistributor.sendToServer(new BasicStoneTableMenuRecipeBookButtonMessage(2, x, y, z));
 						BasicStoneTableMenuRecipeBookButtonMessage.handleButtonAction(entity, 2, x, y, z);
@@ -122,7 +120,7 @@ public class BasicStoneTableMenuRecipeBookScreen extends AbstractContainerScreen
 				guiGraphics.blit(sprites.get(isActive(), isHoveredOrFocused()), getX(), getY(), 0, 0, width, height, width, height);
 			}
 		};
-		guistate.put("button:imagebutton_kiln_light_on", imagebutton_kiln_light_on);
-		this.addRenderableWidget(imagebutton_kiln_light_on);
+		guistate.put("button:imagebutton_recipe_helper_button", imagebutton_recipe_helper_button);
+		this.addRenderableWidget(imagebutton_recipe_helper_button);
 	}
 }

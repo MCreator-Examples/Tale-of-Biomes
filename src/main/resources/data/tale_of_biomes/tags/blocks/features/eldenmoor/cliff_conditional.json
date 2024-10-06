@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:air",
+    "minecraft:void_air",
+    "minecraft:cave_air",
+    "#tale_of_biomes:plants/eldenmoor"
+  ]
+}

@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "tale_of_biomes:piruff_barrel",
+    "tale_of_biomes:crafting_table",
     "tale_of_biomes:basic_stone_table",
     "tale_of_biomes:ghost_bush_3",
     "tale_of_biomes:ghost_bush_2",

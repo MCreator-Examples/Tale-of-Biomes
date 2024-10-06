@@ -58,7 +58,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "EARTH"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -124,24 +124,12 @@
     "generateFeature": true,
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:GrassPlains"
-      },
-      {
-        "value": "CUSTOM:FlowerPlains"
-      },
-      {
-        "value": "CUSTOM:FlowerShrubPlains"
-      },
-      {
-        "value": "CUSTOM:GrassShrubPlains"
+        "value": "#mod:eldenmoor/plains"
       }
     ],
     "blocksToReplace": [
       {
-        "value": "CUSTOM:GrassBlock"
-      },
-      {
-        "value": "CUSTOM:Dirt"
+        "value": "TAG:mod:generation/dirt"
       }
     ],
     "generationShape": "UNIFORM",

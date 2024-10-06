@@ -158,13 +158,13 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "BedOnBlockRightClicked"
+      "name": "BedBlockRightClicked"
     },
     "onBlockAdded": {
-      "name": "YellowPiruffBedBlockAdded"
+      "name": "BedBlockAdded"
     },
     "onTickUpdate": {
-      "name": "YellowPiruffBedUpdateTick"
+      "name": "BedBlockUpdateTick"
     },
     "onDestroyedByPlayer": {
       "name": "BedBlockDestroyed"

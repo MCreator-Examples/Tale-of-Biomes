@@ -37,7 +37,7 @@ public class RiceCropLightDamageProcedure {
 				return -1;
 			}
 		}.getValue(world, BlockPos.containing(nX, nY, nZ), "tobCropLightDamage");
-		nDamage = new Object() {
+		nDamageTime = new Object() {
 			public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
 				if (blockEntity != null)
@@ -68,7 +68,7 @@ public class RiceCropLightDamageProcedure {
 					if (world instanceof Level _level)
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}
-			} else if (nDamage != 0 && nLight >= nMinLight) {
+			} else if (nLight >= nMinLight) {
 				if (!world.isClientSide()) {
 					BlockPos _bp = BlockPos.containing(nX, nY, nZ);
 					BlockEntity _blockEntity = world.getBlockEntity(_bp);
@@ -83,7 +83,7 @@ public class RiceCropLightDamageProcedure {
 					BlockEntity _blockEntity = world.getBlockEntity(_bp);
 					BlockState _bs = world.getBlockState(_bp);
 					if (_blockEntity != null)
-						_blockEntity.getPersistentData().putDouble("tobCropLightDamageTime", 24000);
+						_blockEntity.getPersistentData().putDouble("tobCropLightDamageTime", GetCropLightMinLightTimeProcedure.execute(world, x, y, z));
 					if (world instanceof Level _level)
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}

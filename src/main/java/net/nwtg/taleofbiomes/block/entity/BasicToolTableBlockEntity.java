@@ -28,7 +28,7 @@ import java.util.stream.IntStream;
 import io.netty.buffer.Unpooled;
 
 public class BasicToolTableBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
-	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(19, ItemStack.EMPTY);
+	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(20, ItemStack.EMPTY);
 	private final SidedInvWrapper handler = new SidedInvWrapper(this, null);
 
 	public BasicToolTableBlockEntity(BlockPos position, BlockState state) {
@@ -126,6 +126,8 @@ public class BasicToolTableBlockEntity extends RandomizableContainerBlockEntity 
 			return false;
 		if (index == 18)
 			return false;
+		if (index == 19)
+			return false;
 		return true;
 	}
 
@@ -141,6 +143,26 @@ public class BasicToolTableBlockEntity extends RandomizableContainerBlockEntity 
 
 	@Override
 	public boolean canTakeItemThroughFace(int index, ItemStack stack, Direction direction) {
+		if (index == 0)
+			return false;
+		if (index == 1)
+			return false;
+		if (index == 2)
+			return false;
+		if (index == 3)
+			return false;
+		if (index == 4)
+			return false;
+		if (index == 5)
+			return false;
+		if (index == 6)
+			return false;
+		if (index == 7)
+			return false;
+		if (index == 8)
+			return false;
+		if (index == 9)
+			return false;
 		if (index == 10)
 			return false;
 		if (index == 11)
@@ -158,6 +180,8 @@ public class BasicToolTableBlockEntity extends RandomizableContainerBlockEntity 
 		if (index == 17)
 			return false;
 		if (index == 18)
+			return false;
+		if (index == 19)
 			return false;
 		return true;
 	}

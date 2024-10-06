@@ -13,7 +13,7 @@
         "textureBack": "",
         "particleTexture": "rice_1",
         "renderType": 2,
-        "customModelName": "rice:rice_a",
+        "customModelName": "rice_crop:default",
         "luminance": 0,
         "boundingBoxes": [
           {
@@ -21,7 +21,76 @@
             "my": -4.0,
             "mz": 0.0,
             "Mx": 16.0,
-            "My": 4.0,
+            "My": -1.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_1",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_1",
+        "renderType": 2,
+        "customModelName": "rice_crop:c1w1s0",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_1",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_1",
+        "renderType": 2,
+        "customModelName": "rice_crop:c1w0s1",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": -1.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_1",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_1",
+        "renderType": 2,
+        "customModelName": "rice_crop:c1w1s1",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 9.0,
             "Mz": 16.0,
             "subtract": false
           }
@@ -36,7 +105,99 @@
         "textureBack": "",
         "particleTexture": "rice_2",
         "renderType": 2,
-        "customModelName": "rice:rice_b",
+        "customModelName": "rice_crop:c2w0s0",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 2.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_2",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_2",
+        "renderType": 2,
+        "customModelName": "rice_crop:c2w1s0",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_2",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_2",
+        "renderType": 2,
+        "customModelName": "rice_crop:c2w0s1",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 2.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_2",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_2",
+        "renderType": 2,
+        "customModelName": "rice_crop:c2w1s1",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_3",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_3",
+        "renderType": 2,
+        "customModelName": "rice_crop:c3w0s0",
         "luminance": 0,
         "boundingBoxes": [
           {
@@ -59,7 +220,53 @@
         "textureBack": "",
         "particleTexture": "rice_3",
         "renderType": 2,
-        "customModelName": "rice:rice_c",
+        "customModelName": "rice_crop:c3w1s0",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_3",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_3",
+        "renderType": 2,
+        "customModelName": "rice_crop:c3w0s1",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 5.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_3",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_3",
+        "renderType": 2,
+        "customModelName": "rice_crop:c3w1s1",
         "luminance": 0,
         "boundingBoxes": [
           {
@@ -82,7 +289,7 @@
         "textureBack": "",
         "particleTexture": "rice_4",
         "renderType": 2,
-        "customModelName": "rice:rice_d",
+        "customModelName": "rice_crop:c4w0s0",
         "luminance": 0,
         "boundingBoxes": [
           {
@@ -90,7 +297,76 @@
             "my": -4.0,
             "mz": 0.0,
             "Mx": 16.0,
-            "My": 11.0,
+            "My": 7.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_4",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_4",
+        "renderType": 2,
+        "customModelName": "rice_crop:c4w1s0",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_4",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_4",
+        "renderType": 2,
+        "customModelName": "rice_crop:c4w0s1",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 7.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_4",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_4",
+        "renderType": 2,
+        "customModelName": "rice_crop:c4w1s1",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 9.0,
             "Mz": 16.0,
             "subtract": false
           }
@@ -105,7 +381,145 @@
         "textureBack": "",
         "particleTexture": "rice_5",
         "renderType": 2,
-        "customModelName": "rice:rice_e",
+        "customModelName": "rice_crop:c5w0s0",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 12.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_5",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_5",
+        "renderType": 2,
+        "customModelName": "rice_crop:c5w1s0",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 12.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_5",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_5",
+        "renderType": 2,
+        "customModelName": "rice_crop:c5w0s1",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 12.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_5",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_5",
+        "renderType": 2,
+        "customModelName": "rice_crop:c5w1s1",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 12.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_6",
+        "textureTop": "rice_6",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_6",
+        "renderType": 2,
+        "customModelName": "rice_crop:c6w0s0",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 12.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_6",
+        "textureTop": "rice_6",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_6",
+        "renderType": 2,
+        "customModelName": "rice_crop:c6w1s0",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 12.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_6",
+        "textureTop": "rice_6",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_6",
+        "renderType": 2,
+        "customModelName": "rice_crop:c6w0s1",
         "luminance": 0,
         "boundingBoxes": [
           {
@@ -128,7 +542,7 @@
         "textureBack": "",
         "particleTexture": "rice_6",
         "renderType": 2,
-        "customModelName": "rice:rice_f",
+        "customModelName": "rice_crop:c6w1s1",
         "luminance": 0,
         "boundingBoxes": [
           {
@@ -151,7 +565,7 @@
         "textureBack": "",
         "particleTexture": "rice_7",
         "renderType": 2,
-        "customModelName": "rice:rice_g",
+        "customModelName": "rice_crop:c7w0s0",
         "luminance": 0,
         "boundingBoxes": [
           {
@@ -159,7 +573,536 @@
             "my": -4.0,
             "mz": 0.0,
             "Mx": 16.0,
-            "My": 10.0,
+            "My": -1.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_7",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_7",
+        "renderType": 2,
+        "customModelName": "rice_crop:c7w1s0",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_7",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_7",
+        "renderType": 2,
+        "customModelName": "rice_crop:c7w0s1",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": -1.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_7",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_7",
+        "renderType": 2,
+        "customModelName": "rice_crop:c7w1s1",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_8",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_8",
+        "renderType": 2,
+        "customModelName": "rice_crop:c8w0s0",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 1.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_8",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_8",
+        "renderType": 2,
+        "customModelName": "rice_crop:c8w1s0",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_8",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_8",
+        "renderType": 2,
+        "customModelName": "rice_crop:c8w0s1",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 1.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_8",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_8",
+        "renderType": 2,
+        "customModelName": "rice_crop:c8w1s1",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_9",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_9",
+        "renderType": 2,
+        "customModelName": "rice_crop:c9w0s0",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 4.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_9",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_9",
+        "renderType": 2,
+        "customModelName": "rice_crop:c9w1s0",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_9",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_9",
+        "renderType": 2,
+        "customModelName": "rice_crop:c9w0s1",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 4.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_9",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_9",
+        "renderType": 2,
+        "customModelName": "rice_crop:c9w1s1",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_10",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_10",
+        "renderType": 2,
+        "customModelName": "rice_crop:c10w0s0",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 7.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_10",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_10",
+        "renderType": 2,
+        "customModelName": "rice_crop:c10w1s0",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_10",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_10",
+        "renderType": 2,
+        "customModelName": "rice_crop:c10w0s1",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 7.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_10",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_10",
+        "renderType": 2,
+        "customModelName": "rice_crop:c10w1s1",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_11",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_11",
+        "renderType": 2,
+        "customModelName": "rice_crop:c11w0s0",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_11",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_11",
+        "renderType": 2,
+        "customModelName": "rice_crop:c11w1s0",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_11",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_11",
+        "renderType": 2,
+        "customModelName": "rice_crop:c11w0s1",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_11",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_11",
+        "renderType": 2,
+        "customModelName": "rice_crop:c11w1s1",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_12",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_12",
+        "renderType": 2,
+        "customModelName": "rice_crop:c12w0s0",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_12",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_12",
+        "renderType": 2,
+        "customModelName": "rice_crop:c12w1s0",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_12",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_12",
+        "renderType": 2,
+        "customModelName": "rice_crop:c12w0s1",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 9.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "rice_12",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "rice_12",
+        "renderType": 2,
+        "customModelName": "rice_crop:c12w1s1",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -4.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 9.0,
             "Mz": 16.0,
             "subtract": false
           }

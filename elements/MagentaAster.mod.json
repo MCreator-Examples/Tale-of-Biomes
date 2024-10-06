@@ -86,7 +86,7 @@
     "generateFeature": true,
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:FlowerPlains"
+        "value": "#mod:eldenmoor/flower_plains"
       }
     ],
     "generationType": "Flower",

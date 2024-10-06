@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tale_of_biomes:block/piruff_door_bottom"
+    "layer0": "tale_of_biomes:item/piruff_door"
   },
-  "render_type": "cutout"
+  "render_type": "translucent"
 }

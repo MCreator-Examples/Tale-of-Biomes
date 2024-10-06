@@ -43,7 +43,7 @@
     "isWaterloggable": false,
     "creativeTabs": [
       {
-        "value": "CUSTOM:TOBBlocksTab"
+        "value": "CUSTOM:TOBDecorationTab"
       }
     ],
     "destroyTool": "axe",
@@ -60,7 +60,7 @@
     "material": {
       "value": "WOOD"
     },
-    "tickRate": 0,
+    "tickRate": 1,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -107,7 +107,7 @@
     "hasInventory": true,
     "guiBoundTo": "BasicToolTableMenu",
     "openGUIOnRightClick": false,
-    "inventorySize": 19,
+    "inventorySize": 20,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": false,
     "inventoryComparatorPower": false,
@@ -121,9 +121,20 @@
       15,
       16,
       17,
-      18
+      18,
+      19
     ],
     "inventoryInSlotIDs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
       10,
       11,
       12,
@@ -132,7 +143,8 @@
       15,
       16,
       17,
-      18
+      18,
+      19
     ],
     "hasEnergyStorage": false,
     "energyInitial": 0,
@@ -142,6 +154,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "BasicToolTableOnTickUpdate"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

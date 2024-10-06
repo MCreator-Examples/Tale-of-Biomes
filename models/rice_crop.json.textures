@@ -1,0 +1,388 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "weeds": "weeds_0",
+        "stones": "stones_0",
+        "crop": "rice_1"
+      },
+      "name": "default"
+    },
+    "c1w1s0": {
+      "map": {
+        "weeds": "weeds_4",
+        "stones": "stones_0",
+        "crop": "rice_1"
+      },
+      "name": "c1w1s0"
+    },
+    "c1w1s1": {
+      "map": {
+        "weeds": "weeds_4",
+        "stones": "stones_4",
+        "crop": "rice_1"
+      },
+      "name": "c1w1s1"
+    },
+    "c2w0s0": {
+      "map": {
+        "weeds": "weeds_0",
+        "stones": "stones_0",
+        "crop": "rice_2"
+      },
+      "name": "c2w0s0"
+    },
+    "c2w1s0": {
+      "map": {
+        "weeds": "weeds_4",
+        "stones": "stones_0",
+        "crop": "rice_2"
+      },
+      "name": "c2w1s0"
+    },
+    "c2w0s1": {
+      "map": {
+        "weeds": "weeds_0",
+        "stones": "stones_4",
+        "crop": "rice_2"
+      },
+      "name": "c2w0s1"
+    },
+    "c2w1s1": {
+      "map": {
+        "weeds": "weeds_4",
+        "stones": "stones_4",
+        "crop": "rice_2"
+      },
+      "name": "c2w1s1"
+    },
+    "c3w0s0": {
+      "map": {
+        "weeds": "weeds_0",
+        "stones": "stones_0",
+        "crop": "rice_3"
+      },
+      "name": "c3w0s0"
+    },
+    "c3w1s0": {
+      "map": {
+        "weeds": "weeds_4",
+        "stones": "stones_0",
+        "crop": "rice_3"
+      },
+      "name": "c3w1s0"
+    },
+    "c3w0s1": {
+      "map": {
+        "weeds": "weeds_0",
+        "stones": "stones_4",
+        "crop": "rice_3"
+      },
+      "name": "c3w0s1"
+    },
+    "c3w1s1": {
+      "map": {
+        "weeds": "weeds_4",
+        "stones": "stones_4",
+        "crop": "rice_3"
+      },
+      "name": "c3w1s1"
+    },
+    "c4w0s0": {
+      "map": {
+        "weeds": "weeds_0",
+        "stones": "stones_0",
+        "crop": "rice_4"
+      },
+      "name": "c4w0s0"
+    },
+    "c4w1s0": {
+      "map": {
+        "weeds": "weeds_4",
+        "stones": "stones_0",
+        "crop": "rice_4"
+      },
+      "name": "c4w1s0"
+    },
+    "c4w0s1": {
+      "map": {
+        "weeds": "weeds_0",
+        "stones": "stones_4",
+        "crop": "rice_4"
+      },
+      "name": "c4w0s1"
+    },
+    "c4w1s1": {
+      "map": {
+        "weeds": "weeds_4",
+        "stones": "stones_4",
+        "crop": "rice_4"
+      },
+      "name": "c4w1s1"
+    },
+    "c5w0s0": {
+      "map": {
+        "weeds": "weeds_0",
+        "stones": "stones_0",
+        "crop": "rice_5"
+      },
+      "name": "c5w0s0"
+    },
+    "c5w1s0": {
+      "map": {
+        "weeds": "weeds_4",
+        "stones": "stones_0",
+        "crop": "rice_5"
+      },
+      "name": "c5w1s0"
+    },
+    "c5w0s1": {
+      "map": {
+        "weeds": "weeds_0",
+        "stones": "stones_4",
+        "crop": "rice_5"
+      },
+      "name": "c5w0s1"
+    },
+    "c5w1s1": {
+      "map": {
+        "weeds": "weeds_4",
+        "stones": "stones_4",
+        "crop": "rice_5"
+      },
+      "name": "c5w1s1"
+    },
+    "c6w0s0": {
+      "map": {
+        "weeds": "stones_0",
+        "stones": "stones_0",
+        "crop": "rice_6"
+      },
+      "name": "c6w0s0"
+    },
+    "c6w1s0": {
+      "map": {
+        "weeds": "weeds_4",
+        "stones": "stones_0",
+        "crop": "rice_6"
+      },
+      "name": "c6w1s0"
+    },
+    "c6w0s1": {
+      "map": {
+        "weeds": "weeds_0",
+        "stones": "stones_4",
+        "crop": "rice_6"
+      },
+      "name": "c6w0s1"
+    },
+    "c6w1s1": {
+      "map": {
+        "weeds": "weeds_4",
+        "stones": "stones_4",
+        "crop": "rice_6"
+      },
+      "name": "c6w1s1"
+    },
+    "c7w0s0": {
+      "map": {
+        "weeds": "weeds_0",
+        "stones": "stones_0",
+        "crop": "rice_7"
+      },
+      "name": "c7w0s0"
+    },
+    "c7w1s0": {
+      "map": {
+        "weeds": "weeds_4",
+        "stones": "stones_0",
+        "crop": "rice_7"
+      },
+      "name": "c7w1s0"
+    },
+    "c7w0s1": {
+      "map": {
+        "weeds": "weeds_0",
+        "stones": "stones_4",
+        "crop": "rice_7"
+      },
+      "name": "c7w0s1"
+    },
+    "c7w1s1": {
+      "map": {
+        "weeds": "weeds_4",
+        "stones": "stones_4",
+        "crop": "rice_7"
+      },
+      "name": "c7w1s1"
+    },
+    "c8w0s0": {
+      "map": {
+        "weeds": "weeds_0",
+        "stones": "stones_0",
+        "crop": "rice_8"
+      },
+      "name": "c8w0s0"
+    },
+    "c8w1s0": {
+      "map": {
+        "weeds": "weeds_4",
+        "stones": "stones_0",
+        "crop": "rice_8"
+      },
+      "name": "c8w1s0"
+    },
+    "c8w0s1": {
+      "map": {
+        "weeds": "weeds_0",
+        "stones": "stones_4",
+        "crop": "rice_8"
+      },
+      "name": "c8w0s1"
+    },
+    "c8w1s1": {
+      "map": {
+        "weeds": "weeds_4",
+        "stones": "stones_4",
+        "crop": "rice_8"
+      },
+      "name": "c8w1s1"
+    },
+    "c9w0s0": {
+      "map": {
+        "weeds": "weeds_0",
+        "stones": "stones_0",
+        "crop": "rice_9"
+      },
+      "name": "c9w0s0"
+    },
+    "c9w1s0": {
+      "map": {
+        "weeds": "weeds_4",
+        "stones": "stones_0",
+        "crop": "rice_9"
+      },
+      "name": "c9w1s0"
+    },
+    "c9w0s1": {
+      "map": {
+        "weeds": "weeds_0",
+        "stones": "stones_4",
+        "crop": "rice_9"
+      },
+      "name": "c9w0s1"
+    },
+    "c9w1s1": {
+      "map": {
+        "weeds": "weeds_4",
+        "stones": "stones_4",
+        "crop": "rice_9"
+      },
+      "name": "c9w1s1"
+    },
+    "c10w0s0": {
+      "map": {
+        "weeds": "weeds_0",
+        "stones": "stones_0",
+        "crop": "rice_10"
+      },
+      "name": "c10w0s0"
+    },
+    "c10w1s0": {
+      "map": {
+        "weeds": "weeds_4",
+        "stones": "stones_0",
+        "crop": "rice_10"
+      },
+      "name": "c10w1s0"
+    },
+    "c10w0s1": {
+      "map": {
+        "weeds": "weeds_0",
+        "stones": "stones_4",
+        "crop": "rice_10"
+      },
+      "name": "c10w0s1"
+    },
+    "c10w1s1": {
+      "map": {
+        "weeds": "weeds_4",
+        "stones": "stones_4",
+        "crop": "rice_10"
+      },
+      "name": "c10w1s1"
+    },
+    "c11w0s0": {
+      "map": {
+        "weeds": "weeds_0",
+        "stones": "stones_0",
+        "crop": "rice_11"
+      },
+      "name": "c11w0s0"
+    },
+    "c11w1s0": {
+      "map": {
+        "weeds": "weeds_4",
+        "stones": "stones_0",
+        "crop": "rice_11"
+      },
+      "name": "c11w1s0"
+    },
+    "c11w0s1": {
+      "map": {
+        "weeds": "weeds_0",
+        "stones": "stones_4",
+        "crop": "rice_11"
+      },
+      "name": "c11w0s1"
+    },
+    "c11w1s1": {
+      "map": {
+        "weeds": "weeds_4",
+        "stones": "stones_4",
+        "crop": "rice_11"
+      },
+      "name": "c11w1s1"
+    },
+    "c12w0s0": {
+      "map": {
+        "weeds": "weeds_0",
+        "stones": "stones_0",
+        "crop": "rice_12"
+      },
+      "name": "c12w0s0"
+    },
+    "c12w1s0": {
+      "map": {
+        "weeds": "weeds_4",
+        "stones": "stones_0",
+        "crop": "rice_12"
+      },
+      "name": "c12w1s0"
+    },
+    "c12w0s1": {
+      "map": {
+        "weeds": "weeds_0",
+        "stones": "stones_4",
+        "crop": "rice_12"
+      },
+      "name": "c12w0s1"
+    },
+    "c12w1s1": {
+      "map": {
+        "weeds": "weeds_4",
+        "stones": "stones_4",
+        "crop": "rice_12"
+      },
+      "name": "c12w1s1"
+    },
+    "c1w0s1": {
+      "map": {
+        "weeds": "weeds_0",
+        "stones": "stones_4",
+        "crop": "rice_1"
+      },
+      "name": "c1w0s1"
+    }
+  }
+}

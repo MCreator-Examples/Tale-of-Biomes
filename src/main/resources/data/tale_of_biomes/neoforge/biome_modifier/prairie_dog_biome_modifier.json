@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tale_of_biomes:eldenmoor/plains",
+  "spawners": {
+    "type": "tale_of_biomes:prairie_dog",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

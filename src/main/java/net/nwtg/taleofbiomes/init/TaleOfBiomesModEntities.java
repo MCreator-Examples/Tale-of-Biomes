@@ -23,7 +23,7 @@ import net.minecraft.core.registries.Registries;
 public class TaleOfBiomesModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(Registries.ENTITY_TYPE, TaleOfBiomesMod.MODID);
 	public static final DeferredHolder<EntityType<?>, EntityType<PrairieDogEntity>> PRAIRIE_DOG = register("prairie_dog",
-			EntityType.Builder.<PrairieDogEntity>of(PrairieDogEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+			EntityType.Builder.<PrairieDogEntity>of(PrairieDogEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 0.5f));
 

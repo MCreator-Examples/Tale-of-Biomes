@@ -6,21 +6,8 @@
     "targets": [
       {
         "target": {
-          "predicate_type": "blockstate_match",
-          "block_state": {
-            "Name": "tale_of_biomes:grass_block"
-          }
-        },
-        "state": {
-          "Name": "tale_of_biomes:fertile_soil"
-        }
-      },
-      {
-        "target": {
-          "predicate_type": "blockstate_match",
-          "block_state": {
-            "Name": "tale_of_biomes:dirt"
-          }
+          "predicate_type": "tag_match",
+          "tag": "tale_of_biomes:generation/dirt"
         },
         "state": {
           "Name": "tale_of_biomes:fertile_soil"

@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "side": "piruff_barrel_side",
+        "top": "piruff_barrel_top",
+        "overlay": "piruff_barrel_overlay",
+        "bottom": "piruff_barrel_bottom"
+      },
+      "name": "default"
+    }
+  }
+}

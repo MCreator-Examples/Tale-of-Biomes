@@ -33,6 +33,7 @@ public class GenerateKilnRecipeFileProcedure {
 				}
 			}
 			GenerateKilnRecipe1Procedure.execute();
+			GenerateKilnRecipe2Procedure.execute();
 		} else {
 			{
 				try {
@@ -44,19 +45,16 @@ public class GenerateKilnRecipeFileProcedure {
 					}
 					bufferedReader.close();
 					fmMain = new com.google.gson.Gson().fromJson(jsonstringbuilder.toString(), com.google.gson.JsonObject.class);
-					bReset = fmMain.get("reset").getAsBoolean();
+					if (fmMain.has("reset") && (fmMain.get("reset").isJsonPrimitive() ? fmMain.get("reset").getAsJsonPrimitive().isBoolean() : false) && fmMain.has("recipes")) {
+						bReset = fmMain.get("reset").getAsBoolean();
+					}
 				} catch (IOException e) {
 					e.printStackTrace();
 				}
 			}
 			if (bReset) {
-				try {
-					fmFile.getParentFile().mkdirs();
-					fmFile.createNewFile();
-				} catch (IOException exception) {
-					exception.printStackTrace();
-				}
 				fmMain.addProperty("reset", false);
+				fmMain.remove("recipes");
 				{
 					com.google.gson.Gson mainGSONBuilderVariable = new com.google.gson.GsonBuilder().setPrettyPrinting().create();
 					try {
@@ -68,6 +66,7 @@ public class GenerateKilnRecipeFileProcedure {
 					}
 				}
 				GenerateKilnRecipe1Procedure.execute();
+				GenerateKilnRecipe2Procedure.execute();
 			}
 		}
 	}

@@ -1,6 +1,6 @@
 {
   "type": "neoforge:add_features",
-  "biomes": "tale_of_biomes:volcanic",
+  "biomes": "tale_of_biomes:eldenmoor_volcanic",
   "features": "tale_of_biomes:volcanic_delta",
-  "step": "top_layer_modification"
+  "step": "lakes"
 }

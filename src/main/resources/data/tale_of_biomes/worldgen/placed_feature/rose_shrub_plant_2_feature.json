@@ -2,8 +2,8 @@
   "feature": "tale_of_biomes:rose_shrub_plant_2_feature",
   "placement": [
     {
-      "type": "minecraft:rarity_filter",
-      "chance": 1
+      "type": "minecraft:count",
+      "count": 20
     },
     {
       "type": "minecraft:in_square"

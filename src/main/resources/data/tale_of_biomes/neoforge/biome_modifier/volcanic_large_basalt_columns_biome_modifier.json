@@ -1,6 +1,6 @@
 {
   "type": "neoforge:add_features",
-  "biomes": "tale_of_biomes:volcanic",
+  "biomes": "tale_of_biomes:eldenmoor_volcanic",
   "features": "tale_of_biomes:volcanic_large_basalt_columns",
-  "step": "fluid_springs"
+  "step": "raw_generation"
 }

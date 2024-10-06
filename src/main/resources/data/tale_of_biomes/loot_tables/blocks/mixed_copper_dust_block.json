@@ -1,20 +1,4 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "tale_of_biomes:blocks/mixed_copper_dust_block",
-  "pools": [
-    {
-      "rolls": 1.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "tale_of_biomes:mixed_copper_dust_block"
-        }
-      ]
-    }
-  ]
+  "random_sequence": "tale_of_biomes:blocks/mixed_copper_dust_block"
 }

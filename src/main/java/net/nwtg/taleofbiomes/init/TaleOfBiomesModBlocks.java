@@ -6,9 +6,9 @@ package net.nwtg.taleofbiomes.init;
 
 import net.nwtg.taleofbiomes.block.YellowPiruffBedTopBlock;
 import net.nwtg.taleofbiomes.block.YellowPiruffBedBlock;
+import net.nwtg.taleofbiomes.block.WildPiruffCarrotsBlock;
 import net.nwtg.taleofbiomes.block.WildIndigoFlowerPotBlock;
 import net.nwtg.taleofbiomes.block.WildIndigoBlock;
-import net.nwtg.taleofbiomes.block.UnpureCopperDustBlockBlock;
 import net.nwtg.taleofbiomes.block.ToolHandleBlockBlock;
 import net.nwtg.taleofbiomes.block.TilledSoilBlock;
 import net.nwtg.taleofbiomes.block.ThatchStairsBlock;
@@ -33,6 +33,9 @@ import net.nwtg.taleofbiomes.block.RoseQuartzClusterBlock;
 import net.nwtg.taleofbiomes.block.RoseQuartzBuddingBlock;
 import net.nwtg.taleofbiomes.block.RoseQuartzBlockBlock;
 import net.nwtg.taleofbiomes.block.RiceCropBlock;
+import net.nwtg.taleofbiomes.block.RawPureCopperBlockBlock;
+import net.nwtg.taleofbiomes.block.RawMixedCopperBlockBlock;
+import net.nwtg.taleofbiomes.block.RawImpureCopperBlockBlock;
 import net.nwtg.taleofbiomes.block.QuicklimeBlockBlock;
 import net.nwtg.taleofbiomes.block.PurplePiruffBedTopBlock;
 import net.nwtg.taleofbiomes.block.PurplePiruffBedBlock;
@@ -66,6 +69,7 @@ import net.nwtg.taleofbiomes.block.PiruffFenceGateBlock;
 import net.nwtg.taleofbiomes.block.PiruffFenceBlock;
 import net.nwtg.taleofbiomes.block.PiruffDoorBlock;
 import net.nwtg.taleofbiomes.block.PiruffButtonBlock;
+import net.nwtg.taleofbiomes.block.PiruffBarrelBlock;
 import net.nwtg.taleofbiomes.block.PhosphoriteStoneBlock;
 import net.nwtg.taleofbiomes.block.PhosphoriteShovelBlockBlock;
 import net.nwtg.taleofbiomes.block.PhosphoriteRakeBlockBlock;
@@ -119,6 +123,7 @@ import net.nwtg.taleofbiomes.block.KilnBlockCornerTopBlock;
 import net.nwtg.taleofbiomes.block.KilnBlockCornerCenterBlock;
 import net.nwtg.taleofbiomes.block.KilnBlockCornerBottomBlock;
 import net.nwtg.taleofbiomes.block.IvyShrubBlock;
+import net.nwtg.taleofbiomes.block.ImpureCopperDustBlockBlock;
 import net.nwtg.taleofbiomes.block.HayStrawBlock;
 import net.nwtg.taleofbiomes.block.HayGrassBlock;
 import net.nwtg.taleofbiomes.block.HangingLanternOnBlock;
@@ -134,7 +139,9 @@ import net.nwtg.taleofbiomes.block.GhostBush2Block;
 import net.nwtg.taleofbiomes.block.GhostBush1Block;
 import net.nwtg.taleofbiomes.block.GhostBush0Block;
 import net.nwtg.taleofbiomes.block.FertileSoilBlock;
+import net.nwtg.taleofbiomes.block.EldenmoorCopperOreBlock;
 import net.nwtg.taleofbiomes.block.DirtBlock;
+import net.nwtg.taleofbiomes.block.CraftingTableBlock;
 import net.nwtg.taleofbiomes.block.CobbledShaleWallBlock;
 import net.nwtg.taleofbiomes.block.CobbledShaleStairsBlock;
 import net.nwtg.taleofbiomes.block.CobbledShaleSlabBlock;
@@ -336,13 +343,20 @@ public class TaleOfBiomesModBlocks {
 	public static final DeferredHolder<Block, Block> MOSSY_COBBLED_SHALE_SLAB = REGISTRY.register("mossy_cobbled_shale_slab", MossyCobbledShaleSlabBlock::new);
 	public static final DeferredHolder<Block, Block> MOSSY_COBBLED_SHALE_WALL = REGISTRY.register("mossy_cobbled_shale_wall", MossyCobbledShaleWallBlock::new);
 	public static final DeferredHolder<Block, Block> BASIC_STONE_TABLE = REGISTRY.register("basic_stone_table", BasicStoneTableBlock::new);
-	public static final DeferredHolder<Block, Block> PURE_COPPER_DUST_BLOCK = REGISTRY.register("pure_copper_dust_block", PureCopperDustBlockBlock::new);
-	public static final DeferredHolder<Block, Block> MIXED_COPPER_DUST_BLOCK = REGISTRY.register("mixed_copper_dust_block", MixedCopperDustBlockBlock::new);
-	public static final DeferredHolder<Block, Block> UNPURE_COPPER_DUST_BLOCK = REGISTRY.register("unpure_copper_dust_block", UnpureCopperDustBlockBlock::new);
 	public static final DeferredHolder<Block, Block> RICE_CROP = REGISTRY.register("rice_crop", RiceCropBlock::new);
 	public static final DeferredHolder<Block, Block> ROSE_QUARTZ_BLOCK = REGISTRY.register("rose_quartz_block", RoseQuartzBlockBlock::new);
 	public static final DeferredHolder<Block, Block> ROSE_QUARTZ_BUDDING = REGISTRY.register("rose_quartz_budding", RoseQuartzBuddingBlock::new);
 	public static final DeferredHolder<Block, Block> ROSE_QUARTZ_CLUSTER = REGISTRY.register("rose_quartz_cluster", RoseQuartzClusterBlock::new);
+	public static final DeferredHolder<Block, Block> CRAFTING_TABLE = REGISTRY.register("crafting_table", CraftingTableBlock::new);
+	public static final DeferredHolder<Block, Block> PIRUFF_BARREL = REGISTRY.register("piruff_barrel", PiruffBarrelBlock::new);
+	public static final DeferredHolder<Block, Block> ELDENMOOR_COPPER_ORE = REGISTRY.register("eldenmoor_copper_ore", EldenmoorCopperOreBlock::new);
+	public static final DeferredHolder<Block, Block> PURE_COPPER_DUST_BLOCK = REGISTRY.register("pure_copper_dust_block", PureCopperDustBlockBlock::new);
+	public static final DeferredHolder<Block, Block> MIXED_COPPER_DUST_BLOCK = REGISTRY.register("mixed_copper_dust_block", MixedCopperDustBlockBlock::new);
+	public static final DeferredHolder<Block, Block> IMPURE_COPPER_DUST_BLOCK = REGISTRY.register("impure_copper_dust_block", ImpureCopperDustBlockBlock::new);
+	public static final DeferredHolder<Block, Block> RAW_PURE_COPPER_BLOCK = REGISTRY.register("raw_pure_copper_block", RawPureCopperBlockBlock::new);
+	public static final DeferredHolder<Block, Block> RAW_MIXED_COPPER_BLOCK = REGISTRY.register("raw_mixed_copper_block", RawMixedCopperBlockBlock::new);
+	public static final DeferredHolder<Block, Block> RAW_IMPURE_COPPER_BLOCK = REGISTRY.register("raw_impure_copper_block", RawImpureCopperBlockBlock::new);
+	public static final DeferredHolder<Block, Block> WILD_PIRUFF_CARROTS = REGISTRY.register("wild_piruff_carrots", WildPiruffCarrotsBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
@@ -356,8 +370,6 @@ public class TaleOfBiomesModBlocks {
 			TallGrass2Block.blockColorLoad(event);
 			PiruffLeavesBlock.blockColorLoad(event);
 			HayGrassBlock.blockColorLoad(event);
-			MossBlockBlock.blockColorLoad(event);
-			MossCarpetBlock.blockColorLoad(event);
 			PiruffVinesBlock.blockColorLoad(event);
 		}
 
@@ -369,8 +381,6 @@ public class TaleOfBiomesModBlocks {
 			TallGrass2Block.itemColorLoad(event);
 			PiruffLeavesBlock.itemColorLoad(event);
 			HayGrassBlock.itemColorLoad(event);
-			MossBlockBlock.itemColorLoad(event);
-			MossCarpetBlock.itemColorLoad(event);
 			PiruffVinesBlock.itemColorLoad(event);
 		}
 	}

@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "#tale_of_biomes:flowers/eldenmoor",
+    "#tale_of_biomes:tall_grass/eldenmoor",
+    "tale_of_biomes:ghost_bush_0",
+    "tale_of_biomes:ghost_bush_1",
+    "tale_of_biomes:ghost_bush_2",
+    "tale_of_biomes:ghost_bush_3",
+    "tale_of_biomes:piruff_sapling",
+    "tale_of_biomes:ivy_shrub",
+    "tale_of_biomes:rose_shrub",
+    "tale_of_biomes:piruff_vines",
+    "tale_of_biomes:moss_carpet"
+  ]
+}

@@ -23,6 +23,129 @@
     },
     "blockstate=7": {
       "model": "tale_of_biomes:block/rice_crop_states_blockstate_6"
+    },
+    "blockstate=8": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_7"
+    },
+    "blockstate=9": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_8"
+    },
+    "blockstate=10": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_9"
+    },
+    "blockstate=11": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_10"
+    },
+    "blockstate=12": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_11"
+    },
+    "blockstate=13": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_12"
+    },
+    "blockstate=14": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_13"
+    },
+    "blockstate=15": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_14"
+    },
+    "blockstate=16": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_15"
+    },
+    "blockstate=17": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_16"
+    },
+    "blockstate=18": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_17"
+    },
+    "blockstate=19": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_18"
+    },
+    "blockstate=20": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_19"
+    },
+    "blockstate=21": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_20"
+    },
+    "blockstate=22": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_21"
+    },
+    "blockstate=23": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_22"
+    },
+    "blockstate=24": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_23"
+    },
+    "blockstate=25": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_24"
+    },
+    "blockstate=26": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_25"
+    },
+    "blockstate=27": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_26"
+    },
+    "blockstate=28": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_27"
+    },
+    "blockstate=29": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_28"
+    },
+    "blockstate=30": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_29"
+    },
+    "blockstate=31": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_30"
+    },
+    "blockstate=32": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_31"
+    },
+    "blockstate=33": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_32"
+    },
+    "blockstate=34": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_33"
+    },
+    "blockstate=35": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_34"
+    },
+    "blockstate=36": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_35"
+    },
+    "blockstate=37": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_36"
+    },
+    "blockstate=38": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_37"
+    },
+    "blockstate=39": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_38"
+    },
+    "blockstate=40": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_39"
+    },
+    "blockstate=41": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_40"
+    },
+    "blockstate=42": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_41"
+    },
+    "blockstate=43": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_42"
+    },
+    "blockstate=44": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_43"
+    },
+    "blockstate=45": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_44"
+    },
+    "blockstate=46": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_45"
+    },
+    "blockstate=47": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_46"
+    },
+    "blockstate=48": {
+      "model": "tale_of_biomes:block/rice_crop_states_blockstate_47"
     }
   }
 }

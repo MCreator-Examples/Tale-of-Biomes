@@ -4,25 +4,28 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "CUSTOM:GrassPlains"
+        "value": "CUSTOM:EldenmoorFlowerPlains"
       },
       {
-        "value": "CUSTOM:FlowerPlains"
+        "value": "CUSTOM:EldenmoorFlowerShrubPlains"
       },
       {
-        "value": "CUSTOM:FlowerShrubPlains"
+        "value": "CUSTOM:EldenmoorGrassPlains"
       },
       {
-        "value": "CUSTOM:GrassShrubPlains"
+        "value": "CUSTOM:EldenmoorGrassShrubPlains"
       },
       {
-        "value": "CUSTOM:PiruffWoods"
+        "value": "CUSTOM:EldenmoorPiruffForest"
       },
       {
-        "value": "CUSTOM:PiruffForest"
+        "value": "CUSTOM:EldenmoorPiruffWoods"
       },
       {
-        "value": "CUSTOM:Volcanic"
+        "value": "CUSTOM:EldenmoorVolcanic"
+      },
+      {
+        "value": "CUSTOM:EldenmoorOcean"
       }
     ],
     "worldGenType": "Normal world gen",

@@ -58,7 +58,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "EARTH"
+      "value": "ROCK"
     },
     "tickRate": 1,
     "tickRandomly": false,

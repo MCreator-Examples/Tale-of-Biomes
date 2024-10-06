@@ -1,0 +1,14 @@
+{
+  "_fv": 66,
+  "_type": "feature",
+  "definition": {
+    "skipPlacement": false,
+    "generationStep": "UNDERGROUND_ORES",
+    "restrictionBiomes": [
+      {
+        "value": "#mod:eldenmoor"
+      }
+    ],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_ore\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"1\"></mutation><field name=\"size\">20</field><field name=\"discardOnAirChance\">0</field><value name=\"target0\"><block type=\"ore_target\"><value name=\"target\"><block type=\"rule_test_tag_match\"><field name=\"tag\">tale_of_biomes:eldenmoor/stone_ore_replaceables</field></block></value><value name=\"state\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">CUSTOM:EldenmoorCopperOre</field></block></value></block></value></block></value><next><block type=\"placement_count\"><value name=\"count\"><block type=\"int_provider_constant\"><field name=\"value\">16</field></block></value><next><block type=\"placement_in_square\"><next><block type=\"placement_height_triangular\"><value name=\"min\"><block type=\"vertical_anchor_absolute\"><field name=\"value\">-16</field></block></value><value name=\"max\"><block type=\"vertical_anchor_absolute\"><field name=\"value\">112</field></block></value><next><block type=\"placement_biome_filter\"></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}

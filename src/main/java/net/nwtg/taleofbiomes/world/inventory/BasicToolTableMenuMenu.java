@@ -1,8 +1,7 @@
 
 package net.nwtg.taleofbiomes.world.inventory;
 
-import net.nwtg.taleofbiomes.procedures.BasicToolTableMenuWhileThisGUIIsOpenTickProcedure;
-import net.nwtg.taleofbiomes.procedures.BasicToolTableMenuThisGUIIsOpenedProcedure;
+import net.nwtg.taleofbiomes.procedures.DropItemFromCraftingTableWhenClosedProcedure;
 import net.nwtg.taleofbiomes.network.BasicToolTableMenuSlotMessage;
 import net.nwtg.taleofbiomes.init.TaleOfBiomesModMenus;
 
@@ -12,10 +11,7 @@ import net.neoforged.neoforge.items.SlotItemHandler;
 import net.neoforged.neoforge.items.ItemStackHandler;
 import net.neoforged.neoforge.items.IItemHandlerModifiable;
 import net.neoforged.neoforge.items.IItemHandler;
-import net.neoforged.neoforge.event.tick.PlayerTickEvent;
 import net.neoforged.neoforge.capabilities.Capabilities;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BaseContainerBlockEntity;
@@ -35,7 +31,6 @@ import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
-@EventBusSubscriber
 public class BasicToolTableMenuMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
@@ -90,25 +85,25 @@ public class BasicToolTableMenuMenu extends AbstractContainerMenu implements Sup
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 26, 17) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 26, 24) {
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 44, 17) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 44, 24) {
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 62, 17) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 62, 24) {
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 26, 35) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 26, 42) {
 		}));
-		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 44, 35) {
+		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 44, 42) {
 		}));
-		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 62, 35) {
+		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 62, 42) {
 		}));
-		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 26, 53) {
+		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 26, 60) {
 		}));
-		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 44, 53) {
+		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 44, 60) {
 		}));
-		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 62, 53) {
+		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 62, 60) {
 		}));
-		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 134, 35) {
+		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 134, 42) {
 			@Override
 			public void onTake(Player entity, ItemStack stack) {
 				super.onTake(entity, stack);
@@ -116,7 +111,13 @@ public class BasicToolTableMenuMenu extends AbstractContainerMenu implements Sup
 			}
 
 			@Override
-			public boolean mayPlace(ItemStack stack) {
+			public void onQuickCraft(ItemStack a, ItemStack b) {
+				super.onQuickCraft(a, b);
+				slotChanged(9, 2, b.getCount() - a.getCount());
+			}
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
 				return false;
 			}
 		}));
@@ -125,7 +126,6 @@ public class BasicToolTableMenuMenu extends AbstractContainerMenu implements Sup
 				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 0 + 84 + si * 18));
 		for (int si = 0; si < 9; ++si)
 			this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 0 + 142));
-		BasicToolTableMenuThisGUIIsOpenedProcedure.execute(entity);
 	}
 
 	@Override
@@ -235,15 +235,20 @@ public class BasicToolTableMenuMenu extends AbstractContainerMenu implements Sup
 	@Override
 	public void removed(Player playerIn) {
 		super.removed(playerIn);
+		DropItemFromCraftingTableWhenClosedProcedure.execute(world, x, y, z, entity);
 		if (!bound && playerIn instanceof ServerPlayer serverPlayer) {
 			if (!serverPlayer.isAlive() || serverPlayer.hasDisconnected()) {
 				for (int j = 0; j < internal.getSlots(); ++j) {
+					if (j == 9)
+						continue;
 					playerIn.drop(internal.getStackInSlot(j), false);
 					if (internal instanceof IItemHandlerModifiable ihm)
 						ihm.setStackInSlot(j, ItemStack.EMPTY);
 				}
 			} else {
 				for (int i = 0; i < internal.getSlots(); ++i) {
+					if (i == 9)
+						continue;
 					playerIn.getInventory().placeItemBackInInventory(internal.getStackInSlot(i));
 					if (internal instanceof IItemHandlerModifiable ihm)
 						ihm.setStackInSlot(i, ItemStack.EMPTY);
@@ -261,17 +266,5 @@ public class BasicToolTableMenuMenu extends AbstractContainerMenu implements Sup
 
 	public Map<Integer, Slot> get() {
 		return customSlots;
-	}
-
-	@SubscribeEvent
-	public static void onPlayerTick(PlayerTickEvent.Post event) {
-		Player entity = event.getEntity();
-		if (entity.containerMenu instanceof BasicToolTableMenuMenu) {
-			Level world = entity.level();
-			double x = entity.getX();
-			double y = entity.getY();
-			double z = entity.getZ();
-			BasicToolTableMenuWhileThisGUIIsOpenTickProcedure.execute(world, entity);
-		}
 	}
 }

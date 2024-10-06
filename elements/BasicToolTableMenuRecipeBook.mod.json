@@ -5,11 +5,99 @@
     "type": 1,
     "width": 176,
     "height": 166,
-    "inventoryOffsetX": 0,
+    "inventoryOffsetX": 97,
     "inventoryOffsetY": 0,
-    "renderBgLayer": true,
+    "renderBgLayer": false,
     "doesPauseGame": false,
     "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "crafting_station_gui_helper.png",
+          "use1Xscale": false,
+          "x": 29,
+          "y": 37
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "crafting_station_gui.png",
+          "use1Xscale": false,
+          "x": 223,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_recipe_helper",
+          "text": {
+            "fixedValue": "Recipe Helper"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 36,
+          "y": 42
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_get_gui_block_localization",
+          "text": {
+            "fixedValue": "",
+            "name": "GetGUIBlockLocalization"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 230,
+          "y": 42
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_button_left",
+          "image": "button_left.png",
+          "hoveredImage": "button_left_hover.png",
+          "onClick": {
+            "name": "BasicToolTableRecipeHelperBackButton"
+          },
+          "x": 54,
+          "y": 120
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_button_right",
+          "image": "button_right.png",
+          "hoveredImage": "button_right_hover.png",
+          "onClick": {
+            "name": "BasicToolTableRecipeHelperNextButton"
+          },
+          "x": 81,
+          "y": 120
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_recipe_helper_button",
+          "image": "recipe_helper_button.png",
+          "hoveredImage": "recipe_helper_hover_button.png",
+          "onClick": {
+            "name": "BasicToolTableMenuHideRecipeHelper"
+          },
+          "x": 227,
+          "y": 72
+        }
+      },
       {
         "type": "inputslot",
         "data": {
@@ -24,8 +112,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 151,
-          "y": 53
+          "x": 248,
+          "y": 60
         }
       },
       {
@@ -42,8 +130,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 169,
-          "y": 53
+          "x": 266,
+          "y": 60
         }
       },
       {
@@ -60,8 +148,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 187,
-          "y": 53
+          "x": 284,
+          "y": 60
         }
       },
       {
@@ -78,8 +166,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 151,
-          "y": 71
+          "x": 248,
+          "y": 78
         }
       },
       {
@@ -96,8 +184,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 169,
-          "y": 71
+          "x": 266,
+          "y": 78
         }
       },
       {
@@ -114,8 +202,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 187,
-          "y": 71
+          "x": 284,
+          "y": 78
         }
       },
       {
@@ -132,8 +220,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 151,
-          "y": 89
+          "x": 248,
+          "y": 96
         }
       },
       {
@@ -150,8 +238,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 169,
-          "y": 89
+          "x": 266,
+          "y": 96
         }
       },
       {
@@ -168,88 +256,32 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 187,
-          "y": 89
+          "x": 284,
+          "y": 96
         }
       },
       {
-        "type": "outputslot",
+        "type": "inputslot",
         "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
           "id": 9,
           "disablePickup": {
             "fixedValue": false
           },
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "onTakenFromSlot": {
-            "name": "BasicToolTableMenuItemTakenFromOutputSlot"
+            "name": "ItemTakenFromGUICraftingOutputSlotSingle"
           },
-          "x": 259,
-          "y": 71
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_basic_tool_table",
-          "text": {
-            "fixedValue": "Basic Tool Table"
+          "onStackTransfer": {
+            "name": "ItemTakenFromGUICraftingOutputSlotShift"
           },
-          "color": {
-            "value": -12566464,
-            "falpha": 0.0
-          },
-          "x": 133,
-          "y": 43
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_inventory",
-          "text": {
-            "fixedValue": "Inventory"
-          },
-          "color": {
-            "value": -12566464,
-            "falpha": 0.0
-          },
-          "x": 133,
-          "y": 110
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "recipe_helper_background.png",
-          "use1Xscale": false,
-          "x": 17,
-          "y": 37
-        }
-      },
-      {
-        "type": "imagebutton",
-        "data": {
-          "name": "imagebutton_recipe_helper_button_back",
-          "image": "recipe_helper_button_back.png",
-          "hoveredImage": "recipe_helper_button_back_hover.png",
-          "onClick": {
-            "name": "BasicToolTableMenuRecipeHelperBackButton"
-          },
-          "x": 43,
-          "y": 125
-        }
-      },
-      {
-        "type": "imagebutton",
-        "data": {
-          "name": "imagebutton_recipe_helper_button_forward",
-          "image": "recipe_helper_button_forward.png",
-          "hoveredImage": "recipe_helper_button_forward_hover.png",
-          "onClick": {
-            "name": "BasicToolTableMenuRecipeHelperForwardButton"
-          },
-          "x": 70,
-          "y": 125
+          "x": 356,
+          "y": 78
         }
       },
       {
@@ -266,8 +298,8 @@
             "fixedValue": true
           },
           "dropItemsWhenNotBound": false,
-          "x": 42,
-          "y": 53
+          "x": 54,
+          "y": 60
         }
       },
       {
@@ -284,8 +316,8 @@
             "fixedValue": true
           },
           "dropItemsWhenNotBound": false,
-          "x": 60,
-          "y": 53
+          "x": 72,
+          "y": 60
         }
       },
       {
@@ -302,8 +334,8 @@
             "fixedValue": true
           },
           "dropItemsWhenNotBound": false,
-          "x": 78,
-          "y": 53
+          "x": 90,
+          "y": 60
         }
       },
       {
@@ -320,8 +352,8 @@
             "fixedValue": true
           },
           "dropItemsWhenNotBound": false,
-          "x": 42,
-          "y": 71
+          "x": 54,
+          "y": 78
         }
       },
       {
@@ -338,8 +370,8 @@
             "fixedValue": true
           },
           "dropItemsWhenNotBound": false,
-          "x": 60,
-          "y": 71
+          "x": 72,
+          "y": 78
         }
       },
       {
@@ -356,8 +388,8 @@
             "fixedValue": true
           },
           "dropItemsWhenNotBound": false,
-          "x": 78,
-          "y": 71
+          "x": 90,
+          "y": 78
         }
       },
       {
@@ -374,8 +406,8 @@
             "fixedValue": true
           },
           "dropItemsWhenNotBound": false,
-          "x": 42,
-          "y": 89
+          "x": 54,
+          "y": 96
         }
       },
       {
@@ -392,8 +424,8 @@
             "fixedValue": true
           },
           "dropItemsWhenNotBound": false,
-          "x": 60,
-          "y": 89
+          "x": 72,
+          "y": 96
         }
       },
       {
@@ -410,45 +442,34 @@
             "fixedValue": true
           },
           "dropItemsWhenNotBound": false,
-          "x": 78,
-          "y": 89
+          "x": 90,
+          "y": 96
         }
       },
       {
-        "type": "imagebutton",
+        "type": "inputslot",
         "data": {
-          "name": "imagebutton_kiln_light_on",
-          "image": "kiln_light_on.png",
-          "hoveredImage": "kiln_light_off.png",
-          "onClick": {
-            "name": "BasicToolTableMenuRecipeHelperButtonClose"
+          "inputLimit": {
+            "value": ""
           },
-          "x": 137,
-          "y": 76
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_recipe_name",
-          "text": {
-            "fixedValue": "Recipe Name",
-            "name": "BasicToolTableRecipeHelperRecipeNameScript"
+          "disablePlacement": {
+            "fixedValue": true
           },
-          "color": {
-            "value": -12566464,
-            "falpha": 0.0
+          "id": 19,
+          "disablePickup": {
+            "fixedValue": true
           },
-          "x": 24,
-          "y": 43
+          "dropItemsWhenNotBound": false,
+          "x": 162,
+          "y": 78
         }
       }
     ],
-    "onOpen": {
-      "name": "BasicToolTableMenuRecipeBookThisGUIIsOpened"
-    },
     "onTick": {
-      "name": "BasicToolTableMenuRecipeBookWhileThisGUIIsOpenTick"
+      "name": "BasicToolTableRecipeHelperPatterns"
+    },
+    "onClosed": {
+      "name": "DropItemFromCraftingTableWhenClosed"
     },
     "gridSettings": {
       "sx": 18,

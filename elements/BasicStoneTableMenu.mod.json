@@ -7,9 +7,47 @@
     "height": 166,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
-    "renderBgLayer": true,
+    "renderBgLayer": false,
     "doesPauseGame": false,
     "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "crafting_station_gui.png",
+          "use1Xscale": false,
+          "x": 126,
+          "y": 37
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_recipe_helper_button",
+          "image": "recipe_helper_button.png",
+          "hoveredImage": "recipe_helper_hover_button.png",
+          "onClick": {
+            "name": "BasicStoneTableMenuShowRecipeHelper"
+          },
+          "x": 130,
+          "y": 78
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_basic_tool_table",
+          "text": {
+            "fixedValue": "Basic Stone Table",
+            "name": "GetGUIBlockLocalization"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 133,
+          "y": 42
+        }
+      },
       {
         "type": "inputslot",
         "data": {
@@ -25,7 +63,7 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 151,
-          "y": 53
+          "y": 60
         }
       },
       {
@@ -43,7 +81,7 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 169,
-          "y": 53
+          "y": 60
         }
       },
       {
@@ -61,7 +99,7 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 187,
-          "y": 53
+          "y": 60
         }
       },
       {
@@ -79,7 +117,7 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 151,
-          "y": 71
+          "y": 78
         }
       },
       {
@@ -97,7 +135,7 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 169,
-          "y": 71
+          "y": 78
         }
       },
       {
@@ -115,7 +153,7 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 187,
-          "y": 71
+          "y": 78
         }
       },
       {
@@ -133,7 +171,7 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 151,
-          "y": 89
+          "y": 96
         }
       },
       {
@@ -151,7 +189,7 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 169,
-          "y": 89
+          "y": 96
         }
       },
       {
@@ -169,73 +207,36 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 187,
-          "y": 89
+          "y": 96
         }
       },
       {
-        "type": "outputslot",
+        "type": "inputslot",
         "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
           "id": 9,
           "disablePickup": {
             "fixedValue": false
           },
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "onTakenFromSlot": {
-            "name": "BasicStoneTableMenuItemTakenFromOutputSlot"
+            "name": "ItemTakenFromGUICraftingOutputSlotSingle"
+          },
+          "onStackTransfer": {
+            "name": "ItemTakenFromGUICraftingOutputSlotShift"
           },
           "x": 259,
-          "y": 71
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_basic_tool_table",
-          "text": {
-            "fixedValue": "Basic Stone Table"
-          },
-          "color": {
-            "value": -12566464,
-            "falpha": 0.0
-          },
-          "x": 133,
-          "y": 43
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_inventory",
-          "text": {
-            "fixedValue": "Inventory"
-          },
-          "color": {
-            "value": -12566464,
-            "falpha": 0.0
-          },
-          "x": 133,
-          "y": 110
-        }
-      },
-      {
-        "type": "imagebutton",
-        "data": {
-          "name": "imagebutton_kiln_light_off",
-          "image": "kiln_light_off.png",
-          "hoveredImage": "kiln_light_on.png",
-          "onClick": {
-            "name": "BasicStoneTableMenuRecipeHelperButtonOpen"
-          },
-          "x": 137,
-          "y": 76
+          "y": 78
         }
       }
     ],
-    "onOpen": {
-      "name": "BasicStoneTableMenuThisGUIIsOpened"
-    },
-    "onTick": {
-      "name": "BasicStoneTableMenuWhileThisGUIIsOpenTick"
+    "onClosed": {
+      "name": "DropItemFromCraftingTableWhenClosed"
     },
     "gridSettings": {
       "sx": 18,

@@ -1,10 +1,10 @@
 
 package net.nwtg.taleofbiomes.block;
 
-import net.nwtg.taleofbiomes.procedures.YellowPiruffBedUpdateTickProcedure;
-import net.nwtg.taleofbiomes.procedures.YellowPiruffBedBlockAddedProcedure;
-import net.nwtg.taleofbiomes.procedures.BedOnBlockRightClickedProcedure;
+import net.nwtg.taleofbiomes.procedures.BedBlockUpdateTickProcedure;
+import net.nwtg.taleofbiomes.procedures.BedBlockRightClickedProcedure;
 import net.nwtg.taleofbiomes.procedures.BedBlockDestroyedProcedure;
+import net.nwtg.taleofbiomes.procedures.BedBlockAddedProcedure;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -123,13 +123,13 @@ public class BluePiruffBedBlock extends Block implements SimpleWaterloggedBlock 
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
 		world.scheduleTick(pos, this, 2);
-		YellowPiruffBedBlockAddedProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate);
+		BedBlockAddedProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate);
 	}
 
 	@Override
 	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
 		super.tick(blockstate, world, pos, random);
-		YellowPiruffBedUpdateTickProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate);
+		BedBlockUpdateTickProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate);
 		world.scheduleTick(pos, this, 2);
 	}
 
@@ -156,7 +156,7 @@ public class BluePiruffBedBlock extends Block implements SimpleWaterloggedBlock 
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		BedOnBlockRightClickedProcedure.execute(world, x, y, z, entity);
+		BedBlockRightClickedProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 }

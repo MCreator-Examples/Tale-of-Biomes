@@ -2,7 +2,7 @@
 package net.nwtg.taleofbiomes.network;
 
 import net.nwtg.taleofbiomes.world.inventory.BasicToolTableMenuMenu;
-import net.nwtg.taleofbiomes.procedures.BasicToolTableMenuRecipeHelperButtonOpenProcedure;
+import net.nwtg.taleofbiomes.procedures.BasicToolTableMenuShowRecipeHelperProcedure;
 import net.nwtg.taleofbiomes.TaleOfBiomesMod;
 
 import net.neoforged.neoforge.network.handling.IPayloadContext;
@@ -61,7 +61,7 @@ public record BasicToolTableMenuButtonMessage(int buttonID, int x, int y, int z)
 			return;
 		if (buttonID == 0) {
 
-			BasicToolTableMenuRecipeHelperButtonOpenProcedure.execute(world, x, y, z, entity);
+			BasicToolTableMenuShowRecipeHelperProcedure.execute(world, entity);
 		}
 	}
 

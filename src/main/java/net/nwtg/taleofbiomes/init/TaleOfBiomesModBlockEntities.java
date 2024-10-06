@@ -9,6 +9,7 @@ import net.nwtg.taleofbiomes.block.entity.RoseShrubBlockEntity;
 import net.nwtg.taleofbiomes.block.entity.RoseQuartzBuddingBlockEntity;
 import net.nwtg.taleofbiomes.block.entity.RiceCropBlockEntity;
 import net.nwtg.taleofbiomes.block.entity.PiruffSaplingBlockEntity;
+import net.nwtg.taleofbiomes.block.entity.PiruffBarrelBlockEntity;
 import net.nwtg.taleofbiomes.block.entity.PhosphoriteStoneBlockEntity;
 import net.nwtg.taleofbiomes.block.entity.PhosphoriteCrystalBlockEntity;
 import net.nwtg.taleofbiomes.block.entity.KilnLadderBlockEntity;
@@ -28,6 +29,7 @@ import net.nwtg.taleofbiomes.block.entity.HangingLanternOnBlockEntity;
 import net.nwtg.taleofbiomes.block.entity.HangingLanternBlockEntity;
 import net.nwtg.taleofbiomes.block.entity.GroundLanternOnBlockEntity;
 import net.nwtg.taleofbiomes.block.entity.GroundLanternBlockEntity;
+import net.nwtg.taleofbiomes.block.entity.CraftingTableBlockEntity;
 import net.nwtg.taleofbiomes.block.entity.BasicToolTableBlockEntity;
 import net.nwtg.taleofbiomes.block.entity.BasicStoneTableBlockEntity;
 import net.nwtg.taleofbiomes.TaleOfBiomesMod;
@@ -72,6 +74,8 @@ public class TaleOfBiomesModBlockEntities {
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> BASIC_STONE_TABLE = register("basic_stone_table", TaleOfBiomesModBlocks.BASIC_STONE_TABLE, BasicStoneTableBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> RICE_CROP = register("rice_crop", TaleOfBiomesModBlocks.RICE_CROP, RiceCropBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> ROSE_QUARTZ_BUDDING = register("rose_quartz_budding", TaleOfBiomesModBlocks.ROSE_QUARTZ_BUDDING, RoseQuartzBuddingBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> CRAFTING_TABLE = register("crafting_table", TaleOfBiomesModBlocks.CRAFTING_TABLE, CraftingTableBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> PIRUFF_BARREL = register("piruff_barrel", TaleOfBiomesModBlocks.PIRUFF_BARREL, PiruffBarrelBlockEntity::new);
 
 	private static DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> register(String registryname, DeferredHolder<Block, Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));
@@ -105,5 +109,7 @@ public class TaleOfBiomesModBlockEntities {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, BASIC_STONE_TABLE.get(), (blockEntity, side) -> ((BasicStoneTableBlockEntity) blockEntity).getItemHandler());
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, RICE_CROP.get(), (blockEntity, side) -> ((RiceCropBlockEntity) blockEntity).getItemHandler());
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, ROSE_QUARTZ_BUDDING.get(), (blockEntity, side) -> ((RoseQuartzBuddingBlockEntity) blockEntity).getItemHandler());
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, CRAFTING_TABLE.get(), (blockEntity, side) -> ((CraftingTableBlockEntity) blockEntity).getItemHandler());
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, PIRUFF_BARREL.get(), (blockEntity, side) -> ((PiruffBarrelBlockEntity) blockEntity).getItemHandler());
 	}
 }

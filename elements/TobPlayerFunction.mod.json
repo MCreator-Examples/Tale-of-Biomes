@@ -2,7 +2,7 @@
   "_fv": 66,
   "_type": "function",
   "definition": {
-    "code": "# Runs the fluid system for the player.\nexecute as @a run toba run player fluid",
+    "code": "# Runs the fluid system for the player.\nexecute as @a run toba run player fluid\n# Runs the custom bed sleeping timer.\nexecute as @a run toba run player customSleep",
     "name": "tob_player_function",
     "namespace": "mod"
   }

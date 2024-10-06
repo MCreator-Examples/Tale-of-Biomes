@@ -4,7 +4,10 @@
  */
 package net.nwtg.taleofbiomes.init;
 
+import net.nwtg.taleofbiomes.client.gui.PiruffBarrelInventoryScreen;
 import net.nwtg.taleofbiomes.client.gui.KilnScreenScreen;
+import net.nwtg.taleofbiomes.client.gui.CraftingTableMenuScreen;
+import net.nwtg.taleofbiomes.client.gui.CraftingTableMenuRecipeBookScreen;
 import net.nwtg.taleofbiomes.client.gui.BasicToolTableMenuScreen;
 import net.nwtg.taleofbiomes.client.gui.BasicToolTableMenuRecipeBookScreen;
 import net.nwtg.taleofbiomes.client.gui.BasicStoneTableMenuScreen;
@@ -21,8 +24,11 @@ public class TaleOfBiomesModScreens {
 	public static void clientLoad(RegisterMenuScreensEvent event) {
 		event.register(TaleOfBiomesModMenus.KILN_SCREEN.get(), KilnScreenScreen::new);
 		event.register(TaleOfBiomesModMenus.BASIC_TOOL_TABLE_MENU.get(), BasicToolTableMenuScreen::new);
-		event.register(TaleOfBiomesModMenus.BASIC_TOOL_TABLE_MENU_RECIPE_BOOK.get(), BasicToolTableMenuRecipeBookScreen::new);
 		event.register(TaleOfBiomesModMenus.BASIC_STONE_TABLE_MENU.get(), BasicStoneTableMenuScreen::new);
 		event.register(TaleOfBiomesModMenus.BASIC_STONE_TABLE_MENU_RECIPE_BOOK.get(), BasicStoneTableMenuRecipeBookScreen::new);
+		event.register(TaleOfBiomesModMenus.PIRUFF_BARREL_INVENTORY.get(), PiruffBarrelInventoryScreen::new);
+		event.register(TaleOfBiomesModMenus.BASIC_TOOL_TABLE_MENU_RECIPE_BOOK.get(), BasicToolTableMenuRecipeBookScreen::new);
+		event.register(TaleOfBiomesModMenus.CRAFTING_TABLE_MENU.get(), CraftingTableMenuScreen::new);
+		event.register(TaleOfBiomesModMenus.CRAFTING_TABLE_MENU_RECIPE_BOOK.get(), CraftingTableMenuRecipeBookScreen::new);
 	}
 }

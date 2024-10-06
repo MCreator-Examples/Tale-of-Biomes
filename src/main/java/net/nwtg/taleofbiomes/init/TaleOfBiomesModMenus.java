@@ -4,7 +4,10 @@
  */
 package net.nwtg.taleofbiomes.init;
 
+import net.nwtg.taleofbiomes.world.inventory.PiruffBarrelInventoryMenu;
 import net.nwtg.taleofbiomes.world.inventory.KilnScreenMenu;
+import net.nwtg.taleofbiomes.world.inventory.CraftingTableMenuRecipeBookMenu;
+import net.nwtg.taleofbiomes.world.inventory.CraftingTableMenuMenu;
 import net.nwtg.taleofbiomes.world.inventory.BasicToolTableMenuRecipeBookMenu;
 import net.nwtg.taleofbiomes.world.inventory.BasicToolTableMenuMenu;
 import net.nwtg.taleofbiomes.world.inventory.BasicStoneTableMenuRecipeBookMenu;
@@ -22,9 +25,13 @@ public class TaleOfBiomesModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(Registries.MENU, TaleOfBiomesMod.MODID);
 	public static final DeferredHolder<MenuType<?>, MenuType<KilnScreenMenu>> KILN_SCREEN = REGISTRY.register("kiln_screen", () -> IMenuTypeExtension.create(KilnScreenMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<BasicToolTableMenuMenu>> BASIC_TOOL_TABLE_MENU = REGISTRY.register("basic_tool_table_menu", () -> IMenuTypeExtension.create(BasicToolTableMenuMenu::new));
-	public static final DeferredHolder<MenuType<?>, MenuType<BasicToolTableMenuRecipeBookMenu>> BASIC_TOOL_TABLE_MENU_RECIPE_BOOK = REGISTRY.register("basic_tool_table_menu_recipe_book",
-			() -> IMenuTypeExtension.create(BasicToolTableMenuRecipeBookMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<BasicStoneTableMenuMenu>> BASIC_STONE_TABLE_MENU = REGISTRY.register("basic_stone_table_menu", () -> IMenuTypeExtension.create(BasicStoneTableMenuMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<BasicStoneTableMenuRecipeBookMenu>> BASIC_STONE_TABLE_MENU_RECIPE_BOOK = REGISTRY.register("basic_stone_table_menu_recipe_book",
 			() -> IMenuTypeExtension.create(BasicStoneTableMenuRecipeBookMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<PiruffBarrelInventoryMenu>> PIRUFF_BARREL_INVENTORY = REGISTRY.register("piruff_barrel_inventory", () -> IMenuTypeExtension.create(PiruffBarrelInventoryMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<BasicToolTableMenuRecipeBookMenu>> BASIC_TOOL_TABLE_MENU_RECIPE_BOOK = REGISTRY.register("basic_tool_table_menu_recipe_book",
+			() -> IMenuTypeExtension.create(BasicToolTableMenuRecipeBookMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<CraftingTableMenuMenu>> CRAFTING_TABLE_MENU = REGISTRY.register("crafting_table_menu", () -> IMenuTypeExtension.create(CraftingTableMenuMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<CraftingTableMenuRecipeBookMenu>> CRAFTING_TABLE_MENU_RECIPE_BOOK = REGISTRY.register("crafting_table_menu_recipe_book",
+			() -> IMenuTypeExtension.create(CraftingTableMenuRecipeBookMenu::new));
 }
