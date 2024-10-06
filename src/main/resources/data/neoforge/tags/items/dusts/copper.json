@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "tale_of_biomes:pure_copper_dust",
-    "tale_of_biomes:mixed_copper_dust",
-    "tale_of_biomes:unpure_copper_dust"
+    "tale_of_biomes:mixed_copper_dust"
   ]
 }

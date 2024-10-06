@@ -14,10 +14,12 @@ public class RiceCropHealthScriptProcedure {
 		double nX = 0;
 		double nY = 0;
 		double nZ = 0;
+		double nBlockstate = 0;
 		RiceCropDamageScriptProcedure.execute(world, x, y, z);
 		nX = x;
 		nY = y;
 		nZ = z;
+		nBlockstate = (world.getBlockState(BlockPos.containing(nX, nY, nZ))).getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip1 ? (world.getBlockState(BlockPos.containing(nX, nY, nZ))).getValue(_getip1) : -1;
 		if (new Object() {
 			public boolean getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
@@ -25,9 +27,7 @@ public class RiceCropHealthScriptProcedure {
 					return blockEntity.getPersistentData().getBoolean(tag);
 				return false;
 			}
-		}.getValue(world, BlockPos.containing(nX, nY, nZ), "tobCropDamageBlock") && ((world.getBlockState(BlockPos.containing(nX, nY, nZ))).getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip2
-				? (world.getBlockState(BlockPos.containing(nX, nY, nZ))).getValue(_getip2)
-				: -1) <= 6) {
+		}.getValue(world, BlockPos.containing(nX, nY, nZ), "tobCropDamageBlock") && nBlockstate >= 1 && nBlockstate <= 24) {
 			nDamageTime = new Object() {
 				public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 					BlockEntity blockEntity = world.getBlockEntity(pos);
@@ -77,7 +77,7 @@ public class RiceCropHealthScriptProcedure {
 				}
 			} else {
 				{
-					int _value = 7;
+					int _value = (int) (nBlockstate + 24);
 					BlockPos _pos = BlockPos.containing(nX, nY, nZ);
 					BlockState _bs = world.getBlockState(_pos);
 					if (_bs.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))

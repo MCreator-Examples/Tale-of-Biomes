@@ -135,6 +135,9 @@
     "stepSound": {
       "value": "entity.rabbit.jump"
     },
+    "raidCelebrationSound": {
+      "value": ""
+    },
     "entityDataEntries": [
       {
         "name": "animation",
@@ -167,7 +170,7 @@
     },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"panic_when_attacked\"><field name=\"speed\">1.2</field><field name=\"condition\">PrairieDogWanderAICondition,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">PrairieDogWanderAICondition,null</field><next><block type=\"watch_closest_entity\"><field name=\"entity\">EntityPlayerMP</field><field name=\"radius\">10</field><field name=\"condition\">PrairieDogLookAICondition,null</field><next><block type=\"watch_closest_entity\"><field name=\"entity\">EntityLiving</field><field name=\"radius\">10</field><field name=\"condition\">PrairieDogLookAICondition,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"panic_when_attacked\"><field name=\"speed\">1.2</field><field name=\"condition\">PrairieDogWanderAICondition,null</field><next><block type=\"watch_closest_entity\"><field name=\"entity\">EntityPlayerMP</field><field name=\"radius\">10</field><field name=\"condition\">PrairieDogLookAICondition,null</field><next><block type=\"watch_closest_entity\"><field name=\"entity\">EntityLiving</field><field name=\"radius\">10</field><field name=\"condition\">PrairieDogLookAICondition,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">PrairieDogWanderAICondition,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],
@@ -178,13 +181,17 @@
     "rangedItemType": "Default item",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
-    "spawnThisMob": false,
-    "doesDespawnWhenIdle": false,
-    "spawningProbability": 20,
-    "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 4,
-    "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [],
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 5,
+    "mobSpawningType": "creature",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 3,
+    "restrictionBiomes": [
+      {
+        "value": "#mod:eldenmoor/plains"
+      }
+    ],
     "spawnInDungeons": false,
     "raidSpawnsCount": [
       4,

@@ -43,7 +43,7 @@ public class SleepingEffect1Overlay {
 		RenderSystem.setShader(GameRenderer::getPositionTexShader);
 		RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
 		RenderSystem.setShaderColor(1, 1, 1, 1);
-		if (SleepingEffect1DisplayOverlayIngameProcedure.execute(entity)) {
+		if (SleepingEffect1DisplayOverlayIngameProcedure.execute(world, entity)) {
 			event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/sleeping_effect_1.png"), 0, 0, 0, 0, w, h, w, h);
 		}
 		RenderSystem.depthMask(true);

@@ -167,6 +167,9 @@ public class TaleOfBiomesModVariables {
 				clone.CanTravelToEldenmoor = original.CanTravelToEldenmoor;
 				clone.playerBiomeTemperature = original.playerBiomeTemperature;
 				clone.playerHeightTemperature = original.playerHeightTemperature;
+				clone.playerIsSleeping = original.playerIsSleeping;
+				clone.recipeGroup = original.recipeGroup;
+				clone.recipeTimer = original.recipeTimer;
 			}
 			event.getEntity().setData(PLAYER_VARIABLES, clone);
 		}
@@ -271,6 +274,8 @@ public class TaleOfBiomesModVariables {
 		public String modNamespace = "tale_of_biomes";
 		public double gnPlantTimer = 1200.0;
 		public double temperatureTimer = 1.0;
+		public boolean isPlayerSleeping = false;
+		public double playerSleepTimer = 0;
 
 		public static MapVariables load(CompoundTag tag, HolderLookup.Provider lookupProvider) {
 			MapVariables data = new MapVariables();
@@ -282,6 +287,8 @@ public class TaleOfBiomesModVariables {
 			modNamespace = nbt.getString("modNamespace");
 			gnPlantTimer = nbt.getDouble("gnPlantTimer");
 			temperatureTimer = nbt.getDouble("temperatureTimer");
+			isPlayerSleeping = nbt.getBoolean("isPlayerSleeping");
+			playerSleepTimer = nbt.getDouble("playerSleepTimer");
 		}
 
 		@Override
@@ -289,6 +296,8 @@ public class TaleOfBiomesModVariables {
 			nbt.putString("modNamespace", modNamespace);
 			nbt.putDouble("gnPlantTimer", gnPlantTimer);
 			nbt.putDouble("temperatureTimer", temperatureTimer);
+			nbt.putBoolean("isPlayerSleeping", isPlayerSleeping);
+			nbt.putDouble("playerSleepTimer", playerSleepTimer);
 			return nbt;
 		}
 
@@ -449,6 +458,9 @@ public class TaleOfBiomesModVariables {
 		public double playerBiomeTemperature = 0;
 		public double playerHeightTemperature = 0;
 		public boolean showPlayerTemperature = false;
+		public boolean playerIsSleeping = false;
+		public double recipeGroup = 0;
+		public double recipeTimer = 0;
 
 		@Override
 		public CompoundTag serializeNBT(HolderLookup.Provider lookupProvider) {
@@ -552,6 +564,9 @@ public class TaleOfBiomesModVariables {
 			nbt.putDouble("playerBiomeTemperature", playerBiomeTemperature);
 			nbt.putDouble("playerHeightTemperature", playerHeightTemperature);
 			nbt.putBoolean("showPlayerTemperature", showPlayerTemperature);
+			nbt.putBoolean("playerIsSleeping", playerIsSleeping);
+			nbt.putDouble("recipeGroup", recipeGroup);
+			nbt.putDouble("recipeTimer", recipeTimer);
 			return nbt;
 		}
 
@@ -656,6 +671,9 @@ public class TaleOfBiomesModVariables {
 			playerBiomeTemperature = nbt.getDouble("playerBiomeTemperature");
 			playerHeightTemperature = nbt.getDouble("playerHeightTemperature");
 			showPlayerTemperature = nbt.getBoolean("showPlayerTemperature");
+			playerIsSleeping = nbt.getBoolean("playerIsSleeping");
+			recipeGroup = nbt.getDouble("recipeGroup");
+			recipeTimer = nbt.getDouble("recipeTimer");
 		}
 
 		public void syncPlayerVariables(Entity entity) {

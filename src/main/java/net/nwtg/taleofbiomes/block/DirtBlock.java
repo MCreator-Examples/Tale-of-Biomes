@@ -3,6 +3,7 @@ package net.nwtg.taleofbiomes.block;
 
 import net.minecraft.world.level.pathfinder.PathType;
 import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -13,7 +14,7 @@ import net.minecraft.core.BlockPos;
 
 public class DirtBlock extends Block {
 	public DirtBlock() {
-		super(BlockBehaviour.Properties.of().mapColor(MapColor.DIRT).sound(SoundType.GRAVEL).strength(0.5f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).mapColor(MapColor.DIRT).sound(SoundType.GRAVEL).strength(0.5f));
 	}
 
 	@Override

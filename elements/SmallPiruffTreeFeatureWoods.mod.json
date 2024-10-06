@@ -6,7 +6,7 @@
     "generationStep": "TOP_LAYER_MODIFICATION",
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:PiruffWoods"
+        "value": "CUSTOM:EldenmoorPiruffWoods"
       }
     ],
     "generateCondition": {

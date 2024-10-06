@@ -2,7 +2,8 @@
 package net.nwtg.taleofbiomes.network;
 
 import net.nwtg.taleofbiomes.world.inventory.BasicStoneTableMenuMenu;
-import net.nwtg.taleofbiomes.procedures.BasicStoneTableMenuItemTakenFromOutputSlotProcedure;
+import net.nwtg.taleofbiomes.procedures.ItemTakenFromGUICraftingOutputSlotSingleProcedure;
+import net.nwtg.taleofbiomes.procedures.ItemTakenFromGUICraftingOutputSlotShiftProcedure;
 import net.nwtg.taleofbiomes.TaleOfBiomesMod;
 
 import net.neoforged.neoforge.network.handling.IPayloadContext;
@@ -65,7 +66,12 @@ public record BasicStoneTableMenuSlotMessage(int slotID, int x, int y, int z, in
 			return;
 		if (slot == 9 && changeType == 1) {
 
-			BasicStoneTableMenuItemTakenFromOutputSlotProcedure.execute(entity);
+			ItemTakenFromGUICraftingOutputSlotSingleProcedure.execute(entity);
+		}
+		if (slot == 9 && changeType == 2) {
+			int amount = meta;
+
+			ItemTakenFromGUICraftingOutputSlotShiftProcedure.execute(entity, amount);
 		}
 	}
 

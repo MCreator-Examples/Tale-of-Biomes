@@ -35,7 +35,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 public class RiceCropBlock extends Block implements EntityBlock, BonemealableBlock {
-	public static final IntegerProperty BLOCKSTATE = IntegerProperty.create("blockstate", 0, 7);
+	public static final IntegerProperty BLOCKSTATE = IntegerProperty.create("blockstate", 0, 48);
 
 	public RiceCropBlock() {
 		super(BlockBehaviour.Properties.of().ignitedByLava().mapColor(MapColor.NONE).sound(SoundType.GRASS).instabreak().lightLevel(s -> (new Object() {
@@ -53,6 +53,88 @@ public class RiceCropBlock extends Block implements EntityBlock, BonemealableBlo
 				if (s.getValue(BLOCKSTATE) == 6)
 					return 0;
 				if (s.getValue(BLOCKSTATE) == 7)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 8)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 9)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 10)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 11)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 12)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 13)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 14)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 15)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 16)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 17)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 18)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 19)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 20)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 21)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 22)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 23)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 24)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 25)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 26)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 27)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 28)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 29)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 30)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 31)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 32)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 33)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 34)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 35)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 36)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 37)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 38)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 39)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 40)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 41)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 42)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 43)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 44)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 45)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 46)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 47)
+					return 0;
+				if (s.getValue(BLOCKSTATE) == 48)
 					return 0;
 				return 0;
 			}
@@ -77,25 +159,148 @@ public class RiceCropBlock extends Block implements EntityBlock, BonemealableBlo
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		if (state.getValue(BLOCKSTATE) == 1) {
-			return box(0, -4, 0, 16, 4, 16);
+			return box(0, -4, 0, 16, -1, 16);
 		}
 		if (state.getValue(BLOCKSTATE) == 2) {
-			return box(0, -4, 0, 16, 5, 16);
-		}
-		if (state.getValue(BLOCKSTATE) == 3) {
 			return box(0, -4, 0, 16, 9, 16);
 		}
+		if (state.getValue(BLOCKSTATE) == 3) {
+			return box(0, -4, 0, 16, -1, 16);
+		}
 		if (state.getValue(BLOCKSTATE) == 4) {
-			return box(0, -4, 0, 16, 11, 16);
+			return box(0, -4, 0, 16, 9, 16);
 		}
 		if (state.getValue(BLOCKSTATE) == 5) {
-			return box(0, -4, 0, 16, 12, 16);
+			return box(0, -4, 0, 16, 2, 16);
 		}
 		if (state.getValue(BLOCKSTATE) == 6) {
-			return box(0, -4, 0, 16, 12, 16);
+			return box(0, -4, 0, 16, 9, 16);
 		}
 		if (state.getValue(BLOCKSTATE) == 7) {
-			return box(0, -4, 0, 16, 10, 16);
+			return box(0, -4, 0, 16, 2, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 8) {
+			return box(0, -4, 0, 16, 9, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 9) {
+			return box(0, -4, 0, 16, 5, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 10) {
+			return box(0, -4, 0, 16, 9, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 11) {
+			return box(0, -4, 0, 16, 5, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 12) {
+			return box(0, -4, 0, 16, 9, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 13) {
+			return box(0, -4, 0, 16, 7, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 14) {
+			return box(0, -4, 0, 16, 9, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 15) {
+			return box(0, -4, 0, 16, 7, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 16) {
+			return box(0, -4, 0, 16, 9, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 17) {
+			return box(0, -4, 0, 16, 12, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 18) {
+			return box(0, -4, 0, 16, 12, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 19) {
+			return box(0, -4, 0, 16, 12, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 20) {
+			return box(0, -4, 0, 16, 12, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 21) {
+			return box(0, -4, 0, 16, 12, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 22) {
+			return box(0, -4, 0, 16, 12, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 23) {
+			return box(0, -4, 0, 16, 12, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 24) {
+			return box(0, -4, 0, 16, 12, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 25) {
+			return box(0, -4, 0, 16, -1, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 26) {
+			return box(0, -4, 0, 16, 9, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 27) {
+			return box(0, -4, 0, 16, -1, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 28) {
+			return box(0, -4, 0, 16, 9, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 29) {
+			return box(0, -4, 0, 16, 1, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 30) {
+			return box(0, -4, 0, 16, 9, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 31) {
+			return box(0, -4, 0, 16, 1, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 32) {
+			return box(0, -4, 0, 16, 9, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 33) {
+			return box(0, -4, 0, 16, 4, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 34) {
+			return box(0, -4, 0, 16, 9, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 35) {
+			return box(0, -4, 0, 16, 4, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 36) {
+			return box(0, -4, 0, 16, 9, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 37) {
+			return box(0, -4, 0, 16, 7, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 38) {
+			return box(0, -4, 0, 16, 9, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 39) {
+			return box(0, -4, 0, 16, 7, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 40) {
+			return box(0, -4, 0, 16, 9, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 41) {
+			return box(0, -4, 0, 16, 9, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 42) {
+			return box(0, -4, 0, 16, 9, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 43) {
+			return box(0, -4, 0, 16, 9, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 44) {
+			return box(0, -4, 0, 16, 9, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 45) {
+			return box(0, -4, 0, 16, 9, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 46) {
+			return box(0, -4, 0, 16, 9, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 47) {
+			return box(0, -4, 0, 16, 9, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 48) {
+			return box(0, -4, 0, 16, 9, 16);
 		}
 		return box(0, -4, 0, 16, 2, 16);
 	}

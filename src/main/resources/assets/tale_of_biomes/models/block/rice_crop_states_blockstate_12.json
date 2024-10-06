@@ -1,0 +1,11 @@
+{
+  "parent": "tale_of_biomes:custom/rice_crop",
+  "textures": {
+    "all": "tale_of_biomes:block/rice_4",
+    "particle": "tale_of_biomes:block/rice_4",
+    "weeds": "tale_of_biomes:block/weeds_0",
+    "stones": "tale_of_biomes:block/stones_0",
+    "crop": "tale_of_biomes:block/rice_4"
+  },
+  "render_type": "cutout"
+}

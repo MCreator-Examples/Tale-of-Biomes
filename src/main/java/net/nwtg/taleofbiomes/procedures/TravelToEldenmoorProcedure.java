@@ -58,6 +58,12 @@ public class TravelToEldenmoorProcedure {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						("execute in " + TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "eldenmoor run tp @p ~ ~ ~"));
+			if (world instanceof ServerLevel _level)
+				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+						("execute in " + TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "eldenmoor run spawnpoint @p ~ ~ ~ 0"));
+			if (world instanceof ServerLevel _level)
+				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+						("execute in " + TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "eldenmoor run spawnpoint @p ~ ~ ~ " + new java.text.DecimalFormat("##.#").format(yaw)));
 			{
 				Entity _ent = entity;
 				_ent.setYRot((float) yaw);

@@ -13,6 +13,7 @@ import net.nwtg.taleofbiomes.procedures.TobaCommandSetSeasonAutumnProcedure;
 import net.nwtg.taleofbiomes.procedures.TobaCommandSetMsgProcedure;
 import net.nwtg.taleofbiomes.procedures.TobaCommandRunTobTemperatureTimerProcedure;
 import net.nwtg.taleofbiomes.procedures.TobRunMobTemperatureProcedure;
+import net.nwtg.taleofbiomes.procedures.PlayerSleepsAtCustomBedProcedure;
 import net.nwtg.taleofbiomes.procedures.PlayerFluidSaturationTimerProcedure;
 import net.nwtg.taleofbiomes.procedures.GlobalPlantTimerProcedure;
 
@@ -44,6 +45,20 @@ public class TobAdminCommandCommand {
 				direction = entity.getDirection();
 
 			PlayerFluidSaturationTimerProcedure.execute(world, entity);
+			return 0;
+		})).then(Commands.literal("customSleep").executes(arguments -> {
+			Level world = arguments.getSource().getUnsidedLevel();
+			double x = arguments.getSource().getPosition().x();
+			double y = arguments.getSource().getPosition().y();
+			double z = arguments.getSource().getPosition().z();
+			Entity entity = arguments.getSource().getEntity();
+			if (entity == null && world instanceof ServerLevel _servLevel)
+				entity = FakePlayerFactory.getMinecraft(_servLevel);
+			Direction direction = Direction.DOWN;
+			if (entity != null)
+				direction = entity.getDirection();
+
+			PlayerSleepsAtCustomBedProcedure.execute(world);
 			return 0;
 		}))).then(Commands.literal("plantTimer").executes(arguments -> {
 			Level world = arguments.getSource().getUnsidedLevel();

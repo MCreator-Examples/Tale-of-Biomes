@@ -2,9 +2,9 @@
   "mappings": {
     "default": {
       "map": {
-        "flowerpot": "flower_pot",
+        "flowerpot": "minecraft:flower_pot",
         "plant": "blue_aster",
-        "dirt": "minecraft_dirt"
+        "dirt": "minecraft:dirt"
       },
       "name": "default"
     },

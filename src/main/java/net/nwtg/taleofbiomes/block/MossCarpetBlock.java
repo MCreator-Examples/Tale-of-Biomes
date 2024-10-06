@@ -2,11 +2,6 @@
 package net.nwtg.taleofbiomes.block;
 
 import net.nwtg.taleofbiomes.procedures.MossCarpetBlockValidPlacementConditionProcedure;
-import net.nwtg.taleofbiomes.init.TaleOfBiomesModBlocks;
-
-import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
-import net.neoforged.api.distmarker.OnlyIn;
-import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -21,11 +16,9 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.FoliageColor;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
-import net.minecraft.client.renderer.BiomeColors;
 
 public class MossCarpetBlock extends Block {
 	public MossCarpetBlock() {
@@ -72,19 +65,5 @@ public class MossCarpetBlock extends Block {
 	@Override
 	public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
 		return 20;
-	}
-
-	@OnlyIn(Dist.CLIENT)
-	public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
-		event.getBlockColors().register((bs, world, pos, index) -> {
-			return world != null && pos != null ? BiomeColors.getAverageFoliageColor(world, pos) : FoliageColor.getDefaultColor();
-		}, TaleOfBiomesModBlocks.MOSS_CARPET.get());
-	}
-
-	@OnlyIn(Dist.CLIENT)
-	public static void itemColorLoad(RegisterColorHandlersEvent.Item event) {
-		event.getItemColors().register((stack, index) -> {
-			return FoliageColor.getDefaultColor();
-		}, TaleOfBiomesModBlocks.MOSS_CARPET.get());
 	}
 }

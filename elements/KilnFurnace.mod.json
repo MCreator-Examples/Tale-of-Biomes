@@ -43,7 +43,7 @@
     "isWaterloggable": false,
     "creativeTabs": [
       {
-        "value": "CUSTOM:TOBBlocksTab"
+        "value": "CUSTOM:TOBDecorationTab"
       }
     ],
     "destroyTool": "pickaxe",

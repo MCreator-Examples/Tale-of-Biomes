@@ -13,8 +13,10 @@ public class RiceCropDamageScriptProcedure {
 		double nX = 0;
 		double nY = 0;
 		double nZ = 0;
+		double nbtTemperatureDamage = 0;
 		RiceCropWaterDamageProcedure.execute(world, x, y, z);
 		RiceCropLightDamageProcedure.execute(world, x, y, z);
+		RiceCropTemperatureDamageProcedure.execute(world, x, y, z);
 		nX = x;
 		nY = y;
 		nZ = z;
@@ -34,13 +36,21 @@ public class RiceCropDamageScriptProcedure {
 				return -1;
 			}
 		}.getValue(world, BlockPos.containing(nX, nY, nZ), "tobCropLightDamage");
-		if (nbtWaterDamage > 0 || nbtLightDamage > 0) {
+		nbtTemperatureDamage = new Object() {
+			public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+				BlockEntity blockEntity = world.getBlockEntity(pos);
+				if (blockEntity != null)
+					return blockEntity.getPersistentData().getDouble(tag);
+				return -1;
+			}
+		}.getValue(world, BlockPos.containing(nX, nY, nZ), "tobCropTemperatureDamage");
+		if (nbtWaterDamage > 0 || nbtLightDamage > 0 || nbtTemperatureDamage > 0) {
 			if (!world.isClientSide()) {
 				BlockPos _bp = BlockPos.containing(nX, nY, nZ);
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);
 				BlockState _bs = world.getBlockState(_bp);
 				if (_blockEntity != null)
-					_blockEntity.getPersistentData().putDouble("tobCropDamage", (nbtWaterDamage + nbtLightDamage));
+					_blockEntity.getPersistentData().putDouble("tobCropDamage", (nbtWaterDamage + nbtLightDamage + nbtTemperatureDamage));
 				if (world instanceof Level _level)
 					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 			}

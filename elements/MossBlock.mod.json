@@ -16,9 +16,9 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "tintType": "Foliage",
-    "isItemTinted": true,
-    "hasTransparency": false,
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -58,7 +58,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "MOSS_BLOCK"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,

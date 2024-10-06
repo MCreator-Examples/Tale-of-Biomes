@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tale_of_biomes:flower_plains",
-    "tale_of_biomes:flower_shrub_plains"
+    "tale_of_biomes:eldenmoor_flower_plains",
+    "tale_of_biomes:eldenmoor_flower_shrub_plains"
   ]
 }

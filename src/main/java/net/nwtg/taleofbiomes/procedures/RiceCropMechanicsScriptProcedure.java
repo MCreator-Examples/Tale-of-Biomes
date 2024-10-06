@@ -6,5 +6,6 @@ public class RiceCropMechanicsScriptProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		RiceCropWaterScriptProcedure.execute(world, x, y, z);
 		RiceCropLightScriptProcedure.execute(world, x, y, z);
+		RiceCropTemperatureScriptProcedure.execute(world, x, y, z);
 	}
 }

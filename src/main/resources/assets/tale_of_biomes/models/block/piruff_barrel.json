@@ -1,0 +1,12 @@
+{
+  "parent": "tale_of_biomes:custom/barrel",
+  "textures": {
+    "all": "tale_of_biomes:block/piruff_barrel_top",
+    "particle": "tale_of_biomes:block/piruff_barrel_top",
+    "side": "tale_of_biomes:block/piruff_barrel_side",
+    "top": "tale_of_biomes:block/piruff_barrel_top",
+    "overlay": "tale_of_biomes:block/piruff_barrel_overlay",
+    "bottom": "tale_of_biomes:block/piruff_barrel_bottom"
+  },
+  "render_type": "cutout"
+}

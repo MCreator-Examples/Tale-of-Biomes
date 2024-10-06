@@ -2,8 +2,8 @@
   "feature": "tale_of_biomes:ivy_shrub_plant_1_feature",
   "placement": [
     {
-      "type": "minecraft:rarity_filter",
-      "chance": 1
+      "type": "minecraft:count",
+      "count": 20
     },
     {
       "type": "minecraft:in_square"

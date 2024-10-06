@@ -1,7 +1,5 @@
 package net.nwtg.taleofbiomes.procedures;
 
-import org.checkerframework.checker.units.qual.s;
-
 import net.nwtg.taleofbiomes.network.TaleOfBiomesModVariables;
 
 import net.neoforged.neoforge.event.tick.LevelTickEvent;
@@ -30,19 +28,11 @@ public class ChangeSeasonProcedure {
 		if (GetModSettingsSeasonProgressionEnabledProcedure.execute()) {
 			TaleOfBiomesModVariables.WorldVariables.get(world).worldMaxSeasonDay = GetModSettingsSeasonTotalDaysProcedure.execute();
 			TaleOfBiomesModVariables.WorldVariables.get(world).syncData(world);
-			nSeasonTime = GetModSettingsSeasonTotalDaysProcedure.execute() * 24000;
+			nSeasonTime = TaleOfBiomesModVariables.WorldVariables.get(world).worldMaxSeasonDay * 24000;
 			nTime = world.dayTime() % nSeasonTime;
-			TaleOfBiomesModVariables.WorldVariables.get(world).worldSeasonDay = new Object() {
-				double convert(String s) {
-					try {
-						return Double.parseDouble(s.trim());
-					} catch (Exception e) {
-					}
-					return 0;
-				}
-			}.convert(new java.text.DecimalFormat("##").format((nTime / 1000) / 24 + 1));
+			TaleOfBiomesModVariables.WorldVariables.get(world).worldSeasonDay = Math.ceil((nTime / 1000) / 24);
 			TaleOfBiomesModVariables.WorldVariables.get(world).syncData(world);
-			if (nTime == 1) {
+			if (TaleOfBiomesModVariables.WorldVariables.get(world).worldSeasonDay >= TaleOfBiomesModVariables.WorldVariables.get(world).worldMaxSeasonDay) {
 				if ((TaleOfBiomesModVariables.WorldVariables.get(world).worldSeasonName).equals("Spring")) {
 					TaleOfBiomesModVariables.WorldVariables.get(world).worldSeasonName = "Summer";
 					TaleOfBiomesModVariables.WorldVariables.get(world).syncData(world);

@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "tale_of_biomes:grass_block",
+    "tale_of_biomes:dirt",
+    "tale_of_biomes:fertile_soil",
+    "tale_of_biomes:stone",
+    "tale_of_biomes:marble",
+    "tale_of_biomes:basalt",
+    "tale_of_biomes:shale",
+    "tale_of_biomes:shale_fossil",
+    "tale_of_biomes:limestone",
+    "tale_of_biomes:gravel",
+    "tale_of_biomes:clay_block"
+  ]
+}

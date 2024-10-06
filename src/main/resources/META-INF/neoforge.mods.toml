@@ -4,7 +4,7 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="tale_of_biomes"
-version="0.10.0"
+version="0.11.0"
 displayName="Tale of Biomes"
 updateJSONURL="https://raw.githubusercontent.com/MCreator-Examples/Tale-of-Biomes/latest/updates/update.json"
 displayURL="https://github.com/MCreator-Examples/Tale-of-Biomes"
@@ -30,6 +30,12 @@ description="Tale of Biomes is a Minecraft mod that I am working on as part of t
     ordering="AFTER"
     side="BOTH"
 
+[[dependencies.tale_of_biomes]]
+    modId="mo_tool_tiers"
+    type="required"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 

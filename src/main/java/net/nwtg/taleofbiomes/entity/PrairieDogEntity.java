@@ -6,9 +6,11 @@ import net.nwtg.taleofbiomes.procedures.PrairieDogOnInitialEntitySpawnProcedure;
 import net.nwtg.taleofbiomes.procedures.PrairieDogOnEntityTickUpdateProcedure;
 import net.nwtg.taleofbiomes.procedures.PrairieDogLookAIConditionProcedure;
 import net.nwtg.taleofbiomes.procedures.PrairieDogEntityIsHurtProcedure;
+import net.nwtg.taleofbiomes.init.TaleOfBiomesModEntities;
 
 import net.neoforged.neoforge.event.entity.SpawnPlacementRegisterEvent;
 
+import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.Level;
@@ -19,6 +21,7 @@ import net.minecraft.world.entity.ai.goal.LookAtPlayerGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
+import net.minecraft.world.entity.SpawnPlacementTypes;
 import net.minecraft.world.entity.SpawnGroupData;
 import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobSpawnType;
@@ -28,6 +31,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.DifficultyInstance;
+import net.minecraft.tags.BlockTags;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
@@ -49,7 +53,6 @@ public class PrairieDogEntity extends PathfinderMob {
 		super(type, world);
 		xpReward = 0;
 		setNoAi(false);
-		setPersistenceRequired();
 	}
 
 	@Override
@@ -74,7 +77,29 @@ public class PrairieDogEntity extends PathfinderMob {
 				return super.canUse() && PrairieDogWanderAIConditionProcedure.execute(entity);
 			}
 		});
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1) {
+		this.goalSelector.addGoal(2, new LookAtPlayerGoal(this, ServerPlayer.class, (float) 10) {
+			@Override
+			public boolean canUse() {
+				double x = PrairieDogEntity.this.getX();
+				double y = PrairieDogEntity.this.getY();
+				double z = PrairieDogEntity.this.getZ();
+				Entity entity = PrairieDogEntity.this;
+				Level world = PrairieDogEntity.this.level();
+				return super.canUse() && PrairieDogLookAIConditionProcedure.execute(entity);
+			}
+		});
+		this.goalSelector.addGoal(3, new LookAtPlayerGoal(this, LivingEntity.class, (float) 10) {
+			@Override
+			public boolean canUse() {
+				double x = PrairieDogEntity.this.getX();
+				double y = PrairieDogEntity.this.getY();
+				double z = PrairieDogEntity.this.getZ();
+				Entity entity = PrairieDogEntity.this;
+				Level world = PrairieDogEntity.this.level();
+				return super.canUse() && PrairieDogLookAIConditionProcedure.execute(entity);
+			}
+		});
+		this.goalSelector.addGoal(4, new RandomStrollGoal(this, 1) {
 			@Override
 			public boolean canUse() {
 				double x = PrairieDogEntity.this.getX();
@@ -85,35 +110,8 @@ public class PrairieDogEntity extends PathfinderMob {
 				return super.canUse() && PrairieDogWanderAIConditionProcedure.execute(entity);
 			}
 		});
-		this.goalSelector.addGoal(3, new LookAtPlayerGoal(this, ServerPlayer.class, (float) 10) {
-			@Override
-			public boolean canUse() {
-				double x = PrairieDogEntity.this.getX();
-				double y = PrairieDogEntity.this.getY();
-				double z = PrairieDogEntity.this.getZ();
-				Entity entity = PrairieDogEntity.this;
-				Level world = PrairieDogEntity.this.level();
-				return super.canUse() && PrairieDogLookAIConditionProcedure.execute(entity);
-			}
-		});
-		this.goalSelector.addGoal(4, new LookAtPlayerGoal(this, LivingEntity.class, (float) 10) {
-			@Override
-			public boolean canUse() {
-				double x = PrairieDogEntity.this.getX();
-				double y = PrairieDogEntity.this.getY();
-				double z = PrairieDogEntity.this.getZ();
-				Entity entity = PrairieDogEntity.this;
-				Level world = PrairieDogEntity.this.level();
-				return super.canUse() && PrairieDogLookAIConditionProcedure.execute(entity);
-			}
-		});
 		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(6, new FloatGoal(this));
-	}
-
-	@Override
-	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
-		return false;
 	}
 
 	@Override
@@ -183,6 +181,8 @@ public class PrairieDogEntity extends PathfinderMob {
 	}
 
 	public static void init(SpawnPlacementRegisterEvent event) {
+		event.register(TaleOfBiomesModEntities.PRAIRIE_DOG.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).is(BlockTags.ANIMALS_SPAWNABLE_ON) && world.getRawBrightness(pos, 0) > 8), SpawnPlacementRegisterEvent.Operation.REPLACE);
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

@@ -2,9 +2,9 @@
 package net.nwtg.taleofbiomes.network;
 
 import net.nwtg.taleofbiomes.world.inventory.BasicToolTableMenuRecipeBookMenu;
-import net.nwtg.taleofbiomes.procedures.BasicToolTableMenuRecipeHelperForwardButtonProcedure;
-import net.nwtg.taleofbiomes.procedures.BasicToolTableMenuRecipeHelperButtonCloseProcedure;
-import net.nwtg.taleofbiomes.procedures.BasicToolTableMenuRecipeHelperBackButtonProcedure;
+import net.nwtg.taleofbiomes.procedures.BasicToolTableRecipeHelperNextButtonProcedure;
+import net.nwtg.taleofbiomes.procedures.BasicToolTableRecipeHelperBackButtonProcedure;
+import net.nwtg.taleofbiomes.procedures.BasicToolTableMenuHideRecipeHelperProcedure;
 import net.nwtg.taleofbiomes.TaleOfBiomesMod;
 
 import net.neoforged.neoforge.network.handling.IPayloadContext;
@@ -63,15 +63,15 @@ public record BasicToolTableMenuRecipeBookButtonMessage(int buttonID, int x, int
 			return;
 		if (buttonID == 0) {
 
-			BasicToolTableMenuRecipeHelperBackButtonProcedure.execute(world, entity);
+			BasicToolTableRecipeHelperBackButtonProcedure.execute(entity);
 		}
 		if (buttonID == 1) {
 
-			BasicToolTableMenuRecipeHelperForwardButtonProcedure.execute(world, entity);
+			BasicToolTableRecipeHelperNextButtonProcedure.execute(entity);
 		}
 		if (buttonID == 2) {
 
-			BasicToolTableMenuRecipeHelperButtonCloseProcedure.execute(world, x, y, z, entity);
+			BasicToolTableMenuHideRecipeHelperProcedure.execute(world, entity);
 		}
 	}
 
