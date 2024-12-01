@@ -38,7 +38,7 @@ public class BarrelOnTickUpdateProcedure {
 						return ItemStack.EMPTY;
 					}
 				}.getItemStack(world, BlockPos.containing(x, y, z), (int) nSlot));
-				if (!(iSlot.getItem() == ItemStack.EMPTY.getItem()) && iSlot.is(ItemTags.create(new ResourceLocation("tale_of_biomes:item_spoils")))) {
+				if (!(iSlot.getItem() == ItemStack.EMPTY.getItem()) && iSlot.is(ItemTags.create(ResourceLocation.parse("tale_of_biomes:item_spoils")))) {
 					if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 						ItemStack _setstack = iSlot.copy();
 						_setstack.setCount((int) (new Object() {

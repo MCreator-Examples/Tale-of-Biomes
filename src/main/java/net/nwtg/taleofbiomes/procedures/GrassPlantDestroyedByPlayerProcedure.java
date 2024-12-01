@@ -46,7 +46,7 @@ public class GrassPlantDestroyedByPlayerProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, BlockState blockstate, Entity entity) {
 		if (entity == null)
 			return;
-		if (blockstate.is(BlockTags.create(new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "tall_grass")).toLowerCase(java.util.Locale.ENGLISH)))) && !(new Object() {
+		if (blockstate.is(BlockTags.create(ResourceLocation.parse(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "tall_grass")).toLowerCase(java.util.Locale.ENGLISH)))) && !(new Object() {
 			public boolean checkGamemode(Entity _ent) {
 				if (_ent instanceof ServerPlayer _serverPlayer) {
 					return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
@@ -57,7 +57,7 @@ public class GrassPlantDestroyedByPlayerProcedure {
 			}
 		}.checkGamemode(entity))) {
 			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
-					.is(ItemTags.create(new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "sickles")).toLowerCase(java.util.Locale.ENGLISH))))) {
+					.is(ItemTags.create(ResourceLocation.parse(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "sickles")).toLowerCase(java.util.Locale.ENGLISH))))) {
 				if (event instanceof ICancellableEvent _cancellable) {
 					_cancellable.setCanceled(true);
 				}

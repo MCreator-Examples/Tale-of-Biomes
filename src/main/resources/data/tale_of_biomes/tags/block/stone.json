@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tale_of_biomes:stone",
+    "tale_of_biomes:marble",
+    "tale_of_biomes:basalt",
+    "tale_of_biomes:shale"
+  ]
+}

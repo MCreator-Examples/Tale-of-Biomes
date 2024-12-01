@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "copper_dust",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "tag": "neoforge:dust_blocks/impure_copper"
+    }
+  },
+  "result": {
+    "id": "tale_of_biomes:impure_copper_dust",
+    "count": 9
+  }
+}

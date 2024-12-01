@@ -6,7 +6,6 @@ import net.nwtg.taleofbiomes.TaleOfBiomesMod;
 
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.enchantment.Enchantments;
-import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.item.ItemEntity;
@@ -17,6 +16,7 @@ import net.minecraft.util.Mth;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.registries.Registries;
 
 public class EldenmoorCopperOreBlockDestroyedByPlayerProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -32,15 +32,15 @@ public class EldenmoorCopperOreBlockDestroyedByPlayerProcedure {
 		ItemStack iMixed = ItemStack.EMPTY;
 		ItemStack iUnpure = ItemStack.EMPTY;
 		iMainHand = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
-		if (iMainHand.getItem() instanceof PickaxeItem && iMainHand.is(ItemTags.create(new ResourceLocation("mo_tool_tiers:normal_stone")))) {
+		if (iMainHand.getItem() instanceof PickaxeItem && iMainHand.is(ItemTags.create(ResourceLocation.parse("mo_tool_tiers:normal_stone")))) {
 			iPure = new ItemStack(TaleOfBiomesModItems.RAW_PURE_COPPER.get());
 			iMixed = new ItemStack(TaleOfBiomesModItems.RAW_MIXED_COPPER.get());
 			iUnpure = new ItemStack(TaleOfBiomesModItems.RAW_IMPURE_COPPER.get());
 			nX = Math.floor(x) + 0.5;
 			nY = Math.floor(y) + 0.25;
 			nZ = Math.floor(z) + 0.5;
-			if (EnchantmentHelper.getItemEnchantmentLevel(Enchantments.FORTUNE, iMainHand) != 0) {
-				nLevel = iMainHand.getEnchantmentLevel(Enchantments.FORTUNE);
+			if (iMainHand.getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE)) != 0) {
+				nLevel = iMainHand.getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE));
 				TaleOfBiomesMod.LOGGER.info(nLevel);
 				if (nLevel == 3) {
 					for (int index0 = 0; index0 < Mth.nextInt(RandomSource.create(), 3, 5); index0++) {
@@ -112,7 +112,7 @@ public class EldenmoorCopperOreBlockDestroyedByPlayerProcedure {
 						}
 					}
 				}
-			} else if (EnchantmentHelper.getItemEnchantmentLevel(Enchantments.SILK_TOUCH, iMainHand) != 0) {
+			} else if (iMainHand.getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.SILK_TOUCH)) != 0) {
 				if (world instanceof ServerLevel _level) {
 					ItemEntity entityToSpawn = new ItemEntity(_level, nX, nY, nZ, new ItemStack(TaleOfBiomesModBlocks.ELDENMOOR_COPPER_ORE.get()));
 					entityToSpawn.setPickUpDelay(10);

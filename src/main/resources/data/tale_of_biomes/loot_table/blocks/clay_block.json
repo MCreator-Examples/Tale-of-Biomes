@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "tale_of_biomes:blocks/clay_block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tale_of_biomes:clay",
+          "functions": [
+            {
+              "count": 4,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -25,7 +25,7 @@ import java.util.HashMap;
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public record BasicToolTableMenuButtonMessage(int buttonID, int x, int y, int z) implements CustomPacketPayload {
 
-	public static final Type<BasicToolTableMenuButtonMessage> TYPE = new Type<>(new ResourceLocation(TaleOfBiomesMod.MODID, "basic_tool_table_menu_buttons"));
+	public static final Type<BasicToolTableMenuButtonMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(TaleOfBiomesMod.MODID, "basic_tool_table_menu_buttons"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, BasicToolTableMenuButtonMessage> STREAM_CODEC = StreamCodec.of((RegistryFriendlyByteBuf buffer, BasicToolTableMenuButtonMessage message) -> {
 		buffer.writeInt(message.buttonID);
 		buffer.writeInt(message.x);

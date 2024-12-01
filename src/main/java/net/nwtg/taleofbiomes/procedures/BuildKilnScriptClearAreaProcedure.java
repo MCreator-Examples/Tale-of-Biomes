@@ -56,7 +56,7 @@ public class BuildKilnScriptClearAreaProcedure {
 		for (int index0 = 0; index0 < 5; index0++) {
 			for (int index1 = 0; index1 < 5; index1++) {
 				for (int index2 = 0; index2 < 5; index2++) {
-					if (!(world.getBlockState(BlockPos.containing(posX, posY, posZ))).is(BlockTags.create(new ResourceLocation(((myNamespace + ":" + myPlacementTag)).toLowerCase(java.util.Locale.ENGLISH))))) {
+					if (!(world.getBlockState(BlockPos.containing(posX, posY, posZ))).is(BlockTags.create(ResourceLocation.parse(((myNamespace + ":" + myPlacementTag)).toLowerCase(java.util.Locale.ENGLISH))))) {
 						{
 							BlockPos _pos = BlockPos.containing(posX, posY, posZ);
 							Block.dropResources(world.getBlockState(_pos), world, BlockPos.containing(entity.getX(), entity.getY(), entity.getZ()), null);

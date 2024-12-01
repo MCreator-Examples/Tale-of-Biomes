@@ -250,7 +250,7 @@
                     "ignored_blocks": "minecraft:structure_block",
                     "offset": [
                       0,
-                      -3,
+                      -5,
                       0
                     ]
                   }

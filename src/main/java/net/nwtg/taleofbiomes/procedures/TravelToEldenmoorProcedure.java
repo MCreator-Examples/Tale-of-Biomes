@@ -38,7 +38,7 @@ public class TravelToEldenmoorProcedure {
 			return;
 		double yaw = 0;
 		double pitch = 0;
-		if (!((entity.level().dimension()) == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("tale_of_biomes:eldenmoor"))) && entity.getData(TaleOfBiomesModVariables.PLAYER_VARIABLES).CanTravelToEldenmoor) {
+		if (!((entity.level().dimension()) == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("tale_of_biomes:eldenmoor"))) && entity.getData(TaleOfBiomesModVariables.PLAYER_VARIABLES).CanTravelToEldenmoor) {
 			yaw = entity.getYRot();
 			pitch = entity.getXRot();
 			InventorySaveNormalScriptProcedure.execute(entity);

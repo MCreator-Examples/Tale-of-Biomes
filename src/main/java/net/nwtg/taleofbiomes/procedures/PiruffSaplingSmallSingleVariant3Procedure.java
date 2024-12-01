@@ -55,7 +55,7 @@ public class PiruffSaplingSmallSingleVariant3Procedure {
 				for (int index0 = 0; index0 < (int) (sizeY - 1); index0++) {
 					for (int index1 = 0; index1 < (int) sizeX; index1++) {
 						for (int index2 = 0; index2 < (int) sizeZ; index2++) {
-							if (!(world.getBlockState(BlockPos.containing(posX, posY, posZ))).is(BlockTags.create(new ResourceLocation((airTag).toLowerCase(java.util.Locale.ENGLISH))))) {
+							if (!(world.getBlockState(BlockPos.containing(posX, posY, posZ))).is(BlockTags.create(ResourceLocation.parse((airTag).toLowerCase(java.util.Locale.ENGLISH))))) {
 								dontSpawn = true;
 								break;
 							}
@@ -77,7 +77,7 @@ public class PiruffSaplingSmallSingleVariant3Procedure {
 				rotation = Mth.nextInt(RandomSource.create(), 0, 11);
 				if (!dontSpawn && rotation == 0) {
 					if (world instanceof ServerLevel _serverworld) {
-						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("tale_of_biomes", "piruff_tree_small_03n"));
+						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(ResourceLocation.fromNamespaceAndPath("tale_of_biomes", "piruff_tree_small_03n"));
 						if (template != null) {
 							template.placeInWorld(_serverworld, BlockPos.containing(x - ((sizeX - offset) / 2 - structureOffsetX), structureOffsetY, z - ((sizeZ - offset) / 2 - structureOffsetZ)),
 									BlockPos.containing(x - ((sizeX - offset) / 2 - structureOffsetX), structureOffsetY, z - ((sizeZ - offset) / 2 - structureOffsetZ)),
@@ -86,7 +86,7 @@ public class PiruffSaplingSmallSingleVariant3Procedure {
 					}
 				} else if (!dontSpawn && rotation == 1) {
 					if (world instanceof ServerLevel _serverworld) {
-						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("tale_of_biomes", "piruff_tree_small_03n"));
+						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(ResourceLocation.fromNamespaceAndPath("tale_of_biomes", "piruff_tree_small_03n"));
 						if (template != null) {
 							template.placeInWorld(_serverworld, BlockPos.containing(x + (sizeX - offset) / 2 + structureOffsetX, structureOffsetY, z - ((sizeZ - offset) / 2 - structureOffsetZ)),
 									BlockPos.containing(x + (sizeX - offset) / 2 + structureOffsetX, structureOffsetY, z - ((sizeZ - offset) / 2 - structureOffsetZ)),
@@ -95,7 +95,7 @@ public class PiruffSaplingSmallSingleVariant3Procedure {
 					}
 				} else if (!dontSpawn && rotation == 2) {
 					if (world instanceof ServerLevel _serverworld) {
-						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("tale_of_biomes", "piruff_tree_small_03n"));
+						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(ResourceLocation.fromNamespaceAndPath("tale_of_biomes", "piruff_tree_small_03n"));
 						if (template != null) {
 							template.placeInWorld(_serverworld, BlockPos.containing(x + (sizeX - offset) / 2 + structureOffsetX, structureOffsetY, z + (sizeZ - offset) / 2 + structureOffsetZ),
 									BlockPos.containing(x + (sizeX - offset) / 2 + structureOffsetX, structureOffsetY, z + (sizeZ - offset) / 2 + structureOffsetZ),
@@ -104,7 +104,7 @@ public class PiruffSaplingSmallSingleVariant3Procedure {
 					}
 				} else if (!dontSpawn && rotation == 3) {
 					if (world instanceof ServerLevel _serverworld) {
-						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("tale_of_biomes", "piruff_tree_small_03n"));
+						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(ResourceLocation.fromNamespaceAndPath("tale_of_biomes", "piruff_tree_small_03n"));
 						if (template != null) {
 							template.placeInWorld(_serverworld, BlockPos.containing(x - ((sizeX - offset) / 2 - structureOffsetX), structureOffsetY, z + (sizeZ - offset) / 2 + structureOffsetZ),
 									BlockPos.containing(x - ((sizeX - offset) / 2 - structureOffsetX), structureOffsetY, z + (sizeZ - offset) / 2 + structureOffsetZ),
@@ -113,7 +113,7 @@ public class PiruffSaplingSmallSingleVariant3Procedure {
 					}
 				} else if (!dontSpawn && rotation == 4) {
 					if (world instanceof ServerLevel _serverworld) {
-						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("tale_of_biomes", "piruff_tree_small_03n"));
+						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(ResourceLocation.fromNamespaceAndPath("tale_of_biomes", "piruff_tree_small_03n"));
 						if (template != null) {
 							template.placeInWorld(_serverworld, BlockPos.containing(x + (sizeX - offset) / 2 + structureOffsetX, structureOffsetY, z - ((sizeZ - offset) / 2 - structureOffsetZ)),
 									BlockPos.containing(x + (sizeX - offset) / 2 + structureOffsetX, structureOffsetY, z - ((sizeZ - offset) / 2 - structureOffsetZ)),
@@ -122,7 +122,7 @@ public class PiruffSaplingSmallSingleVariant3Procedure {
 					}
 				} else if (!dontSpawn && rotation == 5) {
 					if (world instanceof ServerLevel _serverworld) {
-						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("tale_of_biomes", "piruff_tree_small_03n"));
+						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(ResourceLocation.fromNamespaceAndPath("tale_of_biomes", "piruff_tree_small_03n"));
 						if (template != null) {
 							template.placeInWorld(_serverworld, BlockPos.containing(x - ((sizeX - offset) / 2 - structureOffsetX), structureOffsetY, z + (sizeZ - offset) / 2 + structureOffsetZ),
 									BlockPos.containing(x - ((sizeX - offset) / 2 - structureOffsetX), structureOffsetY, z + (sizeZ - offset) / 2 + structureOffsetZ),
@@ -131,7 +131,7 @@ public class PiruffSaplingSmallSingleVariant3Procedure {
 					}
 				} else if (!dontSpawn && rotation == 6) {
 					if (world instanceof ServerLevel _serverworld) {
-						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("tale_of_biomes", "piruff_tree_small_03n"));
+						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(ResourceLocation.fromNamespaceAndPath("tale_of_biomes", "piruff_tree_small_03n"));
 						if (template != null) {
 							template.placeInWorld(_serverworld, BlockPos.containing(x + (sizeX - offset) / 2 + structureOffsetX, structureOffsetY, z + (sizeZ - offset) / 2 + structureOffsetZ),
 									BlockPos.containing(x + (sizeX - offset) / 2 + structureOffsetX, structureOffsetY, z + (sizeZ - offset) / 2 + structureOffsetZ),
@@ -140,7 +140,7 @@ public class PiruffSaplingSmallSingleVariant3Procedure {
 					}
 				} else if (!dontSpawn && rotation == 7) {
 					if (world instanceof ServerLevel _serverworld) {
-						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("tale_of_biomes", "piruff_tree_small_03n"));
+						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(ResourceLocation.fromNamespaceAndPath("tale_of_biomes", "piruff_tree_small_03n"));
 						if (template != null) {
 							template.placeInWorld(_serverworld, BlockPos.containing(x - ((sizeX - offset) / 2 - structureOffsetX), structureOffsetY, z - ((sizeZ - offset) / 2 - structureOffsetZ)),
 									BlockPos.containing(x - ((sizeX - offset) / 2 - structureOffsetX), structureOffsetY, z - ((sizeZ - offset) / 2 - structureOffsetZ)),
@@ -149,7 +149,7 @@ public class PiruffSaplingSmallSingleVariant3Procedure {
 					}
 				} else if (!dontSpawn && rotation == 8) {
 					if (world instanceof ServerLevel _serverworld) {
-						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("tale_of_biomes", "piruff_tree_small_03n"));
+						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(ResourceLocation.fromNamespaceAndPath("tale_of_biomes", "piruff_tree_small_03n"));
 						if (template != null) {
 							template.placeInWorld(_serverworld, BlockPos.containing(x - ((sizeX - offset) / 2 - structureOffsetX), structureOffsetY, z + (sizeZ - offset) / 2 + structureOffsetZ),
 									BlockPos.containing(x - ((sizeX - offset) / 2 - structureOffsetX), structureOffsetY, z + (sizeZ - offset) / 2 + structureOffsetZ),
@@ -158,7 +158,7 @@ public class PiruffSaplingSmallSingleVariant3Procedure {
 					}
 				} else if (!dontSpawn && rotation == 9) {
 					if (world instanceof ServerLevel _serverworld) {
-						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("tale_of_biomes", "piruff_tree_small_03n"));
+						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(ResourceLocation.fromNamespaceAndPath("tale_of_biomes", "piruff_tree_small_03n"));
 						if (template != null) {
 							template.placeInWorld(_serverworld, BlockPos.containing(x + (sizeX - offset) / 2 + structureOffsetX, structureOffsetY, z - ((sizeZ - offset) / 2 - structureOffsetZ)),
 									BlockPos.containing(x + (sizeX - offset) / 2 + structureOffsetX, structureOffsetY, z - ((sizeZ - offset) / 2 - structureOffsetZ)),
@@ -167,7 +167,7 @@ public class PiruffSaplingSmallSingleVariant3Procedure {
 					}
 				} else if (!dontSpawn && rotation == 10) {
 					if (world instanceof ServerLevel _serverworld) {
-						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("tale_of_biomes", "piruff_tree_small_03n"));
+						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(ResourceLocation.fromNamespaceAndPath("tale_of_biomes", "piruff_tree_small_03n"));
 						if (template != null) {
 							template.placeInWorld(_serverworld, BlockPos.containing(x - ((sizeX - offset) / 2 - structureOffsetX), structureOffsetY, z - ((sizeZ - offset) / 2 - structureOffsetZ)),
 									BlockPos.containing(x - ((sizeX - offset) / 2 - structureOffsetX), structureOffsetY, z - ((sizeZ - offset) / 2 - structureOffsetZ)),
@@ -176,7 +176,7 @@ public class PiruffSaplingSmallSingleVariant3Procedure {
 					}
 				} else if (!dontSpawn && rotation == 11) {
 					if (world instanceof ServerLevel _serverworld) {
-						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("tale_of_biomes", "piruff_tree_small_03n"));
+						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(ResourceLocation.fromNamespaceAndPath("tale_of_biomes", "piruff_tree_small_03n"));
 						if (template != null) {
 							template.placeInWorld(_serverworld, BlockPos.containing(x + (sizeX - offset) / 2 + structureOffsetX, structureOffsetY, z + (sizeZ - offset) / 2 + structureOffsetZ),
 									BlockPos.containing(x + (sizeX - offset) / 2 + structureOffsetX, structureOffsetY, z + (sizeZ - offset) / 2 + structureOffsetZ),

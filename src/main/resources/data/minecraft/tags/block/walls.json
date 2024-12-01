@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "tale_of_biomes:large_brick_wall",
+    "tale_of_biomes:brick_wall",
+    "tale_of_biomes:marble_wall",
+    "tale_of_biomes:cobbled_marble_wall",
+    "tale_of_biomes:mossy_cobbled_marble_wall",
+    "tale_of_biomes:polished_marble_wall",
+    "tale_of_biomes:basalt_wall",
+    "tale_of_biomes:cobbled_basalt_wall",
+    "tale_of_biomes:mossy_cobbled_basalt_wall",
+    "tale_of_biomes:polished_basalt_wall",
+    "tale_of_biomes:shale_wall",
+    "tale_of_biomes:polished_shale_wall",
+    "tale_of_biomes:cobbled_shale_wall",
+    "tale_of_biomes:mossy_cobbled_shale_wall"
+  ]
+}

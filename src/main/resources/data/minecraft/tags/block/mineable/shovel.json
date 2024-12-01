@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "tale_of_biomes:packed_dirt",
+    "tale_of_biomes:clay_block",
+    "tale_of_biomes:gravel",
+    "tale_of_biomes:tilled_soil",
+    "tale_of_biomes:fertile_soil",
+    "tale_of_biomes:sand",
+    "tale_of_biomes:dirt",
+    "tale_of_biomes:grass_block"
+  ]
+}

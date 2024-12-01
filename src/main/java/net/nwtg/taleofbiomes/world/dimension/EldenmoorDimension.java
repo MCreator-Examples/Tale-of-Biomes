@@ -26,7 +26,7 @@ public class EldenmoorDimension {
 					return false;
 				}
 			};
-			event.register(new ResourceLocation("tale_of_biomes:eldenmoor"), customEffect);
+			event.register(ResourceLocation.parse("tale_of_biomes:eldenmoor"), customEffect);
 		}
 	}
 }

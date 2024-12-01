@@ -91,25 +91,25 @@ public class SmallPiruffTreeFeatureTerrainEditorAddonProcedure {
 						dynamicPosZ = dynamicPosZ + posZ;
 						if (Mth.nextInt(RandomSource.create(), 1, (int) randomChance) == 1) {
 							if (useSurfaceReplaceMode && useSingleFillBlock && (world.getBlockState(BlockPos.containing(dynamicPosX, dynamicPosY, dynamicPosZ))).getBlock() == Blocks.AIR
-									&& (world.getBlockState(BlockPos.containing(dynamicPosX, dynamicPosY - 1, dynamicPosZ))).is(BlockTags.create(new ResourceLocation((selectionBlockTag).toLowerCase(java.util.Locale.ENGLISH))))) {
+									&& (world.getBlockState(BlockPos.containing(dynamicPosX, dynamicPosY - 1, dynamicPosZ))).is(BlockTags.create(ResourceLocation.parse((selectionBlockTag).toLowerCase(java.util.Locale.ENGLISH))))) {
 								world.setBlock(BlockPos.containing(dynamicPosX, dynamicPosY, dynamicPosZ), singleFillBlock, 3);
 							} else if (useSurfaceReplaceMode && !useSingleFillBlock && (world.getBlockState(BlockPos.containing(dynamicPosX, dynamicPosY, dynamicPosZ))).getBlock() == Blocks.AIR
-									&& (world.getBlockState(BlockPos.containing(dynamicPosX, dynamicPosY - 1, dynamicPosZ))).is(BlockTags.create(new ResourceLocation((selectionBlockTag).toLowerCase(java.util.Locale.ENGLISH))))) {
-								world.setBlock(BlockPos.containing(dynamicPosX, dynamicPosY, dynamicPosZ), (BuiltInRegistries.BLOCK.getOrCreateTag(BlockTags.create(new ResourceLocation((randomFillBlockTag).toLowerCase(java.util.Locale.ENGLISH))))
+									&& (world.getBlockState(BlockPos.containing(dynamicPosX, dynamicPosY - 1, dynamicPosZ))).is(BlockTags.create(ResourceLocation.parse((selectionBlockTag).toLowerCase(java.util.Locale.ENGLISH))))) {
+								world.setBlock(BlockPos.containing(dynamicPosX, dynamicPosY, dynamicPosZ), (BuiltInRegistries.BLOCK.getOrCreateTag(BlockTags.create(ResourceLocation.parse((randomFillBlockTag).toLowerCase(java.util.Locale.ENGLISH))))
 										.getRandomElement(RandomSource.create()).orElseGet(() -> BuiltInRegistries.BLOCK.wrapAsHolder(Blocks.AIR)).value()).defaultBlockState(), 3);
 							} else if (!useSurfaceReplaceMode && useSingleFillBlock
-									&& (world.getBlockState(BlockPos.containing(dynamicPosX, dynamicPosY, dynamicPosZ))).is(BlockTags.create(new ResourceLocation((selectionBlockTag).toLowerCase(java.util.Locale.ENGLISH))))) {
+									&& (world.getBlockState(BlockPos.containing(dynamicPosX, dynamicPosY, dynamicPosZ))).is(BlockTags.create(ResourceLocation.parse((selectionBlockTag).toLowerCase(java.util.Locale.ENGLISH))))) {
 								world.setBlock(BlockPos.containing(dynamicPosX, dynamicPosY, dynamicPosZ), singleFillBlock, 3);
 							} else if (!useSurfaceReplaceMode && !useSingleFillBlock
-									&& (world.getBlockState(BlockPos.containing(dynamicPosX, dynamicPosY, dynamicPosZ))).is(BlockTags.create(new ResourceLocation((selectionBlockTag).toLowerCase(java.util.Locale.ENGLISH))))) {
-								world.setBlock(BlockPos.containing(dynamicPosX, dynamicPosY, dynamicPosZ), (BuiltInRegistries.BLOCK.getOrCreateTag(BlockTags.create(new ResourceLocation((randomFillBlockTag).toLowerCase(java.util.Locale.ENGLISH))))
+									&& (world.getBlockState(BlockPos.containing(dynamicPosX, dynamicPosY, dynamicPosZ))).is(BlockTags.create(ResourceLocation.parse((selectionBlockTag).toLowerCase(java.util.Locale.ENGLISH))))) {
+								world.setBlock(BlockPos.containing(dynamicPosX, dynamicPosY, dynamicPosZ), (BuiltInRegistries.BLOCK.getOrCreateTag(BlockTags.create(ResourceLocation.parse((randomFillBlockTag).toLowerCase(java.util.Locale.ENGLISH))))
 										.getRandomElement(RandomSource.create()).orElseGet(() -> BuiltInRegistries.BLOCK.wrapAsHolder(Blocks.AIR)).value()).defaultBlockState(), 3);
 							}
 							if (useUnderReplaceMode && useSingleUnderFillBlock && !((world.getBlockState(BlockPos.containing(dynamicPosX, dynamicPosY, dynamicPosZ))).getBlock() == Blocks.AIR)) {
 								world.setBlock(BlockPos.containing(dynamicPosX, dynamicPosY - 1, dynamicPosZ), singleUnderFillBlock, 3);
 							} else if (useUnderReplaceMode && !useSingleUnderFillBlock && !((world.getBlockState(BlockPos.containing(dynamicPosX, dynamicPosY, dynamicPosZ))).getBlock() == Blocks.AIR)) {
 								world.setBlock(BlockPos.containing(dynamicPosX, dynamicPosY - 1, dynamicPosZ),
-										(BuiltInRegistries.BLOCK.getOrCreateTag(BlockTags.create(new ResourceLocation((randomUnderFillBlockTag).toLowerCase(java.util.Locale.ENGLISH)))).getRandomElement(RandomSource.create())
+										(BuiltInRegistries.BLOCK.getOrCreateTag(BlockTags.create(ResourceLocation.parse((randomUnderFillBlockTag).toLowerCase(java.util.Locale.ENGLISH)))).getRandomElement(RandomSource.create())
 												.orElseGet(() -> BuiltInRegistries.BLOCK.wrapAsHolder(Blocks.AIR)).value()).defaultBlockState(),
 										3);
 							}

@@ -6,6 +6,7 @@ package net.nwtg.taleofbiomes.init;
 
 import net.nwtg.taleofbiomes.client.gui.PiruffBarrelInventoryScreen;
 import net.nwtg.taleofbiomes.client.gui.KilnScreenScreen;
+import net.nwtg.taleofbiomes.client.gui.CrusherUIScreen;
 import net.nwtg.taleofbiomes.client.gui.CraftingTableMenuScreen;
 import net.nwtg.taleofbiomes.client.gui.CraftingTableMenuRecipeBookScreen;
 import net.nwtg.taleofbiomes.client.gui.BasicToolTableMenuScreen;
@@ -30,5 +31,6 @@ public class TaleOfBiomesModScreens {
 		event.register(TaleOfBiomesModMenus.BASIC_TOOL_TABLE_MENU_RECIPE_BOOK.get(), BasicToolTableMenuRecipeBookScreen::new);
 		event.register(TaleOfBiomesModMenus.CRAFTING_TABLE_MENU.get(), CraftingTableMenuScreen::new);
 		event.register(TaleOfBiomesModMenus.CRAFTING_TABLE_MENU_RECIPE_BOOK.get(), CraftingTableMenuRecipeBookScreen::new);
+		event.register(TaleOfBiomesModMenus.CRUSHER_UI.get(), CrusherUIScreen::new);
 	}
 }

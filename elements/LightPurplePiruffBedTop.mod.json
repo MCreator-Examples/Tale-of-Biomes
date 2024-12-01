@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 69,
   "_type": "block",
   "definition": {
     "texture": "light_purple_piruff_bed_block",
@@ -87,6 +87,7 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Light Purple Piruff Bed Top",
     "specialInformation": {
       "fixedValue": []

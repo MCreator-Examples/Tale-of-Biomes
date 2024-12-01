@@ -34,6 +34,9 @@ public class GenerateKilnRecipeFileProcedure {
 			}
 			GenerateKilnRecipe1Procedure.execute();
 			GenerateKilnRecipe2Procedure.execute();
+			GenerateKilnRecipe3Procedure.execute();
+			GenerateKilnRecipe4Procedure.execute();
+			GenerateKilnRecipe5Procedure.execute();
 		} else {
 			{
 				try {
@@ -67,6 +70,9 @@ public class GenerateKilnRecipeFileProcedure {
 				}
 				GenerateKilnRecipe1Procedure.execute();
 				GenerateKilnRecipe2Procedure.execute();
+				GenerateKilnRecipe3Procedure.execute();
+				GenerateKilnRecipe4Procedure.execute();
+				GenerateKilnRecipe5Procedure.execute();
 			}
 		}
 	}

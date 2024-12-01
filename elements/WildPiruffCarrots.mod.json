@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 69,
   "_type": "plant",
   "definition": {
     "renderType": 12,
@@ -15,7 +15,7 @@
     "suspiciousStewDuration": 100,
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
-    "customBoundingBox": false,
+    "customBoundingBox": true,
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -34,7 +34,7 @@
     },
     "creativeTabs": [
       {
-        "value": "DECORATIONS"
+        "value": "CUSTOM:TOBBlocksTab"
       }
     ],
     "hardness": 0.0,

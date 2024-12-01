@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "copper_dust_block",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:neoforge:dusts/mixed_copper"
+      },
+      {
+        "value": "TAG:neoforge:dusts/mixed_copper"
+      },
+      {
+        "value": "TAG:neoforge:dusts/mixed_copper"
+      },
+      {
+        "value": "TAG:neoforge:dusts/mixed_copper"
+      },
+      {
+        "value": "TAG:neoforge:dusts/mixed_copper"
+      },
+      {
+        "value": "TAG:neoforge:dusts/mixed_copper"
+      },
+      {
+        "value": "TAG:neoforge:dusts/mixed_copper"
+      },
+      {
+        "value": "TAG:neoforge:dusts/mixed_copper"
+      },
+      {
+        "value": "TAG:neoforge:dusts/mixed_copper"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MixedCopperDustBlock"
+    },
+    "name": "mixed_copper_dust_block_crafting",
+    "namespace": "mod"
+  }
+}

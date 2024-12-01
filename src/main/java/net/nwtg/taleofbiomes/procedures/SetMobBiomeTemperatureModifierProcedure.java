@@ -20,16 +20,16 @@ public class SetMobBiomeTemperatureModifierProcedure {
 			nX = eEntity.getX();
 			nY = eEntity.getY();
 			nZ = eEntity.getZ();
-			if (world.getBiome(BlockPos.containing(nX, nY, nZ)).is(TagKey.create(Registries.BIOME, new ResourceLocation("tale_of_biomes:temperature/hot")))
+			if (world.getBiome(BlockPos.containing(nX, nY, nZ)).is(TagKey.create(Registries.BIOME, ResourceLocation.parse("tale_of_biomes:temperature/hot")))
 					|| world.getBiome(BlockPos.containing(nX, nY, nZ)).value().getBaseTemperature() * 100f > 1.6 && world.getBiome(BlockPos.containing(nX, nY, nZ)).value().getBaseTemperature() * 100f <= 2) {
 				eEntity.getPersistentData().putDouble("tobBiomeTemperature", 15);
-			} else if (world.getBiome(BlockPos.containing(nX, nY, nZ)).is(TagKey.create(Registries.BIOME, new ResourceLocation("tale_of_biomes:temperature/toasty")))
+			} else if (world.getBiome(BlockPos.containing(nX, nY, nZ)).is(TagKey.create(Registries.BIOME, ResourceLocation.parse("tale_of_biomes:temperature/toasty")))
 					|| world.getBiome(BlockPos.containing(nX, nY, nZ)).value().getBaseTemperature() * 100f > 0.8 && world.getBiome(BlockPos.containing(nX, nY, nZ)).value().getBaseTemperature() * 100f <= 1.6) {
 				eEntity.getPersistentData().putDouble("tobBiomeTemperature", 10);
-			} else if (world.getBiome(BlockPos.containing(nX, nY, nZ)).is(TagKey.create(Registries.BIOME, new ResourceLocation("tale_of_biomes:temperature/chilly")))
+			} else if (world.getBiome(BlockPos.containing(nX, nY, nZ)).is(TagKey.create(Registries.BIOME, ResourceLocation.parse("tale_of_biomes:temperature/chilly")))
 					|| world.getBiome(BlockPos.containing(nX, nY, nZ)).value().getBaseTemperature() * 100f < -0.8 && world.getBiome(BlockPos.containing(nX, nY, nZ)).value().getBaseTemperature() * 100f >= -1.6) {
 				eEntity.getPersistentData().putDouble("tobBiomeTemperature", 0);
-			} else if (world.getBiome(BlockPos.containing(nX, nY, nZ)).is(TagKey.create(Registries.BIOME, new ResourceLocation("tale_of_biomes:temperature/cold")))
+			} else if (world.getBiome(BlockPos.containing(nX, nY, nZ)).is(TagKey.create(Registries.BIOME, ResourceLocation.parse("tale_of_biomes:temperature/cold")))
 					|| world.getBiome(BlockPos.containing(nX, nY, nZ)).value().getBaseTemperature() * 100f < -1.6 && world.getBiome(BlockPos.containing(nX, nY, nZ)).value().getBaseTemperature() * 100f >= -2) {
 				eEntity.getPersistentData().putDouble("tobBiomeTemperature", (-5));
 			} else {

@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[2,)"
+loaderVersion="[4,)"
 license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
@@ -19,14 +19,14 @@ description="Tale of Biomes is a Minecraft mod that I am working on as part of t
 [[dependencies.tale_of_biomes]]
     modId="neoforge"
     type="required"
-    versionRange="[20.6.117,)"
+    versionRange="[21.1.65,)"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.tale_of_biomes]]
     modId="minecraft"
     type="required"
-    versionRange="[1.20.6]"
+    versionRange="[1.21.1]"
     ordering="AFTER"
     side="BOTH"
 

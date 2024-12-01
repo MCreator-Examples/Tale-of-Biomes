@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "large_brick_slab",
+  "ingredient": {
+    "item": "tale_of_biomes:large_bricks"
+  },
+  "result": {
+    "id": "tale_of_biomes:large_brick_slab",
+    "count": 2
+  }
+}

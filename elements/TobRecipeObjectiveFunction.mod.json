@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 69,
   "_type": "function",
   "definition": {
     "code": "scoreboard objectives add tobMinedPiruffLog minecraft.mined:tale_of_biomes.piruff_log\nscoreboard objectives add tobMinedPiruffWood minecraft.mined:tale_of_biomes.piruff_wood\nscoreboard objectives add tobMinedStone minecraft.mined:tale_of_biomes.stone",

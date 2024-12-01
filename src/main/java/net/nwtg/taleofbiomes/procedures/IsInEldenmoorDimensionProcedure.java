@@ -9,6 +9,6 @@ import net.minecraft.core.registries.Registries;
 
 public class IsInEldenmoorDimensionProcedure {
 	public static boolean execute(LevelAccessor world) {
-		return (world instanceof Level _lvl ? _lvl.dimension() : (world instanceof WorldGenLevel _wgl ? _wgl.getLevel().dimension() : Level.OVERWORLD)) == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("tale_of_biomes:eldenmoor"));
+		return (world instanceof Level _lvl ? _lvl.dimension() : (world instanceof WorldGenLevel _wgl ? _wgl.getLevel().dimension() : Level.OVERWORLD)) == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("tale_of_biomes:eldenmoor"));
 	}
 }

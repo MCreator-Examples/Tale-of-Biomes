@@ -97,7 +97,7 @@ public class BreakKilnScriptProcedure {
 								Block.dropResources(world.getBlockState(_pos), world, BlockPos.containing(entity.getX(), entity.getY(), entity.getZ()), null);
 								world.destroyBlock(_pos, false);
 							}
-						} else if ((world.getBlockState(BlockPos.containing(posX, posY, posZ))).is(BlockTags.create(new ResourceLocation(((myNamespace + ":" + myPlacementTag)).toLowerCase(java.util.Locale.ENGLISH)))) && group == new Object() {
+						} else if ((world.getBlockState(BlockPos.containing(posX, posY, posZ))).is(BlockTags.create(ResourceLocation.parse(((myNamespace + ":" + myPlacementTag)).toLowerCase(java.util.Locale.ENGLISH)))) && group == new Object() {
 							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 								BlockEntity blockEntity = world.getBlockEntity(pos);
 								if (blockEntity != null)

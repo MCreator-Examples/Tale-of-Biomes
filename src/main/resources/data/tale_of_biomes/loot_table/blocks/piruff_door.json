@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "tale_of_biomes:blocks/piruff_door",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tale_of_biomes:piruff_door",
+          "conditions": [
+            {
+              "block": "tale_of_biomes:piruff_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

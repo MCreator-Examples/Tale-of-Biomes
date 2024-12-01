@@ -24,6 +24,7 @@ import net.minecraft.util.Mth;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -54,9 +55,9 @@ public class PlayerStripsModLogsProcedure {
 		String sNamespace = "";
 		itMainHand = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
 		blLog = blockstate;
-		if (blLog.is(BlockTags.create(new ResourceLocation("tale_of_biomes:logs/bark"))) && itMainHand.getItem() instanceof AxeItem) {
+		if (blLog.is(BlockTags.create(ResourceLocation.parse("tale_of_biomes:logs/bark"))) && itMainHand.getItem() instanceof AxeItem) {
 			sNamespace = TaleOfBiomesModVariables.MapVariables.get(world).modNamespace;
-			blStripped = BuiltInRegistries.BLOCK.get(new ResourceLocation(((sNamespace + ":" + "stripped_" + (BuiltInRegistries.BLOCK.getKey(blLog.getBlock()).toString()).replace(sNamespace + ":", ""))).toLowerCase(java.util.Locale.ENGLISH)))
+			blStripped = BuiltInRegistries.BLOCK.get(ResourceLocation.parse(((sNamespace + ":" + "stripped_" + (BuiltInRegistries.BLOCK.getKey(blLog.getBlock()).toString()).replace(sNamespace + ":", ""))).toLowerCase(java.util.Locale.ENGLISH)))
 					.defaultBlockState();
 			{
 				BlockPos _bp = BlockPos.containing(x, y, z);
@@ -98,21 +99,19 @@ public class PlayerStripsModLogsProcedure {
 					return false;
 				}
 			}.checkGamemode(entity))) {
-				{
-					ItemStack _ist = itMainHand;
-					_ist.hurtAndBreak(1, RandomSource.create(), null, () -> {
-						_ist.shrink(1);
-						_ist.setDamageValue(0);
+				if (world instanceof ServerLevel _level) {
+					itMainHand.hurtAndBreak(1, _level, null, _stkprov -> {
 					});
 				}
 			}
 			if (!world.isClientSide()) {
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x + 0.5, y + 0.5, z + 0.5), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("item.axe.strip")), SoundSource.BLOCKS, (float) 0.9,
+						_level.playSound(null, BlockPos.containing(x + 0.5, y + 0.5, z + 0.5), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("item.axe.strip")), SoundSource.BLOCKS, (float) 0.9,
 								(float) Mth.nextDouble(RandomSource.create(), 0.85, 1));
 					} else {
-						_level.playLocalSound((x + 0.5), (y + 0.5), (z + 0.5), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("item.axe.strip")), SoundSource.BLOCKS, (float) 0.9, (float) Mth.nextDouble(RandomSource.create(), 0.85, 1), false);
+						_level.playLocalSound((x + 0.5), (y + 0.5), (z + 0.5), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("item.axe.strip")), SoundSource.BLOCKS, (float) 0.9, (float) Mth.nextDouble(RandomSource.create(), 0.85, 1),
+								false);
 					}
 				}
 			}

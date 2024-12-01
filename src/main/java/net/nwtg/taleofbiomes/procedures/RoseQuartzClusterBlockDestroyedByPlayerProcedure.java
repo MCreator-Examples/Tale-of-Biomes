@@ -27,7 +27,7 @@ public class RoseQuartzClusterBlockDestroyedByPlayerProcedure {
 		double nY = 0;
 		double nZ = 0;
 		itMainHand = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
-		if (itMainHand.getItem() instanceof PickaxeItem && itMainHand.is(ItemTags.create(new ResourceLocation("tale_of_biomes:tools/rock")))) {
+		if (itMainHand.getItem() instanceof PickaxeItem && itMainHand.is(ItemTags.create(ResourceLocation.parse("tale_of_biomes:tools/rock")))) {
 			blBlock = blockstate;
 			nX = x + 0.5;
 			nY = y + 0.5;

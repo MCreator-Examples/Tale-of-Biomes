@@ -51,7 +51,7 @@ public class BasicStoneTableMenuScreen extends AbstractContainerScreen<BasicSton
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 
-		guiGraphics.blit(new ResourceLocation("tale_of_biomes:textures/screens/crafting_station_gui.png"), this.leftPos + 0, this.topPos + 0, 0, 0, 176, 166, 176, 166);
+		guiGraphics.blit(ResourceLocation.parse("tale_of_biomes:textures/screens/crafting_station_gui.png"), this.leftPos + 0, this.topPos + 0, 0, 0, 176, 166, 176, 166);
 
 		RenderSystem.disableBlend();
 	}
@@ -76,7 +76,7 @@ public class BasicStoneTableMenuScreen extends AbstractContainerScreen<BasicSton
 	public void init() {
 		super.init();
 		imagebutton_recipe_helper_button = new ImageButton(this.leftPos + 4, this.topPos + 41, 18, 18,
-				new WidgetSprites(new ResourceLocation("tale_of_biomes:textures/screens/recipe_helper_button.png"), new ResourceLocation("tale_of_biomes:textures/screens/recipe_helper_hover_button.png")), e -> {
+				new WidgetSprites(ResourceLocation.parse("tale_of_biomes:textures/screens/recipe_helper_button.png"), ResourceLocation.parse("tale_of_biomes:textures/screens/recipe_helper_hover_button.png")), e -> {
 					if (true) {
 						PacketDistributor.sendToServer(new BasicStoneTableMenuButtonMessage(0, x, y, z));
 						BasicStoneTableMenuButtonMessage.handleButtonAction(entity, 0, x, y, z);

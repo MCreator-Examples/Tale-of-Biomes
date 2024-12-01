@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 69,
   "_type": "block",
   "definition": {
     "texture": "minecraft:flower_pot",
@@ -69,6 +69,7 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Blue Aster Flower Pot",
     "specialInformation": {
       "fixedValue": []

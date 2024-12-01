@@ -4,6 +4,9 @@ package net.nwtg.taleofbiomes.block;
 import net.nwtg.taleofbiomes.procedures.WildPiruffCarrotsOnTickUpdateProcedure;
 import net.nwtg.taleofbiomes.init.TaleOfBiomesModBlocks;
 
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.BlockState;
@@ -20,6 +23,12 @@ import net.minecraft.core.BlockPos;
 public class WildPiruffCarrotsBlock extends FlowerBlock {
 	public WildPiruffCarrotsBlock() {
 		super(MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).randomTicks().sound(SoundType.CROP).instabreak().noCollission().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+	}
+
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		Vec3 offset = state.getOffset(world, pos);
+		return box(0, 0, 0, 16, 16, 16).move(offset.x, offset.y, offset.z);
 	}
 
 	@Override

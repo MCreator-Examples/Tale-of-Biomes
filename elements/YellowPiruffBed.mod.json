@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 69,
   "_type": "block",
   "definition": {
     "texture": "yellow_piruff_bed_block",
@@ -69,6 +69,7 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Yellow Piruff Bed",
     "specialInformation": {
       "fixedValue": []

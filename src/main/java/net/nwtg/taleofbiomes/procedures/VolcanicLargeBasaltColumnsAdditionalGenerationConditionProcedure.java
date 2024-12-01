@@ -49,23 +49,23 @@ public class VolcanicLargeBasaltColumnsAdditionalGenerationConditionProcedure {
 		for (int index0 = 0; index0 < (int) StructureSizeZ; index0++) {
 			for (int index1 = 0; index1 < (int) StructureSizeX; index1++) {
 				if (EnableTagSupport) {
-					if ((world.getBlockState(BlockPos.containing(PositionOffsetX + PositionX, y + 1 + PositionOffsetY, PositionOffsetZ + PositionZ))).is(BlockTags.create(new ResourceLocation((AirTagName).toLowerCase(java.util.Locale.ENGLISH))))
+					if ((world.getBlockState(BlockPos.containing(PositionOffsetX + PositionX, y + 1 + PositionOffsetY, PositionOffsetZ + PositionZ))).is(BlockTags.create(ResourceLocation.parse((AirTagName).toLowerCase(java.util.Locale.ENGLISH))))
 							&& (world.getBlockState(BlockPos.containing(PositionOffsetX + PositionX, y + PositionOffsetY, PositionOffsetZ + PositionZ)))
-									.is(BlockTags.create(new ResourceLocation((TopSoilTagName).toLowerCase(java.util.Locale.ENGLISH))))
+									.is(BlockTags.create(ResourceLocation.parse((TopSoilTagName).toLowerCase(java.util.Locale.ENGLISH))))
 							&& (world.getBlockState(BlockPos.containing(PositionOffsetX + PositionX, y - 1 + PositionOffsetY, PositionOffsetZ + PositionZ)))
-									.is(BlockTags.create(new ResourceLocation((UnderSoilTagName).toLowerCase(java.util.Locale.ENGLISH))))
+									.is(BlockTags.create(ResourceLocation.parse((UnderSoilTagName).toLowerCase(java.util.Locale.ENGLISH))))
 							|| (world.getBlockState(BlockPos.containing(PositionOffsetX + PositionX, y + 1 + PositionOffsetY, PositionOffsetZ + PositionZ)))
-									.is(BlockTags.create(new ResourceLocation((AirTagName).toLowerCase(java.util.Locale.ENGLISH))))
+									.is(BlockTags.create(ResourceLocation.parse((AirTagName).toLowerCase(java.util.Locale.ENGLISH))))
 									&& (world.getBlockState(BlockPos.containing(PositionOffsetX + PositionX, y + PositionOffsetY, PositionOffsetZ + PositionZ)))
-											.is(BlockTags.create(new ResourceLocation((AirTagName).toLowerCase(java.util.Locale.ENGLISH))))
+											.is(BlockTags.create(ResourceLocation.parse((AirTagName).toLowerCase(java.util.Locale.ENGLISH))))
 									&& (world.getBlockState(BlockPos.containing(PositionOffsetX + PositionX, y - 1 + PositionOffsetY, PositionOffsetZ + PositionZ)))
-											.is(BlockTags.create(new ResourceLocation((TopSoilTagName).toLowerCase(java.util.Locale.ENGLISH))))
+											.is(BlockTags.create(ResourceLocation.parse((TopSoilTagName).toLowerCase(java.util.Locale.ENGLISH))))
 							|| (world.getBlockState(BlockPos.containing(PositionOffsetX + PositionX, y + 1 + PositionOffsetY, PositionOffsetZ + PositionZ)))
-									.is(BlockTags.create(new ResourceLocation((TopSoilTagName).toLowerCase(java.util.Locale.ENGLISH))))
+									.is(BlockTags.create(ResourceLocation.parse((TopSoilTagName).toLowerCase(java.util.Locale.ENGLISH))))
 									&& (world.getBlockState(BlockPos.containing(PositionOffsetX + PositionX, y + PositionOffsetY, PositionOffsetZ + PositionZ)))
-											.is(BlockTags.create(new ResourceLocation((UnderSoilTagName).toLowerCase(java.util.Locale.ENGLISH))))
+											.is(BlockTags.create(ResourceLocation.parse((UnderSoilTagName).toLowerCase(java.util.Locale.ENGLISH))))
 									&& (world.getBlockState(BlockPos.containing(PositionOffsetX + PositionX, y - 1 + PositionOffsetY, PositionOffsetZ + PositionZ)))
-											.is(BlockTags.create(new ResourceLocation((UnderSoilTagName).toLowerCase(java.util.Locale.ENGLISH))))) {
+											.is(BlockTags.create(ResourceLocation.parse((UnderSoilTagName).toLowerCase(java.util.Locale.ENGLISH))))) {
 						DontSpawnStructure = false;
 					} else {
 						DontSpawnStructure = true;
@@ -112,9 +112,9 @@ public class VolcanicLargeBasaltColumnsAdditionalGenerationConditionProcedure {
 					if (EnableSoilReplacement) {
 						if (EnableTagSupport) {
 							if ((world.getBlockState(BlockPos.containing(PositionOffsetX + PositionX, y - 1 + PositionOffsetY, PositionOffsetZ + PositionZ)))
-									.is(BlockTags.create(new ResourceLocation((TopSoilTagName).toLowerCase(java.util.Locale.ENGLISH))))
+									.is(BlockTags.create(ResourceLocation.parse((TopSoilTagName).toLowerCase(java.util.Locale.ENGLISH))))
 									&& !(world.getBlockState(BlockPos.containing(PositionOffsetX + PositionX, y + PositionOffsetY, PositionOffsetZ + PositionZ)))
-											.is(BlockTags.create(new ResourceLocation((AirTagName).toLowerCase(java.util.Locale.ENGLISH))))) {
+											.is(BlockTags.create(ResourceLocation.parse((AirTagName).toLowerCase(java.util.Locale.ENGLISH))))) {
 								world.setBlock(BlockPos.containing(PositionOffsetX + PositionX, y - 1 + PositionOffsetY, PositionOffsetZ + PositionZ),
 										(UnderSoil.getItem() instanceof BlockItem _bi ? _bi.getBlock().defaultBlockState() : Blocks.AIR.defaultBlockState()), 3);
 							}
@@ -130,7 +130,7 @@ public class VolcanicLargeBasaltColumnsAdditionalGenerationConditionProcedure {
 					} else {
 						if (EnableTagSupport) {
 							if ((world.getBlockState(BlockPos.containing(PositionOffsetX + PositionX, y - 1 + PositionOffsetY, PositionOffsetZ + PositionZ)))
-									.is(BlockTags.create(new ResourceLocation((TopSoilTagName).toLowerCase(java.util.Locale.ENGLISH))))) {
+									.is(BlockTags.create(ResourceLocation.parse((TopSoilTagName).toLowerCase(java.util.Locale.ENGLISH))))) {
 								world.setBlock(BlockPos.containing(PositionOffsetX + PositionX, y - 1 + PositionOffsetY, PositionOffsetZ + PositionZ),
 										(UnderSoil.getItem() instanceof BlockItem _bi ? _bi.getBlock().defaultBlockState() : Blocks.AIR.defaultBlockState()), 3);
 							}

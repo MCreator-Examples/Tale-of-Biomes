@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "tale_of_biomes:blocks/mossy_cobbled_shale",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tale_of_biomes:mossy_cobbled_shale"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "tale_of_biomes:kiln_ladder",
+    "tale_of_biomes:kiln_block_corner_bottom",
+    "tale_of_biomes:kiln_block_corner_center",
+    "tale_of_biomes:kiln_block_corner_top",
+    "tale_of_biomes:kiln_block_middle_bottom",
+    "tale_of_biomes:kiln_block_middle_center",
+    "tale_of_biomes:kiln_block_middle_top",
+    "tale_of_biomes:kiln_block_foundation",
+    "minecraft:bedrock",
+    "minecraft:command_block",
+    "minecraft:repeating_command_block",
+    "minecraft:chain_command_block",
+    "minecraft:barrier",
+    "minecraft:structure_block",
+    "minecraft:jigsaw"
+  ]
+}

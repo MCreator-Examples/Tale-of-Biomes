@@ -22,8 +22,8 @@ public class RiceSeedsRightclickedOnBlockProcedure {
 		if (entity == null)
 			return;
 		if (itemstack.getItem() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()
-				&& blockstate.is(BlockTags.create(new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "tilled_soil")).toLowerCase(java.util.Locale.ENGLISH))))
-				&& (world.getBlockState(BlockPos.containing(x, y + 1, z))).is(BlockTags.create(new ResourceLocation((("minecraft" + ":" + "air")).toLowerCase(java.util.Locale.ENGLISH))))) {
+				&& blockstate.is(BlockTags.create(ResourceLocation.parse(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "tilled_soil")).toLowerCase(java.util.Locale.ENGLISH))))
+				&& (world.getBlockState(BlockPos.containing(x, y + 1, z))).is(BlockTags.create(ResourceLocation.parse((("minecraft" + ":" + "air")).toLowerCase(java.util.Locale.ENGLISH))))) {
 			world.setBlock(BlockPos.containing(x, y + 1, z), TaleOfBiomesModBlocks.RICE_CROP.get().defaultBlockState(), 3);
 			if (!(new Object() {
 				public boolean checkGamemode(Entity _ent) {

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:air",
+    "#tale_of_biomes:flowers/eldenmoor",
+    "#tale_of_biomes:tall_grass/eldenmoor"
+  ]
+}

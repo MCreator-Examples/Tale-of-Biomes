@@ -30,7 +30,7 @@ public class GrassBlockSpreadingMechanicsProcedure {
 					for (int index1 = 0; index1 < 3; index1++) {
 						for (int index2 = 0; index2 < 3; index2++) {
 							if ((world.getBlockState(BlockPos.containing(posX, posY, posZ))).getBlock() == TaleOfBiomesModBlocks.DIRT.get()
-									&& (world.getMaxLocalRawBrightness(BlockPos.containing(posX, posY + 1, posZ)) >= 8 || (world.getBlockState(BlockPos.containing(posX, posY + 1, posZ))).is(BlockTags.create(new ResourceLocation("minecraft:air")))
+									&& (world.getMaxLocalRawBrightness(BlockPos.containing(posX, posY + 1, posZ)) >= 8 || (world.getBlockState(BlockPos.containing(posX, posY + 1, posZ))).is(BlockTags.create(ResourceLocation.parse("minecraft:air")))
 											|| !world.getBlockState(BlockPos.containing(posX, posY + 1, posZ)).isFaceSturdy(world, BlockPos.containing(posX, posY + 1, posZ), Direction.DOWN))) {
 								foundBlock = true;
 								break;
@@ -57,7 +57,7 @@ public class GrassBlockSpreadingMechanicsProcedure {
 				}
 			}
 			if (world instanceof Level _lvl9 && _lvl9.isDay() && !world.canSeeSkyFromBelowWater(BlockPos.containing(x, y + 1, z)) && world.getMaxLocalRawBrightness(BlockPos.containing(x, y + 1, z)) < 8
-					|| !(world.getBlockState(BlockPos.containing(x, y + 1, z))).is(BlockTags.create(new ResourceLocation("minecraft:air")))
+					|| !(world.getBlockState(BlockPos.containing(x, y + 1, z))).is(BlockTags.create(ResourceLocation.parse("minecraft:air")))
 							&& world.getBlockState(BlockPos.containing(x, y + 1, z)).isFaceSturdy(world, BlockPos.containing(x, y + 1, z), Direction.DOWN)) {
 				if (world instanceof ServerLevel _level)
 					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),

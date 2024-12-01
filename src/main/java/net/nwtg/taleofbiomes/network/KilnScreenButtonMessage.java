@@ -25,7 +25,7 @@ import java.util.HashMap;
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public record KilnScreenButtonMessage(int buttonID, int x, int y, int z) implements CustomPacketPayload {
 
-	public static final Type<KilnScreenButtonMessage> TYPE = new Type<>(new ResourceLocation(TaleOfBiomesMod.MODID, "kiln_screen_buttons"));
+	public static final Type<KilnScreenButtonMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(TaleOfBiomesMod.MODID, "kiln_screen_buttons"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, KilnScreenButtonMessage> STREAM_CODEC = StreamCodec.of((RegistryFriendlyByteBuf buffer, KilnScreenButtonMessage message) -> {
 		buffer.writeInt(message.buttonID);
 		buffer.writeInt(message.x);

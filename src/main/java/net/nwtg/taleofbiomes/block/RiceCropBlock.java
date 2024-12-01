@@ -307,6 +307,7 @@ public class RiceCropBlock extends Block implements EntityBlock, BonemealableBlo
 
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
+		super.createBlockStateDefinition(builder);
 		builder.add(BLOCKSTATE);
 	}
 

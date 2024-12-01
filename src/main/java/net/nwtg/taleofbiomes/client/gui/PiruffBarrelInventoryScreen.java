@@ -36,7 +36,7 @@ public class PiruffBarrelInventoryScreen extends AbstractContainerScreen<PiruffB
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("tale_of_biomes:textures/screens/piruff_barrel_inventory.png");
+	private static final ResourceLocation texture = ResourceLocation.parse("tale_of_biomes:textures/screens/piruff_barrel_inventory.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {

@@ -40,8 +40,8 @@ public class BedBlockAddedProcedure {
 				_prop = _bs.getBlock().getStateDefinition().getProperty("axis");
 				return _prop instanceof EnumProperty _ep && _ep.getPossibleValues().toArray()[0] instanceof Direction.Axis ? Direction.fromAxisAndDirection((Direction.Axis) _bs.getValue(_ep), Direction.AxisDirection.POSITIVE) : Direction.NORTH;
 			}
-		}.getDirection(blockstate)) == Direction.NORTH && ((world.getBlockState(BlockPos.containing(x, y, z + 1))).is(BlockTags.create(new ResourceLocation((air).toLowerCase(java.util.Locale.ENGLISH))))
-				|| (world.getBlockState(BlockPos.containing(x, y, z + 1))).is(BlockTags.create(new ResourceLocation((water).toLowerCase(java.util.Locale.ENGLISH)))))) {
+		}.getDirection(blockstate)) == Direction.NORTH && ((world.getBlockState(BlockPos.containing(x, y, z + 1))).is(BlockTags.create(ResourceLocation.parse((air).toLowerCase(java.util.Locale.ENGLISH))))
+				|| (world.getBlockState(BlockPos.containing(x, y, z + 1))).is(BlockTags.create(ResourceLocation.parse((water).toLowerCase(java.util.Locale.ENGLISH)))))) {
 			{
 				BlockPos _bp = BlockPos.containing(x, y, z + 1);
 				BlockState _bs = top;
@@ -87,8 +87,8 @@ public class BedBlockAddedProcedure {
 				_prop = _bs.getBlock().getStateDefinition().getProperty("axis");
 				return _prop instanceof EnumProperty _ep && _ep.getPossibleValues().toArray()[0] instanceof Direction.Axis ? Direction.fromAxisAndDirection((Direction.Axis) _bs.getValue(_ep), Direction.AxisDirection.POSITIVE) : Direction.NORTH;
 			}
-		}.getDirection(blockstate)) == Direction.EAST && ((world.getBlockState(BlockPos.containing(x - 1, y, z))).is(BlockTags.create(new ResourceLocation((air).toLowerCase(java.util.Locale.ENGLISH))))
-				|| (world.getBlockState(BlockPos.containing(x - 1, y, z))).is(BlockTags.create(new ResourceLocation((water).toLowerCase(java.util.Locale.ENGLISH)))))) {
+		}.getDirection(blockstate)) == Direction.EAST && ((world.getBlockState(BlockPos.containing(x - 1, y, z))).is(BlockTags.create(ResourceLocation.parse((air).toLowerCase(java.util.Locale.ENGLISH))))
+				|| (world.getBlockState(BlockPos.containing(x - 1, y, z))).is(BlockTags.create(ResourceLocation.parse((water).toLowerCase(java.util.Locale.ENGLISH)))))) {
 			{
 				BlockPos _bp = BlockPos.containing(x - 1, y, z);
 				BlockState _bs = top;
@@ -134,8 +134,8 @@ public class BedBlockAddedProcedure {
 				_prop = _bs.getBlock().getStateDefinition().getProperty("axis");
 				return _prop instanceof EnumProperty _ep && _ep.getPossibleValues().toArray()[0] instanceof Direction.Axis ? Direction.fromAxisAndDirection((Direction.Axis) _bs.getValue(_ep), Direction.AxisDirection.POSITIVE) : Direction.NORTH;
 			}
-		}.getDirection(blockstate)) == Direction.SOUTH && ((world.getBlockState(BlockPos.containing(x, y, z - 1))).is(BlockTags.create(new ResourceLocation((air).toLowerCase(java.util.Locale.ENGLISH))))
-				|| (world.getBlockState(BlockPos.containing(x, y, z - 1))).is(BlockTags.create(new ResourceLocation((water).toLowerCase(java.util.Locale.ENGLISH)))))) {
+		}.getDirection(blockstate)) == Direction.SOUTH && ((world.getBlockState(BlockPos.containing(x, y, z - 1))).is(BlockTags.create(ResourceLocation.parse((air).toLowerCase(java.util.Locale.ENGLISH))))
+				|| (world.getBlockState(BlockPos.containing(x, y, z - 1))).is(BlockTags.create(ResourceLocation.parse((water).toLowerCase(java.util.Locale.ENGLISH)))))) {
 			{
 				BlockPos _bp = BlockPos.containing(x, y, z - 1);
 				BlockState _bs = top;
@@ -181,8 +181,8 @@ public class BedBlockAddedProcedure {
 				_prop = _bs.getBlock().getStateDefinition().getProperty("axis");
 				return _prop instanceof EnumProperty _ep && _ep.getPossibleValues().toArray()[0] instanceof Direction.Axis ? Direction.fromAxisAndDirection((Direction.Axis) _bs.getValue(_ep), Direction.AxisDirection.POSITIVE) : Direction.NORTH;
 			}
-		}.getDirection(blockstate)) == Direction.WEST && ((world.getBlockState(BlockPos.containing(x + 1, y, z))).is(BlockTags.create(new ResourceLocation((air).toLowerCase(java.util.Locale.ENGLISH))))
-				|| (world.getBlockState(BlockPos.containing(x + 1, y, z))).is(BlockTags.create(new ResourceLocation((water).toLowerCase(java.util.Locale.ENGLISH)))))) {
+		}.getDirection(blockstate)) == Direction.WEST && ((world.getBlockState(BlockPos.containing(x + 1, y, z))).is(BlockTags.create(ResourceLocation.parse((air).toLowerCase(java.util.Locale.ENGLISH))))
+				|| (world.getBlockState(BlockPos.containing(x + 1, y, z))).is(BlockTags.create(ResourceLocation.parse((water).toLowerCase(java.util.Locale.ENGLISH)))))) {
 			{
 				BlockPos _bp = BlockPos.containing(x + 1, y, z);
 				BlockState _bs = top;
