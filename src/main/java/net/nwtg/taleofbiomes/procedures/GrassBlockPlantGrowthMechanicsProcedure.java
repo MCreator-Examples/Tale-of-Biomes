@@ -26,7 +26,7 @@ public class GrassBlockPlantGrowthMechanicsProcedure {
 		double posY = 0;
 		double posZ = 0;
 		double randomBlock = 0;
-		if (!world.isClientSide() && TaleOfBiomesModVariables.MapVariables.get(world).gnPlantTimer == 0 && (world.getBlockState(BlockPos.containing(x, y + 1, z))).is(BlockTags.create(new ResourceLocation("minecraft:air")))) {
+		if (!world.isClientSide() && TaleOfBiomesModVariables.MapVariables.get(world).gnPlantTimer == 0 && (world.getBlockState(BlockPos.containing(x, y + 1, z))).is(BlockTags.create(ResourceLocation.parse("minecraft:air")))) {
 			posX = x - 2;
 			posY = y - 2;
 			posZ = z - 2;
@@ -34,9 +34,9 @@ public class GrassBlockPlantGrowthMechanicsProcedure {
 				for (int index1 = 0; index1 < 5; index1++) {
 					for (int index2 = 0; index2 < 5; index2++) {
 						if ((world.getBlockState(BlockPos.containing(posX, posY, posZ)))
-								.is(BlockTags.create(new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "grass_blocks")).toLowerCase(java.util.Locale.ENGLISH))))
+								.is(BlockTags.create(ResourceLocation.parse(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "grass_blocks")).toLowerCase(java.util.Locale.ENGLISH))))
 								&& (world.getBlockState(BlockPos.containing(posX, posY + 1, posZ)))
-										.is(BlockTags.create(new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "grass_plants")).toLowerCase(java.util.Locale.ENGLISH))))) {
+										.is(BlockTags.create(ResourceLocation.parse(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "grass_plants")).toLowerCase(java.util.Locale.ENGLISH))))) {
 							plantCount = plantCount + 1;
 						}
 						posZ = posZ + 1;
@@ -49,24 +49,24 @@ public class GrassBlockPlantGrowthMechanicsProcedure {
 			}
 			if (IsInEldenmoorDimensionProcedure.execute(world)
 					&& (world.getBiome(BlockPos.containing(x, y + 1, z))
-							.is(TagKey.create(Registries.BIOME, new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "grass_growth/dense")).toLowerCase(java.util.Locale.ENGLISH)))) && plantCount <= 12
+							.is(TagKey.create(Registries.BIOME, ResourceLocation.parse(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "grass_growth/dense")).toLowerCase(java.util.Locale.ENGLISH)))) && plantCount <= 12
+							|| world.getBiome(BlockPos.containing(x, y + 1, z)).is(
+									TagKey.create(Registries.BIOME, ResourceLocation.parse(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "grass_growth/moderate")).toLowerCase(java.util.Locale.ENGLISH)))) && plantCount <= 6
 							|| world.getBiome(BlockPos.containing(x, y + 1, z))
-									.is(TagKey.create(Registries.BIOME, new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "grass_growth/moderate")).toLowerCase(java.util.Locale.ENGLISH)))) && plantCount <= 6
-							|| world.getBiome(BlockPos.containing(x, y + 1, z))
-									.is(TagKey.create(Registries.BIOME, new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "grass_growth/light")).toLowerCase(java.util.Locale.ENGLISH)))) && plantCount <= 3)
+									.is(TagKey.create(Registries.BIOME, ResourceLocation.parse(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "grass_growth/light")).toLowerCase(java.util.Locale.ENGLISH)))) && plantCount <= 3)
 					|| !IsInEldenmoorDimensionProcedure.execute(world) && plantCount <= 6) {
 				if (world.getBiome(BlockPos.containing(x, y + 1, z))
-						.is(TagKey.create(Registries.BIOME, new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "eldenmoor/flower_plains")).toLowerCase(java.util.Locale.ENGLISH))))) {
+						.is(TagKey.create(Registries.BIOME, ResourceLocation.parse(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "eldenmoor/flower_plains")).toLowerCase(java.util.Locale.ENGLISH))))) {
 					if (world instanceof ServerLevel _level)
 						_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, (y + 1), z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 								("execute if loaded ~ ~ ~ run setblock ~ ~ ~ " + BuiltInRegistries.BLOCK.getKey((BuiltInRegistries.BLOCK
-										.getOrCreateTag(BlockTags.create(new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "grass_growth/flower_plains")).toLowerCase(java.util.Locale.ENGLISH))))
+										.getOrCreateTag(BlockTags.create(ResourceLocation.parse(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "grass_growth/flower_plains")).toLowerCase(java.util.Locale.ENGLISH))))
 										.getRandomElement(RandomSource.create()).orElseGet(() -> BuiltInRegistries.BLOCK.wrapAsHolder(Blocks.AIR)).value())).toString() + " replace"));
 				} else {
 					if (world instanceof ServerLevel _level)
 						_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, (y + 1), z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 								("execute if loaded ~ ~ ~ run setblock ~ ~ ~ " + BuiltInRegistries.BLOCK.getKey((BuiltInRegistries.BLOCK
-										.getOrCreateTag(BlockTags.create(new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "grass_growth/defualt")).toLowerCase(java.util.Locale.ENGLISH))))
+										.getOrCreateTag(BlockTags.create(ResourceLocation.parse(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "grass_growth/defualt")).toLowerCase(java.util.Locale.ENGLISH))))
 										.getRandomElement(RandomSource.create()).orElseGet(() -> BuiltInRegistries.BLOCK.wrapAsHolder(Blocks.AIR)).value())).toString() + " replace"));
 				}
 			}

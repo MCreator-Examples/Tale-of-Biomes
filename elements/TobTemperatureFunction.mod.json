@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 69,
   "_type": "function",
   "definition": {
     "code": "# Runs the temperature script for the world\nexecute at @a run toba run temperature world\n# Runs the temperature sync timer\ntoba run timers temperature",

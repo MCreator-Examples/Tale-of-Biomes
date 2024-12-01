@@ -13,6 +13,6 @@ public class RawCopperBlockAdditionalHarvestConditionProcedure {
 			return false;
 		ItemStack mainHand = ItemStack.EMPTY;
 		mainHand = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
-		return mainHand.getItem() instanceof PickaxeItem && mainHand.is(ItemTags.create(new ResourceLocation("mo_tool_tiers:normal_stone")));
+		return mainHand.getItem() instanceof PickaxeItem && mainHand.is(ItemTags.create(ResourceLocation.parse("mo_tool_tiers:normal_stone")));
 	}
 }

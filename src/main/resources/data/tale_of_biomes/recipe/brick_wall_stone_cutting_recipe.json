@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "brick_wall",
+  "ingredient": {
+    "item": "tale_of_biomes:bricks"
+  },
+  "result": {
+    "id": "tale_of_biomes:brick_wall",
+    "count": 1
+  }
+}

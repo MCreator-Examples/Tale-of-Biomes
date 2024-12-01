@@ -17,7 +17,7 @@ public class CopperDustBlockDestroyedByPlayerProcedure {
 			return;
 		ItemStack iHand = ItemStack.EMPTY;
 		iHand = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
-		if (iHand.getItem() instanceof ShovelItem && iHand.is(ItemTags.create(new ResourceLocation("mo_tool_tiers:normal_stone")))) {
+		if (iHand.getItem() instanceof ShovelItem && iHand.is(ItemTags.create(ResourceLocation.parse("mo_tool_tiers:normal_stone")))) {
 			if (world instanceof ServerLevel _level) {
 				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, (new ItemStack((world.getBlockState(BlockPos.containing(x, y, z))).getBlock())));
 				entityToSpawn.setPickUpDelay(10);

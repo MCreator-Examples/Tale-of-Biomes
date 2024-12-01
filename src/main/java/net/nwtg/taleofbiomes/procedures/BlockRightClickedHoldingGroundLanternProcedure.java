@@ -42,8 +42,8 @@ public class BlockRightClickedHoldingGroundLanternProcedure {
 		if (direction == null || entity == null)
 			return;
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == TaleOfBiomesModBlocks.GROUND_LANTERN.get().asItem() && direction == Direction.DOWN
-				&& ((world.getBlockState(BlockPos.containing(x, y - 1, z))).is(BlockTags.create(new ResourceLocation("minecraft:air")))
-						|| (world.getBlockState(BlockPos.containing(x, y - 1, z))).is(BlockTags.create(new ResourceLocation("minecraft:water"))))
+				&& ((world.getBlockState(BlockPos.containing(x, y - 1, z))).is(BlockTags.create(ResourceLocation.parse("minecraft:air")))
+						|| (world.getBlockState(BlockPos.containing(x, y - 1, z))).is(BlockTags.create(ResourceLocation.parse("minecraft:water"))))
 				&& TaleOfBiomesModBlocks.HANGING_LANTERN.get().defaultBlockState().canSurvive(world, BlockPos.containing(x, y - 1, z))) {
 			if (entity instanceof LivingEntity _entity)
 				_entity.swing(InteractionHand.MAIN_HAND, true);

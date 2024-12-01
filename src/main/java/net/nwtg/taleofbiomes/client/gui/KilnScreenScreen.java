@@ -39,7 +39,7 @@ public class KilnScreenScreen extends AbstractContainerScreen<KilnScreenMenu> {
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("tale_of_biomes:textures/screens/kiln_screen.png");
+	private static final ResourceLocation texture = ResourceLocation.parse("tale_of_biomes:textures/screens/kiln_screen.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
@@ -55,22 +55,22 @@ public class KilnScreenScreen extends AbstractContainerScreen<KilnScreenMenu> {
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 		if (KilnScreenLightOffConditionProcedure.execute(world, entity)) {
-			guiGraphics.blit(new ResourceLocation("tale_of_biomes:textures/screens/kiln_tube_h_off.png"), this.leftPos + 78, this.topPos + 58, 0, 0, 36, 6, 36, 6);
+			guiGraphics.blit(ResourceLocation.parse("tale_of_biomes:textures/screens/kiln_tube_h_off.png"), this.leftPos + 78, this.topPos + 58, 0, 0, 36, 6, 36, 6);
 		}
 		if (KilnScreenLightOnConditionProcedure.execute(world, entity)) {
-			guiGraphics.blit(new ResourceLocation("tale_of_biomes:textures/screens/kiln_tube_h.png"), this.leftPos + 78, this.topPos + 58, 0, 0, 36, 6, 36, 6);
+			guiGraphics.blit(ResourceLocation.parse("tale_of_biomes:textures/screens/kiln_tube_h.png"), this.leftPos + 78, this.topPos + 58, 0, 0, 36, 6, 36, 6);
 		}
 		if (KilnScreenLightOffConditionProcedure.execute(world, entity)) {
-			guiGraphics.blit(new ResourceLocation("tale_of_biomes:textures/screens/kiln_tube_v_off.png"), this.leftPos + 120, this.topPos + 34, 0, 0, 6, 18, 6, 18);
+			guiGraphics.blit(ResourceLocation.parse("tale_of_biomes:textures/screens/kiln_tube_v_off.png"), this.leftPos + 120, this.topPos + 34, 0, 0, 6, 18, 6, 18);
 		}
 		if (KilnScreenLightOnConditionProcedure.execute(world, entity)) {
-			guiGraphics.blit(new ResourceLocation("tale_of_biomes:textures/screens/kiln_tube_v.png"), this.leftPos + 120, this.topPos + 34, 0, 0, 6, 18, 6, 18);
+			guiGraphics.blit(ResourceLocation.parse("tale_of_biomes:textures/screens/kiln_tube_v.png"), this.leftPos + 120, this.topPos + 34, 0, 0, 6, 18, 6, 18);
 		}
 		if (KilnScreenLightOffConditionProcedure.execute(world, entity)) {
-			guiGraphics.blit(new ResourceLocation("tale_of_biomes:textures/screens/kiln_light_off.png"), this.leftPos + 159, this.topPos + 7, 0, 0, 8, 8, 8, 8);
+			guiGraphics.blit(ResourceLocation.parse("tale_of_biomes:textures/screens/kiln_light_off.png"), this.leftPos + 159, this.topPos + 7, 0, 0, 8, 8, 8, 8);
 		}
 		if (KilnScreenLightOnConditionProcedure.execute(world, entity)) {
-			guiGraphics.blit(new ResourceLocation("tale_of_biomes:textures/screens/kiln_light_on.png"), this.leftPos + 159, this.topPos + 7, 0, 0, 8, 8, 8, 8);
+			guiGraphics.blit(ResourceLocation.parse("tale_of_biomes:textures/screens/kiln_light_on.png"), this.leftPos + 159, this.topPos + 7, 0, 0, 8, 8, 8, 8);
 		}
 		RenderSystem.disableBlend();
 	}
@@ -94,7 +94,7 @@ public class KilnScreenScreen extends AbstractContainerScreen<KilnScreenMenu> {
 	public void init() {
 		super.init();
 		imagebutton_kiln_power_button = new ImageButton(this.leftPos + 114, this.topPos + 52, 18, 18,
-				new WidgetSprites(new ResourceLocation("tale_of_biomes:textures/screens/kiln_power_button.png"), new ResourceLocation("tale_of_biomes:textures/screens/kiln_power_button_hover.png")), e -> {
+				new WidgetSprites(ResourceLocation.parse("tale_of_biomes:textures/screens/kiln_power_button.png"), ResourceLocation.parse("tale_of_biomes:textures/screens/kiln_power_button_hover.png")), e -> {
 					if (true) {
 						PacketDistributor.sendToServer(new KilnScreenButtonMessage(0, x, y, z));
 						KilnScreenButtonMessage.handleButtonAction(entity, 0, x, y, z);

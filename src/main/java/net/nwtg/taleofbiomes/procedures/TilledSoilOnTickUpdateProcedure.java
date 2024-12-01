@@ -32,7 +32,7 @@ public class TilledSoilOnTickUpdateProcedure {
 		bY = y;
 		bZ = z;
 		bsCrop = (world.getBlockState(BlockPos.containing(pX, pY, pZ)));
-		if (bsCrop.is(BlockTags.create(new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "crops")).toLowerCase(java.util.Locale.ENGLISH))))) {
+		if (bsCrop.is(BlockTags.create(ResourceLocation.parse(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "crops")).toLowerCase(java.util.Locale.ENGLISH))))) {
 			nbtPh = new Object() {
 				public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 					BlockEntity blockEntity = world.getBlockEntity(pos);

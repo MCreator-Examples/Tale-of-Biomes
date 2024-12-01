@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tale_of_biomes:crafting_table",
+    "tale_of_biomes:basic_tool_table",
+    "tale_of_biomes:basic_stone_table"
+  ]
+}

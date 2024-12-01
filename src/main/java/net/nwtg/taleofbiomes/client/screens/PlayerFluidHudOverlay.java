@@ -64,85 +64,85 @@ public class PlayerFluidHudOverlay {
 		RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		if (PlayerFluidHudDisplayOverlayIngameProcedure.execute(entity)) {
-			event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_empty.png"), w / 2 + 82, h - 59, 0, 0, 9, 9, 9, 9);
+			event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_empty.png"), w / 2 + 82, h - 59, 0, 0, 9, 9, 9, 9);
 
-			event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_empty.png"), w / 2 + 74, h - 59, 0, 0, 9, 9, 9, 9);
+			event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_empty.png"), w / 2 + 74, h - 59, 0, 0, 9, 9, 9, 9);
 
-			event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_empty.png"), w / 2 + 66, h - 59, 0, 0, 9, 9, 9, 9);
+			event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_empty.png"), w / 2 + 66, h - 59, 0, 0, 9, 9, 9, 9);
 
-			event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_empty.png"), w / 2 + 58, h - 59, 0, 0, 9, 9, 9, 9);
+			event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_empty.png"), w / 2 + 58, h - 59, 0, 0, 9, 9, 9, 9);
 
-			event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_empty.png"), w / 2 + 50, h - 59, 0, 0, 9, 9, 9, 9);
+			event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_empty.png"), w / 2 + 50, h - 59, 0, 0, 9, 9, 9, 9);
 
-			event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_empty.png"), w / 2 + 42, h - 59, 0, 0, 9, 9, 9, 9);
+			event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_empty.png"), w / 2 + 42, h - 59, 0, 0, 9, 9, 9, 9);
 
-			event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_empty.png"), w / 2 + 34, h - 59, 0, 0, 9, 9, 9, 9);
+			event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_empty.png"), w / 2 + 34, h - 59, 0, 0, 9, 9, 9, 9);
 
-			event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_empty.png"), w / 2 + 26, h - 59, 0, 0, 9, 9, 9, 9);
+			event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_empty.png"), w / 2 + 26, h - 59, 0, 0, 9, 9, 9, 9);
 
-			event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_empty.png"), w / 2 + 18, h - 59, 0, 0, 9, 9, 9, 9);
+			event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_empty.png"), w / 2 + 18, h - 59, 0, 0, 9, 9, 9, 9);
 
-			event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_empty.png"), w / 2 + 10, h - 59, 0, 0, 9, 9, 9, 9);
+			event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_empty.png"), w / 2 + 10, h - 59, 0, 0, 9, 9, 9, 9);
 
 			if (PlayerFluidHudCondition19Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_half.png"), w / 2 + 82, h - 59, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_half.png"), w / 2 + 82, h - 59, 0, 0, 9, 9, 9, 9);
 			}
 			if (PlayerFluidHudCondition17Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_half.png"), w / 2 + 74, h - 59, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_half.png"), w / 2 + 74, h - 59, 0, 0, 9, 9, 9, 9);
 			}
 			if (PlayerFluidHudCondition15Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_half.png"), w / 2 + 66, h - 59, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_half.png"), w / 2 + 66, h - 59, 0, 0, 9, 9, 9, 9);
 			}
 			if (PlayerFluidHudCondition13Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_half.png"), w / 2 + 58, h - 59, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_half.png"), w / 2 + 58, h - 59, 0, 0, 9, 9, 9, 9);
 			}
 			if (PlayerFluidHudCondition11Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_half.png"), w / 2 + 50, h - 59, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_half.png"), w / 2 + 50, h - 59, 0, 0, 9, 9, 9, 9);
 			}
 			if (PlayerFluidHudCondition9Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_half.png"), w / 2 + 42, h - 59, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_half.png"), w / 2 + 42, h - 59, 0, 0, 9, 9, 9, 9);
 			}
 			if (PlayerFluidHudCondition7Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_half.png"), w / 2 + 34, h - 59, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_half.png"), w / 2 + 34, h - 59, 0, 0, 9, 9, 9, 9);
 			}
 			if (PlayerFluidHudCondition5Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_half.png"), w / 2 + 26, h - 59, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_half.png"), w / 2 + 26, h - 59, 0, 0, 9, 9, 9, 9);
 			}
 			if (PlayerFluidHudCondition3Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_half.png"), w / 2 + 18, h - 59, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_half.png"), w / 2 + 18, h - 59, 0, 0, 9, 9, 9, 9);
 			}
 			if (PlayerFluidHudCondition1Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_half.png"), w / 2 + 10, h - 59, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_half.png"), w / 2 + 10, h - 59, 0, 0, 9, 9, 9, 9);
 			}
 			if (PlayerFluidHudCondition20Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_full.png"), w / 2 + 82, h - 59, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_full.png"), w / 2 + 82, h - 59, 0, 0, 9, 9, 9, 9);
 			}
 			if (PlayerFluidHudCondition18Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_full.png"), w / 2 + 74, h - 59, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_full.png"), w / 2 + 74, h - 59, 0, 0, 9, 9, 9, 9);
 			}
 			if (PlayerFluidHudCondition16Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_full.png"), w / 2 + 66, h - 59, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_full.png"), w / 2 + 66, h - 59, 0, 0, 9, 9, 9, 9);
 			}
 			if (PlayerFluidHudCondition14Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_full.png"), w / 2 + 58, h - 59, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_full.png"), w / 2 + 58, h - 59, 0, 0, 9, 9, 9, 9);
 			}
 			if (PlayerFluidHudCondition12Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_full.png"), w / 2 + 50, h - 59, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_full.png"), w / 2 + 50, h - 59, 0, 0, 9, 9, 9, 9);
 			}
 			if (PlayerFluidHudCondition10Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_full.png"), w / 2 + 42, h - 59, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_full.png"), w / 2 + 42, h - 59, 0, 0, 9, 9, 9, 9);
 			}
 			if (PlayerFluidHudCondition8Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_full.png"), w / 2 + 34, h - 59, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_full.png"), w / 2 + 34, h - 59, 0, 0, 9, 9, 9, 9);
 			}
 			if (PlayerFluidHudCondition6Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_full.png"), w / 2 + 26, h - 59, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_full.png"), w / 2 + 26, h - 59, 0, 0, 9, 9, 9, 9);
 			}
 			if (PlayerFluidHudCondition4Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_full.png"), w / 2 + 18, h - 59, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_full.png"), w / 2 + 18, h - 59, 0, 0, 9, 9, 9, 9);
 			}
 			if (PlayerFluidHudCondition2Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("tale_of_biomes:textures/screens/fluid_full.png"), w / 2 + 10, h - 59, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tale_of_biomes:textures/screens/fluid_full.png"), w / 2 + 10, h - 59, 0, 0, 9, 9, 9, 9);
 			}
 		}
 		RenderSystem.depthMask(true);

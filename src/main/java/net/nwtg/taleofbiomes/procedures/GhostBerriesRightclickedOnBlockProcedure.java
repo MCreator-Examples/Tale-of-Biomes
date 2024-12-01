@@ -19,7 +19,7 @@ public class GhostBerriesRightclickedOnBlockProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, ItemStack itemstack) {
 		if (entity == null)
 			return;
-		if (world.getBiome(BlockPos.containing(x, y, z)).is(TagKey.create(Registries.BIOME, new ResourceLocation(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "eldenmoor/piruff")).toLowerCase(java.util.Locale.ENGLISH))))
+		if (world.getBiome(BlockPos.containing(x, y, z)).is(TagKey.create(Registries.BIOME, ResourceLocation.parse(((TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "eldenmoor/piruff")).toLowerCase(java.util.Locale.ENGLISH))))
 				&& (world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock() == Blocks.AIR && TaleOfBiomesModBlocks.GHOST_BUSH_0.get().defaultBlockState().canSurvive(world, BlockPos.containing(x, y + 1, z))) {
 			{
 				BlockPos _bp = BlockPos.containing(x, y + 1, z);

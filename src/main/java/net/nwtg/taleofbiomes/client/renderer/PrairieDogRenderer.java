@@ -25,7 +25,7 @@ public class PrairieDogRenderer extends MobRenderer<PrairieDogEntity, Modelprair
 	public PrairieDogRenderer(EntityRendererProvider.Context context) {
 		super(context, new Modelprairie_dog(context.bakeLayer(Modelprairie_dog.LAYER_LOCATION)), 0.6f);
 		this.addLayer(new RenderLayer<PrairieDogEntity, Modelprairie_dog<PrairieDogEntity>>(this) {
-			final ResourceLocation LAYER_TEXTURE = new ResourceLocation("tale_of_biomes:textures/entities/prairie_dog.png");
+			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("tale_of_biomes:textures/entities/prairie_dog.png");
 
 			@Override
 			public void render(PoseStack poseStack, MultiBufferSource bufferSource, int light, PrairieDogEntity entity, float limbSwing, float limbSwingAmount, float partialTicks, float ageInTicks, float netHeadYaw, float headPitch) {
@@ -39,12 +39,12 @@ public class PrairieDogRenderer extends MobRenderer<PrairieDogEntity, Modelprair
 					this.getParentModel().copyPropertiesTo(model);
 					model.prepareMobModel(entity, limbSwing, limbSwingAmount, partialTicks);
 					model.setupAnim(entity, limbSwing, limbSwingAmount, ageInTicks, netHeadYaw, headPitch);
-					model.renderToBuffer(poseStack, vertexConsumer, light, LivingEntityRenderer.getOverlayCoords(entity, 0), 1, 1, 1, 1);
+					model.renderToBuffer(poseStack, vertexConsumer, light, LivingEntityRenderer.getOverlayCoords(entity, 0));
 				}
 			}
 		});
 		this.addLayer(new RenderLayer<PrairieDogEntity, Modelprairie_dog<PrairieDogEntity>>(this) {
-			final ResourceLocation LAYER_TEXTURE = new ResourceLocation("tale_of_biomes:textures/entities/prairie_dog.png");
+			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("tale_of_biomes:textures/entities/prairie_dog.png");
 
 			@Override
 			public void render(PoseStack poseStack, MultiBufferSource bufferSource, int light, PrairieDogEntity entity, float limbSwing, float limbSwingAmount, float partialTicks, float ageInTicks, float netHeadYaw, float headPitch) {
@@ -58,7 +58,7 @@ public class PrairieDogRenderer extends MobRenderer<PrairieDogEntity, Modelprair
 					this.getParentModel().copyPropertiesTo(model);
 					model.prepareMobModel(entity, limbSwing, limbSwingAmount, partialTicks);
 					model.setupAnim(entity, limbSwing, limbSwingAmount, ageInTicks, netHeadYaw, headPitch);
-					model.renderToBuffer(poseStack, vertexConsumer, light, LivingEntityRenderer.getOverlayCoords(entity, 0), 1, 1, 1, 1);
+					model.renderToBuffer(poseStack, vertexConsumer, light, LivingEntityRenderer.getOverlayCoords(entity, 0));
 				}
 			}
 		});
@@ -66,6 +66,6 @@ public class PrairieDogRenderer extends MobRenderer<PrairieDogEntity, Modelprair
 
 	@Override
 	public ResourceLocation getTextureLocation(PrairieDogEntity entity) {
-		return new ResourceLocation("tale_of_biomes:textures/entities/prairie_dog_empty.png");
+		return ResourceLocation.parse("tale_of_biomes:textures/entities/prairie_dog_empty.png");
 	}
 }

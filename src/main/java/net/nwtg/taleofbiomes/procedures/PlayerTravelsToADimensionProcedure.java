@@ -37,11 +37,11 @@ public class PlayerTravelsToADimensionProcedure {
 		String myCommand = "";
 		if (entity instanceof Player || entity instanceof ServerPlayer) {
 			myCommand = command;
-			if (!((entity.level().dimension()) == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("tale_of_biomes:eldenmoor")))
+			if (!((entity.level().dimension()) == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("tale_of_biomes:eldenmoor")))
 					&& myCommand.contains("in " + TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "eldenmoor") && myCommand.contains("execute") && myCommand.contains("tp")) {
 				InventorySaveNormalScriptProcedure.execute(entity);
 				InventoryReplaceEldenmoorScriptProcedure.execute(entity);
-			} else if ((entity.level().dimension()) == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("tale_of_biomes:eldenmoor"))
+			} else if ((entity.level().dimension()) == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("tale_of_biomes:eldenmoor"))
 					&& !myCommand.contains("in " + TaleOfBiomesModVariables.MapVariables.get(world).modNamespace + ":" + "eldenmoor") && myCommand.contains("execute") && myCommand.contains("tp")) {
 				InventorySaveEldenmoorScriptProcedure.execute(entity);
 				InventoryReplaceNormalScriptProcedure.execute(entity);

@@ -57,7 +57,6 @@ public class TaleOfBiomesMod {
 		StructureFeature.REGISTRY.register(modEventBus);
 
 		TaleOfBiomesModMobEffects.REGISTRY.register(modEventBus);
-
 		TaleOfBiomesModMenus.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init

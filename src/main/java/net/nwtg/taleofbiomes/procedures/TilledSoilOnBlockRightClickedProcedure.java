@@ -71,9 +71,9 @@ public class TilledSoilOnBlockRightClickedProcedure {
 				if (!world.isClientSide()) {
 					if (world instanceof Level _level) {
 						if (!_level.isClientSide()) {
-							_level.playSound(null, BlockPos.containing(nX + 0.5, nY + 0.5, nZ + 0.5), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.composter.fill_success")), SoundSource.BLOCKS, 1, 1);
+							_level.playSound(null, BlockPos.containing(nX + 0.5, nY + 0.5, nZ + 0.5), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.composter.fill_success")), SoundSource.BLOCKS, 1, 1);
 						} else {
-							_level.playLocalSound((nX + 0.5), (nY + 0.5), (nZ + 0.5), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.composter.fill_success")), SoundSource.BLOCKS, 1, 1, false);
+							_level.playLocalSound((nX + 0.5), (nY + 0.5), (nZ + 0.5), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.composter.fill_success")), SoundSource.BLOCKS, 1, 1, false);
 						}
 					}
 					if (world instanceof ServerLevel _level)
@@ -96,9 +96,9 @@ public class TilledSoilOnBlockRightClickedProcedure {
 				if (!world.isClientSide()) {
 					if (world instanceof Level _level) {
 						if (!_level.isClientSide()) {
-							_level.playSound(null, BlockPos.containing(nX + 0.5, nY + 0.5, nZ + 0.5), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.composter.fill_success")), SoundSource.BLOCKS, 1, 1);
+							_level.playSound(null, BlockPos.containing(nX + 0.5, nY + 0.5, nZ + 0.5), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.composter.fill_success")), SoundSource.BLOCKS, 1, 1);
 						} else {
-							_level.playLocalSound((nX + 0.5), (nY + 0.5), (nZ + 0.5), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.composter.fill_success")), SoundSource.BLOCKS, 1, 1, false);
+							_level.playLocalSound((nX + 0.5), (nY + 0.5), (nZ + 0.5), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.composter.fill_success")), SoundSource.BLOCKS, 1, 1, false);
 						}
 					}
 					if (world instanceof ServerLevel _level)

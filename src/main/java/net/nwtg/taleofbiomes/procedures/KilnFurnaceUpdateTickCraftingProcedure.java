@@ -131,10 +131,10 @@ public class KilnFurnaceUpdateTickCraftingProcedure {
 										fileLayer2 = fmRecipe.get("layer_2").getAsString();
 										fileLayer3 = fmRecipe.get("layer_3").getAsString();
 										fileLayer4 = fmRecipe.get("layer_4").getAsString();
-										if ((world.getBlockState(BlockPos.containing(offsetPosX, posY, offsetPosZ))).getBlock() == BuiltInRegistries.BLOCK.get(new ResourceLocation((fileLayer1).toLowerCase(java.util.Locale.ENGLISH)))
-												&& (world.getBlockState(BlockPos.containing(offsetPosX, posY + 1, offsetPosZ))).getBlock() == BuiltInRegistries.BLOCK.get(new ResourceLocation((fileLayer2).toLowerCase(java.util.Locale.ENGLISH)))
-												&& (world.getBlockState(BlockPos.containing(offsetPosX, posY + 2, offsetPosZ))).getBlock() == BuiltInRegistries.BLOCK.get(new ResourceLocation((fileLayer3).toLowerCase(java.util.Locale.ENGLISH)))
-												&& (world.getBlockState(BlockPos.containing(offsetPosX, posY + 3, offsetPosZ))).getBlock() == BuiltInRegistries.BLOCK.get(new ResourceLocation((fileLayer4).toLowerCase(java.util.Locale.ENGLISH)))) {
+										if ((world.getBlockState(BlockPos.containing(offsetPosX, posY, offsetPosZ))).getBlock() == BuiltInRegistries.BLOCK.get(ResourceLocation.parse((fileLayer1).toLowerCase(java.util.Locale.ENGLISH)))
+												&& (world.getBlockState(BlockPos.containing(offsetPosX, posY + 1, offsetPosZ))).getBlock() == BuiltInRegistries.BLOCK.get(ResourceLocation.parse((fileLayer2).toLowerCase(java.util.Locale.ENGLISH)))
+												&& (world.getBlockState(BlockPos.containing(offsetPosX, posY + 2, offsetPosZ))).getBlock() == BuiltInRegistries.BLOCK.get(ResourceLocation.parse((fileLayer3).toLowerCase(java.util.Locale.ENGLISH)))
+												&& (world.getBlockState(BlockPos.containing(offsetPosX, posY + 3, offsetPosZ))).getBlock() == BuiltInRegistries.BLOCK.get(ResourceLocation.parse((fileLayer4).toLowerCase(java.util.Locale.ENGLISH)))) {
 											if (!world.isClientSide()) {
 												BlockPos _bp = BlockPos.containing(posX, posY, posZ);
 												BlockEntity _blockEntity = world.getBlockEntity(_bp);
@@ -229,7 +229,7 @@ public class KilnFurnaceUpdateTickCraftingProcedure {
 					}
 				}
 				if (loFound) {
-					layer1 = BuiltInRegistries.BLOCK.get(new ResourceLocation(((new Object() {
+					layer1 = BuiltInRegistries.BLOCK.get(ResourceLocation.parse(((new Object() {
 						public String getValue(LevelAccessor world, BlockPos pos, String tag) {
 							BlockEntity blockEntity = world.getBlockEntity(pos);
 							if (blockEntity != null)
@@ -237,7 +237,7 @@ public class KilnFurnaceUpdateTickCraftingProcedure {
 							return "";
 						}
 					}.getValue(world, BlockPos.containing(posX, posY, posZ), "layer1"))).toLowerCase(java.util.Locale.ENGLISH))).defaultBlockState();
-					layer2 = BuiltInRegistries.BLOCK.get(new ResourceLocation(((new Object() {
+					layer2 = BuiltInRegistries.BLOCK.get(ResourceLocation.parse(((new Object() {
 						public String getValue(LevelAccessor world, BlockPos pos, String tag) {
 							BlockEntity blockEntity = world.getBlockEntity(pos);
 							if (blockEntity != null)
@@ -245,7 +245,7 @@ public class KilnFurnaceUpdateTickCraftingProcedure {
 							return "";
 						}
 					}.getValue(world, BlockPos.containing(posX, posY, posZ), "layer2"))).toLowerCase(java.util.Locale.ENGLISH))).defaultBlockState();
-					layer3 = BuiltInRegistries.BLOCK.get(new ResourceLocation(((new Object() {
+					layer3 = BuiltInRegistries.BLOCK.get(ResourceLocation.parse(((new Object() {
 						public String getValue(LevelAccessor world, BlockPos pos, String tag) {
 							BlockEntity blockEntity = world.getBlockEntity(pos);
 							if (blockEntity != null)
@@ -253,7 +253,7 @@ public class KilnFurnaceUpdateTickCraftingProcedure {
 							return "";
 						}
 					}.getValue(world, BlockPos.containing(posX, posY, posZ), "layer3"))).toLowerCase(java.util.Locale.ENGLISH))).defaultBlockState();
-					layer4 = BuiltInRegistries.BLOCK.get(new ResourceLocation(((new Object() {
+					layer4 = BuiltInRegistries.BLOCK.get(ResourceLocation.parse(((new Object() {
 						public String getValue(LevelAccessor world, BlockPos pos, String tag) {
 							BlockEntity blockEntity = world.getBlockEntity(pos);
 							if (blockEntity != null)
@@ -261,7 +261,7 @@ public class KilnFurnaceUpdateTickCraftingProcedure {
 							return "";
 						}
 					}.getValue(world, BlockPos.containing(posX, posY, posZ), "layer4"))).toLowerCase(java.util.Locale.ENGLISH))).defaultBlockState();
-					display = new ItemStack(BuiltInRegistries.ITEM.get(new ResourceLocation(((new Object() {
+					display = new ItemStack(BuiltInRegistries.ITEM.get(ResourceLocation.parse(((new Object() {
 						public String getValue(LevelAccessor world, BlockPos pos, String tag) {
 							BlockEntity blockEntity = world.getBlockEntity(pos);
 							if (blockEntity != null)
@@ -269,7 +269,7 @@ public class KilnFurnaceUpdateTickCraftingProcedure {
 							return "";
 						}
 					}.getValue(world, BlockPos.containing(posX, posY, posZ), "display"))).toLowerCase(java.util.Locale.ENGLISH))));
-					output = new ItemStack(BuiltInRegistries.ITEM.get(new ResourceLocation(((new Object() {
+					output = new ItemStack(BuiltInRegistries.ITEM.get(ResourceLocation.parse(((new Object() {
 						public String getValue(LevelAccessor world, BlockPos pos, String tag) {
 							BlockEntity blockEntity = world.getBlockEntity(pos);
 							if (blockEntity != null)
@@ -667,11 +667,24 @@ public class KilnFurnaceUpdateTickCraftingProcedure {
 							}
 						}
 					}
+					slot = 0;
+					for (int index21 = 0; index21 < 9; index21++) {
+						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable)
+							_itemHandlerModifiable.setStackInSlot((int) slot, ItemStack.EMPTY);
+						slot = slot + 1;
+					}
+				} else {
+					slot = 0;
+					for (int index22 = 0; index22 < 9; index22++) {
+						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable)
+							_itemHandlerModifiable.setStackInSlot((int) slot, ItemStack.EMPTY);
+						slot = slot + 1;
+					}
 				}
 			}
 		} else {
 			slot = 0;
-			for (int index21 = 0; index21 < 10; index21++) {
+			for (int index23 = 0; index23 < 10; index23++) {
 				if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable)
 					_itemHandlerModifiable.setStackInSlot((int) slot, ItemStack.EMPTY);
 				slot = slot + 1;

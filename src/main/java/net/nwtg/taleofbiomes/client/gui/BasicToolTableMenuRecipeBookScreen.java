@@ -53,9 +53,9 @@ public class BasicToolTableMenuRecipeBookScreen extends AbstractContainerScreen<
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 
-		guiGraphics.blit(new ResourceLocation("tale_of_biomes:textures/screens/crafting_station_gui_helper.png"), this.leftPos + -97, this.topPos + 0, 0, 0, 176, 108, 176, 108);
+		guiGraphics.blit(ResourceLocation.parse("tale_of_biomes:textures/screens/crafting_station_gui_helper.png"), this.leftPos + -97, this.topPos + 0, 0, 0, 176, 108, 176, 108);
 
-		guiGraphics.blit(new ResourceLocation("tale_of_biomes:textures/screens/crafting_station_gui.png"), this.leftPos + 97, this.topPos + 0, 0, 0, 176, 166, 176, 166);
+		guiGraphics.blit(ResourceLocation.parse("tale_of_biomes:textures/screens/crafting_station_gui.png"), this.leftPos + 97, this.topPos + 0, 0, 0, 176, 166, 176, 166);
 
 		RenderSystem.disableBlend();
 	}
@@ -81,7 +81,7 @@ public class BasicToolTableMenuRecipeBookScreen extends AbstractContainerScreen<
 	public void init() {
 		super.init();
 		imagebutton_button_left = new ImageButton(this.leftPos + -72, this.topPos + 83, 27, 18,
-				new WidgetSprites(new ResourceLocation("tale_of_biomes:textures/screens/button_left.png"), new ResourceLocation("tale_of_biomes:textures/screens/button_left_hover.png")), e -> {
+				new WidgetSprites(ResourceLocation.parse("tale_of_biomes:textures/screens/button_left.png"), ResourceLocation.parse("tale_of_biomes:textures/screens/button_left_hover.png")), e -> {
 					if (true) {
 						PacketDistributor.sendToServer(new BasicToolTableMenuRecipeBookButtonMessage(0, x, y, z));
 						BasicToolTableMenuRecipeBookButtonMessage.handleButtonAction(entity, 0, x, y, z);
@@ -95,7 +95,7 @@ public class BasicToolTableMenuRecipeBookScreen extends AbstractContainerScreen<
 		guistate.put("button:imagebutton_button_left", imagebutton_button_left);
 		this.addRenderableWidget(imagebutton_button_left);
 		imagebutton_button_right = new ImageButton(this.leftPos + -45, this.topPos + 83, 27, 18,
-				new WidgetSprites(new ResourceLocation("tale_of_biomes:textures/screens/button_right.png"), new ResourceLocation("tale_of_biomes:textures/screens/button_right_hover.png")), e -> {
+				new WidgetSprites(ResourceLocation.parse("tale_of_biomes:textures/screens/button_right.png"), ResourceLocation.parse("tale_of_biomes:textures/screens/button_right_hover.png")), e -> {
 					if (true) {
 						PacketDistributor.sendToServer(new BasicToolTableMenuRecipeBookButtonMessage(1, x, y, z));
 						BasicToolTableMenuRecipeBookButtonMessage.handleButtonAction(entity, 1, x, y, z);
@@ -109,7 +109,7 @@ public class BasicToolTableMenuRecipeBookScreen extends AbstractContainerScreen<
 		guistate.put("button:imagebutton_button_right", imagebutton_button_right);
 		this.addRenderableWidget(imagebutton_button_right);
 		imagebutton_recipe_helper_button = new ImageButton(this.leftPos + 101, this.topPos + 35, 18, 18,
-				new WidgetSprites(new ResourceLocation("tale_of_biomes:textures/screens/recipe_helper_button.png"), new ResourceLocation("tale_of_biomes:textures/screens/recipe_helper_hover_button.png")), e -> {
+				new WidgetSprites(ResourceLocation.parse("tale_of_biomes:textures/screens/recipe_helper_button.png"), ResourceLocation.parse("tale_of_biomes:textures/screens/recipe_helper_hover_button.png")), e -> {
 					if (true) {
 						PacketDistributor.sendToServer(new BasicToolTableMenuRecipeBookButtonMessage(2, x, y, z));
 						BasicToolTableMenuRecipeBookButtonMessage.handleButtonAction(entity, 2, x, y, z);

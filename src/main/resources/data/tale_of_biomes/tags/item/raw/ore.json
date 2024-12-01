@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tale_of_biomes:raw_pure_copper",
+    "tale_of_biomes:raw_mixed_copper",
+    "tale_of_biomes:raw_impure_copper"
+  ]
+}

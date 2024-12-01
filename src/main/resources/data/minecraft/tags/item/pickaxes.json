@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "tale_of_biomes:piruff_sickle",
+    "tale_of_biomes:piruff_pickaxe",
+    "tale_of_biomes:piruff_stone_sickle",
+    "tale_of_biomes:piruff_stone_pickaxe",
+    "tale_of_biomes:phosphorite_axe",
+    "tale_of_biomes:phosphorite_pickaxe"
+  ]
+}

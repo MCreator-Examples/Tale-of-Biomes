@@ -80,7 +80,7 @@ public class SetPlayerItemEffectProcedure {
 												sFood = fmFoods.keySet().stream().toList().get((Mth.nextInt(RandomSource.create(), (int) nFoodsIndex, (int) nFoodsIndex)));
 												if (fmFoods.has(sFood) && fmFoods.get(sFood).isJsonObject()) {
 													fmFood = fmFoods.get(sFood).getAsJsonObject();
-													if (itemstack.getItem() == BuiltInRegistries.ITEM.get(new ResourceLocation(((sNamespace + ":" + fmFood.get("item_identifier").getAsString())).toLowerCase(java.util.Locale.ENGLISH)))) {
+													if (itemstack.getItem() == BuiltInRegistries.ITEM.get(ResourceLocation.parse(((sNamespace + ":" + fmFood.get("item_identifier").getAsString())).toLowerCase(java.util.Locale.ENGLISH)))) {
 														{
 															Entity _ent = entity;
 															if (!_ent.level().isClientSide() && _ent.getServer() != null) {
@@ -106,7 +106,7 @@ public class SetPlayerItemEffectProcedure {
 												sDrink = fmDrinks.keySet().stream().toList().get((Mth.nextInt(RandomSource.create(), (int) nDrinksIndex, (int) nDrinksIndex)));
 												if (fmDrinks.has(sDrink) && fmDrinks.get(sDrink).isJsonObject()) {
 													fmDrink = fmDrinks.get(sDrink).getAsJsonObject();
-													if (itemstack.getItem() == BuiltInRegistries.ITEM.get(new ResourceLocation(((sNamespace + ":" + fmDrink.get("item_identifier").getAsString())).toLowerCase(java.util.Locale.ENGLISH)))) {
+													if (itemstack.getItem() == BuiltInRegistries.ITEM.get(ResourceLocation.parse(((sNamespace + ":" + fmDrink.get("item_identifier").getAsString())).toLowerCase(java.util.Locale.ENGLISH)))) {
 														{
 															Entity _ent = entity;
 															if (!_ent.level().isClientSide() && _ent.getServer() != null) {

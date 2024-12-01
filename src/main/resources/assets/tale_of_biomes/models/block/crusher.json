@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tale_of_biomes:block/crusher_side",
+    "up": "tale_of_biomes:block/crusher_top",
+    "north": "tale_of_biomes:block/crusher_front",
+    "east": "tale_of_biomes:block/crusher_side",
+    "south": "tale_of_biomes:block/crusher_side",
+    "west": "tale_of_biomes:block/crusher_side",
+    "particle": "tale_of_biomes:block/crusher_side"
+  },
+  "render_type": "solid"
+}

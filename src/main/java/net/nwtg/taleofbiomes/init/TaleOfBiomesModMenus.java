@@ -6,6 +6,7 @@ package net.nwtg.taleofbiomes.init;
 
 import net.nwtg.taleofbiomes.world.inventory.PiruffBarrelInventoryMenu;
 import net.nwtg.taleofbiomes.world.inventory.KilnScreenMenu;
+import net.nwtg.taleofbiomes.world.inventory.CrusherUIMenu;
 import net.nwtg.taleofbiomes.world.inventory.CraftingTableMenuRecipeBookMenu;
 import net.nwtg.taleofbiomes.world.inventory.CraftingTableMenuMenu;
 import net.nwtg.taleofbiomes.world.inventory.BasicToolTableMenuRecipeBookMenu;
@@ -34,4 +35,5 @@ public class TaleOfBiomesModMenus {
 	public static final DeferredHolder<MenuType<?>, MenuType<CraftingTableMenuMenu>> CRAFTING_TABLE_MENU = REGISTRY.register("crafting_table_menu", () -> IMenuTypeExtension.create(CraftingTableMenuMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<CraftingTableMenuRecipeBookMenu>> CRAFTING_TABLE_MENU_RECIPE_BOOK = REGISTRY.register("crafting_table_menu_recipe_book",
 			() -> IMenuTypeExtension.create(CraftingTableMenuRecipeBookMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<CrusherUIMenu>> CRUSHER_UI = REGISTRY.register("crusher_ui", () -> IMenuTypeExtension.create(CrusherUIMenu::new));
 }

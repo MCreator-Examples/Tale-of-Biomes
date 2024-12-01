@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 69,
   "_type": "function",
   "definition": {
     "code": "# Runs the plant timer script for grass block grass growth.\nexecute in minecraft:overworld run toba run plantTimer",

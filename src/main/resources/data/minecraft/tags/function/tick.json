@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tale_of_biomes:tob_temperature_function",
+    "tale_of_biomes:tob_recipe_unlock_function",
+    "tale_of_biomes:tob_player_function",
+    "tale_of_biomes:tob_world_function"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "copper_dust_block",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "neoforge:dusts/mixed_copper"
+    }
+  },
+  "result": {
+    "id": "tale_of_biomes:mixed_copper_dust_block",
+    "count": 1
+  }
+}

@@ -2,12 +2,8 @@
   "feature": "tale_of_biomes:medium_piruff_tree_feature_forest",
   "placement": [
     {
-      "type": "minecraft:rarity_filter",
-      "chance": 1
-    },
-    {
       "type": "minecraft:count",
-      "count": 1
+      "count": 3
     },
     {
       "type": "minecraft:in_square"

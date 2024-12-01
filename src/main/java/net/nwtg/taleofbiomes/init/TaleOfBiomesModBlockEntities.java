@@ -29,6 +29,7 @@ import net.nwtg.taleofbiomes.block.entity.HangingLanternOnBlockEntity;
 import net.nwtg.taleofbiomes.block.entity.HangingLanternBlockEntity;
 import net.nwtg.taleofbiomes.block.entity.GroundLanternOnBlockEntity;
 import net.nwtg.taleofbiomes.block.entity.GroundLanternBlockEntity;
+import net.nwtg.taleofbiomes.block.entity.CrusherBlockEntity;
 import net.nwtg.taleofbiomes.block.entity.CraftingTableBlockEntity;
 import net.nwtg.taleofbiomes.block.entity.BasicToolTableBlockEntity;
 import net.nwtg.taleofbiomes.block.entity.BasicStoneTableBlockEntity;
@@ -76,7 +77,10 @@ public class TaleOfBiomesModBlockEntities {
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> ROSE_QUARTZ_BUDDING = register("rose_quartz_budding", TaleOfBiomesModBlocks.ROSE_QUARTZ_BUDDING, RoseQuartzBuddingBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> CRAFTING_TABLE = register("crafting_table", TaleOfBiomesModBlocks.CRAFTING_TABLE, CraftingTableBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> PIRUFF_BARREL = register("piruff_barrel", TaleOfBiomesModBlocks.PIRUFF_BARREL, PiruffBarrelBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> CRUSHER = register("crusher", TaleOfBiomesModBlocks.CRUSHER, CrusherBlockEntity::new);
 
+	// Start of user code block custom block entities
+	// End of user code block custom block entities
 	private static DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> register(String registryname, DeferredHolder<Block, Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));
 	}
@@ -111,5 +115,6 @@ public class TaleOfBiomesModBlockEntities {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, ROSE_QUARTZ_BUDDING.get(), (blockEntity, side) -> ((RoseQuartzBuddingBlockEntity) blockEntity).getItemHandler());
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, CRAFTING_TABLE.get(), (blockEntity, side) -> ((CraftingTableBlockEntity) blockEntity).getItemHandler());
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, PIRUFF_BARREL.get(), (blockEntity, side) -> ((PiruffBarrelBlockEntity) blockEntity).getItemHandler());
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, CRUSHER.get(), (blockEntity, side) -> ((CrusherBlockEntity) blockEntity).getItemHandler());
 	}
 }

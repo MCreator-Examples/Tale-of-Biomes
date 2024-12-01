@@ -18,7 +18,7 @@ public class SetBlockBiomeTemperatureModifierProcedure {
 			nX = x;
 			nY = y;
 			nZ = z;
-			if (world.getBiome(BlockPos.containing(nX, nY, nZ)).is(TagKey.create(Registries.BIOME, new ResourceLocation("tale_of_biomes:temperature/hot")))
+			if (world.getBiome(BlockPos.containing(nX, nY, nZ)).is(TagKey.create(Registries.BIOME, ResourceLocation.parse("tale_of_biomes:temperature/hot")))
 					|| world.getBiome(BlockPos.containing(nX, nY, nZ)).value().getBaseTemperature() * 100f > 1.6 && world.getBiome(BlockPos.containing(nX, nY, nZ)).value().getBaseTemperature() * 100f <= 2) {
 				if (!world.isClientSide()) {
 					BlockPos _bp = BlockPos.containing(nX, nY, nZ);
@@ -29,7 +29,7 @@ public class SetBlockBiomeTemperatureModifierProcedure {
 					if (world instanceof Level _level)
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}
-			} else if (world.getBiome(BlockPos.containing(nX, nY, nZ)).is(TagKey.create(Registries.BIOME, new ResourceLocation("tale_of_biomes:temperature/toasty")))
+			} else if (world.getBiome(BlockPos.containing(nX, nY, nZ)).is(TagKey.create(Registries.BIOME, ResourceLocation.parse("tale_of_biomes:temperature/toasty")))
 					|| world.getBiome(BlockPos.containing(nX, nY, nZ)).value().getBaseTemperature() * 100f > 0.8 && world.getBiome(BlockPos.containing(nX, nY, nZ)).value().getBaseTemperature() * 100f <= 1.6) {
 				if (!world.isClientSide()) {
 					BlockPos _bp = BlockPos.containing(nX, nY, nZ);
@@ -40,7 +40,7 @@ public class SetBlockBiomeTemperatureModifierProcedure {
 					if (world instanceof Level _level)
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}
-			} else if (world.getBiome(BlockPos.containing(nX, nY, nZ)).is(TagKey.create(Registries.BIOME, new ResourceLocation("tale_of_biomes:temperature/chilly")))
+			} else if (world.getBiome(BlockPos.containing(nX, nY, nZ)).is(TagKey.create(Registries.BIOME, ResourceLocation.parse("tale_of_biomes:temperature/chilly")))
 					|| world.getBiome(BlockPos.containing(nX, nY, nZ)).value().getBaseTemperature() * 100f < -0.8 && world.getBiome(BlockPos.containing(nX, nY, nZ)).value().getBaseTemperature() * 100f >= -1.6) {
 				if (!world.isClientSide()) {
 					BlockPos _bp = BlockPos.containing(nX, nY, nZ);
@@ -51,7 +51,7 @@ public class SetBlockBiomeTemperatureModifierProcedure {
 					if (world instanceof Level _level)
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}
-			} else if (world.getBiome(BlockPos.containing(nX, nY, nZ)).is(TagKey.create(Registries.BIOME, new ResourceLocation("tale_of_biomes:temperature/cold")))
+			} else if (world.getBiome(BlockPos.containing(nX, nY, nZ)).is(TagKey.create(Registries.BIOME, ResourceLocation.parse("tale_of_biomes:temperature/cold")))
 					|| world.getBiome(BlockPos.containing(nX, nY, nZ)).value().getBaseTemperature() * 100f < -1.6 && world.getBiome(BlockPos.containing(nX, nY, nZ)).value().getBaseTemperature() * 100f >= -2) {
 				if (!world.isClientSide()) {
 					BlockPos _bp = BlockPos.containing(nX, nY, nZ);

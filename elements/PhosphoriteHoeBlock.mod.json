@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 69,
   "_type": "block",
   "definition": {
     "texture": "phosphorite_hoe_block",
@@ -42,6 +42,7 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Phosphorite Hoe Block",
     "specialInformation": {
       "fixedValue": []

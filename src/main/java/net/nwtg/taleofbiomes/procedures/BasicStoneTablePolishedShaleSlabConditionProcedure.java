@@ -115,15 +115,15 @@ public class BasicStoneTablePolishedShaleSlabConditionProcedure {
 				return ItemStack.EMPTY;
 			}
 		}.getItemStack(world, BlockPos.containing(x, y, z), 8));
-		return iSlot0.is(ItemTags.create(new ResourceLocation((sTag0).toLowerCase(java.util.Locale.ENGLISH)))) && iSlot1.is(ItemTags.create(new ResourceLocation((sTag0).toLowerCase(java.util.Locale.ENGLISH))))
-				&& iSlot2.is(ItemTags.create(new ResourceLocation((sTag0).toLowerCase(java.util.Locale.ENGLISH)))) && iSlot3.getItem() == ItemStack.EMPTY.getItem() && iSlot4.getItem() == ItemStack.EMPTY.getItem()
+		return iSlot0.is(ItemTags.create(ResourceLocation.parse((sTag0).toLowerCase(java.util.Locale.ENGLISH)))) && iSlot1.is(ItemTags.create(ResourceLocation.parse((sTag0).toLowerCase(java.util.Locale.ENGLISH))))
+				&& iSlot2.is(ItemTags.create(ResourceLocation.parse((sTag0).toLowerCase(java.util.Locale.ENGLISH)))) && iSlot3.getItem() == ItemStack.EMPTY.getItem() && iSlot4.getItem() == ItemStack.EMPTY.getItem()
 				&& iSlot5.getItem() == ItemStack.EMPTY.getItem() && iSlot6.getItem() == ItemStack.EMPTY.getItem() && iSlot7.getItem() == ItemStack.EMPTY.getItem() && iSlot8.getItem() == ItemStack.EMPTY.getItem()
 				|| iSlot0.getItem() == ItemStack.EMPTY.getItem() && iSlot1.getItem() == ItemStack.EMPTY.getItem() && iSlot2.getItem() == ItemStack.EMPTY.getItem()
-						&& iSlot3.is(ItemTags.create(new ResourceLocation((sTag0).toLowerCase(java.util.Locale.ENGLISH)))) && iSlot4.is(ItemTags.create(new ResourceLocation((sTag0).toLowerCase(java.util.Locale.ENGLISH))))
-						&& iSlot5.is(ItemTags.create(new ResourceLocation((sTag0).toLowerCase(java.util.Locale.ENGLISH)))) && iSlot6.getItem() == ItemStack.EMPTY.getItem() && iSlot7.getItem() == ItemStack.EMPTY.getItem()
+						&& iSlot3.is(ItemTags.create(ResourceLocation.parse((sTag0).toLowerCase(java.util.Locale.ENGLISH)))) && iSlot4.is(ItemTags.create(ResourceLocation.parse((sTag0).toLowerCase(java.util.Locale.ENGLISH))))
+						&& iSlot5.is(ItemTags.create(ResourceLocation.parse((sTag0).toLowerCase(java.util.Locale.ENGLISH)))) && iSlot6.getItem() == ItemStack.EMPTY.getItem() && iSlot7.getItem() == ItemStack.EMPTY.getItem()
 						&& iSlot8.getItem() == ItemStack.EMPTY.getItem()
 				|| iSlot0.getItem() == ItemStack.EMPTY.getItem() && iSlot1.getItem() == ItemStack.EMPTY.getItem() && iSlot2.getItem() == ItemStack.EMPTY.getItem() && iSlot3.getItem() == ItemStack.EMPTY.getItem()
-						&& iSlot4.getItem() == ItemStack.EMPTY.getItem() && iSlot5.getItem() == ItemStack.EMPTY.getItem() && iSlot6.is(ItemTags.create(new ResourceLocation((sTag0).toLowerCase(java.util.Locale.ENGLISH))))
-						&& iSlot7.is(ItemTags.create(new ResourceLocation((sTag0).toLowerCase(java.util.Locale.ENGLISH)))) && iSlot8.is(ItemTags.create(new ResourceLocation((sTag0).toLowerCase(java.util.Locale.ENGLISH))));
+						&& iSlot4.getItem() == ItemStack.EMPTY.getItem() && iSlot5.getItem() == ItemStack.EMPTY.getItem() && iSlot6.is(ItemTags.create(ResourceLocation.parse((sTag0).toLowerCase(java.util.Locale.ENGLISH))))
+						&& iSlot7.is(ItemTags.create(ResourceLocation.parse((sTag0).toLowerCase(java.util.Locale.ENGLISH)))) && iSlot8.is(ItemTags.create(ResourceLocation.parse((sTag0).toLowerCase(java.util.Locale.ENGLISH))));
 	}
 }
